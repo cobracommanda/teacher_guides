@@ -89,7 +89,7 @@ function getParagraphStylesAndContentsWithCharacterStyles(label, parentPage) {
     resultString += "];\n";
 
     // Write to file
-    var desktopPath = Folder.desktop + "/paragraphStylesAndContents.js";
+    var desktopPath = Folder.desktop + "/" + label + "_" + parentPage + ".js";
     var file = new File(desktopPath);
     file.open("w");
     file.write(resultString);
