@@ -8,6 +8,7 @@ function parseParagraphData(paragraphData) {
   const replacements = {
     SINGLE_RIGHT_QUOTE: "’",
     EN_DASH: "–",
+    FORCED_LINE_BREAK: "",
   };
 
   function applyCharacterStyles(content, characterStyles) {

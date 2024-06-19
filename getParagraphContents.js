@@ -4,7 +4,10 @@ function getParagraphStylesAndContentsWithCharacterStyles(label, parentPage) {
 
   // Iterate over all page items to find the one with the matching script label
   for (var i = 0; i < doc.allPageItems.length; i++) {
-    if (doc.allPageItems[i].label == label) {
+    if (
+      doc.allPageItems[i].label == label &&
+      doc.allPageItems[i].parentPage.name == parentPage
+    ) {
       labeledItem = doc.allPageItems[i];
       break;
     }
@@ -88,18 +91,74 @@ function getParagraphStylesAndContentsWithCharacterStyles(label, parentPage) {
     }
     resultString += "];\n";
 
-    // Write to file
-    var desktopPath = Folder.desktop + "/" + label + "_" + parentPage + ".js";
-    var file = new File(desktopPath);
+    // Create a root folder on the desktop
+    var rootFolderName = root_dir_name;
+    var rootFolderPath = Folder.desktop + "/" + rootFolderName;
+    var rootFolder = new Folder(rootFolderPath);
+    if (!rootFolder.exists) {
+      rootFolder.create();
+    }
+
+    // Create a subfolder for the label and parent page
+    var folderName = label + "_" + parentPage;
+    var folderPath = rootFolderPath + "/" + folderName;
+    var folder = new Folder(folderPath);
+    if (!folder.exists) {
+      folder.create();
+    }
+
+    // Determine the file path with incrementing filename
+    var fileIndex = 1;
+    var filePath;
+    do {
+      filePath =
+        folderPath + "/" + label + "_" + parentPage + "_" + fileIndex + ".js";
+      fileIndex++;
+    } while (new File(filePath).exists);
+
+    var file = new File(filePath);
     file.open("w");
     file.write(resultString);
     file.close();
 
-    alert("Output written to " + desktopPath);
+    alert("Output written to " + filePath);
   } else {
     alert("Item with label '" + label + "' not found or invalid.");
   }
 }
 
+function getAllScriptLabelsAndPageNames(document) {
+  var results = [];
+
+  // Iterate through all the pages in the document
+  for (var i = 0; i < document.pages.length; i++) {
+    var page = document.pages[i];
+    var pageName = page.name;
+
+    // Collect all script labels for the current page
+    var allPageItems = page.allPageItems;
+
+    for (var j = 0; j < allPageItems.length; j++) {
+      var item = allPageItems[j];
+      var label = item.label;
+      if (label) {
+        results.push([label, pageName]);
+      }
+    }
+  }
+
+  return results;
+}
+
+// Example usage:
+var document = app.activeDocument;
+
+root_dir_name = document.name.replace(".indd", "");
+var runOnThese = getAllScriptLabelsAndPageNames(document);
+
 // Example usage
-getParagraphStylesAndContentsWithCharacterStyles("Lesson", "2");
+for (var index = 0; index < runOnThese.length; index++) {
+  var indd_label = runOnThese[index][0];
+  var indd_page = runOnThese[index][1];
+  getParagraphStylesAndContentsWithCharacterStyles(indd_label, indd_page);
+}
