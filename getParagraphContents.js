@@ -1,4 +1,7 @@
-function getParagraphStylesAndContentsWithCharacterStyles(label, parentPage) {
+export function getParagraphStylesAndContentsWithCharacterStyles(
+  label,
+  parentPage
+) {
   var doc = app.activeDocument;
   var labeledItem = null;
 
