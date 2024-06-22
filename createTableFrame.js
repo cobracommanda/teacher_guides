@@ -1,7 +1,5 @@
-function createTableFrame(paragraphData) {
+function createTableFrame(paragraphData, lastIndex = false) {
   const styleToTagMapping = {
-    // "GO-B-hd": { tag: "h4", className: "" },
-    // "Chart-body-txt-bullets": { tag: "li", className: "" },
     "Lesson_Table-body-txt": { tag: "td", className: "" },
   };
 
@@ -56,28 +54,54 @@ function createTableFrame(paragraphData) {
 
   let listHTML = "<table style='border-collapse: collapse;'><tr>";
 
-  for (let paragraph of paragraphData) {
-    let styleMapping = styleToTagMapping[paragraph.styleName];
-    if (!styleMapping) continue; // Skip if style is not mapped
-
-    let tagName = styleMapping.tag;
-    let className = styleMapping.className;
-    let content = paragraph.content.replace(/\r/g, ""); // Remove all \r characters
-    content = content.replace(/[\x00-\x1F\x7F]/g, ""); // Remove non-printable control characters
-
-    for (let [key, value] of Object.entries(replacements)) {
-      content = content.replace(new RegExp(key, "g"), value);
+  // If lastIndex is true, find the last occurrence of "Lesson_Table-body-txt"
+  if (lastIndex) {
+    let lastIdx = -1;
+    for (let i = paragraphData.length - 1; i >= 0; i--) {
+      if (paragraphData[i].styleName === "Lesson_Table-body-txt") {
+        lastIdx = i;
+        break;
+      }
     }
 
-    if (paragraph.characterStyles && paragraph.characterStyles.length > 0) {
-      content = applyCharacterStyles(content, paragraph.characterStyles);
-    }
+    if (lastIdx !== -1) {
+      let paragraph = paragraphData[lastIdx];
+      let styleMapping = styleToTagMapping[paragraph.styleName];
+      if (styleMapping) {
+        let tagName = styleMapping.tag;
+        let className = styleMapping.className;
+        let content = paragraph.content.replace(/\r/g, ""); // Remove all \r characters
+        content = content.replace(/[\x00-\x1F\x7F]/g, ""); // Remove non-printable control characters
 
-    if (tagName === "h4") {
-      listHTML += `<td><h4 class="${className}">${content}</h4></td>`;
-    } else if (tagName === "li") {
-      listHTML += `<td><ul><li class="${className}">${content}</li></ul></td>`;
-    } else if (tagName === "td") {
+        for (let [key, value] of Object.entries(replacements)) {
+          content = content.replace(new RegExp(key, "g"), value);
+        }
+
+        if (paragraph.characterStyles && paragraph.characterStyles.length > 0) {
+          content = applyCharacterStyles(content, paragraph.characterStyles);
+        }
+
+        listHTML += `<td class="${className}" style='border: 1px solid black;'>${content}</td>`;
+      }
+    }
+  } else {
+    for (let paragraph of paragraphData) {
+      let styleMapping = styleToTagMapping[paragraph.styleName];
+      if (!styleMapping) continue; // Skip if style is not mapped
+
+      let tagName = styleMapping.tag;
+      let className = styleMapping.className;
+      let content = paragraph.content.replace(/\r/g, ""); // Remove all \r characters
+      content = content.replace(/[\x00-\x1F\x7F]/g, ""); // Remove non-printable control characters
+
+      for (let [key, value] of Object.entries(replacements)) {
+        content = content.replace(new RegExp(key, "g"), value);
+      }
+
+      if (paragraph.characterStyles && paragraph.characterStyles.length > 0) {
+        content = applyCharacterStyles(content, paragraph.characterStyles);
+      }
+
       listHTML += `<td class="${className}" style='border: 1px solid black;'>${content}</td>`;
     }
   }
@@ -1715,5 +1739,8 @@ function parseParagraphData(paragraphData) {
 // const wrappedContents = parseParagraphData(paragraphData);
 // console.log(wrappedContents);
 
-const wrappedContents = createTableFrame(paragraphData);
-console.log(wrappedContents);
+console.log(createTableFrame(paragraphData, true)); // Uses the last occurrence of "Lesson_Table-body-txt"
+console.log(createTableFrame(paragraphData, false)); // Uses all occurrences of "Lesson_Table-body-txt"
+
+// const wrappedContents = createTableFrame(paragraphData);
+// console.log(wrappedContents);

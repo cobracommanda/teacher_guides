@@ -1,4 +1,4 @@
-function createDynamicTable(paragraphData, num_of_rows) {
+function singleColumnConfig(paragraphData, num_of_rows) {
   const styleToTagMapping = {
     "table header": "th",
     "Generic_sidebar_Table-body-txt": "td",
@@ -1198,5 +1198,5 @@ var paragraphData = [
   },
 ];
 
-const tableHTML = createDynamicTable(paragraphData, 6);
+const tableHTML = singleColumnConfig(paragraphData, 6);
 console.log(tableHTML);

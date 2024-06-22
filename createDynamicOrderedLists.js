@@ -1,15 +1,14 @@
-function createDynamicOrderedLists(paragraphData) {
+function createDynamicOrderedLists(paragraphData, wrapped) {
   const styleToTagMapping = {
-    "Related_resources_B-hd": "ol",
+    "Related_resources_B-hd": "ul",
     Related_resources_Bullets: "li",
-    "ELA_Strategies_B-hd": "ol",
+    "ELA_Strategies_B-hd": "ul",
     ELA_Strategies_Bullets: "li",
   };
 
   const replacements = {
     SINGLE_RIGHT_QUOTE: "’",
     EN_DASH: "–",
-    FORCED_LINE_BREAK: "",
   };
 
   function applyCharacterStyles(content, characterStyles) {
@@ -54,6 +53,7 @@ function createDynamicOrderedLists(paragraphData) {
   }
 
   let currentOl = null;
+  let currentUl = null;
   let listHTML = "";
 
   for (let paragraph of paragraphData) {
@@ -65,19 +65,34 @@ function createDynamicOrderedLists(paragraphData) {
       content = applyCharacterStyles(content, paragraph.characterStyles);
     }
 
-    if (tagName === "ol") {
+    if (tagName === "ol" || tagName === "ul") {
       if (currentOl) {
         listHTML += "</ol>";
+        currentOl = null;
       }
-      listHTML += `<h3>${content}</h3><ol>`;
-      currentOl = true;
-    } else if (tagName === "li" && currentOl) {
+      if (currentUl) {
+        listHTML += "</ul>";
+        currentUl = null;
+      }
+      listHTML += `<h4>${content}</h4><${tagName}>`;
+      if (tagName === "ol") {
+        currentOl = true;
+      } else {
+        currentUl = true;
+      }
+    } else if (tagName === "li" && (currentOl || currentUl)) {
       listHTML += `<li>${content}</li>`;
     }
   }
 
   if (currentOl) {
     listHTML += "</ol>";
+  }
+  if (currentUl) {
+    listHTML += "</ul>";
+  }
+  if (wrapped) {
+    return `<table border="1"><td> ${listHTML}</td></table>`;
   }
 
   return listHTML;
@@ -1797,7 +1812,7 @@ var paragraphData = [
       { character: "c", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: " ", style: "[None]" },
-      { character: "FORCED_LINE_BREAK", style: "[None]" },
+      { character: "", style: "[None]" },
       { character: "Q", style: "[None]" },
       { character: "u", style: "[None]" },
       { character: "e", style: "[None]" },
@@ -1844,7 +1859,7 @@ var paragraphData = [
       { character: "e", style: "[None]" },
       { character: "s", style: "[None]" },
       { character: " ", style: "[None]" },
-      { character: "FORCED_LINE_BREAK", style: "[None]" },
+      { character: "", style: "[None]" },
       { character: "C", style: "[None]" },
       { character: "r", style: "[None]" },
       { character: "o", style: "[None]" },
@@ -2201,5 +2216,5 @@ var paragraphData = [
   },
 ];
 
-const wrappedContents = createDynamicOrderedLists(paragraphData);
+const wrappedContents = createDynamicOrderedLists(paragraphData, false);
 console.log(wrappedContents);

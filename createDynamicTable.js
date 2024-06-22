@@ -1943,8 +1943,11 @@ function createDynamicTable(paragraphData, num_of_rows) {
 
   const replacements = {
     SINGLE_RIGHT_QUOTE: "’",
+    DOUBLE_LEFT_QUOTE: "“",
+    DOUBLE_RIGHT_QUOTE: "”",
     EN_DASH: "–",
     FORCED_LINE_BREAK: "",
+    NONBREAKING_SPACE: "&nbsp;",
   };
 
   function applyCharacterStyles(content, characterStyles) {
