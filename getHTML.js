@@ -1,13 +1,26 @@
 function parseParagraphData(paragraphData) {
   const styleToTagMapping = {
-    "Lesson_B-hd": "h3",
-    "Lesson_Body-txt": "p",
-    "Lesson_Tchr-tlk": "span",
+    "Lesson_A-hd": ["h2"],
+    "Lesson_B-hd": ["h3", "blue"],
+    "Lesson_C-hd": ["span", "teacher-talk"],
+    table_label: ["h4"],
+    "Lesson_Body-txt": ["p"],
+    "Lesson_Tchr-tlk": ["span", "teacher-talk"],
+    "Generic_sidebar_Body-txt": ["p"],
+    "Generic_sidebar_C-hd": ["p"],
+    "Lesson_Table-body-txt": ["p"],
   };
 
   const replacements = {
     SINGLE_RIGHT_QUOTE: "’",
+    SINGLE_LEFT_QUOTE: "‘",
+    DOUBLE_LEFT_QUOTE: "“",
+    DOUBLE_RIGHT_QUOTE: "”",
     EN_DASH: "–",
+    EM_DASH: "—",
+    FORCED_LINE_BREAK: "<br>",
+    NONBREAKING_SPACE: "&nbsp;",
+    ELLIPSIS: "…",
   };
 
   function applyCharacterStyles(content, characterStyles) {
@@ -27,7 +40,6 @@ function parseParagraphData(paragraphData) {
       let { character, style } = characterStyles[i];
       let className = style === "i" ? "italic" : style === "b" ? "bold" : "";
 
-      // Replace constants with their respective characters
       character = replacements[character] || character;
 
       if (style !== currentStyle) {
@@ -54,7 +66,8 @@ function parseParagraphData(paragraphData) {
 
   const filteredData = paragraphData
     .map((paragraph) => {
-      const tagName = styleToTagMapping[paragraph.styleName];
+      const [tagName, optionalClass] =
+        styleToTagMapping[paragraph.styleName] || [];
       let content = paragraph.content.replace(/\r/g, ""); // Remove all \r characters
       content = content.replace(/[\x00-\x1F\x7F]/g, ""); // Remove non-printable control characters
 
@@ -62,7 +75,16 @@ function parseParagraphData(paragraphData) {
         if (paragraph.characterStyles && paragraph.characterStyles.length > 0) {
           content = applyCharacterStyles(content, paragraph.characterStyles);
         }
-        return `<${tagName} class="${paragraph.styleName}">${content}</${tagName}>`;
+        // Special handling for Lesson_A-hd to wrap standards in a span
+        if (paragraph.styleName === "Lesson_A-hd") {
+          const standardsRegex = /(?:[A-Z]+\.\d+\.\d+[a-z]*,?\s*)+/g;
+          content = content.replace(
+            standardsRegex,
+            '<span class="standards">$&</span>'
+          );
+        }
+        const className = optionalClass ? optionalClass : paragraph.styleName;
+        return `<${tagName} class="${className}">${content}</${tagName}>`;
       } else {
         return content;
       }
@@ -73,6 +95,3 @@ function parseParagraphData(paragraphData) {
 
   return filteredData;
 }
-
-const wrappedContents = parseParagraphData(paragraphData);
-console.log(wrappedContents);

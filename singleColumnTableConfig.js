@@ -286,11 +286,14 @@ function singleColumnTableConfig(paragraphData, numInstances, config) {
 
   const replacements = {
     SINGLE_RIGHT_QUOTE: "’",
+    SINGLE_LEFT_QUOTE: "‘",
     DOUBLE_LEFT_QUOTE: "“",
     DOUBLE_RIGHT_QUOTE: "”",
     EN_DASH: "–",
-    FORCED_LINE_BREAK: "",
+    EM_DASH: "—",
+    FORCED_LINE_BREAK: "<br>",
     NONBREAKING_SPACE: "&nbsp;",
+    ELLIPSIS: "…",
   };
 
   function applyCharacterStyles(content, characterStyles) {
