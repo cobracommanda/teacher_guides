@@ -1,9 +1,12 @@
-const panel_3_page_1_aside_data = require("/Users/DRobinson/Desktop/Y63112_TG_G6_U10/Generic_sidebar_6/Generic_sidebar_6_1.js");
+const Generic_sidebar_2 = require("/Users/DRobinson/Desktop/Y63112_TG_G6_U10/Generic_sidebar_2/Generic_sidebar_2_1.js");
+const Generic_sidebar_4 = require("/Users/DRobinson/Desktop/Y63112_TG_G6_U10/Generic_sidebar_4/Generic_sidebar_4_1.js");
+const Generic_sidebar_5 = require("/Users/DRobinson/Desktop/Y63112_TG_G6_U10/Generic_sidebar_5/Generic_sidebar_5_1.js");
 
-function singleTableMultipleHeaders(paragraphData, numInstances, config) {
+function singleColumnConfig(paragraphData) {
   const styleToTagMapping = {
-    "table header": "th",
-    "Generic_sidebar_Table-body-txt": "td",
+    "Generic_sidebar_A-hd": "th",
+    "Generic_sidebar_Body-txt": "td",
+    "Generic_sidebar_C-hd": "td",
   };
 
   const replacements = {
@@ -62,8 +65,6 @@ function singleTableMultipleHeaders(paragraphData, numInstances, config) {
 
   let headers = [];
   let bodyTexts = [];
-  let remainingBodyTexts = [];
-  let headerCount = 0;
 
   for (let paragraph of paragraphData) {
     let tagName = styleToTagMapping[paragraph.styleName];
@@ -74,70 +75,43 @@ function singleTableMultipleHeaders(paragraphData, numInstances, config) {
 
     if (tagName === "th") {
       headers.push(content);
-      headerCount++;
     } else if (tagName === "td") {
-      if (bodyTexts.length < numInstances) {
-        bodyTexts.push(content);
-      } else {
-        remainingBodyTexts.push(content);
-      }
+      bodyTexts.push(`<td>${content}</td>`);
     }
   }
 
-  // Function to distribute paragraphs into rows based on the configuration
-  function distributeTexts(paragraphConfig) {
-    let rows = [];
-    let bodyTextIndex = 0;
-    for (let i = 0; i < paragraphConfig.length; i++) {
-      let rowContent = [];
-      for (let j = 0; j < paragraphConfig[i]; j++) {
-        if (bodyTextIndex < bodyTexts.length) {
-          rowContent.push(`<p>${bodyTexts[bodyTextIndex]}</p>`);
-          bodyTextIndex++;
-        }
-      }
-      rows.push(`<tr><td>${rowContent.join("")}</td></tr>`);
-    }
-    return rows;
+  // Creating the table rows
+  let tableRows = [];
+  for (let i = 0; i < bodyTexts.length; i++) {
+    tableRows.push(`<tr>${bodyTexts[i]}</tr>`);
   }
 
-  // Creating rows for the first thead
-  let firstTheadRows = distributeTexts(config.firstTheadParagraphConfig);
-
-  // Creating rows for the second thead
-  let secondTheadRows = distributeTexts(config.secondTheadParagraphConfig);
-
-  // Creating the first table HTML
-  const firstTableHTML = `
-      <table>
+  // Creating the table
+  const tableHTML = `
+    <table>
         <thead>
           <tr><th>${headers[0]}</th></tr>
         </thead>
         <tbody>
-          ${firstTheadRows.join("")}
-        </tbody>
-        <thead>
-          <tr><th>${headers[1]}</th></tr>
-        </thead>
-        <tbody>
-          ${secondTheadRows.join("")}
+          ${tableRows.join("")}
         </tbody>
       </table>
+   
     `;
 
-  return firstTableHTML;
+  return tableHTML;
 }
 
-const panel_3_page_1_aside_table = singleTableMultipleHeaders(
-  panel_3_page_1_aside_data,
-  6,
-  {
-    firstTheadNumberOfTds: 1,
-    firstTheadParagraphConfig: [1],
-    secondTheadNumberOfTds: 3,
-    secondTheadParagraphConfig: [2, 2, 1],
-  }
-);
+const Generic_sidebar_2_tags = singleColumnConfig(Generic_sidebar_2);
+const Generic_sidebar_4_tags = singleColumnConfig(Generic_sidebar_4);
+const Generic_sidebar_5_tags = singleColumnConfig(Generic_sidebar_5);
+
+// console.log(Generic_sidebar_2_tags);
+// console.log(Generic_sidebar_4_tags);
+// console.log(Generic_sidebar_5_tags);
+
 module.exports = {
-  panel_3_page_1_aside_table,
+  Generic_sidebar_2_tags,
+  Generic_sidebar_4_tags,
+  Generic_sidebar_5_tags,
 };

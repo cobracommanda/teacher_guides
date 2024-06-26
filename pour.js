@@ -9,11 +9,16 @@ const { correctInvalidHTML, findFiles } = require("./correctInvalidHTML.js");
 const { replaceLastHtmlElement } = require("./replaceHtmlElement.js");
 const { createTableFrame } = require("./createTableFrame.js");
 const {
+  panel_3_page_2_section_table,
+  panel_3_page_3_section_table,
+} = require("./singleColumnTableConfig");
+const {
   page_1_ELA_Strategies,
   page_1_Related_resources,
   panel_2_page_1_sample_chart,
   panel_2_page_3_sample_summary,
   panel_2_page_4_sample_summary,
+  panel_3_page_1_sample_summary,
 } = require("./createDynamicOrderedLists.js");
 const {
   panel_2_page_1_section_tags,
@@ -28,6 +33,15 @@ const {
   panel_5_page_1_section_tags,
   panel_1_section_table_data_array,
 } = require("./processHtmlArray.js");
+
+const {
+  Generic_sidebar_2_tags,
+  Generic_sidebar_4_tags,
+  Generic_sidebar_5_tags,
+} = require("./singleColumnConfig.js");
+const {
+  panel_3_page_1_aside_table,
+} = require("./singleTableMultipleHeaders.js");
 
 const gradeColors = {
   gradekColor: "#ef4b3d",
@@ -127,9 +141,16 @@ const findReplacePairsCss = [
 
   [/############/g, gradeColors.gradekTint], // Replace @!@!@!@! with the --grade-color-tint
 ];
-
+const css = "color-panel";
 const findReplacePairsHtml = [
   // [/<!-- xx tg title xx -->/g, "<!-- new title content -->"],
+  // [/<!-- xx panel2 page 1 aside content xx -->/g, Generic_sidebar_2_tags],
+  [/<!-- xx panel2 page 1 aside content xx -->/g, Generic_sidebar_2_tags],
+
+  [/<!-- xx panel2 page 2 aside content xx -->/g, Generic_sidebar_4_tags],
+
+  [/<!-- xx panel2 page 4 aside content xx -->/g, Generic_sidebar_5_tags],
+
   [/<!-- xx tg title xx -->/g, "Isaac Newton and His Laws of Motion"],
 
   [/<!-- xx panel1 aside content xx -->/g, page_1_Related_resources],
@@ -194,6 +215,18 @@ const findReplacePairsHtml = [
       )}`,
       true
     ),
+  ],
+  [
+    / <!-- xx panel3 page 1 aside content xx -->/g,
+    `${panel_3_page_1_sample_summary + panel_3_page_1_aside_table}`,
+  ],
+  [
+    / <!-- xx panel3 page 2 aside content xx -->/g,
+    panel_3_page_2_section_table,
+  ],
+  [
+    / <!-- xx panel3 page 3 aside content xx -->/g,
+    panel_3_page_3_section_table,
   ],
   [
     / <!-- xx panel3 page 1 section content xx -->/g,
