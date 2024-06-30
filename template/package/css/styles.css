@@ -1070,39 +1070,101 @@ footer.table-footer ul li {
 aside.color-panel {
   margin-bottom: 30px;
 }
+
+/* General styles for the first <p> element inside any <td> of any <tr> in any table */
+aside table tbody tr td p:first-of-type {
+  /* Styles for the first <p> */
+  color: black;
+  font-weight: bold;
 }
 
-/* Target the first <p> element inside <td> */
-aside td p:nth-of-type(1) {
-/* Your CSS styles for the first <p> */
-color: black;
-font-weight: bold;
+/* Styles for the first <td> of the first <tr> of any table */
+aside table tbody tr:first-of-type td:first-of-type p span:nth-of-type(n + 2) {
+  /* Styles for all spans starting from the second span inside the first <td> */
+  color: #1b449c;
+  font-style: italic;
 }
 
-/* Target the first <span> element inside the second <p> */
-aside td p:nth-of-type(2) span:first-of-type {
-/* Your CSS styles for the first span in the second <p> */
-font-weight: bold;
-color: black;
+/* Styles for the first <p> inside the first <td> of the first <tr> */
+aside table tbody tr:first-of-type td:first-of-type p:first-of-type {
+  /* Styles for the first <p> */
+  color: black;
+  font-weight: bold;
 }
 
-/* Target all spans inside the second <p> starting from the second span */
-aside td p:nth-of-type(2) span:nth-of-type(n + 2) {
-/* Your CSS styles for all spans in the second <p> starting from the second span */
-color: #1b449c;
-font-style: italic;
+/* Styles for the first span inside the second <p> of the first <td> of the first <tr> */
+aside
+  table
+  tbody
+  tr:first-of-type
+  td:first-of-type
+  p:nth-of-type(2)
+  span:first-of-type {
+  /* Styles for the first span in the second <p> */
+  font-weight: bold;
+  color: black;
 }
 
-/* Target the first <span> element inside the third <p> */
-aside td p:nth-of-type(3) span:first-of-type {
-/* Your CSS styles for the first span in the third <p> */
-font-weight: bold;
-color: black;
+/* Styles for all spans starting from the second span inside the second <p> of the first <td> of the first <tr> */
+aside
+  table
+  tbody
+  tr:first-of-type
+  td:first-of-type
+  p:nth-of-type(2)
+  span:nth-of-type(n + 2) {
+  /* Styles for spans starting from the second span in the second <p> */
+  color: #1b449c;
+  font-style: italic;
 }
 
-/* Target all spans inside the third <p> starting from the second span */
-aside td p:nth-of-type(3) span:nth-of-type(n + 2) {
-/* Your CSS styles for all spans in the third <p> starting from the second span */
-color: #1b449c;
-font-style: italic;
+/* Styles for the first span inside the third <p> of the first <td> of the first <tr> */
+aside
+  table
+  tbody
+  tr:first-of-type
+  td:first-of-type
+  p:nth-of-type(3)
+  span:first-of-type {
+  /* Styles for the first span in the third <p> */
+  font-weight: bold;
+  color: black;
+}
+
+/* Styles for all spans starting from the second span inside the third <p> of the first <td> of the first <tr> */
+aside
+  table
+  tbody
+  tr:first-of-type
+  td:first-of-type
+  p:nth-of-type(3)
+  span:nth-of-type(n + 2) {
+  /* Styles for spans starting from the second span in the third <p> */
+  color: #1b449c;
+  font-style: italic;
+}
+
+/* Styles for the first span inside the fourth <p> of the first <td> of the first <tr> */
+aside
+  table
+  tbody
+  tr:first-of-type
+  td:first-of-type
+  p:nth-of-type(4)
+  span:first-of-type {
+  /* Styles for the first span in the fourth <p> */
+  font-weight: bold;
+  color: black;
+}
+
+/* Styles for the first <p> inside the last <td> of the last <tr> */
+aside table tbody tr:last-of-type td p:first-of-type {
+  /* Styles for the first <p> in the last <td> */
+  font-weight: bold;
+}
+
+/* Styles for all <p> elements inside the last <td> of the last <tr> except the first one */
+aside table tbody tr:last-of-type td p:nth-of-type(n + 2) {
+  /* Styles for all <p> elements except the first one */
+  font-style: italic;
 }
