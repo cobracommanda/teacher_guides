@@ -86,8 +86,11 @@ const packages_data = {
   },
 };
 
-console.log(packages_data.Y63055.title);
-console.log(packages_data.Y63055.grade);
-console.log(packages_data.Y63055.xcode);
-console.log(packages_data.Y63055.lexile);
-console.log(packages_data.Y63055.levels);
+// console.log(packages_data.Y63055.title);
+// console.log(packages_data.Y63055.grade);
+// console.log(packages_data.Y63055.xcode);
+// console.log(packages_data.Y63055.lexile);
+// console.log(packages_data.Y63055.levels);
+module.exports = {
+  packages_data,
+};

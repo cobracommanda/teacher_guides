@@ -60,6 +60,9 @@ const gradeColors = {
   grade6Tint: "rgba(0, 22, 72, 0.1)",
 };
 
+const { packages_data } = require("./packagesData.js");
+console.log(packages_data);
+
 // Step 1: Unzip the provided file
 const unzipFile = async (zipFilePath, destDir) => {
   try {
@@ -145,11 +148,6 @@ const css = "color-panel";
 const findReplacePairsHtml = [
   // [/<!-- xx tg title xx -->/g, "<!-- new title content -->"],
   // [/<!-- xx panel2 page 1 aside content xx -->/g, Generic_sidebar_2_tags],
-  [/<!-- xx panel2 page 1 aside content xx -->/g, Generic_sidebar_2_tags],
-
-  [/<!-- xx panel2 page 2 aside content xx -->/g, Generic_sidebar_4_tags],
-
-  [/<!-- xx panel2 page 4 aside content xx -->/g, Generic_sidebar_5_tags],
 
   [/<!-- xx tg title xx -->/g, "Isaac Newton and His Laws of Motion"],
 
@@ -166,6 +164,7 @@ const findReplacePairsHtml = [
   ],
   [/!-- Knowledge Demands Content -->/g, panel_1_section_table_data_array[3]],
   [/<!-- xx panel1 section content xx -->/g, page_1_ELA_Strategies],
+  [/<!-- xx panel2 page 1 aside content xx -->/g, Generic_sidebar_2_tags],
   [
     /<!-- xx panel2 page 1 section content xx -->/g,
     replaceLastHtmlElement(
@@ -174,6 +173,9 @@ const findReplacePairsHtml = [
       true
     ),
   ],
+
+  [/<!-- xx panel2 page 2 aside content xx -->/g, Generic_sidebar_4_tags],
+
   [
     /<!-- xx panel2 page 2 section content xx -->/g,
     replaceLastHtmlElement(
@@ -201,6 +203,9 @@ const findReplacePairsHtml = [
       true
     ),
   ],
+
+  [/<!-- xx panel2 page 4 aside content xx -->/g, Generic_sidebar_5_tags],
+
   [
     /<!-- xx panel2 page 4 section content xx -->/g,
     replaceLastHtmlElement(
@@ -253,12 +258,6 @@ const findReplacePairsHtml = [
     panel_5_page_1_section_tags.taggedContent,
   ],
 ];
-
-// const findReplacePairsCss = [
-//   [/@@@@@@@@@@@@/g, gradeColors.grade6Color], // Replace @@@@@@ with the --grade-color
-
-//   [/############/g, gradeColors.grade6Tint], // Replace @!@!@!@! with the --grade-color-tint
-// ];
 
 // Execute the steps
 unzipFile(zipFilePath, tempUnzipDir)

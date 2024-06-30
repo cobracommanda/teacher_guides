@@ -142,4 +142,4 @@ module.exports = {
   panel_3_page_1_aside_table,
 };
 
-console.log(panel_3_page_1_aside_table);
+// console.log(panel_3_page_1_aside_table);

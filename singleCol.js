@@ -122,4 +122,4 @@ function singleColumnConfig(paragraphData, num_of_rows) {
 }
 
 const tableHTML = singleColumnConfig(Generic_sidebar_2, 7);
-console.log(tableHTML);
+// console.log(tableHTML);

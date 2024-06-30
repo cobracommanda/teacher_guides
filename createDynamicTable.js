@@ -2048,4 +2048,4 @@ function createDynamicTable(paragraphData, num_of_rows) {
 }
 
 const wrappedContents = createDynamicTable(paragraphData, 3);
-console.log(wrappedContents);
+// console.log(wrappedContents);

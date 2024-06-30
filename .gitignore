@@ -2,3 +2,9 @@ node_modules/
 jspm_packages/
 output/
 temp_unzip/
+formatted_data/
+packages_pdf/
+raw_table_data/
+temp_trash/
+temp_unzip_*/
+tg_pour/
