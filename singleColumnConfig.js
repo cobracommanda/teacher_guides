@@ -27,16 +27,22 @@ function singleColumnConfig(paragraphData) {
     }
 
     let styledContent = "";
-    let currentStyle = characterStyles[0].style;
+    // Convert currentStyle to lowercase to handle case insensitivity
+    let currentStyle = characterStyles[0].style.toLowerCase();
     let currentClassName =
-      currentStyle === "i" ? "italic" : currentStyle === "b" ? "bold" : "";
+      currentStyle === "i" || currentStyle === "italic"
+        ? "italic"
+        : currentStyle === "b" || currentStyle === "bold"
+        ? "bold"
+        : "";
     let currentSpan = currentClassName
       ? `<span class="${currentClassName}">`
       : "";
 
     for (let i = 0; i < characterStyles.length; i++) {
       let { character, style } = characterStyles[i];
-      let className = style === "i" ? "italic" : style === "b" ? "bold" : "";
+      // Also handle incoming style case insensitivity
+      style = style.toLowerCase();
 
       // Replace constants with their respective characters
       character = replacements[character] || character;
@@ -47,7 +53,12 @@ function singleColumnConfig(paragraphData) {
         }
         styledContent += currentSpan;
         currentStyle = style;
-        currentClassName = className;
+        currentClassName =
+          style === "i" || style === "italic"
+            ? "italic"
+            : style === "b" || style === "bold"
+            ? "bold"
+            : "";
         currentSpan = currentClassName
           ? `<span class="${currentClassName}">${character}`
           : character;

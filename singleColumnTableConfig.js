@@ -176,4 +176,4 @@ module.exports = {
 //   numberOfTds: 1,
 //   paragraphConfig: [4],
 // });
-// console.log(panel_3_page_3_section_table);
+console.log(panel_3_page_2_section_table);
