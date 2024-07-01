@@ -248,10 +248,20 @@ const Y63060_page_1_aside = createDynamicLists(
 );
 
 // console.log(Y63057_page_1_content_section);
-console.log(Y63060_page_1_aside);
+// console.log(Y63060_page_1_aside);
 
 module.exports = {
   createDynamicLists,
   Y63055_page_1_aside,
   Y63055_page_1_section,
+  Y63056_page_1_aside,
+  Y63056_page_1_section,
+  Y63057_page_1_ela_section_data,
+  Y63057_page_1_content_section,
+  Y63057_page_1_aside,
+  Y63058_page_1_ela_section,
+  Y63058_page_1_content_section,
+  Y63058_page_1_aside,
+  Y63060_page_1_aside,
 };
+console.log(typeof module.exports.Y63058_page_1_aside);

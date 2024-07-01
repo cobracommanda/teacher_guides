@@ -598,7 +598,7 @@ module.exports = {
   Y63060_panel_4_page_1_section_content,
   Y63060_panel_5_page_1_section_content,
 };
-console.log(module.exports);
+// console.log(module.exports);
 // const Y63055_panel_3_page_1_section_data = require("./indd_data/Y63055_TG_G6_U1/Lesson_7/Lesson_7_1.js");
 // const Y63055_panel_3_page_2_section_data = require("./indd_data/Y63055_TG_G6_U1/Lesson_8/Lesson_8_1.js");
 // const Y63055_panel_3_page_3_section_data = require("./indd_data/Y63055_TG_G6_U1/Lesson_9/Lesson_9_1.js");

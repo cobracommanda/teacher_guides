@@ -1575,7 +1575,7 @@ const paragraphData = [
     styleName: "Body-txt",
     content: "\r",
     parentPageName: "6",
-    characterStyles: [{ character: "PAGE_BREAK", style: "" }],
+    characterStyles: [{ character: "", style: "" }],
   },
   {
     styleName: "Sample-body-txt",

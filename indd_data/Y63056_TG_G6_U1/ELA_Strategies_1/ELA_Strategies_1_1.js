@@ -1,4 +1,4 @@
-const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+const paragraphData = [
   {
     styleName: "Genre",
     content: "Informational Text\r",
@@ -21,8 +21,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "T", style: "" },
       { character: "e", style: "" },
       { character: "x", style: "" },
-      { character: "t", style: "" }
-    ]
+      { character: "t", style: "" },
+    ],
   },
   {
     styleName: "Genre",
@@ -42,8 +42,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "t", style: "" },
       { character: "e", style: "" },
       { character: "r", style: "" },
-      { character: "s", style: "" }
-    ]
+      { character: "s", style: "" },
+    ],
   },
   {
     styleName: "Genre",
@@ -51,8 +51,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
     parentPageName: "1",
     characterStyles: [
       { character: " ", style: "" },
-      { character: "", style: "" }
-    ]
+      { character: "", style: "" },
+    ],
   },
   {
     styleName: "Book-title",
@@ -73,8 +73,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "a", style: "" },
       { character: "n", style: "" },
       { character: "s", style: "" },
-      { character: "", style: "" }
-    ]
+      { character: "", style: "" },
+    ],
   },
   {
     styleName: "Lexile",
@@ -93,8 +93,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "0", style: "" },
       { character: "2", style: "" },
       { character: "0", style: "" },
-      { character: "L", style: "" }
-    ]
+      { character: "L", style: "" },
+    ],
   },
   {
     styleName: "Resources-hd",
@@ -117,8 +117,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "r", style: "" },
       { character: "c", style: "" },
       { character: "e", style: "" },
-      { character: "s", style: "" }
-    ]
+      { character: "s", style: "" },
+    ],
   },
   {
     styleName: "Resources-subhd",
@@ -152,8 +152,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "s", style: "" },
       { character: "i", style: "" },
       { character: "o", style: "" },
-      { character: "n", style: "" }
-    ]
+      { character: "n", style: "" },
+    ],
   },
   {
     styleName: "Resources-list",
@@ -202,8 +202,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "C", style: "" },
       { character: "a", style: "" },
       { character: "r", style: "" },
-      { character: "d", style: "" }
-    ]
+      { character: "d", style: "" },
+    ],
   },
   {
     styleName: "Resources-subhd",
@@ -245,8 +245,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "s", style: "" },
       { character: "i", style: "" },
       { character: "o", style: "" },
-      { character: "n", style: "" }
-    ]
+      { character: "n", style: "" },
+    ],
   },
   {
     styleName: "Resources-list",
@@ -282,8 +282,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "t", style: "" },
       { character: "i", style: "" },
       { character: "o", style: "" },
-      { character: "n", style: "" }
-    ]
+      { character: "n", style: "" },
+    ],
   },
   {
     styleName: "Resources-list",
@@ -320,8 +320,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "u", style: "" },
       { character: "i", style: "" },
       { character: "d", style: "" },
-      { character: "e", style: "" }
-    ]
+      { character: "e", style: "" },
+    ],
   },
   {
     styleName: "Resources-list",
@@ -371,8 +371,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "C", style: "" },
       { character: "a", style: "" },
       { character: "r", style: "" },
-      { character: "d", style: "" }
-    ]
+      { character: "d", style: "" },
+    ],
   },
   {
     styleName: "Resources-subhd",
@@ -408,8 +408,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: " ", style: "" },
       { character: "S", style: "" },
       { character: "e", style: "" },
-      { character: "t", style: "" }
-    ]
+      { character: "t", style: "" },
+    ],
   },
   {
     styleName: "Resources-list",
@@ -440,8 +440,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "d", style: "Resources-list-italic" },
       { character: "i", style: "Resources-list-italic" },
       { character: "e", style: "Resources-list-italic" },
-      { character: "s", style: "Resources-list-italic" }
-    ]
+      { character: "s", style: "Resources-list-italic" },
+    ],
   },
   {
     styleName: "Resources-list",
@@ -466,8 +466,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "h", style: "Resources-list-italic" },
       { character: "e", style: "Resources-list-italic" },
       { character: "r", style: "Resources-list-italic" },
-      { character: "e", style: "Resources-list-italic" }
-    ]
+      { character: "e", style: "Resources-list-italic" },
+    ],
   },
   {
     styleName: "Resources-subhd",
@@ -489,8 +489,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "r", style: "" },
       { character: "c", style: "" },
       { character: "e", style: "" },
-      { character: "s", style: "" }
-    ]
+      { character: "s", style: "" },
+    ],
   },
   {
     styleName: "Resources-list",
@@ -519,8 +519,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "u", style: "" },
       { character: "i", style: "" },
       { character: "d", style: "" },
-      { character: "e", style: "" }
-    ]
+      { character: "e", style: "" },
+    ],
   },
   {
     styleName: "Resources-list",
@@ -532,8 +532,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "B", style: "" },
       { character: "o", style: "" },
       { character: "o", style: "" },
-      { character: "k", style: "" }
-    ]
+      { character: "k", style: "" },
+    ],
   },
   {
     styleName: "Resources-list",
@@ -563,8 +563,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "r", style: "" },
       { character: "FORCED_LINE_BREAK", style: "" },
       { character: " ", style: "" },
-      { character: "", style: "" }
-    ]
+      { character: "", style: "" },
+    ],
   },
   {
     styleName: "Skill-hd",
@@ -588,8 +588,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "t", style: "" },
       { character: "i", style: "" },
       { character: "o", style: "" },
-      { character: "n", style: "" }
-    ]
+      { character: "n", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
@@ -638,8 +638,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "r", style: "" },
       { character: "t", style: "" },
       { character: "h", style: "" },
-      { character: "?", style: "" }
-    ]
+      { character: "?", style: "" },
+    ],
   },
   {
     styleName: "Skill-hd",
@@ -665,12 +665,13 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "i", style: "" },
       { character: "o", style: "" },
       { character: "n", style: "" },
-      { character: "s", style: "" }
-    ]
+      { character: "s", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
-    content: "How have Earth’s oceans evolved over time to attain their current defining features? \r",
+    content:
+      "How have Earth’s oceans evolved over time to attain their current defining features? \r",
     parentPageName: "1",
     characterStyles: [
       { character: "INDENT_HERE_TAB", style: "" },
@@ -758,12 +759,13 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "e", style: "" },
       { character: "s", style: "" },
       { character: "?", style: "" },
-      { character: " ", style: "" }
-    ]
+      { character: " ", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
-    content: "What forces determine the movement and the flow of Earth’s oceans?\r",
+    content:
+      "What forces determine the movement and the flow of Earth’s oceans?\r",
     parentPageName: "1",
     characterStyles: [
       { character: "INDENT_HERE_TAB", style: "" },
@@ -832,8 +834,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "a", style: "" },
       { character: "n", style: "" },
       { character: "s", style: "" },
-      { character: "?", style: "" }
-    ]
+      { character: "?", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
@@ -898,8 +900,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "o", style: "" },
       { character: "r", style: "" },
       { character: "t", style: "" },
-      { character: "?", style: "" }
-    ]
+      { character: "?", style: "" },
+    ],
   },
   {
     styleName: "Skill-hd",
@@ -927,12 +929,13 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "d", style: "" },
       { character: "i", style: "" },
       { character: "n", style: "" },
-      { character: "g", style: "" }
-    ]
+      { character: "g", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
-    content: "Earth’s oceans are a vital resource that helps maintain balance in Earth’s atmosphere and are fundamental in supporting human life and biodiversity.\r",
+    content:
+      "Earth’s oceans are a vital resource that helps maintain balance in Earth’s atmosphere and are fundamental in supporting human life and biodiversity.\r",
     parentPageName: "1",
     characterStyles: [
       { character: "INDENT_HERE_TAB", style: "" },
@@ -1083,8 +1086,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "i", style: "" },
       { character: "t", style: "" },
       { character: "y", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Skill-hd",
@@ -1124,12 +1127,13 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "i", style: "" },
       { character: "v", style: "" },
       { character: "e", style: "" },
-      { character: "s", style: "" }
-    ]
+      { character: "s", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
-    content: "Identify the defining characteristics of Earth’s various ocean bodies and their functions.\r",
+    content:
+      "Identify the defining characteristics of Earth’s various ocean bodies and their functions.\r",
     parentPageName: "1",
     characterStyles: [
       { character: "INDENT_HERE_TAB", style: "" },
@@ -1222,12 +1226,13 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "o", style: "" },
       { character: "n", style: "" },
       { character: "s", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
-    content: "Explain the ways in which Earth’s hydrosphere interacts with and among Earth’s other subsystems.\r",
+    content:
+      "Explain the ways in which Earth’s hydrosphere interacts with and among Earth’s other subsystems.\r",
     parentPageName: "1",
     characterStyles: [
       { character: "INDENT_HERE_TAB", style: "" },
@@ -1326,8 +1331,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "e", style: "" },
       { character: "m", style: "" },
       { character: "s", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
@@ -1373,8 +1378,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "e", style: "" },
       { character: "l", style: "" },
       { character: "s", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Skill-hd",
@@ -1396,12 +1401,13 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "i", style: "" },
       { character: "o", style: "" },
       { character: "n", style: "" },
-      { character: "s", style: "" }
-    ]
+      { character: "s", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
-    content: "Interconnect real-world, inquiry-based learning with STEM-related subjects.\r",
+    content:
+      "Interconnect real-world, inquiry-based learning with STEM-related subjects.\r",
     parentPageName: "1",
     characterStyles: [
       { character: "INDENT_HERE_TAB", style: "" },
@@ -1479,12 +1485,13 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "c", style: "" },
       { character: "t", style: "" },
       { character: "s", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
-    content: "Begin student exploration of STEM-related careers and academic requirements.\r",
+    content:
+      "Begin student exploration of STEM-related careers and academic requirements.\r",
     parentPageName: "1",
     characterStyles: [
       { character: "INDENT_HERE_TAB", style: "" },
@@ -1563,8 +1570,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "n", style: "" },
       { character: "t", style: "" },
       { character: "s", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Skill-hd",
@@ -1595,8 +1602,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "i", style: "" },
       { character: "l", style: "" },
       { character: "l", style: "" },
-      { character: "s", style: "" }
-    ]
+      { character: "s", style: "" },
+    ],
   },
   {
     styleName: "Skill-subhd",
@@ -1641,8 +1648,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "g", style: "" },
       { character: "i", style: "" },
       { character: "e", style: "" },
-      { character: "s", style: "" }
-    ]
+      { character: "s", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
@@ -1710,8 +1717,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "3", style: "" },
       { character: "EN_DASH", style: "" },
       { character: "6", style: "" },
-      { character: ")", style: "" }
-    ]
+      { character: ")", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
@@ -1764,12 +1771,13 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "3", style: "" },
       { character: "EN_DASH", style: "" },
       { character: "6", style: "" },
-      { character: ")", style: "" }
-    ]
+      { character: ")", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
-    content: "Identify text structure and organization: cause and effect. (p. 7)\r",
+    content:
+      "Identify text structure and organization: cause and effect. (p. 7)\r",
     parentPageName: "1",
     characterStyles: [
       { character: "INDENT_HERE_TAB", style: "" },
@@ -1838,8 +1846,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: ".", style: "" },
       { character: " ", style: "" },
       { character: "7", style: "" },
-      { character: ")", style: "" }
-    ]
+      { character: ")", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
@@ -1902,8 +1910,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: ".", style: "" },
       { character: " ", style: "" },
       { character: "9", style: "" },
-      { character: ")", style: "" }
-    ]
+      { character: ")", style: "" },
+    ],
   },
   {
     styleName: "Skill-subhd",
@@ -1931,12 +1939,13 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "i", style: "" },
       { character: "e", style: "" },
       { character: "s", style: "" },
-      { character: " ", style: "" }
-    ]
+      { character: " ", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
-    content: "Use context clues to determine the meaning of domain-specific words and phrases. (p. 8)\r",
+    content:
+      "Use context clues to determine the meaning of domain-specific words and phrases. (p. 8)\r",
     parentPageName: "1",
     characterStyles: [
       { character: "INDENT_HERE_TAB", style: "" },
@@ -2026,8 +2035,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: ".", style: "" },
       { character: " ", style: "" },
       { character: "8", style: "" },
-      { character: ")", style: "" }
-    ]
+      { character: ")", style: "" },
+    ],
   },
   {
     styleName: "Skill-subhd",
@@ -2059,8 +2068,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: " ", style: "" },
       { character: "1", style: "" },
       { character: "2", style: "" },
-      { character: ")", style: "" }
-    ]
+      { character: ")", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
@@ -2082,8 +2091,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "t", style: "" },
       { character: "i", style: "" },
       { character: "n", style: "" },
-      { character: "g", style: "" }
-    ]
+      { character: "g", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
@@ -2110,8 +2119,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "t", style: "" },
       { character: "i", style: "" },
       { character: "n", style: "" },
-      { character: "g", style: "" }
-    ]
+      { character: "g", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
@@ -2135,20 +2144,19 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "i", style: "" },
       { character: "n", style: "" },
       { character: "g", style: "" },
-      { character: "", style: "" }
-    ]
+      { character: "", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
     content: "\r",
     parentPageName: "1",
-    characterStyles: [
-      { character: "", style: "" }
-    ]
+    characterStyles: [{ character: "", style: "" }],
   },
   {
     styleName: "Footnote",
-    content: "Qualitative text complexity dimensions from the CCSS are scored on the following scale: \n➊—Low; ➋—Middle Low; ➌—Middle High; ➍—High\r",
+    content:
+      "Qualitative text complexity dimensions from the CCSS are scored on the following scale: \n➊—Low; ➋—Middle Low; ➌—Middle High; ➍—High\r",
     parentPageName: "1",
     characterStyles: [
       { character: "Q", style: "" },
@@ -2281,12 +2289,13 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "H", style: "" },
       { character: "i", style: "" },
       { character: "g", style: "" },
-      { character: "h", style: "" }
-    ]
+      { character: "h", style: "" },
+    ],
   },
   {
     styleName: "Footnote",
-    content: "*Citations refer to pages within this teacher’s guide that address the specific text complexity.\r",
+    content:
+      "*Citations refer to pages within this teacher’s guide that address the specific text complexity.\r",
     parentPageName: "1",
     characterStyles: [
       { character: "*", style: "" },
@@ -2385,8 +2394,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "t", style: "" },
       { character: "y", style: "" },
       { character: ".", style: "" },
-      { character: "", style: "" }
-    ]
+      { character: "", style: "" },
+    ],
   },
   {
     styleName: "Complex-chart-hd",
@@ -2421,8 +2430,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "l", style: "" },
       { character: "e", style: "" },
       { character: "x", style: "" },
-      { character: "?", style: "" }
-    ]
+      { character: "?", style: "" },
+    ],
   },
   {
     styleName: "Complex-chart-subhd",
@@ -2459,20 +2468,19 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "i", style: "" },
       { character: "n", style: "" },
       { character: "g", style: "" },
-      { character: " ", style: "" }
-    ]
+      { character: " ", style: "" },
+    ],
   },
   {
     styleName: "Complex-chart-number",
     content: "➌",
     parentPageName: "1",
-    characterStyles: [
-      { character: "➌", style: "footnote #" }
-    ]
+    characterStyles: [{ character: "➌", style: "footnote #" }],
   },
   {
     styleName: "Complex-chart-body",
-    content: "The purpose of the text is to take an in-depth look at Earth’s oceans, its role in the hydrosphere, and its interaction with other subsystems.",
+    content:
+      "The purpose of the text is to take an in-depth look at Earth’s oceans, its role in the hydrosphere, and its interaction with other subsystems.",
     parentPageName: "1",
     characterStyles: [
       { character: "T", style: "" },
@@ -2616,8 +2624,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "e", style: "" },
       { character: "m", style: "" },
       { character: "s", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Complex-chart-subhd",
@@ -2633,20 +2641,19 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "u", style: "" },
       { character: "r", style: "" },
       { character: "e", style: "" },
-      { character: " ", style: "" }
-    ]
+      { character: " ", style: "" },
+    ],
   },
   {
     styleName: "Complex-chart-number",
     content: "➌",
     parentPageName: "1",
-    characterStyles: [
-      { character: "➌", style: "footnote #" }
-    ]
+    characterStyles: [{ character: "➌", style: "footnote #" }],
   },
   {
     styleName: "Complex-chart-body",
-    content: "The text includes: explanatory text, compare and contrast, procedural text, sidebars, maps, diagrams, and charts.\r",
+    content:
+      "The text includes: explanatory text, compare and contrast, procedural text, sidebars, maps, diagrams, and charts.\r",
     parentPageName: "1",
     characterStyles: [
       { character: "T", style: "" },
@@ -2761,8 +2768,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "r", style: "" },
       { character: "t", style: "" },
       { character: "s", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Complex-chart-subhd",
@@ -2806,16 +2813,14 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "i", style: "" },
       { character: "t", style: "" },
       { character: "y", style: "" },
-      { character: " ", style: "" }
-    ]
+      { character: " ", style: "" },
+    ],
   },
   {
     styleName: "Complex-chart-number",
     content: "➌",
     parentPageName: "1",
-    characterStyles: [
-      { character: "➌", style: "footnote #" }
-    ]
+    characterStyles: [{ character: "➌", style: "footnote #" }],
   },
   {
     styleName: "Complex-chart-body",
@@ -2858,12 +2863,13 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "c", style: "" },
       { character: "e", style: "" },
       { character: "s", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Complex-chart-body",
-    content: "• Domain-specific terms are often supported, while other academic vocabulary is seldom defined.",
+    content:
+      "• Domain-specific terms are often supported, while other academic vocabulary is seldom defined.",
     parentPageName: "1",
     characterStyles: [
       { character: "BULLET_CHARACTER", style: "" },
@@ -2961,8 +2967,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "n", style: "" },
       { character: "e", style: "" },
       { character: "d", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Complex-chart-subhd",
@@ -2986,20 +2992,19 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "n", style: "" },
       { character: "d", style: "" },
       { character: "s", style: "" },
-      { character: " ", style: "" }
-    ]
+      { character: " ", style: "" },
+    ],
   },
   {
     styleName: "Complex-chart-number",
     content: "➌",
     parentPageName: "1",
-    characterStyles: [
-      { character: "➌", style: "footnote #" }
-    ]
+    characterStyles: [{ character: "➌", style: "footnote #" }],
   },
   {
     styleName: "Complex-chart-body",
-    content: "The text assumes considerable knowledge of complex Earth, Life, and Physical Science concepts. ",
+    content:
+      "The text assumes considerable knowledge of complex Earth, Life, and Physical Science concepts. ",
     parentPageName: "1",
     characterStyles: [
       { character: "T", style: "" },
@@ -3096,8 +3101,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "t", style: "" },
       { character: "s", style: "" },
       { character: ".", style: "" },
-      { character: " ", style: "" }
-    ]
-  }
+      { character: " ", style: "" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

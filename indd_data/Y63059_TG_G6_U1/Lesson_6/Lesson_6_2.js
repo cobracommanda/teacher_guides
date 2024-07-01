@@ -1522,7 +1522,7 @@ const paragraphData = [standardsstandardsstandardsstandardsstandardsstandardssta
     content: "\r",
     parentPageName: "6",
     characterStyles: [
-      { character: "PAGE_BREAK", style: "[None]" }
+      { character: "", style: "[None]" }
     ]
   },
   {

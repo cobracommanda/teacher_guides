@@ -2,51 +2,9 @@ const fs = require("fs-extra");
 const path = require("path");
 const unzipper = require("unzipper");
 
-const panel_2_page_2_section_data = require("/Users/DRobinson/Desktop/Y63112_TG_G6_U10/Lesson_3/Lesson_3_1.js");
-const panel_2_page_3_section_data = require("/Users/DRobinson/Desktop/Y63112_TG_G6_U10/Lesson_4/Lesson_4_1.js");
-const panel_2_page_4_section_data = require("/Users/DRobinson/Desktop/Y63112_TG_G6_U10/Lesson_5/Lesson_5_1.js");
-
 const { correctInvalidHTML, findFiles } = require("./correctInvalidHTML.js");
 const { replaceLastHtmlElement } = require("./replaceHtmlElement.js");
 const { createTableFrame } = require("./createTableFrame.js");
-
-const {
-  panel_3_page_2_section_table,
-  panel_3_page_3_section_table,
-} = require("./singleColumnTableConfig");
-
-const {
-  page_1_ELA_Strategies,
-  page_1_Related_resources,
-  panel_2_page_1_sample_chart,
-  panel_2_page_3_sample_summary,
-  panel_2_page_4_sample_summary,
-  panel_3_page_1_sample_summary,
-} = require("./createDynamicOrderedLists.js");
-
-const {
-  panel_2_page_1_section_tags,
-  panel_2_page_2_section_tags,
-  panel_2_page_3_section_tags,
-  panel_2_page_4_section_tags,
-  panel_3_page_1_section_tags,
-  panel_3_page_2_section_tags,
-  panel_3_page_3_section_tags,
-  panel_3_page_4_section_tags,
-  panel_4_page_1_section_tags,
-  panel_5_page_1_section_tags,
-  panel_1_section_table_data_array,
-} = require("./processHtmlArray.js");
-
-const {
-  Generic_sidebar_2_tags,
-  Generic_sidebar_4_tags,
-  Generic_sidebar_5_tags,
-} = require("./singleColumnConfig.js");
-
-const {
-  panel_3_page_1_aside_table,
-} = require("./singleTableMultipleHeaders.js");
 
 const gradeColors = {
   gradekColor: "#ef4b3d",
@@ -133,6 +91,12 @@ const sampleData = {
   ],
 };
 
+function convertObjectToHtmlString(obj) {
+  // Convert object to HTML string as needed
+  // This example assumes obj has an 'html' property
+  return obj.html || "";
+}
+
 // Function to process HTML and CSS files
 const processData = async (key, value) => {
   const xCode = value.xcode;
@@ -157,13 +121,74 @@ const processData = async (key, value) => {
   const findReplacePairsHtml = [
     [/<!-- xx img-src xx -->/g, getImageName(value.cover_img[0])],
     [/<!-- xx alt xx -->/g, `Image of ${value.title}'s book cover`],
-    [/ <!-- xx panel1 section content xx -->/g, findTable || ""],
+    [/<!-- xx panel1 aside content xx -->/g, value.tags.panel_1_aside || ""],
+    [
+      /<!-- xx panel1 section content xx -->/g,
+      value.tags.panel_1_section.taggedContent || "",
+    ],
     [/<!-- xx tg title xx -->/g, value.title],
     [/<!-- xx Lexile xx -->/g, value.lexile],
     [/<!-- Purpose and Levels of Meaning Rating -->/g, value.levels[0]],
     [/<!-- Structure Rating -->/g, value.levels[1]],
     [/<!-- Language Conventionality and Clarity Rating -->/g, value.levels[2]],
     [/<!-- Knowledge Demands Rating -->/g, value.levels[3]],
+
+    // [/<!-- xx panel2 page 1 aside content xx -->/g,],
+    [
+      /<!-- xx panel2 page 1 section content xx -->/g,
+      value.tags.panel_2_page_1.taggedContent,
+    ],
+    // [/<!-- xx panel2 page 2 aside content xx -->/g, ],
+    [
+      /<!-- xx panel2 page 2 section content xx -->/g,
+      value.tags.panel_2_page_2.taggedContent,
+    ],
+    // [/<!-- xx panel2 page 3 aside content xx -->/g, ],
+    [
+      /<!-- xx panel2 page 3 section content xx -->/g,
+      value.tags.panel_2_page_3.taggedContent,
+    ],
+    // [/<!-- xx panel2 page 4 aside content xx -->/g, ],
+    [
+      /<!-- xx panel2 page 4 section content xx -->/g,
+      value.tags.panel_2_page_4.taggedContent,
+    ],
+    // [/<!-- xx panel2 page 5 aside content xx -->/g, ],
+    [
+      /<!-- xx panel2 page 5 section content xx -->/g,
+      value.tags.panel_2_page_5.taggedContent,
+    ],
+
+    // [/<!-- xx panel3 page 1 aside content xx -->/g,],
+    [
+      /<!-- xx panel3 page 1 section content xx -->/g,
+      value.tags.panel_3_page_1.taggedContent,
+    ],
+    // [/<!-- xx panel3 page 2 aside content xx -->/g, ],
+    [
+      /<!-- xx panel3 page 2 section content xx -->/g,
+      value.tags.panel_3_page_2.taggedContent,
+    ],
+    // [/<!-- xx panel3 page 3 aside content xx -->/g, ],
+    [
+      /<!-- xx panel3 page 3 section content xx -->/g,
+      value.tags.panel_3_page_3.taggedContent,
+    ],
+    // [/<!-- xx panel3 page 4 aside content xx -->/g, ],
+    [
+      /<!-- xx panel3 page 4 section content xx -->/g,
+      value.tags.panel_3_page_4.taggedContent,
+    ],
+
+    [
+      /<!-- xx panel4 section content xx -->/g,
+
+      value.tags.panel_4_page_1.taggedContent,
+    ],
+    [
+      /<!-- xx panel5 section content xx -->/g,
+      value.tags.panel_5_page_1.taggedContent,
+    ],
   ];
 
   const unzipFile = async (zipFilePath, destDir) => {

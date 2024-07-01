@@ -1,4 +1,4 @@
-const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+const paragraphData = [
   {
     styleName: "Genre",
     content: "Informational Text\r",
@@ -21,8 +21,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "T", style: "" },
       { character: "e", style: "" },
       { character: "x", style: "" },
-      { character: "t", style: "" }
-    ]
+      { character: "t", style: "" },
+    ],
   },
   {
     styleName: "Genre",
@@ -45,8 +45,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "h", style: "" },
       { character: "e", style: "" },
       { character: "r", style: "" },
-      { character: "e", style: "" }
-    ]
+      { character: "e", style: "" },
+    ],
   },
   {
     styleName: "Genre",
@@ -54,8 +54,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
     parentPageName: "1",
     characterStyles: [
       { character: " ", style: "" },
-      { character: "", style: "" }
-    ]
+      { character: "", style: "" },
+    ],
   },
   {
     styleName: "Book-title",
@@ -89,8 +89,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "i", style: "" },
       { character: "t", style: "" },
       { character: "y", style: "" },
-      { character: "", style: "" }
-    ]
+      { character: "", style: "" },
+    ],
   },
   {
     styleName: "Lexile",
@@ -108,8 +108,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "8", style: "" },
       { character: "8", style: "" },
       { character: "0", style: "" },
-      { character: "L", style: "" }
-    ]
+      { character: "L", style: "" },
+    ],
   },
   {
     styleName: "Resources-hd",
@@ -132,8 +132,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "r", style: "" },
       { character: "c", style: "" },
       { character: "e", style: "" },
-      { character: "s", style: "" }
-    ]
+      { character: "s", style: "" },
+    ],
   },
   {
     styleName: "Resources-subhd",
@@ -167,12 +167,13 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "s", style: "" },
       { character: "i", style: "" },
       { character: "o", style: "" },
-      { character: "n", style: "" }
-    ]
+      { character: "n", style: "" },
+    ],
   },
   {
     styleName: "Resources-list",
-    content: "Adaptation and Biodiversity \nBridges Edition Text Evidence Question Card\r",
+    content:
+      "Adaptation and Biodiversity \nBridges Edition Text Evidence Question Card\r",
     parentPageName: "1",
     characterStyles: [
       { character: "INDENT_HERE_TAB", style: "i" },
@@ -247,8 +248,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "C", style: "" },
       { character: "a", style: "" },
       { character: "r", style: "" },
-      { character: "d", style: "" }
-    ]
+      { character: "d", style: "" },
+    ],
   },
   {
     styleName: "Resources-subhd",
@@ -290,8 +291,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "s", style: "" },
       { character: "i", style: "" },
       { character: "o", style: "" },
-      { character: "n", style: "" }
-    ]
+      { character: "n", style: "" },
+    ],
   },
   {
     styleName: "Resources-list",
@@ -343,8 +344,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "t", style: "" },
       { character: "i", style: "" },
       { character: "o", style: "" },
-      { character: "n", style: "" }
-    ]
+      { character: "n", style: "" },
+    ],
   },
   {
     styleName: "Resources-list",
@@ -382,8 +383,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "u", style: "" },
       { character: "i", style: "" },
       { character: "d", style: "" },
-      { character: "e", style: "" }
-    ]
+      { character: "e", style: "" },
+    ],
   },
   {
     styleName: "Resources-list",
@@ -434,8 +435,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "C", style: "" },
       { character: "a", style: "" },
       { character: "r", style: "" },
-      { character: "d", style: "" }
-    ]
+      { character: "d", style: "" },
+    ],
   },
   {
     styleName: "Resources-subhd",
@@ -471,8 +472,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: " ", style: "" },
       { character: "S", style: "" },
       { character: "e", style: "" },
-      { character: "t", style: "" }
-    ]
+      { character: "t", style: "" },
+    ],
   },
   {
     styleName: "Resources-list",
@@ -522,8 +523,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "t", style: "" },
       { character: "i", style: "" },
       { character: "o", style: "" },
-      { character: "n", style: "" }
-    ]
+      { character: "n", style: "" },
+    ],
   },
   {
     styleName: "Resources-list",
@@ -568,8 +569,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "t", style: "" },
       { character: "i", style: "" },
       { character: "o", style: "" },
-      { character: "n", style: "" }
-    ]
+      { character: "n", style: "" },
+    ],
   },
   {
     styleName: "Resources-list",
@@ -609,8 +610,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "t", style: "" },
       { character: "i", style: "" },
       { character: "o", style: "" },
-      { character: "n", style: "" }
-    ]
+      { character: "n", style: "" },
+    ],
   },
   {
     styleName: "Resources-subhd",
@@ -633,8 +634,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "c", style: "" },
       { character: "e", style: "" },
       { character: "s", style: "" },
-      { character: " ", style: "" }
-    ]
+      { character: " ", style: "" },
+    ],
   },
   {
     styleName: "Resources-list",
@@ -663,8 +664,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "u", style: "" },
       { character: "i", style: "" },
       { character: "d", style: "" },
-      { character: "e", style: "" }
-    ]
+      { character: "e", style: "" },
+    ],
   },
   {
     styleName: "Resources-list",
@@ -676,8 +677,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "B", style: "" },
       { character: "o", style: "" },
       { character: "o", style: "" },
-      { character: "k", style: "" }
-    ]
+      { character: "k", style: "" },
+    ],
   },
   {
     styleName: "Resources-list",
@@ -707,8 +708,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "r", style: "" },
       { character: "FORCED_LINE_BREAK", style: "" },
       { character: " ", style: "" },
-      { character: "", style: "" }
-    ]
+      { character: "", style: "" },
+    ],
   },
   {
     styleName: "Skill-hd",
@@ -732,8 +733,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "t", style: "" },
       { character: "i", style: "" },
       { character: "o", style: "" },
-      { character: "n", style: "" }
-    ]
+      { character: "n", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
@@ -770,8 +771,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "v", style: "" },
       { character: "e", style: "" },
       { character: "?", style: "" },
-      { character: " ", style: "" }
-    ]
+      { character: " ", style: "" },
+    ],
   },
   {
     styleName: "Skill-hd",
@@ -797,8 +798,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "i", style: "" },
       { character: "o", style: "" },
       { character: "n", style: "" },
-      { character: "s", style: "" }
-    ]
+      { character: "s", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
@@ -866,8 +867,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "a", style: "" },
       { character: "t", style: "" },
       { character: "s", style: "" },
-      { character: "?", style: "" }
-    ]
+      { character: "?", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
@@ -912,8 +913,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "o", style: "" },
       { character: "n", style: "" },
       { character: "?", style: "" },
-      { character: " ", style: "" }
-    ]
+      { character: " ", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
@@ -964,8 +965,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "r", style: "" },
       { character: "t", style: "" },
       { character: "h", style: "" },
-      { character: "?", style: "" }
-    ]
+      { character: "?", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
@@ -1007,8 +1008,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "a", style: "" },
       { character: "c", style: "" },
       { character: "t", style: "" },
-      { character: "?", style: "" }
-    ]
+      { character: "?", style: "" },
+    ],
   },
   {
     styleName: "Skill-hd",
@@ -1036,12 +1037,13 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "d", style: "" },
       { character: "i", style: "" },
       { character: "n", style: "" },
-      { character: "g", style: "" }
-    ]
+      { character: "g", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
-    content: "Species can change over time in response to changes in environmental conditions. The traits that support successful survival and reproduction prevail through the generations.\r",
+    content:
+      "Species can change over time in response to changes in environmental conditions. The traits that support successful survival and reproduction prevail through the generations.\r",
     parentPageName: "1",
     characterStyles: [
       { character: "INDENT_HERE_TAB", style: "" },
@@ -1218,8 +1220,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "o", style: "" },
       { character: "n", style: "" },
       { character: "s", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Skill-hd",
@@ -1259,12 +1261,13 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "i", style: "" },
       { character: "v", style: "" },
       { character: "e", style: "" },
-      { character: "s", style: "" }
-    ]
+      { character: "s", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
-    content: "Identify physical and behavioral adaptations that increase the advantage of survival.\r",
+    content:
+      "Identify physical and behavioral adaptations that increase the advantage of survival.\r",
     parentPageName: "1",
     characterStyles: [
       { character: "INDENT_HERE_TAB", style: "" },
@@ -1352,12 +1355,13 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "v", style: "" },
       { character: "a", style: "" },
       { character: "l", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
-    content: "Define adaptation and natural selection and explain their role in species’ successful survival and reproduction.\r",
+    content:
+      "Define adaptation and natural selection and explain their role in species’ successful survival and reproduction.\r",
     parentPageName: "1",
     characterStyles: [
       { character: "INDENT_HERE_TAB", style: "" },
@@ -1472,8 +1476,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "i", style: "" },
       { character: "o", style: "" },
       { character: "n", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Skill-hd",
@@ -1495,12 +1499,13 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "i", style: "" },
       { character: "o", style: "" },
       { character: "n", style: "" },
-      { character: "s", style: "" }
-    ]
+      { character: "s", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
-    content: "Interconnect real-world, inquiry-based learning with STEM-related subjects.\r",
+    content:
+      "Interconnect real-world, inquiry-based learning with STEM-related subjects.\r",
     parentPageName: "1",
     characterStyles: [
       { character: "INDENT_HERE_TAB", style: "" },
@@ -1578,12 +1583,13 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "c", style: "" },
       { character: "t", style: "" },
       { character: "s", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
-    content: "Begin student exploration of STEM-related careers and academic requirements.\r",
+    content:
+      "Begin student exploration of STEM-related careers and academic requirements.\r",
     parentPageName: "1",
     characterStyles: [
       { character: "INDENT_HERE_TAB", style: "" },
@@ -1662,8 +1668,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "n", style: "" },
       { character: "t", style: "" },
       { character: "s", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Skill-hd",
@@ -1694,8 +1700,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "i", style: "" },
       { character: "l", style: "" },
       { character: "l", style: "" },
-      { character: "s", style: "" }
-    ]
+      { character: "s", style: "" },
+    ],
   },
   {
     styleName: "Skill-subhd",
@@ -1740,8 +1746,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "g", style: "" },
       { character: "i", style: "" },
       { character: "e", style: "" },
-      { character: "s", style: "" }
-    ]
+      { character: "s", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
@@ -1809,8 +1815,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "3", style: "" },
       { character: "EN_DASH", style: "" },
       { character: "6", style: "" },
-      { character: ")", style: "" }
-    ]
+      { character: ")", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
@@ -1863,8 +1869,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "3", style: "" },
       { character: "EN_DASH", style: "" },
       { character: "6", style: "" },
-      { character: ")", style: "" }
-    ]
+      { character: ")", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
@@ -1924,8 +1930,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: ".", style: "" },
       { character: " ", style: "" },
       { character: "7", style: "" },
-      { character: ")", style: "" }
-    ]
+      { character: ")", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
@@ -1987,8 +1993,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: ".", style: "" },
       { character: " ", style: "" },
       { character: "9", style: "" },
-      { character: ")", style: "" }
-    ]
+      { character: ")", style: "" },
+    ],
   },
   {
     styleName: "Skill-subhd",
@@ -2015,8 +2021,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "g", style: "" },
       { character: "i", style: "" },
       { character: "e", style: "" },
-      { character: "s", style: "" }
-    ]
+      { character: "s", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
@@ -2074,8 +2080,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: ".", style: "" },
       { character: " ", style: "" },
       { character: "8", style: "" },
-      { character: ")", style: "" }
-    ]
+      { character: ")", style: "" },
+    ],
   },
   {
     styleName: "Skill-subhd",
@@ -2107,8 +2113,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: " ", style: "" },
       { character: "1", style: "" },
       { character: "2", style: "" },
-      { character: ")", style: "" }
-    ]
+      { character: ")", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
@@ -2130,8 +2136,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "t", style: "" },
       { character: "i", style: "" },
       { character: "n", style: "" },
-      { character: "g", style: "" }
-    ]
+      { character: "g", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
@@ -2158,8 +2164,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "t", style: "" },
       { character: "i", style: "" },
       { character: "n", style: "" },
-      { character: "g", style: "" }
-    ]
+      { character: "g", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
@@ -2182,20 +2188,19 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "t", style: "" },
       { character: "i", style: "" },
       { character: "n", style: "" },
-      { character: "g", style: "" }
-    ]
+      { character: "g", style: "" },
+    ],
   },
   {
     styleName: "Skill-list",
     content: "\r",
     parentPageName: "1",
-    characterStyles: [
-      { character: "", style: "" }
-    ]
+    characterStyles: [{ character: "", style: "" }],
   },
   {
     styleName: "Footnote",
-    content: "Qualitative text complexity dimensions from the CCSS are scored on the following scale: \n➊—Low; ➋—Middle Low; ➌—Middle High; ➍—High\r",
+    content:
+      "Qualitative text complexity dimensions from the CCSS are scored on the following scale: \n➊—Low; ➋—Middle Low; ➌—Middle High; ➍—High\r",
     parentPageName: "1",
     characterStyles: [
       { character: "Q", style: "" },
@@ -2328,12 +2333,13 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "H", style: "" },
       { character: "i", style: "" },
       { character: "g", style: "" },
-      { character: "h", style: "" }
-    ]
+      { character: "h", style: "" },
+    ],
   },
   {
     styleName: "Footnote",
-    content: "*Citations refer to pages within this teacher’s guide that address the specific text complexity.\r",
+    content:
+      "*Citations refer to pages within this teacher’s guide that address the specific text complexity.\r",
     parentPageName: "1",
     characterStyles: [
       { character: "*", style: "" },
@@ -2432,8 +2438,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "t", style: "" },
       { character: "y", style: "" },
       { character: ".", style: "" },
-      { character: "", style: "" }
-    ]
+      { character: "", style: "" },
+    ],
   },
   {
     styleName: "Complex-chart-hd",
@@ -2468,8 +2474,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "l", style: "" },
       { character: "e", style: "" },
       { character: "x", style: "" },
-      { character: "?", style: "" }
-    ]
+      { character: "?", style: "" },
+    ],
   },
   {
     styleName: "Complex-chart-subhd",
@@ -2506,20 +2512,19 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "i", style: "" },
       { character: "n", style: "" },
       { character: "g", style: "" },
-      { character: " ", style: "" }
-    ]
+      { character: " ", style: "" },
+    ],
   },
   {
     styleName: "Complex-chart-number",
     content: "➌",
     parentPageName: "1",
-    characterStyles: [
-      { character: "➌", style: "footnote #" }
-    ]
+    characterStyles: [{ character: "➌", style: "footnote #" }],
   },
   {
     styleName: "Complex-chart-body",
-    content: "The purpose of the text is to explore the adaptations that allow living organisms to survive. (pp. 3–6, 9)*",
+    content:
+      "The purpose of the text is to explore the adaptations that allow living organisms to survive. (pp. 3–6, 9)*",
     parentPageName: "1",
     characterStyles: [
       { character: "T", style: "" },
@@ -2628,8 +2633,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: " ", style: "" },
       { character: "9", style: "" },
       { character: ")", style: "" },
-      { character: "*", style: "" }
-    ]
+      { character: "*", style: "" },
+    ],
   },
   {
     styleName: "Complex-chart-subhd",
@@ -2645,20 +2650,19 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "u", style: "" },
       { character: "r", style: "" },
       { character: "e", style: "" },
-      { character: " ", style: "" }
-    ]
+      { character: " ", style: "" },
+    ],
   },
   {
     styleName: "Complex-chart-number",
     content: "➌",
     parentPageName: "1",
-    characterStyles: [
-      { character: "➌", style: "footnote #" }
-    ]
+    characterStyles: [{ character: "➌", style: "footnote #" }],
   },
   {
     styleName: "Complex-chart-body",
-    content: "The book includes descriptive, cause and effect, explanatory, and procedural text, as well as many sidebars, charts, and rich graphics. (p. 7)*\r",
+    content:
+      "The book includes descriptive, cause and effect, explanatory, and procedural text, as well as many sidebars, charts, and rich graphics. (p. 7)*\r",
     parentPageName: "1",
     characterStyles: [
       { character: "T", style: "" },
@@ -2803,8 +2807,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: " ", style: "" },
       { character: "7", style: "" },
       { character: ")", style: "" },
-      { character: "*", style: "" }
-    ]
+      { character: "*", style: "" },
+    ],
   },
   {
     styleName: "Complex-chart-subhd",
@@ -2848,16 +2852,14 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "i", style: "" },
       { character: "t", style: "" },
       { character: "y", style: "" },
-      { character: " ", style: "" }
-    ]
+      { character: " ", style: "" },
+    ],
   },
   {
     styleName: "Complex-chart-number",
     content: "➋",
     parentPageName: "1",
-    characterStyles: [
-      { character: "➋", style: "footnote #" }
-    ]
+    characterStyles: [{ character: "➋", style: "footnote #" }],
   },
   {
     styleName: "Complex-chart-body",
@@ -2919,12 +2921,13 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "e", style: "" },
       { character: "s", style: "" },
       { character: ".", style: "" },
-      { character: " ", style: "" }
-    ]
+      { character: " ", style: "" },
+    ],
   },
   {
     styleName: "Complex-chart-body",
-    content: "• Domain-specific, otherwise unfamiliar terms are supported by direct definitions, context clues, and descriptions. (p. 8)*",
+    content:
+      "• Domain-specific, otherwise unfamiliar terms are supported by direct definitions, context clues, and descriptions. (p. 8)*",
     parentPageName: "1",
     characterStyles: [
       { character: "BULLET_CHARACTER", style: "" },
@@ -3050,8 +3053,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: " ", style: "" },
       { character: "8", style: "" },
       { character: ")", style: "" },
-      { character: "*", style: "" }
-    ]
+      { character: "*", style: "" },
+    ],
   },
   {
     styleName: "Complex-chart-subhd",
@@ -3075,20 +3078,19 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "n", style: "" },
       { character: "d", style: "" },
       { character: "s", style: "" },
-      { character: " ", style: "" }
-    ]
+      { character: " ", style: "" },
+    ],
   },
   {
     styleName: "Complex-chart-number",
     content: "➌",
     parentPageName: "1",
-    characterStyles: [
-      { character: "➌", style: "footnote #" }
-    ]
+    characterStyles: [{ character: "➌", style: "footnote #" }],
   },
   {
     styleName: "Complex-chart-body",
-    content: "The text assumes some prior knowledge of Life Science and Physical Science concepts.",
+    content:
+      "The text assumes some prior knowledge of Life Science and Physical Science concepts.",
     parentPageName: "1",
     characterStyles: [
       { character: "T", style: "" },
@@ -3174,8 +3176,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "p", style: "" },
       { character: "t", style: "" },
       { character: "s", style: "" },
-      { character: ".", style: "" }
-    ]
-  }
+      { character: ".", style: "" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

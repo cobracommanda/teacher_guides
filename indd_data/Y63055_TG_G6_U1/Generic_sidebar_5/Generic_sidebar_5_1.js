@@ -1,11 +1,9 @@
-const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+const paragraphData = [
   {
     styleName: "Chart-body-txt",
     content: "",
     parentPageName: "5",
-    characterStyles: [
-      { character: "", style: "b" }
-    ]
+    characterStyles: [{ character: "", style: "b" }],
   },
   {
     styleName: "Chart-hd",
@@ -39,8 +37,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "n", style: "" },
       { character: "e", style: "" },
       { character: "r", style: "" },
-      { character: "s", style: "" }
-    ]
+      { character: "s", style: "" },
+    ],
   },
   {
     styleName: "Chart-subhd",
@@ -75,12 +73,13 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "e", style: "b" },
       { character: "r", style: "b" },
       { character: " ", style: "b" },
-      { character: "2", style: "b" }
-    ]
+      { character: "2", style: "b" },
+    ],
   },
   {
     styleName: "Chart-body-txt",
-    content: "Page 16. Who was Darwin? In this chapter, we’ll read about his theories on how species develop, adapt, and survive in their environments.\r",
+    content:
+      "Page 16. Who was Darwin? In this chapter, we’ll read about his theories on how species develop, adapt, and survive in their environments.\r",
     parentPageName: "5",
     characterStyles: [
       { character: "P", style: "b" },
@@ -219,12 +218,13 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "n", style: "Sidebar-tt" },
       { character: "t", style: "Sidebar-tt" },
       { character: "s", style: "Sidebar-tt" },
-      { character: ".", style: "Sidebar-tt" }
-    ]
+      { character: ".", style: "Sidebar-tt" },
+    ],
   },
   {
     styleName: "Chart-body-txt",
-    content: "Page 19. Why do you think the author includes a sidebar about breeding a dachshund in this book about adaptations? Think about what dachshunds can do because of their size and shape.\r",
+    content:
+      "Page 19. Why do you think the author includes a sidebar about breeding a dachshund in this book about adaptations? Think about what dachshunds can do because of their size and shape.\r",
     parentPageName: "5",
     characterStyles: [
       { character: "P", style: "b" },
@@ -408,8 +408,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "a", style: "Sidebar-tt" },
       { character: "p", style: "Sidebar-tt" },
       { character: "e", style: "Sidebar-tt" },
-      { character: ".", style: "Sidebar-tt" }
-    ]
+      { character: ".", style: "Sidebar-tt" },
+    ],
   },
   {
     styleName: "Chart-body-txt",
@@ -424,12 +424,13 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "e", style: "b" },
       { character: "r", style: "b" },
       { character: " ", style: "b" },
-      { character: "3", style: "b" }
-    ]
+      { character: "3", style: "b" },
+    ],
   },
   {
     styleName: "Chart-body-txt",
-    content: "Page 28. Look at the illustration of the dinosaurs. We’ll read what happens to organisms, such as dinosaurs, when they don’t adapt.",
+    content:
+      "Page 28. Look at the illustration of the dinosaurs. We’ll read what happens to organisms, such as dinosaurs, when they don’t adapt.",
     parentPageName: "5",
     characterStyles: [
       { character: "P", style: "b" },
@@ -562,8 +563,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "a", style: "Sidebar-tt" },
       { character: "p", style: "Sidebar-tt" },
       { character: "t", style: "Sidebar-tt" },
-      { character: ".", style: "Sidebar-tt" }
-    ]
+      { character: ".", style: "Sidebar-tt" },
+    ],
   },
   {
     styleName: "Chart-subhd",
@@ -620,8 +621,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "l", style: "" },
       { character: "a", style: "" },
       { character: "r", style: "" },
-      { character: "y", style: "" }
-    ]
+      { character: "y", style: "" },
+    ],
   },
   {
     styleName: "Sidebar-body-txt",
@@ -659,8 +660,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: " ", style: "" },
       { character: "1", style: "" },
       { character: "9", style: "" },
-      { character: ")", style: "" }
-    ]
+      { character: ")", style: "" },
+    ],
   },
   {
     styleName: "Sidebar-body-txt",
@@ -691,8 +692,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: " ", style: "" },
       { character: "1", style: "" },
       { character: "7", style: "" },
-      { character: ")", style: "" }
-    ]
+      { character: ")", style: "" },
+    ],
   },
   {
     styleName: "Sidebar-body-txt",
@@ -746,8 +747,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: " ", style: "" },
       { character: "2", style: "" },
       { character: "1", style: "" },
-      { character: ")", style: "" }
-    ]
+      { character: ")", style: "" },
+    ],
   },
   {
     styleName: "Sidebar-body-txt",
@@ -785,8 +786,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: " ", style: "" },
       { character: "2", style: "" },
       { character: "6", style: "" },
-      { character: ")", style: "" }
-    ]
+      { character: ")", style: "" },
+    ],
   },
   {
     styleName: "Sidebar-body-txt",
@@ -847,8 +848,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: " ", style: "" },
       { character: "2", style: "" },
       { character: "8", style: "" },
-      { character: ")", style: "" }
-    ]
+      { character: ")", style: "" },
+    ],
   },
   {
     styleName: "Sidebar-body-txt",
@@ -907,8 +908,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: " ", style: "" },
       { character: "2", style: "" },
       { character: "7", style: "" },
-      { character: ")", style: "" }
-    ]
+      { character: ")", style: "" },
+    ],
   },
   {
     styleName: "Sidebar-body-txt",
@@ -946,8 +947,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: " ", style: "" },
       { character: "2", style: "" },
       { character: "6", style: "" },
-      { character: ")", style: "" }
-    ]
+      { character: ")", style: "" },
+    ],
   },
   {
     styleName: "Sidebar-body-txt",
@@ -981,8 +982,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: " ", style: "" },
       { character: "2", style: "" },
       { character: "9", style: "" },
-      { character: ")", style: "" }
-    ]
+      { character: ")", style: "" },
+    ],
   },
   {
     styleName: "Sidebar-body-txt",
@@ -1012,8 +1013,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: " ", style: "" },
       { character: "2", style: "" },
       { character: "8", style: "" },
-      { character: ")", style: "" }
-    ]
+      { character: ")", style: "" },
+    ],
   },
   {
     styleName: "Sidebar-body-txt",
@@ -1051,8 +1052,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: " ", style: "" },
       { character: "2", style: "" },
       { character: "5", style: "" },
-      { character: ")", style: "" }
-    ]
+      { character: ")", style: "" },
+    ],
   },
   {
     styleName: "Chart-subhd",
@@ -1111,8 +1112,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "t", style: "" },
       { character: "i", style: "" },
       { character: "o", style: "" },
-      { character: "n", style: "" }
-    ]
+      { character: "n", style: "" },
+    ],
   },
   {
     styleName: "Sidebar-body-txt",
@@ -1176,8 +1177,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "_", style: "Sidebar-ital" },
       { character: "_", style: "Sidebar-ital" },
       { character: "_", style: "Sidebar-ital" },
-      { character: ".", style: "Sidebar-ital" }
-    ]
+      { character: ".", style: "Sidebar-ital" },
+    ],
   },
   {
     styleName: "Sidebar-body-txt",
@@ -1244,8 +1245,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "_", style: "Sidebar-ital" },
       { character: "_", style: "Sidebar-ital" },
       { character: "_", style: "Sidebar-ital" },
-      { character: ".", style: "Sidebar-ital" }
-    ]
+      { character: ".", style: "Sidebar-ital" },
+    ],
   },
   {
     styleName: "Sidebar-body-txt",
@@ -1299,8 +1300,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "_", style: "Sidebar-ital" },
       { character: "_", style: "Sidebar-ital" },
       { character: "_", style: "Sidebar-ital" },
-      { character: ".", style: "Sidebar-ital" }
-    ]
-  }
+      { character: ".", style: "Sidebar-ital" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

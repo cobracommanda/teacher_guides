@@ -1,11 +1,9 @@
-const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+const paragraphData = [
   {
     styleName: "Chart-body-txt",
     content: "",
     parentPageName: "6",
-    characterStyles: [
-      { character: "", style: "b" }
-    ]
+    characterStyles: [{ character: "", style: "b" }],
   },
   {
     styleName: "Chart-hd",
@@ -39,8 +37,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "n", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "r", style: "[None]" },
-      { character: "s", style: "[None]" }
-    ]
+      { character: "s", style: "[None]" },
+    ],
   },
   {
     styleName: "Chart-subhd",
@@ -75,12 +73,13 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "e", style: "b" },
       { character: "r", style: "b" },
       { character: " ", style: "b" },
-      { character: "4", style: "b" }
-    ]
+      { character: "4", style: "b" },
+    ],
   },
   {
     styleName: "Chart-body-txt",
-    content: "Page 37. What do the photos show? We’ll read about the relationships between different organisms in a habitat.\r",
+    content:
+      "Page 37. What do the photos show? We’ll read about the relationships between different organisms in a habitat.\r",
     parentPageName: "6",
     characterStyles: [
       { character: "P", style: "b" },
@@ -192,8 +191,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "t", style: "Sidebar-tt" },
       { character: "a", style: "Sidebar-tt" },
       { character: "t", style: "Sidebar-tt" },
-      { character: ".", style: "Sidebar-tt" }
-    ]
+      { character: ".", style: "Sidebar-tt" },
+    ],
   },
   {
     styleName: "Chart-body-txt",
@@ -209,12 +208,13 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "s", style: "b" },
       { character: "i", style: "b" },
       { character: "o", style: "b" },
-      { character: "n", style: "b" }
-    ]
+      { character: "n", style: "b" },
+    ],
   },
   {
     styleName: "Chart-body-txt",
-    content: "Page 42. The author concludes by describing how organisms have become adapted to harsh environments in order to survive.  ",
+    content:
+      "Page 42. The author concludes by describing how organisms have become adapted to harsh environments in order to survive.  ",
     parentPageName: "6",
     characterStyles: [
       { character: "P", style: "b" },
@@ -338,8 +338,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "e", style: "Sidebar-tt" },
       { character: ".", style: "Sidebar-tt" },
       { character: " ", style: "[None]" },
-      { character: " ", style: "[None]" }
-    ]
+      { character: " ", style: "[None]" },
+    ],
   },
   {
     styleName: "Chart-subhd",
@@ -396,8 +396,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "l", style: "[None]" },
       { character: "a", style: "[None]" },
       { character: "r", style: "[None]" },
-      { character: "y", style: "[None]" }
-    ]
+      { character: "y", style: "[None]" },
+    ],
   },
   {
     styleName: "Sidebar-body-txt",
@@ -440,8 +440,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: " ", style: "[None]" },
       { character: "3", style: "[None]" },
       { character: "6", style: "[None]" },
-      { character: ")", style: "[None]" }
-    ]
+      { character: ")", style: "[None]" },
+    ],
   },
   {
     styleName: "Sidebar-body-txt",
@@ -479,8 +479,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: " ", style: "[None]" },
       { character: "3", style: "[None]" },
       { character: "7", style: "[None]" },
-      { character: ")", style: "[None]" }
-    ]
+      { character: ")", style: "[None]" },
+    ],
   },
   {
     styleName: "Sidebar-body-txt",
@@ -523,8 +523,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: " ", style: "[None]" },
       { character: "3", style: "[None]" },
       { character: "7", style: "[None]" },
-      { character: ")", style: "[None]" }
-    ]
+      { character: ")", style: "[None]" },
+    ],
   },
   {
     styleName: "Sidebar-body-txt",
@@ -560,8 +560,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: " ", style: "[None]" },
       { character: "3", style: "[None]" },
       { character: "6", style: "[None]" },
-      { character: ")", style: "[None]" }
-    ]
+      { character: ")", style: "[None]" },
+    ],
   },
   {
     styleName: "Sidebar-body-txt",
@@ -600,8 +600,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: " ", style: "[None]" },
       { character: "3", style: "[None]" },
       { character: "5", style: "[None]" },
-      { character: ")", style: "[None]" }
-    ]
+      { character: ")", style: "[None]" },
+    ],
   },
   {
     styleName: "Sidebar-body-txt",
@@ -637,8 +637,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: " ", style: "[None]" },
       { character: "3", style: "[None]" },
       { character: "8", style: "[None]" },
-      { character: ")", style: "[None]" }
-    ]
+      { character: ")", style: "[None]" },
+    ],
   },
   {
     styleName: "Sidebar-body-txt",
@@ -678,8 +678,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: " ", style: "[None]" },
       { character: "3", style: "[None]" },
       { character: "8", style: "[None]" },
-      { character: ")", style: "[None]" }
-    ]
+      { character: ")", style: "[None]" },
+    ],
   },
   {
     styleName: "Sidebar-body-txt",
@@ -719,8 +719,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: " ", style: "[None]" },
       { character: "3", style: "[None]" },
       { character: "6", style: "[None]" },
-      { character: ")", style: "[None]" }
-    ]
+      { character: ")", style: "[None]" },
+    ],
   },
   {
     styleName: "Sidebar-body-txt",
@@ -757,8 +757,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: " ", style: "[None]" },
       { character: "3", style: "[None]" },
       { character: "7", style: "[None]" },
-      { character: ")", style: "[None]" }
-    ]
+      { character: ")", style: "[None]" },
+    ],
   },
   {
     styleName: "Chart-subhd",
@@ -817,8 +817,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "t", style: "[None]" },
       { character: "i", style: "[None]" },
       { character: "o", style: "[None]" },
-      { character: "n", style: "[None]" }
-    ]
+      { character: "n", style: "[None]" },
+    ],
   },
   {
     styleName: "Sidebar-body-txt",
@@ -879,8 +879,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "_", style: "Sidebar-ital" },
       { character: "_", style: "Sidebar-ital" },
       { character: "_", style: "Sidebar-ital" },
-      { character: ".", style: "Sidebar-ital" }
-    ]
+      { character: ".", style: "Sidebar-ital" },
+    ],
   },
   {
     styleName: "Sidebar-body-txt",
@@ -937,8 +937,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "_", style: "Sidebar-ital" },
       { character: "_", style: "Sidebar-ital" },
       { character: "_", style: "Sidebar-ital" },
-      { character: ".", style: "Sidebar-ital" }
-    ]
+      { character: ".", style: "Sidebar-ital" },
+    ],
   },
   {
     styleName: "Sidebar-body-txt",
@@ -984,8 +984,8 @@ const paragraphData = [iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       { character: "_", style: "Sidebar-ital" },
       { character: "_", style: "Sidebar-ital" },
       { character: "_", style: "Sidebar-ital" },
-      { character: ".", style: "Sidebar-ital" }
-    ]
-  }
+      { character: ".", style: "Sidebar-ital" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

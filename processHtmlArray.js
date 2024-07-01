@@ -12,6 +12,66 @@ const {
   Y63055_panel_3_page_4_section_content,
   Y63055_panel_4_page_1_section_content,
   Y63055_panel_5_page_1_section_content,
+
+  Y63056_panel_2_page_1_section_content,
+  Y63056_panel_2_page_2_section_content,
+  Y63056_panel_2_page_3_section_content,
+  Y63056_panel_2_page_4_section_content,
+  Y63056_panel_2_page_5_section_content,
+  Y63056_panel_3_page_1_section_content,
+  Y63056_panel_3_page_2_section_content,
+  Y63056_panel_3_page_3_section_content,
+  Y63056_panel_3_page_4_section_content,
+  Y63056_panel_4_page_1_section_content,
+  Y63056_panel_5_page_1_section_content,
+
+  Y63057_panel_2_page_1_section_content,
+  Y63057_panel_2_page_2_section_content,
+  Y63057_panel_2_page_3_section_content,
+  Y63057_panel_2_page_4_section_content,
+  Y63057_panel_2_page_5_section_content,
+  Y63057_panel_3_page_1_section_content,
+  Y63057_panel_3_page_2_section_content,
+  Y63057_panel_3_page_3_section_content,
+  Y63057_panel_3_page_4_section_content,
+  Y63057_panel_4_page_1_section_content,
+  Y63057_panel_5_page_1_section_content,
+
+  Y63058_panel_2_page_1_section_content,
+  Y63058_panel_2_page_2_section_content,
+  Y63058_panel_2_page_3_section_content,
+  Y63058_panel_2_page_4_section_content,
+  Y63058_panel_2_page_5_section_content,
+  Y63058_panel_3_page_1_section_content,
+  Y63058_panel_3_page_2_section_content,
+  Y63058_panel_3_page_3_section_content,
+  Y63058_panel_3_page_4_section_content,
+  Y63058_panel_4_page_1_section_content,
+  Y63058_panel_5_page_1_section_content,
+
+  Y63059_panel_2_page_1_section_content,
+  Y63059_panel_2_page_2_section_content,
+  Y63059_panel_2_page_3_section_content,
+  Y63059_panel_2_page_4_section_content,
+  Y63059_panel_2_page_5_section_content,
+  Y63059_panel_3_page_1_section_content,
+  Y63059_panel_3_page_2_section_content,
+  Y63059_panel_3_page_3_section_content,
+  Y63059_panel_3_page_4_section_content,
+  Y63059_panel_4_page_1_section_content,
+  Y63059_panel_5_page_1_section_content,
+
+  Y63060_panel_2_page_1_section_content,
+  Y63060_panel_2_page_2_section_content,
+  Y63060_panel_2_page_3_section_content,
+  Y63060_panel_2_page_4_section_content,
+  Y63060_panel_2_page_5_section_content,
+  Y63060_panel_3_page_1_section_content,
+  Y63060_panel_3_page_2_section_content,
+  Y63060_panel_3_page_3_section_content,
+  Y63060_panel_3_page_4_section_content,
+  Y63060_panel_4_page_1_section_content,
+  Y63060_panel_5_page_1_section_content,
 } = require("./getHTML.js");
 
 function splitHtmlStringIntoArray(htmlString) {
@@ -110,24 +170,268 @@ const Y63055_panel_5_page_1_section_tags = processHtmlArray(
   Y63055_panel_5_page_1_section_content
 );
 
-console.log(Y63055_panel_2_page_1_section_tags);
-console.log(Y63055_panel_2_page_2_section_tags);
-console.log(Y63055_panel_2_page_3_section_tags);
-console.log(Y63055_panel_2_page_4_section_tags);
-console.log(Y63055_panel_2_page_5_section_tags);
+const Y63056_panel_2_page_1_section_tags = processHtmlArray(
+  Y63056_panel_2_page_1_section_content
+);
+const Y63056_panel_2_page_2_section_tags = processHtmlArray(
+  Y63056_panel_2_page_2_section_content
+);
+const Y63056_panel_2_page_3_section_tags = processHtmlArray(
+  Y63056_panel_2_page_3_section_content
+);
+const Y63056_panel_2_page_4_section_tags = processHtmlArray(
+  Y63056_panel_2_page_4_section_content
+);
+const Y63056_panel_2_page_5_section_tags = processHtmlArray(
+  Y63056_panel_2_page_5_section_content
+);
 
-console.log(Y63055_panel_3_page_1_section_tags);
-console.log(Y63055_panel_3_page_2_section_tags);
-console.log(Y63055_panel_3_page_3_section_tags);
-console.log(Y63055_panel_3_page_4_section_tags);
-console.log(Y63055_panel_4_page_1_section_tags);
-console.log(Y63055_panel_5_page_1_section_tags);
+const Y63056_panel_3_page_1_section_tags = processHtmlArray(
+  Y63056_panel_3_page_1_section_content
+);
+const Y63056_panel_3_page_2_section_tags = processHtmlArray(
+  Y63056_panel_3_page_2_section_content
+);
+const Y63056_panel_3_page_3_section_tags = processHtmlArray(
+  Y63056_panel_3_page_3_section_content
+);
+const Y63056_panel_3_page_4_section_tags = processHtmlArray(
+  Y63056_panel_3_page_4_section_content
+);
+const Y63056_panel_4_page_1_section_tags = processHtmlArray(
+  Y63056_panel_4_page_1_section_content
+);
+const Y63056_panel_5_page_1_section_tags = processHtmlArray(
+  Y63056_panel_5_page_1_section_content
+);
+
+const Y63057_panel_2_page_1_section_tags = processHtmlArray(
+  Y63057_panel_2_page_1_section_content
+);
+const Y63057_panel_2_page_2_section_tags = processHtmlArray(
+  Y63057_panel_2_page_2_section_content
+);
+const Y63057_panel_2_page_3_section_tags = processHtmlArray(
+  Y63057_panel_2_page_3_section_content
+);
+const Y63057_panel_2_page_4_section_tags = processHtmlArray(
+  Y63057_panel_2_page_4_section_content
+);
+const Y63057_panel_2_page_5_section_tags = processHtmlArray(
+  Y63057_panel_2_page_5_section_content
+);
+
+const Y63057_panel_3_page_1_section_tags = processHtmlArray(
+  Y63057_panel_3_page_1_section_content
+);
+const Y63057_panel_3_page_2_section_tags = processHtmlArray(
+  Y63057_panel_3_page_2_section_content
+);
+const Y63057_panel_3_page_3_section_tags = processHtmlArray(
+  Y63057_panel_3_page_3_section_content
+);
+const Y63057_panel_3_page_4_section_tags = processHtmlArray(
+  Y63057_panel_3_page_4_section_content
+);
+const Y63057_panel_4_page_1_section_tags = processHtmlArray(
+  Y63057_panel_4_page_1_section_content
+);
+const Y63057_panel_5_page_1_section_tags = processHtmlArray(
+  Y63057_panel_5_page_1_section_content
+);
+
+const Y63058_panel_2_page_1_section_tags = processHtmlArray(
+  Y63058_panel_2_page_1_section_content
+);
+const Y63058_panel_2_page_2_section_tags = processHtmlArray(
+  Y63058_panel_2_page_2_section_content
+);
+const Y63058_panel_2_page_3_section_tags = processHtmlArray(
+  Y63058_panel_2_page_3_section_content
+);
+const Y63058_panel_2_page_4_section_tags = processHtmlArray(
+  Y63058_panel_2_page_4_section_content
+);
+const Y63058_panel_2_page_5_section_tags = processHtmlArray(
+  Y63058_panel_2_page_5_section_content
+);
+
+const Y63058_panel_3_page_1_section_tags = processHtmlArray(
+  Y63058_panel_3_page_1_section_content
+);
+const Y63058_panel_3_page_2_section_tags = processHtmlArray(
+  Y63058_panel_3_page_2_section_content
+);
+const Y63058_panel_3_page_3_section_tags = processHtmlArray(
+  Y63058_panel_3_page_3_section_content
+);
+const Y63058_panel_3_page_4_section_tags = processHtmlArray(
+  Y63058_panel_3_page_4_section_content
+);
+const Y63058_panel_4_page_1_section_tags = processHtmlArray(
+  Y63058_panel_4_page_1_section_content
+);
+const Y63058_panel_5_page_1_section_tags = processHtmlArray(
+  Y63058_panel_5_page_1_section_content
+);
+
+const Y63059_panel_2_page_1_section_tags = processHtmlArray(
+  Y63059_panel_2_page_1_section_content
+);
+const Y63059_panel_2_page_2_section_tags = processHtmlArray(
+  Y63059_panel_2_page_2_section_content
+);
+const Y63059_panel_2_page_3_section_tags = processHtmlArray(
+  Y63059_panel_2_page_3_section_content
+);
+const Y63059_panel_2_page_4_section_tags = processHtmlArray(
+  Y63059_panel_2_page_4_section_content
+);
+const Y63059_panel_2_page_5_section_tags = processHtmlArray(
+  Y63059_panel_2_page_5_section_content
+);
+
+const Y63059_panel_3_page_1_section_tags = processHtmlArray(
+  Y63059_panel_3_page_1_section_content
+);
+const Y63059_panel_3_page_2_section_tags = processHtmlArray(
+  Y63059_panel_3_page_2_section_content
+);
+const Y63059_panel_3_page_3_section_tags = processHtmlArray(
+  Y63059_panel_3_page_3_section_content
+);
+const Y63059_panel_3_page_4_section_tags = processHtmlArray(
+  Y63059_panel_3_page_4_section_content
+);
+const Y63059_panel_4_page_1_section_tags = processHtmlArray(
+  Y63059_panel_4_page_1_section_content
+);
+const Y63059_panel_5_page_1_section_tags = processHtmlArray(
+  Y63059_panel_5_page_1_section_content
+);
+
+const Y63060_panel_2_page_1_section_tags = processHtmlArray(
+  Y63060_panel_2_page_1_section_content
+);
+const Y63060_panel_2_page_2_section_tags = processHtmlArray(
+  Y63060_panel_2_page_2_section_content
+);
+const Y63060_panel_2_page_3_section_tags = processHtmlArray(
+  Y63060_panel_2_page_3_section_content
+);
+const Y63060_panel_2_page_4_section_tags = processHtmlArray(
+  Y63060_panel_2_page_4_section_content
+);
+const Y63060_panel_2_page_5_section_tags = processHtmlArray(
+  Y63060_panel_2_page_5_section_content
+);
+
+const Y63060_panel_3_page_1_section_tags = processHtmlArray(
+  Y63060_panel_3_page_1_section_content
+);
+const Y63060_panel_3_page_2_section_tags = processHtmlArray(
+  Y63060_panel_3_page_2_section_content
+);
+const Y63060_panel_3_page_3_section_tags = processHtmlArray(
+  Y63060_panel_3_page_3_section_content
+);
+const Y63060_panel_3_page_4_section_tags = processHtmlArray(
+  Y63060_panel_3_page_4_section_content
+);
+const Y63060_panel_4_page_1_section_tags = processHtmlArray(
+  Y63060_panel_4_page_1_section_content
+);
+const Y63060_panel_5_page_1_section_tags = processHtmlArray(
+  Y63060_panel_5_page_1_section_content
+);
+// console.log(Y63055_panel_2_page_1_section_tags);
+// console.log(Y63055_panel_2_page_2_section_tags);
+// console.log(Y63055_panel_2_page_3_section_tags);
+// console.log(Y63055_panel_2_page_4_section_tags);
+// console.log(Y63055_panel_2_page_5_section_tags);
+
+// console.log(Y63055_panel_3_page_1_section_tags);
+// console.log(Y63055_panel_3_page_2_section_tags);
+// console.log(Y63055_panel_3_page_3_section_tags);
+// console.log(Y63055_panel_3_page_4_section_tags);
+// console.log(Y63055_panel_4_page_1_section_tags);
+// console.log(Y63055_panel_5_page_1_section_tags);
 
 // const panel_1_section_table_data_array = splitHtmlStringIntoArray(
 //   panel_1_section_data.taggedContent
 // );
 
 // console.log(panel_1_section_table_data_array);
-module.exports = {};
+module.exports = {
+  Y63055_panel_2_page_1_section_tags,
+  Y63055_panel_2_page_2_section_tags,
+  Y63055_panel_2_page_3_section_tags,
+  Y63055_panel_2_page_4_section_tags,
+  Y63055_panel_2_page_5_section_tags,
+  Y63055_panel_3_page_1_section_tags,
+  Y63055_panel_3_page_2_section_tags,
+  Y63055_panel_3_page_3_section_tags,
+  Y63055_panel_3_page_4_section_tags,
+  Y63055_panel_4_page_1_section_tags,
+  Y63055_panel_5_page_1_section_tags,
 
-// console.log(panel_2_page_4_section_tags);
+  Y63056_panel_2_page_1_section_tags,
+  Y63056_panel_2_page_2_section_tags,
+  Y63056_panel_2_page_3_section_tags,
+  Y63056_panel_2_page_4_section_tags,
+  Y63056_panel_2_page_5_section_tags,
+  Y63056_panel_3_page_1_section_tags,
+  Y63056_panel_3_page_2_section_tags,
+  Y63056_panel_3_page_3_section_tags,
+  Y63056_panel_3_page_4_section_tags,
+  Y63056_panel_4_page_1_section_tags,
+  Y63056_panel_5_page_1_section_tags,
+
+  Y63057_panel_2_page_1_section_tags,
+  Y63057_panel_2_page_2_section_tags,
+  Y63057_panel_2_page_3_section_tags,
+  Y63057_panel_2_page_4_section_tags,
+  Y63057_panel_2_page_5_section_tags,
+  Y63057_panel_3_page_1_section_tags,
+  Y63057_panel_3_page_2_section_tags,
+  Y63057_panel_3_page_3_section_tags,
+  Y63057_panel_3_page_4_section_tags,
+  Y63057_panel_4_page_1_section_tags,
+  Y63057_panel_5_page_1_section_tags,
+
+  Y63058_panel_2_page_1_section_tags,
+  Y63058_panel_2_page_2_section_tags,
+  Y63058_panel_2_page_3_section_tags,
+  Y63058_panel_2_page_4_section_tags,
+  Y63058_panel_2_page_5_section_tags,
+  Y63058_panel_3_page_1_section_tags,
+  Y63058_panel_3_page_2_section_tags,
+  Y63058_panel_3_page_3_section_tags,
+  Y63058_panel_3_page_4_section_tags,
+  Y63058_panel_4_page_1_section_tags,
+  Y63058_panel_5_page_1_section_tags,
+
+  Y63059_panel_2_page_1_section_tags,
+  Y63059_panel_2_page_2_section_tags,
+  Y63059_panel_2_page_3_section_tags,
+  Y63059_panel_2_page_4_section_tags,
+  Y63059_panel_2_page_5_section_tags,
+  Y63059_panel_3_page_1_section_tags,
+  Y63059_panel_3_page_2_section_tags,
+  Y63059_panel_3_page_3_section_tags,
+  Y63059_panel_3_page_4_section_tags,
+  Y63059_panel_4_page_1_section_tags,
+  Y63059_panel_5_page_1_section_tags,
+
+  Y63060_panel_2_page_1_section_tags,
+  Y63060_panel_2_page_2_section_tags,
+  Y63060_panel_2_page_3_section_tags,
+  Y63060_panel_2_page_4_section_tags,
+  Y63060_panel_2_page_5_section_tags,
+  Y63060_panel_3_page_1_section_tags,
+  Y63060_panel_3_page_2_section_tags,
+  Y63060_panel_3_page_3_section_tags,
+  Y63060_panel_3_page_4_section_tags,
+  Y63060_panel_4_page_1_section_tags,
+  Y63060_panel_5_page_1_section_tags,
+};

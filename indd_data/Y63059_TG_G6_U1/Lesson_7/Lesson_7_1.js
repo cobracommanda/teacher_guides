@@ -2292,7 +2292,7 @@ const paragraphData = [
       { character: "m", style: "[None]" },
       { character: "s", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: "PAGE_BREAK", style: "[None]" },
+      { character: "", style: "[None]" },
     ],
   },
   {

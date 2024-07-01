@@ -2338,7 +2338,7 @@ const paragraphData = [
     styleName: "Body-txt",
     content: "\r",
     parentPageName: "12",
-    characterStyles: [{ character: "PAGE_BREAK", style: "[None]" }],
+    characterStyles: [{ character: "", style: "[None]" }],
   },
 ];
 module.exports = paragraphData;
