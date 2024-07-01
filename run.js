@@ -157,7 +157,7 @@ const processData = async (key, value) => {
   const findReplacePairsHtml = [
     [/<!-- xx img-src xx -->/g, getImageName(value.cover_img[0])],
     [/<!-- xx alt xx -->/g, `Image of ${value.title}'s book cover`],
-    [/ <!-- xx panel1 section content xx -->/g, findTable || "Table not found"],
+    [/ <!-- xx panel1 section content xx -->/g, findTable || ""],
     [/<!-- xx tg title xx -->/g, value.title],
     [/<!-- xx Lexile xx -->/g, value.lexile],
     [/<!-- Purpose and Levels of Meaning Rating -->/g, value.levels[0]],

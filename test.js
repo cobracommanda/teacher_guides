@@ -24,9 +24,8 @@ const data = {
 };
 
 // Example usage
-const searchString =
-  "Aquatic environments differ from one another based on the";
-const tableWithFrame = findTableInData(data, searchString, true);
+const searchString = "Aquatic environments ";
+// const tableWithFrame = findTableInData(data, searchString, true);
 const tableWithoutFrame = findTableInData(data, searchString, false);
 
 console.log("Table with frame:", tableWithFrame);
