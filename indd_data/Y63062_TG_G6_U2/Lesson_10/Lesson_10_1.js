@@ -1,4 +1,4 @@
-const paragraphData = [teacher-talkteacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
     content: "Build Language, Vocabulary, and Comprehension \nL.6.1d, L.6.5a\r",
@@ -64,8 +64,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "6", style: "Lesson_A-hd-standards" },
       { character: ".", style: "Lesson_A-hd-standards" },
       { character: "5", style: "Lesson_A-hd-standards" },
-      { character: "a", style: "Lesson_A-hd-standards" }
-    ]
+      { character: "a", style: "Lesson_A-hd-standards" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -107,12 +107,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "o", style: "[None]" },
       { character: "u", style: "[None]" },
       { character: "n", style: "[None]" },
-      { character: "s", style: "[None]" }
-    ]
+      { character: "s", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Remind students that a pronoun must clearly refer to a specific antecedent in a sentence.\r",
+    content:
+      "Remind students that a pronoun must clearly refer to a specific antecedent in a sentence.\r",
     parentPageName: "10",
     characterStyles: [
       { character: "R", style: "[None]" },
@@ -203,8 +204,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "[None]" },
       { character: "c", style: "[None]" },
       { character: "e", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -241,12 +242,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "[None]" },
       { character: "c", style: "[None]" },
       { character: "e", style: "[None]" },
-      { character: ":", style: "[None]" }
-    ]
+      { character: ":", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Mom took her dog to the groomer, and Aunt Lucy went along, too.\r",
+    content:
+      "Mom took her dog to the groomer, and Aunt Lucy went along, too.\r",
     parentPageName: "10",
     characterStyles: [
       { character: "M", style: "[None]" },
@@ -311,12 +313,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "t", style: "i" },
       { character: "o", style: "i" },
       { character: "o", style: "i" },
-      { character: ".", style: "i" }
-    ]
+      { character: ".", style: "i" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Explain that in this sentence, it is clear that the pronoun her refers to Mom, and not Aunt Lucy. Tell students that it is important to be clear about which pronoun refers to which antecedent in a sentence. Display this sentence:\r",
+    content:
+      "Explain that in this sentence, it is clear that the pronoun her refers to Mom, and not Aunt Lucy. Tell students that it is important to be clear about which pronoun refers to which antecedent in a sentence. Display this sentence:\r",
     parentPageName: "10",
     characterStyles: [
       { character: "E", style: "[None]" },
@@ -547,8 +550,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "[None]" },
       { character: "c", style: "[None]" },
       { character: "e", style: "[None]" },
-      { character: ":", style: "[None]" }
-    ]
+      { character: ":", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -600,12 +603,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "m", style: "i" },
       { character: "e", style: "i" },
       { character: "r", style: "i" },
-      { character: ".", style: "i" }
-    ]
+      { character: ".", style: "i" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "The vague pronoun can be corrected by clarifying the antecedent.\r",
+    content:
+      "The vague pronoun can be corrected by clarifying the antecedent.\r",
     parentPageName: "10",
     characterStyles: [
       { character: "T", style: "[None]" },
@@ -671,12 +675,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: "n", style: "[None]" },
       { character: "t", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Continue this lesson by having students identify and correct the vague pronouns in these sentences:\r",
+    content:
+      "Continue this lesson by having students identify and correct the vague pronouns in these sentences:\r",
     parentPageName: "10",
     characterStyles: [
       { character: "C", style: "[None]" },
@@ -777,8 +782,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "c", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: ":", style: "[None]" }
-    ]
+      { character: ":", style: "[None]" },
+    ],
   },
   {
     styleName: "Body-txt-bullets",
@@ -841,12 +846,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "t", style: "i" },
       { character: "e", style: "i" },
       { character: "r", style: "i" },
-      { character: ".", style: "i" }
-    ]
+      { character: ".", style: "i" },
+    ],
   },
   {
     styleName: "Body-txt-bullets",
-    content: "The therapy center and the rehabilitation center were close to each other, so Rodrigo visited it often.\r",
+    content:
+      "The therapy center and the rehabilitation center were close to each other, so Rodrigo visited it often.\r",
     parentPageName: "10",
     characterStyles: [
       { character: "INDENT_HERE_TAB", style: "[None]" },
@@ -952,8 +958,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "t", style: "i" },
       { character: "e", style: "i" },
       { character: "n", style: "i" },
-      { character: ".", style: "i" }
-    ]
+      { character: ".", style: "i" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -1007,12 +1013,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "t", style: "Lesson_B-hd-LightFace" },
       { character: "i", style: "Lesson_B-hd-LightFace" },
       { character: "o", style: "Lesson_B-hd-LightFace" },
-      { character: "n", style: "Lesson_B-hd-LightFace" }
-    ]
+      { character: "n", style: "Lesson_B-hd-LightFace" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Have students turn to the vocabulary activity on the inside back cover.\r",
+    content:
+      "Have students turn to the vocabulary activity on the inside back cover.\r",
     parentPageName: "10",
     characterStyles: [
       { character: "H", style: "[None]" },
@@ -1085,12 +1092,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "v", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "r", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: Personification is a literary technique in which nonhuman things are given human characteristics. The author gives Santo human characteristics a few times in the story. Let’s identify these instances.\r",
+    content:
+      "Say: Personification is a literary technique in which nonhuman things are given human characteristics. The author gives Santo human characteristics a few times in the story. Let’s identify these instances.\r",
     parentPageName: "10",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -1297,8 +1305,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "c", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -1354,12 +1362,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: " ", style: "[None]" },
       { character: "1", style: "[None]" },
       { character: "8", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: Here Santo wags his tail in agreement to something that Rodrigo says, but a human would agree with Rodrigo, not a dog. This is a good example of personification.\r",
+    content:
+      "Say: Here Santo wags his tail in agreement to something that Rodrigo says, but a human would agree with Rodrigo, not a dog. This is a good example of personification.\r",
     parentPageName: "10",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -1527,12 +1536,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "[None]" },
       { character: "o", style: "[None]" },
       { character: "n", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Ask students to complete the chart independently with another example of personification. Then ask students why they think the author chose to make Santo seem to understand humans and show human-like traits. Have students respond in writing.\r",
+    content:
+      "Ask students to complete the chart independently with another example of personification. Then ask students why they think the author chose to make Santo seem to understand humans and show human-like traits. Have students respond in writing.\r",
     parentPageName: "10",
     characterStyles: [
       { character: "A", style: "[None]" },
@@ -1775,8 +1785,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "[None]" },
       { character: "n", style: "[None]" },
       { character: "g", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -1808,12 +1818,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: "x", style: "[None]" },
       { character: "t", style: "[None]" },
-      { character: "s", style: "[None]" }
-    ]
+      { character: "s", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "If students have read all four texts in the topic set, use the questions on the Cross-Text Analysis Card for additional close readings that require students to find and analyze evidence in more than one text.",
+    content:
+      "If students have read all four texts in the topic set, use the questions on the Cross-Text Analysis Card for additional close readings that require students to find and analyze evidence in more than one text.",
     parentPageName: "10",
     characterStyles: [
       { character: "I", style: "[None]" },
@@ -2023,8 +2034,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: "x", style: "[None]" },
       { character: "t", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
-  }
+      { character: ".", style: "[None]" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

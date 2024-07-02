@@ -1,7 +1,8 @@
-const paragraphData = [teacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
-    content: "Read Part 2 (pp. 10–20) RL.6.1, RL.6.3, W.6.5, W.6.8, SL.6.1a, SL.6.1b, SL.6.1c, SL.6.1d\r",
+    content:
+      "Read Part 2 (pp. 10–20) RL.6.1, RL.6.3, W.6.5, W.6.8, SL.6.1a, SL.6.1b, SL.6.1c, SL.6.1d\r",
     parentPageName: "4",
     characterStyles: [
       { character: "R", style: "" },
@@ -91,8 +92,8 @@ const paragraphData = [teacher-talk
       { character: "6", style: "Lesson_A-hd-standards" },
       { character: ".", style: "Lesson_A-hd-standards" },
       { character: "1", style: "Lesson_A-hd-standards" },
-      { character: "d", style: "Lesson_A-hd-standards" }
-    ]
+      { character: "d", style: "Lesson_A-hd-standards" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -111,12 +112,13 @@ const paragraphData = [teacher-talk
       { character: "p", style: "" },
       { character: "o", style: "" },
       { character: "s", style: "" },
-      { character: "e", style: "" }
-    ]
+      { character: "e", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: As you read “Together and Equal,” use self-stick notes to identify the characters and setting and flag key events, including the challenges the main character faces.\r",
+    content:
+      "Say: As you read “Together and Equal,” use self-stick notes to identify the characters and setting and flag key events, including the challenges the main character faces.\r",
     parentPageName: "4",
     characterStyles: [
       { character: "S", style: "" },
@@ -288,12 +290,13 @@ const paragraphData = [teacher-talk
       { character: "c", style: "" },
       { character: "e", style: "" },
       { character: "s", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Choose the reading option that best meets the needs of your students. If students need more support to access the text, use the Scaffolded Preview provided.\r",
+    content:
+      "Choose the reading option that best meets the needs of your students. If students need more support to access the text, use the Scaffolded Preview provided.\r",
     parentPageName: "4",
     characterStyles: [
       { character: "C", style: "" },
@@ -451,8 +454,8 @@ const paragraphData = [teacher-talk
       { character: "d", style: "" },
       { character: "e", style: "" },
       { character: "d", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -517,12 +520,13 @@ const paragraphData = [teacher-talk
       { character: "h", style: "Lesson_B-hd-LightFace" },
       { character: "a", style: "Lesson_B-hd-LightFace" },
       { character: "r", style: "Lesson_B-hd-LightFace" },
-      { character: "e", style: "Lesson_B-hd-LightFace" }
-    ]
+      { character: "e", style: "Lesson_B-hd-LightFace" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Invite students to share with a partner what they noted in the text. Have them collaborate to create a new Story Elements Chart for “Together and Equal” that lists the characters, setting, and main events.\r",
+    content:
+      "Invite students to share with a partner what they noted in the text. Have them collaborate to create a new Story Elements Chart for “Together and Equal” that lists the characters, setting, and main events.\r",
     parentPageName: "4",
     characterStyles: [
       { character: "I", style: "" },
@@ -730,8 +734,8 @@ const paragraphData = [teacher-talk
       { character: "t", style: "" },
       { character: "s", style: "" },
       { character: ".", style: "" },
-      { character: "", style: "" }
-    ]
+      { character: "", style: "" },
+    ],
   },
   {
     styleName: "table_footer",
@@ -785,12 +789,13 @@ const paragraphData = [teacher-talk
       { character: "h", style: "Medium_Condensed" },
       { character: "a", style: "Medium_Condensed" },
       { character: "r", style: "Medium_Condensed" },
-      { character: "t", style: "Medium_Condensed" }
-    ]
+      { character: "t", style: "Medium_Condensed" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Then have pairs collaborate to write their own summary of the key ideas in “Together and Equal.” If students need more support in deciding what to include in a summary, refer back to the lesson strategy taught in Part 1.\r",
+    content:
+      "Then have pairs collaborate to write their own summary of the key ideas in “Together and Equal.” If students need more support in deciding what to include in a summary, refer back to the lesson strategy taught in Part 1.\r",
     parentPageName: "4",
     characterStyles: [
       { character: "T", style: "" },
@@ -1012,12 +1017,13 @@ const paragraphData = [teacher-talk
       { character: "t", style: "" },
       { character: " ", style: "" },
       { character: "1", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Bring students together and ask several pairs of students to read their summaries aloud. Then, as a whole group, have students use the skills they have learned to write a summary of the story, “Breaking the Silence.”\r",
+    content:
+      "Bring students together and ask several pairs of students to read their summaries aloud. Then, as a whole group, have students use the skills they have learned to write a summary of the story, “Breaking the Silence.”\r",
     parentPageName: "4",
     characterStyles: [
       { character: "B", style: "" },
@@ -1236,8 +1242,8 @@ const paragraphData = [teacher-talk
       { character: "e", style: "" },
       { character: ".", style: "" },
       { character: "DOUBLE_RIGHT_QUOTE", style: "" },
-      { character: "", style: "" }
-    ]
+      { character: "", style: "" },
+    ],
   },
   {
     styleName: "table_footer",
@@ -1286,8 +1292,8 @@ const paragraphData = [teacher-talk
       { character: "m", style: "Medium_Condensed" },
       { character: "a", style: "Medium_Condensed" },
       { character: "r", style: "Medium_Condensed" },
-      { character: "y", style: "Medium_Condensed" }
-    ]
+      { character: "y", style: "Medium_Condensed" },
+    ],
   },
   {
     styleName: "table header",
@@ -1303,8 +1309,8 @@ const paragraphData = [teacher-talk
       { character: "t", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
       { character: "r", style: "Character Style 1" },
-      { character: "s", style: "Character Style 1" }
-    ]
+      { character: "s", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "table header",
@@ -1317,8 +1323,8 @@ const paragraphData = [teacher-talk
       { character: "t", style: "Character Style 1" },
       { character: "i", style: "Character Style 1" },
       { character: "n", style: "Character Style 1" },
-      { character: "g", style: "Character Style 1" }
-    ]
+      { character: "g", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1368,8 +1374,8 @@ const paragraphData = [teacher-talk
       { character: "t", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
       { character: "r", style: "Character Style 1" },
-      { character: "s", style: "Character Style 1" }
-    ]
+      { character: "s", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1399,8 +1405,8 @@ const paragraphData = [teacher-talk
       { character: "1", style: "Character Style 1" },
       { character: "9", style: "Character Style 1" },
       { character: "5", style: "Character Style 1" },
-      { character: "9", style: "Character Style 1" }
-    ]
+      { character: "9", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "table header",
@@ -1417,12 +1423,13 @@ const paragraphData = [teacher-talk
       { character: "e", style: "Character Style 1" },
       { character: "n", style: "Character Style 1" },
       { character: "t", style: "Character Style 1" },
-      { character: "s", style: "Character Style 1" }
-    ]
+      { character: "s", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Patricia tells her parents she wants to volunteer to be among the first black students to integrate the local school.",
+    content:
+      "Patricia tells her parents she wants to volunteer to be among the first black students to integrate the local school.",
     parentPageName: "4",
     characterStyles: [
       { character: "P", style: "Character Style 1" },
@@ -1541,12 +1548,13 @@ const paragraphData = [teacher-talk
       { character: "o", style: "Character Style 1" },
       { character: "o", style: "Character Style 1" },
       { character: "l", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Patricia’s father does not want her to get involved but eventually agrees.",
+    content:
+      "Patricia’s father does not want her to get involved but eventually agrees.",
     parentPageName: "4",
     characterStyles: [
       { character: "P", style: "Character Style 1" },
@@ -1622,8 +1630,8 @@ const paragraphData = [teacher-talk
       { character: "e", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
       { character: "s", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1684,8 +1692,8 @@ const paragraphData = [teacher-talk
       { character: "o", style: "Character Style 1" },
       { character: "o", style: "Character Style 1" },
       { character: "l", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1752,8 +1760,8 @@ const paragraphData = [teacher-talk
       { character: "o", style: "Character Style 1" },
       { character: "o", style: "Character Style 1" },
       { character: "l", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1805,12 +1813,13 @@ const paragraphData = [teacher-talk
       { character: "o", style: "Character Style 1" },
       { character: "o", style: "Character Style 1" },
       { character: "l", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Stephen and his fellow baseball players were going to practice to prepare for the championship game. On the way there, they saw Zachary. Some of the baseball players started making fun of Zachary and then they broke his gold clubs. Although Stephen did not break Zachary’s clubs, he did not stop the other baseball players from doing so either. Stephen felt terrible. He had to decide if he should tell an adult and get his teammates in trouble before the game or stay quiet so that his team could still play the game. He decided to tell the principal. The kids who bullied Zachary got in trouble and were not allowed to play in the championship game.",
+    content:
+      "Stephen and his fellow baseball players were going to practice to prepare for the championship game. On the way there, they saw Zachary. Some of the baseball players started making fun of Zachary and then they broke his gold clubs. Although Stephen did not break Zachary’s clubs, he did not stop the other baseball players from doing so either. Stephen felt terrible. He had to decide if he should tell an adult and get his teammates in trouble before the game or stay quiet so that his team could still play the game. He decided to tell the principal. The kids who bullied Zachary got in trouble and were not allowed to play in the championship game.",
     parentPageName: "4",
     characterStyles: [
       { character: "S", style: "Character Style 1" },
@@ -2463,8 +2472,8 @@ const paragraphData = [teacher-talk
       { character: "a", style: "Character Style 1" },
       { character: "m", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
-  }
+      { character: ".", style: "Character Style 1" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

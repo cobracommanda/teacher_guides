@@ -1,7 +1,8 @@
-const paragraphData = [teacher-talkteacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
-    content: "Close Reading Option 2: Draw Conclusions \nRI.6.1, RI.6.8, W.6.2c, SL.6.1a, SL.6.1c, SL.6.1d\r",
+    content:
+      "Close Reading Option 2: Draw Conclusions \nRI.6.1, RI.6.8, W.6.2c, SL.6.1a, SL.6.1c, SL.6.1d\r",
     parentPageName: "7",
     characterStyles: [
       { character: "C", style: "[None]" },
@@ -94,8 +95,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "6", style: "[None]" },
       { character: ".", style: "[None]" },
       { character: "1", style: "[None]" },
-      { character: "d", style: "[None]" }
-    ]
+      { character: "d", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -128,8 +129,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: "n", style: "[None]" },
       { character: "c", style: "[None]" },
-      { character: "e", style: "[None]" }
-    ]
+      { character: "e", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -186,12 +187,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "o", style: "[None]" },
       { character: "n", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: "", style: "[None]" }
-    ]
+      { character: "", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Explain that this question is asking what the mountain means to M.C., his family, and his heritage.\r",
+    content:
+      "Explain that this question is asking what the mountain means to M.C., his family, and his heritage.\r",
     parentPageName: "7",
     characterStyles: [
       { character: "E", style: "[None]" },
@@ -292,12 +294,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "a", style: "[None]" },
       { character: "g", style: "[None]" },
       { character: "e", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: This is not something that is stated directly by the author. I must reread the text to find evidence that supports this idea.\r",
+    content:
+      "Say: This is not something that is stated directly by the author. I must reread the text to find evidence that supports this idea.\r",
     parentPageName: "7",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -429,8 +432,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "d", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "a", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -468,12 +471,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: " ", style: "[None]" },
       { character: "1", style: "[None]" },
       { character: "2", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: M.C. daydreams about what his great-grandmother experienced on the mountain, and that is an important part of his family heritage. The mountain means a lot to him because his great-grandmother escaped from slavery there.\r",
+    content:
+      "Say: M.C. daydreams about what his great-grandmother experienced on the mountain, and that is an important part of his family heritage. The mountain means a lot to him because his great-grandmother escaped from slavery there.\r",
     parentPageName: "7",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -700,8 +704,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: "r", style: "[None]" },
       { character: "e", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -758,8 +762,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "a", style: "[None]" },
       { character: "r", style: "[None]" },
       { character: "t", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -781,8 +785,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "t", style: "[None]" },
       { character: "i", style: "[None]" },
       { character: "c", style: "[None]" },
-      { character: "e", style: "[None]" }
-    ]
+      { character: "e", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -820,12 +824,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: " ", style: "[None]" },
       { character: "1", style: "[None]" },
       { character: "3", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Collaborative conversation (turn and talk). Ask students to turn to a partner, reread page 13, and find more text evidence that shows that Sarah’s Mountain means a lot to M.C. Remind students to stay on topic, build on each other’s ideas, and ask questions to clarify each other’s thoughts.\r",
+    content:
+      "Collaborative conversation (turn and talk). Ask students to turn to a partner, reread page 13, and find more text evidence that shows that Sarah’s Mountain means a lot to M.C. Remind students to stay on topic, build on each other’s ideas, and ask questions to clarify each other’s thoughts.\r",
     parentPageName: "7",
     characterStyles: [
       { character: "C", style: "b" },
@@ -1117,12 +1122,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "[None]" },
       { character: "t", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Bring students together and ask several pairs to share the details they found and to explain how the details support the main idea. Students should be able to explain that the machines and strip mining worried M.C., showing that the mountain means a lot to him and his family.\r",
+    content:
+      "Bring students together and ask several pairs to share the details they found and to explain how the details support the main idea. Students should be able to explain that the machines and strip mining worried M.C., showing that the mountain means a lot to him and his family.\r",
     parentPageName: "7",
     characterStyles: [
       { character: "B", style: "[None]" },
@@ -1400,8 +1406,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "[None]" },
       { character: "l", style: "[None]" },
       { character: "y", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -1439,12 +1445,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "[None]" },
       { character: "t", style: "[None]" },
       { character: "l", style: "[None]" },
-      { character: "y", style: "[None]" }
-    ]
+      { character: "y", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Ask students to reread pages 14–15. Tell them to find more details to support the idea that Sarah’s Mountain is important to M.C. Students should note that seeing his brothers and sisters enjoying the area shows how important the mountain is.\r",
+    content:
+      "Ask students to reread pages 14–15. Tell them to find more details to support the idea that Sarah’s Mountain is important to M.C. Students should note that seeing his brothers and sisters enjoying the area shows how important the mountain is.\r",
     parentPageName: "7",
     characterStyles: [
       { character: "A", style: "[None]" },
@@ -1688,12 +1695,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: " ", style: "[None]" },
       { character: "i", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Discuss how this close reading has helped students answer the question and draw conclusions about the text.",
+    content:
+      "Discuss how this close reading has helped students answer the question and draw conclusions about the text.",
     parentPageName: "7",
     characterStyles: [
       { character: "D", style: "[None]" },
@@ -1802,8 +1810,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: "x", style: "[None]" },
       { character: "t", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1862,8 +1870,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "Character Style 1" },
       { character: "n", style: "Character Style 1" },
       { character: "s", style: "Character Style 1" },
-      { character: "?", style: "Character Style 1" }
-    ]
-  }
+      { character: "?", style: "Character Style 1" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

@@ -1,7 +1,8 @@
-const paragraphData = [teacher-talkteacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
-    content: "Close Reading Option 2: Draw Inferences RL.6.1, RL.6.3, RL.6.5, W.6.10, SL.6.1\r",
+    content:
+      "Close Reading Option 2: Draw Inferences RL.6.1, RL.6.3, RL.6.5, W.6.10, SL.6.1\r",
     parentPageName: "7",
     characterStyles: [
       { character: "C", style: "" },
@@ -81,8 +82,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: ".", style: "" },
       { character: "6", style: "" },
       { character: ".", style: "" },
-      { character: "1", style: "" }
-    ]
+      { character: "1", style: "" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -115,8 +116,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "" },
       { character: "n", style: "" },
       { character: "c", style: "" },
-      { character: "e", style: "" }
-    ]
+      { character: "e", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -173,12 +174,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "o", style: "" },
       { character: "n", style: "" },
       { character: ".", style: "" },
-      { character: "", style: "" }
-    ]
+      { character: "", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Explain that a turning point is an event in the story that can change the main character’s life–and the direction of the plot—in a significant way. Explain that this question asks readers to find text evidence that helps them draw an inference about what makes Act Two, Scene Four a turning point in the story.\r",
+    content:
+      "Explain that a turning point is an event in the story that can change the main character’s life–and the direction of the plot—in a significant way. Explain that this question asks readers to find text evidence that helps them draw an inference about what makes Act Two, Scene Four a turning point in the story.\r",
     parentPageName: "7",
     characterStyles: [
       { character: "E", style: "" },
@@ -490,12 +492,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "o", style: "" },
       { character: "r", style: "" },
       { character: "y", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: First, I will need to look at what happens to Oliver and what happens in the plot up until this point in the story. Then I will need to find text evidence that helps me understand what event in Act Two, Scene Four could significantly change Oliver’s life.\r",
+    content:
+      "Say: First, I will need to look at what happens to Oliver and what happens in the plot up until this point in the story. Then I will need to find text evidence that helps me understand what event in Act Two, Scene Four could significantly change Oliver’s life.\r",
     parentPageName: "7",
     characterStyles: [
       { character: "S", style: "" },
@@ -757,8 +760,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "" },
       { character: "f", style: "" },
       { character: "e", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -811,12 +814,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "O", style: "" },
       { character: "n", style: "" },
       { character: "e", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: In Act One, Oliver’s life has some ups and downs. In Scenes One and Two, he is arrested as a pickpocket and faces three months of hard labor. In Scene Three, we see that Oliver’s life has greatly improved. He has a home and he is being taken care of. Mr. Brownlow says that Oliver will “recuperate nicely.” In Scene Four, it says that Oliver is “looking well in a new suit of clothes.” This text evidence tells me that his life is moving ahead in a healthy and positive direction.\r",
+    content:
+      "Say: In Act One, Oliver’s life has some ups and downs. In Scenes One and Two, he is arrested as a pickpocket and faces three months of hard labor. In Scene Three, we see that Oliver’s life has greatly improved. He has a home and he is being taken care of. Mr. Brownlow says that Oliver will “recuperate nicely.” In Scene Four, it says that Oliver is “looking well in a new suit of clothes.” This text evidence tells me that his life is moving ahead in a healthy and positive direction.\r",
     parentPageName: "7",
     characterStyles: [
       { character: "S", style: "" },
@@ -1303,8 +1307,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "" },
       { character: "o", style: "" },
       { character: "n", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -1361,8 +1365,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "a", style: "" },
       { character: "r", style: "" },
       { character: "t", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -1384,8 +1388,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "t", style: "" },
       { character: "i", style: "" },
       { character: "c", style: "" },
-      { character: "e", style: "" }
-    ]
+      { character: "e", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -1423,12 +1427,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: " ", style: "" },
       { character: "1", style: "" },
       { character: "5", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Collaborative conversation (turn and talk). Ask students to turn to a partner. Ask them to reread the first three scenes of Act Two, and to find text evidence that helps them draw inferences about Oliver’s life. Remind students to stay on topic, build on each other’s ideas, and ask questions to clarify each other’s thoughts.\r",
+    content:
+      "Collaborative conversation (turn and talk). Ask students to turn to a partner. Ask them to reread the first three scenes of Act Two, and to find text evidence that helps them draw inferences about Oliver’s life. Remind students to stay on topic, build on each other’s ideas, and ask questions to clarify each other’s thoughts.\r",
     parentPageName: "7",
     characterStyles: [
       { character: "C", style: "Med_cond" },
@@ -1756,12 +1761,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "" },
       { character: "t", style: "" },
       { character: "s", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Bring students together and invite pairs to share the text evidence they found. Students should be able to explain that Oliver’s life has taken a downward turn again because he is back in the control of the criminals Fagin and Sikes. Students should also note that Oliver is in danger of being killed or arrested again because Monks does not want him to be able to claim any of his family’s money.\r",
+    content:
+      "Bring students together and invite pairs to share the text evidence they found. Students should be able to explain that Oliver’s life has taken a downward turn again because he is back in the control of the criminals Fagin and Sikes. Students should also note that Oliver is in danger of being killed or arrested again because Monks does not want him to be able to claim any of his family’s money.\r",
     parentPageName: "7",
     characterStyles: [
       { character: "B", style: "" },
@@ -2160,8 +2166,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "y", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -2199,12 +2205,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "[None]" },
       { character: "t", style: "[None]" },
       { character: "l", style: "[None]" },
-      { character: "y", style: "[None]" }
-    ]
+      { character: "y", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Ask students to reread Act Three, Scene Four independently. Tell them to look for text evidence that helps them draw an inference about what makes this scene the turning point in the play. Students should be able to explain that Oliver’s life could change significantly in a bad way because both Sikes and Crackit threaten to shoot and kill him, and Oliver refuses to break into the house and rob it.\r",
+    content:
+      "Ask students to reread Act Three, Scene Four independently. Tell them to look for text evidence that helps them draw an inference about what makes this scene the turning point in the play. Students should be able to explain that Oliver’s life could change significantly in a bad way because both Sikes and Crackit threaten to shoot and kill him, and Oliver refuses to break into the house and rob it.\r",
     parentPageName: "7",
     characterStyles: [
       { character: "A", style: "[None]" },
@@ -2606,12 +2613,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: " ", style: "[None]" },
       { character: "i", style: "[None]" },
       { character: "t", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Discuss how this close reading has helped students draw an inference that Act Two, Scene Four is a turning point in the play because it involves an event that could change Oliver’s life and the story’s plot in a significant and negative way.",
+    content:
+      "Discuss how this close reading has helped students draw an inference that Act Two, Scene Four is a turning point in the play because it involves an event that could change Oliver’s life and the story’s plot in a significant and negative way.",
     parentPageName: "7",
     characterStyles: [
       { character: "D", style: "[None]" },
@@ -2854,12 +2862,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "w", style: "[None]" },
       { character: "a", style: "[None]" },
       { character: "y", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "How is Act Two, Scene Four (page 22) a turning point in the play?",
+    content:
+      "How is Act Two, Scene Four (page 22) a turning point in the play?",
     parentPageName: "7",
     characterStyles: [
       { character: "H", style: "Character Style 1" },
@@ -2926,8 +2935,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "l", style: "Character Style 1" },
       { character: "a", style: "Character Style 1" },
       { character: "y", style: "Character Style 1" },
-      { character: "?", style: "Character Style 1" }
-    ]
-  }
+      { character: "?", style: "Character Style 1" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

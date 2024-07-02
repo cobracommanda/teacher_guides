@@ -1,7 +1,8 @@
-const paragraphData = [teacher-talkteacher-talkteacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
-    content: "Close Reading Option 2: Analyze Theme \nRL.6.1, RL.6.2, RL.6.3, W.6.10, SL.6.1a, SL.6.1b, SL.6.1c, SL.6.1d\r",
+    content:
+      "Close Reading Option 2: Analyze Theme \nRL.6.1, RL.6.2, RL.6.3, W.6.10, SL.6.1a, SL.6.1b, SL.6.1c, SL.6.1d\r",
     parentPageName: "7",
     characterStyles: [
       { character: "C", style: "[None]" },
@@ -108,8 +109,8 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: "6", style: "[None]" },
       { character: ".", style: "[None]" },
       { character: "1", style: "[None]" },
-      { character: "d", style: "[None]" }
-    ]
+      { character: "d", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -142,8 +143,8 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: "n", style: "[None]" },
       { character: "c", style: "[None]" },
-      { character: "e", style: "[None]" }
-    ]
+      { character: "e", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -200,12 +201,13 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: "o", style: "[None]" },
       { character: "n", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: "", style: "[None]" }
-    ]
+      { character: "", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Explain that identifying a lesson learned in the text is another way of identifying a theme in the text. When the main character learns something important from his experience, this is a message for readers as well. So, the question is asking what some of the themes in the text are as they relate to Rodrigo’s experience.\r",
+    content:
+      "Explain that identifying a lesson learned in the text is another way of identifying a theme in the text. When the main character learns something important from his experience, this is a message for readers as well. So, the question is asking what some of the themes in the text are as they relate to Rodrigo’s experience.\r",
     parentPageName: "7",
     characterStyles: [
       { character: "E", style: "[None]" },
@@ -529,12 +531,13 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: "n", style: "[None]" },
       { character: "c", style: "[None]" },
       { character: "e", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: Let’s scan the chapters starting at the beginning of the story to see where Rodrigo learns his first lesson.\r",
+    content:
+      "Say: Let’s scan the chapters starting at the beginning of the story to see where Rodrigo learns his first lesson.\r",
     parentPageName: "7",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -649,8 +652,8 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: "s", style: "[None]" },
       { character: "o", style: "[None]" },
       { character: "n", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -712,12 +715,13 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: "d", style: "[None]" },
       { character: " ", style: "[None]" },
       { character: "2", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: On pages 11–12 in Chapter 2, we see that Rodrigo hits his first stumbling block in making his plan work. He finds that it is not easy to train Santo to be a therapy dog.\r",
+    content:
+      "Say: On pages 11–12 in Chapter 2, we see that Rodrigo hits his first stumbling block in making his plan work. He finds that it is not easy to train Santo to be a therapy dog.\r",
     parentPageName: "7",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -893,8 +897,8 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: "d", style: "[None]" },
       { character: "o", style: "[None]" },
       { character: "g", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -927,12 +931,13 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: " ", style: "[None]" },
       { character: "1", style: "[None]" },
       { character: "5", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: This idea is reinforced here in Chapter 3 as Rodrigo continues to have difficulty training Santo and finding money for the program at the center. We can infer that he begins to learn the lesson that he will have to work hard to achieve his goal.\r",
+    content:
+      "Say: This idea is reinforced here in Chapter 3 as Rodrigo continues to have difficulty training Santo and finding money for the program at the center. We can infer that he begins to learn the lesson that he will have to work hard to achieve his goal.\r",
     parentPageName: "7",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -1184,8 +1189,8 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: "o", style: "[None]" },
       { character: "a", style: "[None]" },
       { character: "l", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -1242,8 +1247,8 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: "a", style: "[None]" },
       { character: "r", style: "[None]" },
       { character: "t", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -1265,8 +1270,8 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: "t", style: "[None]" },
       { character: "i", style: "[None]" },
       { character: "c", style: "[None]" },
-      { character: "e", style: "[None]" }
-    ]
+      { character: "e", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -1306,12 +1311,13 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: "r", style: "[None]" },
       { character: " ", style: "[None]" },
       { character: "5", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Collaborative conversation (turn and talk). Ask students to turn to a partner. Have them scan the text to look for another lesson that Rodrigo learns from his experience. Ask them to review the details in Chapter 5. Remind students to stay on topic, build on each other’s ideas, and ask questions to clarify each other’s thoughts.\r",
+    content:
+      "Collaborative conversation (turn and talk). Ask students to turn to a partner. Have them scan the text to look for another lesson that Rodrigo learns from his experience. Ask them to review the details in Chapter 5. Remind students to stay on topic, build on each other’s ideas, and ask questions to clarify each other’s thoughts.\r",
     parentPageName: "7",
     characterStyles: [
       { character: "C", style: "Medium_Condensed" },
@@ -1643,12 +1649,13 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: "h", style: "[None]" },
       { character: "t", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Bring students together and invite pairs to share the text evidence they found. Students should be able to explain that Rodrigo learns that he can accomplish more if others help him. This theme is shown through the help and support of Mrs. Brown and others at the therapy center to have a successful rummage sale, and even the help of a reporter to get the word out to others so that the center can make more money.\r",
+    content:
+      "Bring students together and invite pairs to share the text evidence they found. Students should be able to explain that Rodrigo learns that he can accomplish more if others help him. This theme is shown through the help and support of Mrs. Brown and others at the therapy center to have a successful rummage sale, and even the help of a reporter to get the word out to others so that the center can make more money.\r",
     parentPageName: "7",
     characterStyles: [
       { character: "B", style: "[None]" },
@@ -2065,8 +2072,8 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: "n", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "y", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -2104,12 +2111,13 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: "n", style: "[None]" },
       { character: "t", style: "[None]" },
       { character: "l", style: "[None]" },
-      { character: "y", style: "[None]" }
-    ]
+      { character: "y", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Ask students to reread Chapter 7 of the story. Tell them to look for text evidence that reveals another lesson that Rodrigo learns in the story. (Students should be able to explain that Rodrigo learns that kind acts can have an effect that is much greater than expected. This is shown through the positive reactions that the residents of the center have to the therapy dog program.)\r",
+    content:
+      "Ask students to reread Chapter 7 of the story. Tell them to look for text evidence that reveals another lesson that Rodrigo learns in the story. (Students should be able to explain that Rodrigo learns that kind acts can have an effect that is much greater than expected. This is shown through the positive reactions that the residents of the center have to the therapy dog program.)\r",
     parentPageName: "7",
     characterStyles: [
       { character: "A", style: "[None]" },
@@ -2493,12 +2501,13 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: "a", style: "[None]" },
       { character: "m", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: ")", style: "[None]" }
-    ]
+      { character: ")", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Discuss how this close reading has helped students understand that Rodrigo has learned multiple lessons from his experience: he must work hard to achieve his goal; he can accomplish more if others help him; and his kind acts can have far-reaching effects.",
+    content:
+      "Discuss how this close reading has helped students understand that Rodrigo has learned multiple lessons from his experience: he must work hard to achieve his goal; he can accomplish more if others help him; and his kind acts can have far-reaching effects.",
     parentPageName: "7",
     characterStyles: [
       { character: "D", style: "[None]" },
@@ -2755,8 +2764,8 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: "c", style: "[None]" },
       { character: "t", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -2814,8 +2823,8 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: "n", style: "Character Style 1" },
       { character: "c", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
-      { character: "?", style: "Character Style 1" }
-    ]
-  }
+      { character: "?", style: "Character Style 1" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

@@ -1,3 +1,6 @@
+const path = require("path");
+const { packages_data } = require("./packagesData.js");
+
 const findTableInData = (data, searchString, frame = true) => {
   const foundTable = data.tables.find((table) => table.includes(searchString));
 
@@ -14,19 +17,32 @@ const findTableInData = (data, searchString, frame = true) => {
   }
 };
 
-// Example data object (replace this with your actual data object)
-const data = {
-  tables: [
-    "<table><thead><tr><th>What Makes This Text Complex?</th></tr></thead><tbody><tr><td><p>Purpose and Levels <br>of Meaning </p><p><span>➌</span></p></td><td><p>The purpose of the text is to explore the adaptations that allow living organisms to survive. (pp. 3–6, 9)*</p></td></tr><tr><td><p>Structure </p><p><span>➌</span></p></td><td><p>The book includes descriptive, cause and effect, explanatory, and procedural text, as well as many sidebars, charts, and rich graphics. (p. 7)*</p></td></tr><tr><td><p>Language Conventionality <br>and Clarity </p><p><span>➋</span></p></td><td><p>• Text contains simple and complex sentence structures. </p><p>• Domain-specific, otherwise unfamiliar terms are supported by direct definitions, context clues, and descriptions. (p. 8)*</p></td></tr><tr><td><p>Knowledge Demands </p><p><span>➌</span></p></td><td><p>The text assumes some prior knowledge of Life Science and Physical Science concepts.</p></td></tr></tbody></table>",
-    "<table><thead><tr><th>Aquatic environments differ from one another based on the amount of salinity, or salt in the water. Oceans, for example, have a great amount of salinity while rivers and lakes are freshwater bodies, so they have very little salinity.</th></tr></thead><tbody></tbody></table>",
-    // Add other tables as needed
-  ],
+// Update tableTags for each unit from 1 to 10
+for (let i = 63055; i <= 63066; i++) {
+  const key = `Y${i}`;
+  if (!packages_data[key]) {
+    packages_data[key] = {};
+  }
+  if (!packages_data[key].tableTags) {
+    packages_data[key].tableTags = {};
+  }
+  for (let unit = 1; unit <= 10; unit++) {
+    packages_data[key].tableTags[
+      `unit ${unit}`
+    ] = `processed_data/Y${i}_TG_G6_U${unit}.js`;
+  }
+}
+
+// Ensure packages_data is being used correctly
+const Y63055_TG_G6_U1_tables = require(path.join(
+  __dirname,
+  packages_data.Y63055.tableTags["unit 1"]
+));
+const searchString = packages_data.Y63055.panel_4_page_1_sidebar_a;
+const table = findTableInData(Y63055_TG_G6_U1_tables, searchString);
+
+console.log(table);
+
+module.exports = {
+  packages_data,
 };
-
-// Example usage
-const searchString = "Aquatic environments ";
-const tableWithFrame = findTableInData(data, searchString, true);
-// const tableWithoutFrame = findTableInData(data, searchString, false);
-
-console.log("Table with frame:", tableWithFrame);
-// console.log("Table without frame:", tableWithoutFrame);

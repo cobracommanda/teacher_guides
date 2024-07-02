@@ -1,7 +1,8 @@
-const paragraphData = [teacher-talkteacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
-    content: "Build Language, Vocabulary, and Comprehension \nL.6.1b, L.6.5a, L.6.6\r",
+    content:
+      "Build Language, Vocabulary, and Comprehension \nL.6.1b, L.6.5a, L.6.6\r",
     parentPageName: "10",
     characterStyles: [
       { character: "B", style: "[None]" },
@@ -71,8 +72,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: ".", style: "CC-code" },
       { character: "6", style: "CC-code" },
       { character: ".", style: "CC-code" },
-      { character: "6", style: "CC-code" }
-    ]
+      { character: "6", style: "CC-code" },
+    ],
   },
   {
     styleName: "Lesson_A-hd",
@@ -100,12 +101,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "o", style: "[None]" },
       { character: "u", style: "[None]" },
       { character: "n", style: "[None]" },
-      { character: "s", style: "[None]" }
-    ]
+      { character: "s", style: "[None]" },
+    ],
   },
   {
     styleName: "Body-txt",
-    content: "Explain that a reflexive pronoun is a word such as herself, myself, or itself that we use to refer to the subject of the sentence. For example, “I bought myself a pepperoni pizza.”\r",
+    content:
+      "Explain that a reflexive pronoun is a word such as herself, myself, or itself that we use to refer to the subject of the sentence. For example, “I bought myself a pepperoni pizza.”\r",
     parentPageName: "10",
     characterStyles: [
       { character: "E", style: "[None]" },
@@ -287,12 +289,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "z", style: "[None]" },
       { character: "a", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: "DOUBLE_RIGHT_QUOTE", style: "[None]" }
-    ]
+      { character: "DOUBLE_RIGHT_QUOTE", style: "[None]" },
+    ],
   },
   {
     styleName: "Body-txt",
-    content: "Ask students to read the last paragraph on page 9 and talk with a partner to identify the reflexive pronoun. (Varuna finds herself in a smelly methane swamp…”) Have students tell what this reflexive pronoun refers to. (Varuna)\r",
+    content:
+      "Ask students to read the last paragraph on page 9 and talk with a partner to identify the reflexive pronoun. (Varuna finds herself in a smelly methane swamp…”) Have students tell what this reflexive pronoun refers to. (Varuna)\r",
     parentPageName: "10",
     characterStyles: [
       { character: "A", style: "[None]" },
@@ -520,8 +523,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "u", style: "[None]" },
       { character: "n", style: "[None]" },
       { character: "a", style: "[None]" },
-      { character: ")", style: "[None]" }
-    ]
+      { character: ")", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_A-hd",
@@ -571,8 +574,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "o", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "i", style: "[None]" },
-      { character: "a", style: "[None]" }
-    ]
+      { character: "a", style: "[None]" },
+    ],
   },
   {
     styleName: "Body-txt",
@@ -635,12 +638,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: " ", style: "[None]" },
       { character: "4", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: " ", style: "[None]" }
-    ]
+      { character: " ", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: The science fiction we read includes onomatopoeia. Onomatopoeia suggests or imitates the sound an object makes. Writers use onomatopoeia to appeal to readers’ sense of hearing and make the plot more vivid and realistic. For example, “The horses in the parade clip-clopped down the street.” This is more vivid than if I say, “The horses in the parade walked down the street.”\r",
+    content:
+      "Say: The science fiction we read includes onomatopoeia. Onomatopoeia suggests or imitates the sound an object makes. Writers use onomatopoeia to appeal to readers’ sense of hearing and make the plot more vivid and realistic. For example, “The horses in the parade clip-clopped down the street.” This is more vivid than if I say, “The horses in the parade walked down the street.”\r",
     parentPageName: "10",
     characterStyles: [
       { character: "S", style: "b" },
@@ -1021,12 +1025,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "b" },
       { character: "t", style: "b" },
       { character: ".", style: "b" },
-      { character: "DOUBLE_RIGHT_QUOTE", style: "b" }
-    ]
+      { character: "DOUBLE_RIGHT_QUOTE", style: "b" },
+    ],
   },
   {
     styleName: "Body-txt",
-    content: "Model how to identify onomatopoeia by answering the “Analyze the Tools Writers Use” questions on page 17, asking students to locate each piece of onomatopoeia as you reference it in the text. Support practice by asking students to assist you in identifying the examples of onomatopoeia listed on page 17. \r",
+    content:
+      "Model how to identify onomatopoeia by answering the “Analyze the Tools Writers Use” questions on page 17, asking students to locate each piece of onomatopoeia as you reference it in the text. Support practice by asking students to assist you in identifying the examples of onomatopoeia listed on page 17. \r",
     parentPageName: "10",
     characterStyles: [
       { character: "M", style: "[None]" },
@@ -1333,12 +1338,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "1", style: "[None]" },
       { character: "7", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: " ", style: "[None]" }
-    ]
+      { character: " ", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: With a partner, answer the “Analyze the Tools Writer Use” questions on page 29, referring back to An Attack on the Starship Mayflower in the Year 2647. Invite students to begin collecting examples of onomatopoeia from their independent reading. Provide a large sheet of chart paper on which students can record their examples, and periodically review them as a class. \r",
+    content:
+      "Say: With a partner, answer the “Analyze the Tools Writer Use” questions on page 29, referring back to An Attack on the Starship Mayflower in the Year 2647. Invite students to begin collecting examples of onomatopoeia from their independent reading. Provide a large sheet of chart paper on which students can record their examples, and periodically review them as a class. \r",
     parentPageName: "10",
     characterStyles: [
       { character: "S", style: "b" },
@@ -1713,8 +1719,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "s", style: "b" },
       { character: "s", style: "b" },
       { character: ".", style: "b" },
-      { character: " ", style: "b" }
-    ]
+      { character: " ", style: "b" },
+    ],
   },
   {
     styleName: "Lesson_A-hd",
@@ -1748,12 +1754,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "l", style: "[None]" },
       { character: "a", style: "[None]" },
       { character: "r", style: "[None]" },
-      { character: "y", style: "[None]" }
-    ]
+      { character: "y", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Remind students that one type of context clues is heterographs, words that are pronounced the same but are spelled differently and have different meanings. Sometimes readers can figure out the meaning of an unfamiliar word by looking for heterographs in the text. Direct students to the “Focus on Words: Heterographs” activities on pages 4, 17, and 29. Ask them to copy the charts on a sheet of paper to complete with a partner. Explain that they should read the sentences around the bfaced word to find a heterograph that helps define the word. Readers should beware of the different meanings and spellings. Partners should be able to explain how they know that the words are heterographs.\r",
+    content:
+      "Remind students that one type of context clues is heterographs, words that are pronounced the same but are spelled differently and have different meanings. Sometimes readers can figure out the meaning of an unfamiliar word by looking for heterographs in the text. Direct students to the “Focus on Words: Heterographs” activities on pages 4, 17, and 29. Ask them to copy the charts on a sheet of paper to complete with a partner. Explain that they should read the sentences around the bfaced word to find a heterograph that helps define the word. Readers should beware of the different meanings and spellings. Partners should be able to explain how they know that the words are heterographs.\r",
     parentPageName: "10",
     characterStyles: [
       { character: "R", style: "[None]" },
@@ -2448,8 +2455,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "p", style: "[None]" },
       { character: "h", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
-  }
+      { character: ".", style: "[None]" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

@@ -1,4 +1,4 @@
-const paragraphData = [teacher-talkteacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_B-hd",
     content: "Lesson: Determine Text Importance to Summarize\r",
@@ -49,12 +49,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "r", style: "Lesson_B-hd-LightFace" },
       { character: "i", style: "Lesson_B-hd-LightFace" },
       { character: "z", style: "Lesson_B-hd-LightFace" },
-      { character: "e", style: "Lesson_B-hd-LightFace" }
-    ]
+      { character: "e", style: "Lesson_B-hd-LightFace" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Remind students that visualizing events as they read can help them identify the important events and summarize what happened.\r",
+    content:
+      "Remind students that visualizing events as they read can help them identify the important events and summarize what happened.\r",
     parentPageName: "3",
     characterStyles: [
       { character: "R", style: "" },
@@ -181,12 +182,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "" },
       { character: "e", style: "" },
       { character: "d", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: Close your eyes and listen as I read a scene from the play. Picture in your mind what is happening.\r",
+    content:
+      "Say: Close your eyes and listen as I read a scene from the play. Picture in your mind what is happening.\r",
     parentPageName: "3",
     characterStyles: [
       { character: "S", style: "" },
@@ -292,8 +294,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "" },
       { character: "n", style: "" },
       { character: "g", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -333,12 +335,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "O", style: "" },
       { character: "n", style: "" },
       { character: "e", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: What did you see happen at the bookstall? What did the boys do to Mr. Brownlow? What did Dodger do to Oliver? What happened to Oliver when the other boys ran away?\r",
+    content:
+      "Say: What did you see happen at the bookstall? What did the boys do to Mr. Brownlow? What did Dodger do to Oliver? What happened to Oliver when the other boys ran away?\r",
     parentPageName: "3",
     characterStyles: [
       { character: "S", style: "" },
@@ -508,8 +511,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "w", style: "" },
       { character: "a", style: "" },
       { character: "y", style: "" },
-      { character: "?", style: "" }
-    ]
+      { character: "?", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -572,8 +575,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "O", style: "" },
       { character: "n", style: "" },
       { character: "e", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -638,12 +641,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "Lesson_B-hd-LightFace" },
       { character: "a", style: "Lesson_B-hd-LightFace" },
       { character: "r", style: "Lesson_B-hd-LightFace" },
-      { character: "e", style: "Lesson_B-hd-LightFace" }
-    ]
+      { character: "e", style: "Lesson_B-hd-LightFace" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Bring students together and ask several pairs of students to read their summaries aloud. As a whole group, evaluate the summaries and identify the key events. Point out that students can use some of this information to help them write their summaries of Part 1. Then write a group summary of the key events in Part 1.\r",
+    content:
+      "Bring students together and ask several pairs of students to read their summaries aloud. As a whole group, evaluate the summaries and identify the key events. Point out that students can use some of this information to help them write their summaries of Part 1. Then write a group summary of the key events in Part 1.\r",
     parentPageName: "3",
     characterStyles: [
       { character: "B", style: "" },
@@ -963,8 +967,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: " ", style: "" },
       { character: "1", style: "" },
       { character: ".", style: "" },
-      { character: "", style: "" }
-    ]
+      { character: "", style: "" },
+    ],
   },
   {
     styleName: "table_footer",
@@ -997,12 +1001,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "m", style: "Med_cond" },
       { character: "a", style: "Med_cond" },
       { character: "r", style: "Med_cond" },
-      { character: "y", style: "Med_cond" }
-    ]
+      { character: "y", style: "Med_cond" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Oliver is horrified when Dodger and Bates try to pick the pockets of an old man at a bookstall. Oliver is arrested for pickpocketing and appears before a judge. The victim, Mr. Brownlow, takes pity on Oliver, decides not to press any charges, and takes him home where Oliver is nursed back to health. Mr. Brownlow entrusts Oliver with a large sum of money and some valuable books and asks him to return them to the owner of the bookstall.",
+    content:
+      "Oliver is horrified when Dodger and Bates try to pick the pockets of an old man at a bookstall. Oliver is arrested for pickpocketing and appears before a judge. The victim, Mr. Brownlow, takes pity on Oliver, decides not to press any charges, and takes him home where Oliver is nursed back to health. Mr. Brownlow entrusts Oliver with a large sum of money and some valuable books and asks him to return them to the owner of the bookstall.",
     parentPageName: "3",
     characterStyles: [
       { character: "O", style: "Character Style 1" },
@@ -1442,8 +1447,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "a", style: "Character Style 1" },
       { character: "l", style: "Character Style 1" },
       { character: "l", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
-  }
+      { character: ".", style: "Character Style 1" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

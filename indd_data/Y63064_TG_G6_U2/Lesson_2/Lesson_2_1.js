@@ -1,7 +1,8 @@
-const paragraphData = [teacher-talkteacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
-    content: "Read Part 1 (pp. 2–14) RL.6.1, RL.6.2, RL.6.3, W.6.10, SL.6.1a, SL.6.1b, SL.6.1c, SL.6.1d\r",
+    content:
+      "Read Part 1 (pp. 2–14) RL.6.1, RL.6.2, RL.6.3, W.6.10, SL.6.1a, SL.6.1b, SL.6.1c, SL.6.1d\r",
     parentPageName: "2",
     characterStyles: [
       { character: "R", style: "" },
@@ -92,8 +93,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "6", style: "" },
       { character: ".", style: "" },
       { character: "1", style: "" },
-      { character: "d", style: "" }
-    ]
+      { character: "d", style: "" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -127,12 +128,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "" },
       { character: "o", style: "" },
       { character: "n", style: "" },
-      { character: "s", style: "" }
-    ]
+      { character: "s", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Invite students to flip through the book and view the illustrations. Or display the e-book and preview the pages together.\r",
+    content:
+      "Invite students to flip through the book and view the illustrations. Or display the e-book and preview the pages together.\r",
     parentPageName: "2",
     characterStyles: [
       { character: "I", style: "" },
@@ -256,12 +258,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "" },
       { character: "e", style: "" },
       { character: "r", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Read aloud the features of a play on the inside front cover. Invite students to read the book description on the back cover.\r",
+    content:
+      "Read aloud the features of a play on the inside front cover. Invite students to read the book description on the back cover.\r",
     parentPageName: "2",
     characterStyles: [
       { character: "R", style: "" },
@@ -387,12 +390,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "v", style: "" },
       { character: "e", style: "" },
       { character: "r", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Ask: Think about the different types of characters a story can have. There are usually good characters, or heroes, and bad characters, or villains. What kind of character do you think Oliver Twist is? Why do you think this?\r",
+    content:
+      "Ask: Think about the different types of characters a story can have. There are usually good characters, or heroes, and bad characters, or villains. What kind of character do you think Oliver Twist is? Why do you think this?\r",
     parentPageName: "2",
     characterStyles: [
       { character: "A", style: "" },
@@ -617,12 +621,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "" },
       { character: "i", style: "" },
       { character: "s", style: "" },
-      { character: "?", style: "" }
-    ]
+      { character: "?", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "If your students need more support, use the Scaffolded Preview provided.\r",
+    content:
+      "If your students need more support, use the Scaffolded Preview provided.\r",
     parentPageName: "2",
     characterStyles: [
       { character: "I", style: "" },
@@ -696,8 +701,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "d", style: "" },
       { character: "e", style: "" },
       { character: "d", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -716,12 +721,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "p", style: "" },
       { character: "o", style: "" },
       { character: "s", style: "" },
-      { character: "e", style: "" }
-    ]
+      { character: "e", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: Let’s read pages 2–5 as an introduction to the play you will read. Then, as you read the rest of Part 1 (pp. 6–14), use self-stick notes to identify the characters, settings, and main events in Act One.\r",
+    content:
+      "Say: Let’s read pages 2–5 as an introduction to the play you will read. Then, as you read the rest of Part 1 (pp. 6–14), use self-stick notes to identify the characters, settings, and main events in Act One.\r",
     parentPageName: "2",
     characterStyles: [
       { character: "S", style: "" },
@@ -930,12 +936,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "O", style: "" },
       { character: "n", style: "" },
       { character: "e", style: "" },
-      { character: ".", style: "i" }
-    ]
+      { character: ".", style: "i" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Choose the reading option that best meets your students’ needs.\r",
+    content:
+      "Choose the reading option that best meets your students’ needs.\r",
     parentPageName: "2",
     characterStyles: [
       { character: "C", style: "" },
@@ -1000,8 +1007,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "" },
       { character: "d", style: "" },
       { character: "s", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -1068,12 +1075,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "t", style: "Lesson_B-hd-LightFace" },
       { character: "h", style: "Lesson_B-hd-LightFace" },
       { character: "e", style: "Lesson_B-hd-LightFace" },
-      { character: "r", style: "Lesson_B-hd-LightFace" }
-    ]
+      { character: "r", style: "Lesson_B-hd-LightFace" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Invite students to first summarize pages 2–4, and then summarize the main events in the rest of Part 1. As a group, create a Story Elements Chart. Then, as a group, construct a summary of the key ideas in Part 1. If students need more support to summarize the text, use the lesson on page 3 of this guide.\r",
+    content:
+      "Invite students to first summarize pages 2–4, and then summarize the main events in the rest of Part 1. As a group, create a Story Elements Chart. Then, as a group, construct a summary of the key ideas in Part 1. If students need more support to summarize the text, use the lesson on page 3 of this guide.\r",
     parentPageName: "2",
     characterStyles: [
       { character: "I", style: "" },
@@ -1381,8 +1389,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "d", style: "" },
       { character: "e", style: "" },
       { character: ".", style: "" },
-      { character: "", style: "" }
-    ]
+      { character: "", style: "" },
+    ],
   },
   {
     styleName: "table_footer",
@@ -1422,8 +1430,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "Med_cond" },
       { character: "a", style: "Med_cond" },
       { character: "r", style: "Med_cond" },
-      { character: "t", style: "Med_cond" }
-    ]
+      { character: "t", style: "Med_cond" },
+    ],
   },
   {
     styleName: "table header",
@@ -1439,8 +1447,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "t", style: "" },
       { character: "e", style: "" },
       { character: "r", style: "" },
-      { character: "s", style: "" }
-    ]
+      { character: "s", style: "" },
+    ],
   },
   {
     styleName: "table header",
@@ -1453,12 +1461,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "t", style: "" },
       { character: "i", style: "" },
       { character: "n", style: "" },
-      { character: "g", style: "" }
-    ]
+      { character: "g", style: "" },
+    ],
   },
   {
     styleName: "ELA_Strategies_Table-body-txt",
-    content: "Oliver, Dodger, Bates, Mr. Brownlow, Fang, Mrs. Bedwin, Mr. Grimwig",
+    content:
+      "Oliver, Dodger, Bates, Mr. Brownlow, Fang, Mrs. Bedwin, Mr. Grimwig",
     parentPageName: "2",
     characterStyles: [
       { character: "O", style: "Character Style 1" },
@@ -1527,8 +1536,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "m", style: "Character Style 1" },
       { character: "w", style: "Character Style 1" },
       { character: "i", style: "Character Style 1" },
-      { character: "g", style: "Character Style 1" }
-    ]
+      { character: "g", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "ELA_Strategies_Table-body-txt",
@@ -1549,8 +1558,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "l", style: "Character Style 1" },
       { character: "a", style: "Character Style 1" },
       { character: "n", style: "Character Style 1" },
-      { character: "d", style: "Character Style 1" }
-    ]
+      { character: "d", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "table header",
@@ -1567,12 +1576,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "" },
       { character: "n", style: "" },
       { character: "t", style: "" },
-      { character: "s", style: "" }
-    ]
+      { character: "s", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Oliver watches in horror as Dodger and Bates attempt to steal from an old man.",
+    content:
+      "Oliver watches in horror as Dodger and Bates attempt to steal from an old man.",
     parentPageName: "2",
     characterStyles: [
       { character: "O", style: "Character Style 1" },
@@ -1652,8 +1662,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "m", style: "Character Style 1" },
       { character: "a", style: "Character Style 1" },
       { character: "n", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1723,12 +1733,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "d", style: "Character Style 1" },
       { character: "g", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "The victim, Mr. Brownlow, takes pity on Oliver, drops the charges, and takes him home.",
+    content:
+      "The victim, Mr. Brownlow, takes pity on Oliver, drops the charges, and takes him home.",
     parentPageName: "2",
     characterStyles: [
       { character: "T", style: "Character Style 1" },
@@ -1816,12 +1827,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "o", style: "Character Style 1" },
       { character: "m", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Mr. Brownlow gives Oliver some money and asks him to return some books and pay a bill.",
+    content:
+      "Mr. Brownlow gives Oliver some money and asks him to return some books and pay a bill.",
     parentPageName: "2",
     characterStyles: [
       { character: "M", style: "Character Style 1" },
@@ -1909,8 +1921,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "Character Style 1" },
       { character: "l", style: "Character Style 1" },
       { character: "l", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
-  }
+      { character: ".", style: "Character Style 1" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

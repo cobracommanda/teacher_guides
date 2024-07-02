@@ -1,4 +1,4 @@
-const paragraphData = [teacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
     content: "Read Part 3 (pp. 27–30) RL.6.1, RL.6.2, RL.6.3, W.6.10, SL.6.1\r",
@@ -65,8 +65,8 @@ const paragraphData = [teacher-talk
       { character: ".", style: "" },
       { character: "6", style: "" },
       { character: ".", style: "" },
-      { character: "1", style: "" }
-    ]
+      { character: "1", style: "" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -85,12 +85,13 @@ const paragraphData = [teacher-talk
       { character: "p", style: "" },
       { character: "o", style: "" },
       { character: "s", style: "" },
-      { character: "e", style: "" }
-    ]
+      { character: "e", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: As you read Part 3 (pp. 27–30), continue to use self-stick notes to flag important information about characters, setting, and main events in the text and illustrations for Act Three.\r",
+    content:
+      "Say: As you read Part 3 (pp. 27–30), continue to use self-stick notes to flag important information about characters, setting, and main events in the text and illustrations for Act Three.\r",
     parentPageName: "5",
     characterStyles: [
       { character: "S", style: "" },
@@ -279,12 +280,13 @@ const paragraphData = [teacher-talk
       { character: "r", style: "" },
       { character: "e", style: "" },
       { character: "e", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Choose the reading option that best meets the needs of your students. If students need more support to access the text, use the Scaffolded Preview provided.\r",
+    content:
+      "Choose the reading option that best meets the needs of your students. If students need more support to access the text, use the Scaffolded Preview provided.\r",
     parentPageName: "5",
     characterStyles: [
       { character: "C", style: "" },
@@ -442,12 +444,13 @@ const paragraphData = [teacher-talk
       { character: "d", style: "" },
       { character: "e", style: "" },
       { character: "d", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
-    content: "Summarize Main Idea and Key Details: Think and Write Independently\r",
+    content:
+      "Summarize Main Idea and Key Details: Think and Write Independently\r",
     parentPageName: "5",
     characterStyles: [
       { character: "S", style: "" },
@@ -515,12 +518,13 @@ const paragraphData = [teacher-talk
       { character: "n", style: "Lesson_B-hd-LightFace" },
       { character: "t", style: "Lesson_B-hd-LightFace" },
       { character: "l", style: "Lesson_B-hd-LightFace" },
-      { character: "y", style: "Lesson_B-hd-LightFace" }
-    ]
+      { character: "y", style: "Lesson_B-hd-LightFace" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Ask students to review the main events they flagged in Part 3. Have them independently create a chart like the ones completed for Parts 1 and 2. Then have them write their own summary of the key information in Part 3.\r",
+    content:
+      "Ask students to review the main events they flagged in Part 3. Have them independently create a chart like the ones completed for Parts 1 and 2. Then have them write their own summary of the key information in Part 3.\r",
     parentPageName: "5",
     characterStyles: [
       { character: "A", style: "" },
@@ -740,8 +744,8 @@ const paragraphData = [teacher-talk
       { character: " ", style: "" },
       { character: "3", style: "" },
       { character: ".", style: "" },
-      { character: "", style: "" }
-    ]
+      { character: "", style: "" },
+    ],
   },
   {
     styleName: "table_footer",
@@ -781,12 +785,13 @@ const paragraphData = [teacher-talk
       { character: "h", style: "Med_cond" },
       { character: "a", style: "Med_cond" },
       { character: "r", style: "Med_cond" },
-      { character: "t", style: "Med_cond" }
-    ]
+      { character: "t", style: "Med_cond" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Bring students together and ask volunteers to read their summaries aloud. As a whole group, evaluate the summaries.\r",
+    content:
+      "Bring students together and ask volunteers to read their summaries aloud. As a whole group, evaluate the summaries.\r",
     parentPageName: "5",
     characterStyles: [
       { character: "B", style: "" },
@@ -904,8 +909,8 @@ const paragraphData = [teacher-talk
       { character: "e", style: "" },
       { character: "s", style: "" },
       { character: ".", style: "" },
-      { character: "", style: "" }
-    ]
+      { character: "", style: "" },
+    ],
   },
   {
     styleName: "table_footer",
@@ -932,8 +937,8 @@ const paragraphData = [teacher-talk
       { character: "m", style: "Med_cond" },
       { character: "a", style: "Med_cond" },
       { character: "r", style: "Med_cond" },
-      { character: "y", style: "Med_cond" }
-    ]
+      { character: "y", style: "Med_cond" },
+    ],
   },
   {
     styleName: "table header",
@@ -949,8 +954,8 @@ const paragraphData = [teacher-talk
       { character: "t", style: "" },
       { character: "e", style: "" },
       { character: "r", style: "" },
-      { character: "s", style: "" }
-    ]
+      { character: "s", style: "" },
+    ],
   },
   {
     styleName: "table header",
@@ -963,8 +968,8 @@ const paragraphData = [teacher-talk
       { character: "t", style: "" },
       { character: "i", style: "" },
       { character: "n", style: "" },
-      { character: "g", style: "" }
-    ]
+      { character: "g", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1017,8 +1022,8 @@ const paragraphData = [teacher-talk
       { character: "o", style: "Character Style 1" },
       { character: "n", style: "Character Style 1" },
       { character: "k", style: "Character Style 1" },
-      { character: "s", style: "Character Style 1" }
-    ]
+      { character: "s", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1058,8 +1063,8 @@ const paragraphData = [teacher-talk
       { character: "o", style: "Character Style 1" },
       { character: "u", style: "Character Style 1" },
       { character: "s", style: "Character Style 1" },
-      { character: "e", style: "Character Style 1" }
-    ]
+      { character: "e", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "table header",
@@ -1076,12 +1081,13 @@ const paragraphData = [teacher-talk
       { character: "e", style: "" },
       { character: "n", style: "" },
       { character: "t", style: "" },
-      { character: "s", style: "" }
-    ]
+      { character: "s", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Nancy pleads with Rose to take Oliver to Mr. Brownlow so he will be safe.",
+    content:
+      "Nancy pleads with Rose to take Oliver to Mr. Brownlow so he will be safe.",
     parentPageName: "5",
     characterStyles: [
       { character: "N", style: "Character Style 1" },
@@ -1156,8 +1162,8 @@ const paragraphData = [teacher-talk
       { character: "a", style: "Character Style 1" },
       { character: "f", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1220,12 +1226,13 @@ const paragraphData = [teacher-talk
       { character: "h", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
       { character: "r", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Mr. Brownlow orders Monks to leave Britain and give half of his inheritance to Oliver.",
+    content:
+      "Mr. Brownlow orders Monks to leave Britain and give half of his inheritance to Oliver.",
     parentPageName: "5",
     characterStyles: [
       { character: "M", style: "Character Style 1" },
@@ -1313,8 +1320,8 @@ const paragraphData = [teacher-talk
       { character: "v", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
       { character: "r", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1370,12 +1377,13 @@ const paragraphData = [teacher-talk
       { character: "l", style: "Character Style 1" },
       { character: "o", style: "Character Style 1" },
       { character: "w", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Nancy tells Rose about Oliver’s connection to Mr. Brownlow and pleads with her to take the boy back to him. Mr. Brownlow reveals that Oliver and Monks are half-brothers. Mr. Brownlow threatens Monks and orders him to leave Britain and give half of his inheritance to Oliver. Oliver and Mr. Brownlow live together happily ever after.",
+    content:
+      "Nancy tells Rose about Oliver’s connection to Mr. Brownlow and pleads with her to take the boy back to him. Mr. Brownlow reveals that Oliver and Monks are half-brothers. Mr. Brownlow threatens Monks and orders him to leave Britain and give half of his inheritance to Oliver. Oliver and Mr. Brownlow live together happily ever after.",
     parentPageName: "5",
     characterStyles: [
       { character: "N", style: "Character Style 1" },
@@ -1709,8 +1717,8 @@ const paragraphData = [teacher-talk
       { character: "t", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
       { character: "r", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
-  }
+      { character: ".", style: "Character Style 1" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

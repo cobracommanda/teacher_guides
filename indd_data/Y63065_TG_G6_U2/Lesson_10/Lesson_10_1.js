@@ -1,4 +1,4 @@
-const paragraphData = [teacher-talkteacher-talkteacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
     content: "Build Language, Vocabulary, and Comprehension \nL.6.2a, L.6.5a\r",
@@ -64,8 +64,8 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: "6", style: "Lesson_A-hd-standards" },
       { character: ".", style: "Lesson_A-hd-standards" },
       { character: "5", style: "Lesson_A-hd-standards" },
-      { character: "a", style: "Lesson_A-hd-standards" }
-    ]
+      { character: "a", style: "Lesson_A-hd-standards" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -103,12 +103,13 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: "t", style: "" },
       { character: "i", style: "" },
       { character: "o", style: "" },
-      { character: "n", style: "" }
-    ]
+      { character: "n", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Remind students that dashes are used to set parenthetical phrases in sentences apart from the rest of the sentence. They are not the same as commas and should not be treated as such.\r",
+    content:
+      "Remind students that dashes are used to set parenthetical phrases in sentences apart from the rest of the sentence. They are not the same as commas and should not be treated as such.\r",
     parentPageName: "10",
     characterStyles: [
       { character: "R", style: "" },
@@ -292,8 +293,8 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: "u", style: "" },
       { character: "c", style: "" },
       { character: "h", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -330,8 +331,8 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: "n", style: "" },
       { character: "c", style: "" },
       { character: "e", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -356,12 +357,13 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: "u", style: "" },
       { character: "c", style: "" },
       { character: "k", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Explain that the dash sets the second part of the sentence apart from the first part.\r",
+    content:
+      "Explain that the dash sets the second part of the sentence apart from the first part.\r",
     parentPageName: "10",
     characterStyles: [
       { character: "E", style: "" },
@@ -448,8 +450,8 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: "a", style: "" },
       { character: "r", style: "" },
       { character: "t", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -517,8 +519,8 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: "i", style: "" },
       { character: "o", style: "" },
       { character: "n", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -565,8 +567,8 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: " ", style: "i" },
       { character: "d", style: "i" },
       { character: "o", style: "i" },
-      { character: ".", style: "i" }
-    ]
+      { character: ".", style: "i" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
@@ -622,12 +624,13 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: "c", style: "" },
       { character: "e", style: "" },
       { character: "d", style: "" },
-      { character: "?", style: "" }
-    ]
+      { character: "?", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Write the sentence with the correct placement of the parenthetical punctuation.\r",
+    content:
+      "Write the sentence with the correct placement of the parenthetical punctuation.\r",
     parentPageName: "10",
     characterStyles: [
       { character: "W", style: "" },
@@ -708,8 +711,8 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: "i", style: "" },
       { character: "o", style: "" },
       { character: "n", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -756,12 +759,13 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: " ", style: "i" },
       { character: "d", style: "i" },
       { character: "o", style: "i" },
-      { character: ".", style: "i" }
-    ]
+      { character: ".", style: "i" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Continue this lesson by having students work in pairs to identify other instances in which dashes are used in this book. Have them circle the parenthetical phrases.\r",
+    content:
+      "Continue this lesson by having students work in pairs to identify other instances in which dashes are used in this book. Have them circle the parenthetical phrases.\r",
     parentPageName: "10",
     characterStyles: [
       { character: "C", style: "" },
@@ -927,8 +931,8 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: "s", style: "" },
       { character: "e", style: "" },
       { character: "s", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -963,12 +967,13 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: "u", style: "" },
       { character: "a", style: "" },
       { character: "g", style: "" },
-      { character: "e", style: "" }
-    ]
+      { character: "e", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Have students turn to the vocabulary activity on the inside back cover.\r",
+    content:
+      "Have students turn to the vocabulary activity on the inside back cover.\r",
     parentPageName: "10",
     characterStyles: [
       { character: "H", style: "" },
@@ -1041,12 +1046,13 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: "v", style: "" },
       { character: "e", style: "" },
       { character: "r", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: Similes and metaphors are types of figurative language. They both compare things, but similes use the words like or as and metaphors do not. Let’s find examples of similes and metaphors in this book.\r",
+    content:
+      "Say: Similes and metaphors are types of figurative language. They both compare things, but similes use the words like or as and metaphors do not. Let’s find examples of similes and metaphors in this book.\r",
     parentPageName: "10",
     characterStyles: [
       { character: "S", style: "" },
@@ -1252,8 +1258,8 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: "o", style: "" },
       { character: "o", style: "" },
       { character: "k", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -1289,12 +1295,13 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: " ", style: "" },
       { character: "1", style: "" },
       { character: "7", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: The writer compares the way students leave the school building to a herd of wild horses racing across the Russian Steppes. The writer uses the word as so this is a simile. It means the students were chaotic and full of energy.\r",
+    content:
+      "Say: The writer compares the way students leave the school building to a herd of wild horses racing across the Russian Steppes. The writer uses the word as so this is a simile. It means the students were chaotic and full of energy.\r",
     parentPageName: "10",
     characterStyles: [
       { character: "S", style: "" },
@@ -1527,12 +1534,13 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: "r", style: "" },
       { character: "g", style: "" },
       { character: "y", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Model how to complete the chart. Then ask students to complete the rest of the chart independently, and to provide their answers in writing.\r",
+    content:
+      "Model how to complete the chart. Then ask students to complete the rest of the chart independently, and to provide their answers in writing.\r",
     parentPageName: "10",
     characterStyles: [
       { character: "M", style: "" },
@@ -1674,8 +1682,8 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: "i", style: "" },
       { character: "n", style: "" },
       { character: "g", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -1707,12 +1715,13 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: "e", style: "" },
       { character: "x", style: "" },
       { character: "t", style: "" },
-      { character: "s", style: "" }
-    ]
+      { character: "s", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "If students have read all four texts in the topic set, use the questions on the Cross-Text Analysis Card for additional close readings that require students to find and analyze evidence in more than one text.",
+    content:
+      "If students have read all four texts in the topic set, use the questions on the Cross-Text Analysis Card for additional close readings that require students to find and analyze evidence in more than one text.",
     parentPageName: "10",
     characterStyles: [
       { character: "I", style: "" },
@@ -1922,8 +1931,8 @@ const paragraphData = [teacher-talkteacher-talkteacher-talk
       { character: "e", style: "" },
       { character: "x", style: "" },
       { character: "t", style: "" },
-      { character: ".", style: "" }
-    ]
-  }
+      { character: ".", style: "" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

@@ -1,7 +1,8 @@
-const paragraphData = [teacher-talkteacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
-    content: "Close Reading Option 4: Analyze Character \nRL.6.1, RL.6.2, RL.6.3, W.6.10, SL.6.1\r",
+    content:
+      "Close Reading Option 4: Analyze Character \nRL.6.1, RL.6.2, RL.6.3, W.6.10, SL.6.1\r",
     parentPageName: "9",
     characterStyles: [
       { character: "C", style: "[None]" },
@@ -84,8 +85,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: ".", style: "[None]" },
       { character: "6", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: "1", style: "[None]" }
-    ]
+      { character: "1", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -118,12 +119,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: "n", style: "[None]" },
       { character: "c", style: "[None]" },
-      { character: "e", style: "[None]" }
-    ]
+      { character: "e", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Ask students to turn to the Comprehension chart on page 32. Explain that the chart serves to help students analyze a character in the play.\r",
+    content:
+      "Ask students to turn to the Comprehension chart on page 32. Explain that the chart serves to help students analyze a character in the play.\r",
     parentPageName: "9",
     characterStyles: [
       { character: "A", style: "[None]" },
@@ -264,12 +266,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "l", style: "[None]" },
       { character: "a", style: "[None]" },
       { character: "y", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: First, let’s list Mr. Brownlow as the character at the top of the chart. Throughout the play, one characteristic that I noticed about Mr. Brownlow was how kind he was. I will write “kind” in the first row under the heading “Characteristics.”\r",
+    content:
+      "Say: First, let’s list Mr. Brownlow as the character at the top of the chart. Throughout the play, one characteristic that I noticed about Mr. Brownlow was how kind he was. I will write “kind” in the first row under the heading “Characteristics.”\r",
     parentPageName: "9",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -517,12 +520,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "c", style: "[None]" },
       { character: "s", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: "DOUBLE_RIGHT_QUOTE", style: "[None]" }
-    ]
+      { character: "DOUBLE_RIGHT_QUOTE", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Distribute the graphic organizer BLM on the back cover of this guide. Then support students to turn to page 10.\r",
+    content:
+      "Distribute the graphic organizer BLM on the back cover of this guide. Then support students to turn to page 10.\r",
     parentPageName: "9",
     characterStyles: [
       { character: "D", style: "[None]" },
@@ -635,12 +639,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: " ", style: "[None]" },
       { character: "1", style: "[None]" },
       { character: "0", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: Now I need to find text evidence that shows Mr. Brownlow is a kind man. On page 10, Mr. Brownlow tells the judge, “I’ve decided that I’m not pressing any charges.” Instead of having Oliver arrested and sentenced to three months of hard labor, Mr. Brownlow decides to take Oliver home and care for him. This text evidence tells me that Mr. Brownlow is a kind person.\r",
+    content:
+      "Say: Now I need to find text evidence that shows Mr. Brownlow is a kind man. On page 10, Mr. Brownlow tells the judge, “I’ve decided that I’m not pressing any charges.” Instead of having Oliver arrested and sentenced to three months of hard labor, Mr. Brownlow decides to take Oliver home and care for him. This text evidence tells me that Mr. Brownlow is a kind person.\r",
     parentPageName: "9",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -1012,12 +1017,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "s", style: "[None]" },
       { character: "o", style: "[None]" },
       { character: "n", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Write “drops charges and takes Oliver home” in the first row of the chart. Have students reread page 11 to find additional text evidence of Mr. Brownlow’s kind nature: “Yes, he should recuperate nicely under our watch.” Explain that Mr. Brownlow is showing kindness by giving Oliver a home and helping him become healthy. Add this evidence to the chart.\r",
+    content:
+      "Write “drops charges and takes Oliver home” in the first row of the chart. Have students reread page 11 to find additional text evidence of Mr. Brownlow’s kind nature: “Yes, he should recuperate nicely under our watch.” Explain that Mr. Brownlow is showing kindness by giving Oliver a home and helping him become healthy. Add this evidence to the chart.\r",
     parentPageName: "9",
     characterStyles: [
       { character: "W", style: "[None]" },
@@ -1372,8 +1378,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "a", style: "[None]" },
       { character: "r", style: "[None]" },
       { character: "t", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -1395,12 +1401,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "t", style: "[None]" },
       { character: "i", style: "[None]" },
       { character: "c", style: "[None]" },
-      { character: "e", style: "[None]" }
-    ]
+      { character: "e", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Collaborative conversation (turn and talk). As a group, identify a second characteristic of Mr. Brownlow, such as compassionate, and write it in the second row of the chart. Then ask students to turn to a partner and find text evidence of Mr. Brownlow’s compassion. Remind students to stay on topic, build on each other’s ideas, and ask questions to clarify each other’s thoughts.\r",
+    content:
+      "Collaborative conversation (turn and talk). As a group, identify a second characteristic of Mr. Brownlow, such as compassionate, and write it in the second row of the chart. Then ask students to turn to a partner and find text evidence of Mr. Brownlow’s compassion. Remind students to stay on topic, build on each other’s ideas, and ask questions to clarify each other’s thoughts.\r",
     parentPageName: "9",
     characterStyles: [
       { character: "C", style: "Med_cond" },
@@ -1782,12 +1789,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "[None]" },
       { character: "t", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Bring students together and ask several pairs to share the text evidence they found to show that Mr. Brownlow is compassionate. Students should explain that Mr. Brownlow saves Oliver from prison, gives him a home, and helps him claim his inheritance. Students should also explain that these acts are evidence of Mr. Brownlow’s compassion because they show his willingness to help someone who has no friends, family, or resources.\r",
+    content:
+      "Bring students together and ask several pairs to share the text evidence they found to show that Mr. Brownlow is compassionate. Students should explain that Mr. Brownlow saves Oliver from prison, gives him a home, and helps him claim his inheritance. Students should also explain that these acts are evidence of Mr. Brownlow’s compassion because they show his willingness to help someone who has no friends, family, or resources.\r",
     parentPageName: "9",
     characterStyles: [
       { character: "B", style: "[None]" },
@@ -2218,8 +2226,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "c", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -2257,12 +2265,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "[None]" },
       { character: "t", style: "[None]" },
       { character: "l", style: "[None]" },
-      { character: "y", style: "[None]" }
-    ]
+      { character: "y", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Direct students to complete the last row of the chart independently. Tell them they should list a third characteristic and then find text evidence that supports it. Students may note that Mr. Brownlow is a fair man because he orders Monks to leave the country but allows him to keep half of his family inheritance.\r",
+    content:
+      "Direct students to complete the last row of the chart independently. Tell them they should list a third characteristic and then find text evidence that supports it. Students may note that Mr. Brownlow is a fair man because he orders Monks to leave the country but allows him to keep half of his family inheritance.\r",
     parentPageName: "9",
     characterStyles: [
       { character: "D", style: "[None]" },
@@ -2578,12 +2587,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "[None]" },
       { character: "c", style: "[None]" },
       { character: "e", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Discuss how this close reading has helped students analyze a main character by identifying his key characteristics and then using text evidence to illustrate those characteristics.",
+    content:
+      "Discuss how this close reading has helped students analyze a main character by identifying his key characteristics and then using text evidence to illustrate those characteristics.",
     parentPageName: "9",
     characterStyles: [
       { character: "D", style: "[None]" },
@@ -2765,8 +2775,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "[None]" },
       { character: "c", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
-  }
+      { character: ".", style: "[None]" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

@@ -1,7 +1,8 @@
-const paragraphData = [teacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
-    content: "Read An Attack on the Mayflower in the Year 2647, pages 23–27 \nRL.6.2\r",
+    content:
+      "Read An Attack on the Mayflower in the Year 2647, pages 23–27 \nRL.6.2\r",
     parentPageName: "5",
     characterStyles: [
       { character: "R", style: "[None]" },
@@ -72,8 +73,8 @@ const paragraphData = [teacher-talk
       { character: ".", style: "[None]" },
       { character: "6", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: "2", style: "[None]" }
-    ]
+      { character: "2", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_A-hd",
@@ -92,12 +93,13 @@ const paragraphData = [teacher-talk
       { character: "p", style: "[None]" },
       { character: "o", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: "e", style: "[None]" }
-    ]
+      { character: "e", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: As you read pages 23–27 of An Attack on the Starship Mayflower in the Year 2647, continue to use self-stick notes to flag characters, setting, and main events. Notice that in this story, the author adds annotations, or notes, in the margins to explain the features of science fiction. These notes help us better understand the genre both as a reader and as a writer. \r",
+    content:
+      "Say: As you read pages 23–27 of An Attack on the Starship Mayflower in the Year 2647, continue to use self-stick notes to flag characters, setting, and main events. Notice that in this story, the author adds annotations, or notes, in the margins to explain the features of science fiction. These notes help us better understand the genre both as a reader and as a writer. \r",
     parentPageName: "5",
     characterStyles: [
       { character: "S", style: "b" },
@@ -471,12 +473,13 @@ const paragraphData = [teacher-talk
       { character: "e", style: "b" },
       { character: "r", style: "b" },
       { character: ".", style: "b" },
-      { character: " ", style: "b" }
-    ]
+      { character: " ", style: "b" },
+    ],
   },
   {
     styleName: "table_label",
-    content: "Choose the reading option that best meets your students’ needs. If student need more support to access the text, use the Scaffolded Preview provided.\r",
+    content:
+      "Choose the reading option that best meets your students’ needs. If student need more support to access the text, use the Scaffolded Preview provided.\r",
     parentPageName: "5",
     characterStyles: [
       { character: "C", style: "[None]" },
@@ -627,8 +630,8 @@ const paragraphData = [teacher-talk
       { character: "d", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "d", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -689,12 +692,13 @@ const paragraphData = [teacher-talk
       { character: "n", style: "[None]" },
       { character: "t", style: "[None]" },
       { character: "l", style: "[None]" },
-      { character: "y", style: "[None]" }
-    ]
+      { character: "y", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Ask students to review the key story elements they flagged in the first half of An Attack on the Starship Mayflower in the Year 2647. Have them independently create a Story Elements chart for the second half, like the ones they completed in the previous two readings. Then have them write their own summary of the second half of the story.  \r",
+    content:
+      "Ask students to review the key story elements they flagged in the first half of An Attack on the Starship Mayflower in the Year 2647. Have them independently create a Story Elements chart for the second half, like the ones they completed in the previous two readings. Then have them write their own summary of the second half of the story.  \r",
     parentPageName: "5",
     characterStyles: [
       { character: "A", style: "[None]" },
@@ -1038,8 +1042,8 @@ const paragraphData = [teacher-talk
       { character: ".", style: "[None]" },
       { character: " ", style: "[None]" },
       { character: " ", style: "[None]" },
-      { character: "", style: "[None]" }
-    ]
+      { character: "", style: "[None]" },
+    ],
   },
   {
     styleName: "table_label",
@@ -1077,19 +1081,19 @@ const paragraphData = [teacher-talk
       { character: "a", style: "labels" },
       { character: "r", style: "labels" },
       { character: "t", style: "labels" },
-      { character: " ", style: "labels" }
-    ]
+      { character: " ", style: "labels" },
+    ],
   },
   {
     styleName: "table_label",
     content: "\r",
     parentPageName: "5",
-    characterStyles: [
-    ]
+    characterStyles: [],
   },
   {
     styleName: "table_label",
-    content: "Bring students together and ask volunteers to read their summaries aloud. As a group, evaluate the summaries. \r",
+    content:
+      "Bring students together and ask volunteers to read their summaries aloud. As a group, evaluate the summaries. \r",
     parentPageName: "5",
     characterStyles: [
       { character: "B", style: "[None]" },
@@ -1201,16 +1205,14 @@ const paragraphData = [teacher-talk
       { character: "e", style: "[None]" },
       { character: "s", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: " ", style: "[None]" }
-    ]
+      { character: " ", style: "[None]" },
+    ],
   },
   {
     styleName: "table_label",
     content: "\r",
     parentPageName: "5",
-    characterStyles: [
-      { character: "", style: "[None]" }
-    ]
+    characterStyles: [{ character: "", style: "[None]" }],
   },
   {
     styleName: "table_label",
@@ -1230,8 +1232,8 @@ const paragraphData = [teacher-talk
       { character: "m", style: "labels" },
       { character: "a", style: "labels" },
       { character: "r", style: "labels" },
-      { character: "y", style: "labels" }
-    ]
+      { character: "y", style: "labels" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1247,8 +1249,8 @@ const paragraphData = [teacher-talk
       { character: "t", style: "b" },
       { character: "e", style: "b" },
       { character: "r", style: "b" },
-      { character: "s", style: "b" }
-    ]
+      { character: "s", style: "b" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1262,8 +1264,8 @@ const paragraphData = [teacher-talk
       { character: "i", style: "b" },
       { character: "n", style: "b" },
       { character: "g", style: "b" },
-      { character: "s", style: "b" }
-    ]
+      { character: "s", style: "b" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1298,8 +1300,8 @@ const paragraphData = [teacher-talk
       { character: "r", style: "Character Style 1" },
       { character: "a", style: "Character Style 1" },
       { character: "c", style: "Character Style 1" },
-      { character: "e", style: "Character Style 1" }
-    ]
+      { character: "e", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1338,8 +1340,8 @@ const paragraphData = [teacher-talk
       { character: "2", style: "i" },
       { character: "6", style: "i" },
       { character: "4", style: "i" },
-      { character: "7", style: "i" }
-    ]
+      { character: "7", style: "i" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1356,12 +1358,13 @@ const paragraphData = [teacher-talk
       { character: "e", style: "b" },
       { character: "n", style: "b" },
       { character: "t", style: "b" },
-      { character: "s", style: "b" }
-    ]
+      { character: "s", style: "b" },
+    ],
   },
   {
     styleName: "Chart-body-txt-bullets",
-    content: "Ace realizes that he knows something important about the attack. \r",
+    content:
+      "Ace realizes that he knows something important about the attack. \r",
     parentPageName: "5",
     characterStyles: [
       { character: "A", style: "Character Style 1" },
@@ -1428,8 +1431,8 @@ const paragraphData = [teacher-talk
       { character: "c", style: "Character Style 1" },
       { character: "k", style: "Character Style 1" },
       { character: ".", style: "Character Style 1" },
-      { character: " ", style: "Character Style 1" }
-    ]
+      { character: " ", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Chart-body-txt-bullets",
@@ -1482,8 +1485,8 @@ const paragraphData = [teacher-talk
       { character: "l", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
       { character: ".", style: "Character Style 1" },
-      { character: " ", style: "Character Style 1" }
-    ]
+      { character: " ", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Chart-body-txt-bullets",
@@ -1550,12 +1553,13 @@ const paragraphData = [teacher-talk
       { character: "t", style: "Character Style 1" },
       { character: "s", style: "Character Style 1" },
       { character: ".", style: "Character Style 1" },
-      { character: " ", style: "Character Style 1" }
-    ]
+      { character: " ", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Chart-body-txt-bullets",
-    content: "Captain Trace orders the starship computer to be reprogrammed, saving the ship. \r",
+    content:
+      "Captain Trace orders the starship computer to be reprogrammed, saving the ship. \r",
     parentPageName: "5",
     characterStyles: [
       { character: "C", style: "Character Style 1" },
@@ -1637,8 +1641,8 @@ const paragraphData = [teacher-talk
       { character: "i", style: "Character Style 1" },
       { character: "p", style: "Character Style 1" },
       { character: ".", style: "Character Style 1" },
-      { character: " ", style: "Character Style 1" }
-    ]
+      { character: " ", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Chart-body-txt-bullets",
@@ -1664,12 +1668,13 @@ const paragraphData = [teacher-talk
       { character: "r", style: "Character Style 1" },
       { character: "o", style: "Character Style 1" },
       { character: ".", style: "Character Style 1" },
-      { character: " ", style: "Character Style 1" }
-    ]
+      { character: " ", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Chart-body-txt",
-    content: "Ace realizes something important about the attack. He finds a battle suit in his size and ejects himself from the starship. Ace tells his father that they are being attacked by robots that are defending a planet. Captain Trace orders the starship’s computer to be reprogrammed, saving the ship. Ace becomes a hero, and his sister has to listen to his heroic stories. ",
+    content:
+      "Ace realizes something important about the attack. He finds a battle suit in his size and ejects himself from the starship. Ace tells his father that they are being attacked by robots that are defending a planet. Captain Trace orders the starship’s computer to be reprogrammed, saving the ship. Ace becomes a hero, and his sister has to listen to his heroic stories. ",
     parentPageName: "5",
     characterStyles: [
       { character: "A", style: "Character Style 1" },
@@ -2038,8 +2043,8 @@ const paragraphData = [teacher-talk
       { character: "e", style: "Character Style 1" },
       { character: "s", style: "Character Style 1" },
       { character: ".", style: "Character Style 1" },
-      { character: " ", style: "Character Style 1" }
-    ]
-  }
+      { character: " ", style: "Character Style 1" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

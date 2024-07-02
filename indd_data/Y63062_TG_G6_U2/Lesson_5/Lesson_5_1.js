@@ -1,7 +1,8 @@
-const paragraphData = [teacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
-    content: "Read Part 3 (pp. 20–30) RL.6.1, RL.6.2, RL.6.3, W.6.10, SL.6.1a, SL.6.1b, SL.6.1c, SL.6.1d\r",
+    content:
+      "Read Part 3 (pp. 20–30) RL.6.1, RL.6.2, RL.6.3, W.6.10, SL.6.1a, SL.6.1b, SL.6.1c, SL.6.1d\r",
     parentPageName: "5",
     characterStyles: [
       { character: "R", style: "[None]" },
@@ -93,8 +94,8 @@ const paragraphData = [teacher-talk
       { character: "6", style: "[None]" },
       { character: ".", style: "[None]" },
       { character: "1", style: "[None]" },
-      { character: "d", style: "[None]" }
-    ]
+      { character: "d", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -113,12 +114,13 @@ const paragraphData = [teacher-talk
       { character: "p", style: "[None]" },
       { character: "o", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: "e", style: "[None]" }
-    ]
+      { character: "e", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: As you read Chapters 5–7, or Part 3, continue to use self-stick notes to flag details about the characters and how their actions contribute to the events in the story.\r",
+    content:
+      "Say: As you read Chapters 5–7, or Part 3, continue to use self-stick notes to flag details about the characters and how their actions contribute to the events in the story.\r",
     parentPageName: "5",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -292,12 +294,13 @@ const paragraphData = [teacher-talk
       { character: "o", style: "[None]" },
       { character: "r", style: "[None]" },
       { character: "y", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Choose the reading option that best meets the needs of your students. If students need more support to access the text, use the Scaffolded Preview provided.\r",
+    content:
+      "Choose the reading option that best meets the needs of your students. If students need more support to access the text, use the Scaffolded Preview provided.\r",
     parentPageName: "5",
     characterStyles: [
       { character: "C", style: "[None]" },
@@ -455,8 +458,8 @@ const paragraphData = [teacher-talk
       { character: "d", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "d", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -521,12 +524,13 @@ const paragraphData = [teacher-talk
       { character: "n", style: "Lesson_B-hd-LightFace" },
       { character: "t", style: "Lesson_B-hd-LightFace" },
       { character: "l", style: "Lesson_B-hd-LightFace" },
-      { character: "y", style: "Lesson_B-hd-LightFace" }
-    ]
+      { character: "y", style: "Lesson_B-hd-LightFace" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Ask students to review the main events they flagged in Part 3. Have them independently create a chart like the ones completed for Parts 1 and 2. Then have them write their own summary of the key information in Part 3.\r",
+    content:
+      "Ask students to review the main events they flagged in Part 3. Have them independently create a chart like the ones completed for Parts 1 and 2. Then have them write their own summary of the key information in Part 3.\r",
     parentPageName: "5",
     characterStyles: [
       { character: "A", style: "[None]" },
@@ -746,8 +750,8 @@ const paragraphData = [teacher-talk
       { character: " ", style: "[None]" },
       { character: "3", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: "", style: "[None]" }
-    ]
+      { character: "", style: "[None]" },
+    ],
   },
   {
     styleName: "table_footer",
@@ -787,12 +791,13 @@ const paragraphData = [teacher-talk
       { character: "h", style: "Medium_Condensed" },
       { character: "a", style: "Medium_Condensed" },
       { character: "r", style: "Medium_Condensed" },
-      { character: "t", style: "Medium_Condensed" }
-    ]
+      { character: "t", style: "Medium_Condensed" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Bring students together and ask volunteers to read their summaries aloud. As a whole group, evaluate the summaries.\r",
+    content:
+      "Bring students together and ask volunteers to read their summaries aloud. As a whole group, evaluate the summaries.\r",
     parentPageName: "5",
     characterStyles: [
       { character: "B", style: "[None]" },
@@ -910,8 +915,8 @@ const paragraphData = [teacher-talk
       { character: "e", style: "[None]" },
       { character: "s", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: "", style: "[None]" }
-    ]
+      { character: "", style: "[None]" },
+    ],
   },
   {
     styleName: "table_footer",
@@ -944,8 +949,8 @@ const paragraphData = [teacher-talk
       { character: "m", style: "Medium_Condensed" },
       { character: "a", style: "Medium_Condensed" },
       { character: "r", style: "Medium_Condensed" },
-      { character: "y", style: "Medium_Condensed" }
-    ]
+      { character: "y", style: "Medium_Condensed" },
+    ],
   },
   {
     styleName: "table header",
@@ -961,8 +966,8 @@ const paragraphData = [teacher-talk
       { character: "t", style: "Medium_Condensed" },
       { character: "e", style: "Medium_Condensed" },
       { character: "r", style: "Medium_Condensed" },
-      { character: "s", style: "Medium_Condensed" }
-    ]
+      { character: "s", style: "Medium_Condensed" },
+    ],
   },
   {
     styleName: "table header",
@@ -975,12 +980,13 @@ const paragraphData = [teacher-talk
       { character: "t", style: "Medium_Condensed" },
       { character: "i", style: "Medium_Condensed" },
       { character: "n", style: "Medium_Condensed" },
-      { character: "g", style: "Medium_Condensed" }
-    ]
+      { character: "g", style: "Medium_Condensed" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Rodrigo, Santo, Rodrigo’s mom, Mrs. Brown, Rebecca Cassidy, Mr. Thompson, Abuelo",
+    content:
+      "Rodrigo, Santo, Rodrigo’s mom, Mrs. Brown, Rebecca Cassidy, Mr. Thompson, Abuelo",
     parentPageName: "5",
     characterStyles: [
       { character: "R", style: "Character Style 1" },
@@ -1062,12 +1068,13 @@ const paragraphData = [teacher-talk
       { character: "u", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
       { character: "l", style: "Character Style 1" },
-      { character: "o", style: "Character Style 1" }
-    ]
+      { character: "o", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Rodrigo’s home, the therapy dog center, the rehabilitation center",
+    content:
+      "Rodrigo’s home, the therapy dog center, the rehabilitation center",
     parentPageName: "5",
     characterStyles: [
       { character: "R", style: "Character Style 1" },
@@ -1134,8 +1141,8 @@ const paragraphData = [teacher-talk
       { character: "n", style: "Character Style 1" },
       { character: "t", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
-      { character: "r", style: "Character Style 1" }
-    ]
+      { character: "r", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "table header",
@@ -1152,12 +1159,13 @@ const paragraphData = [teacher-talk
       { character: "e", style: "Medium_Condensed" },
       { character: "n", style: "Medium_Condensed" },
       { character: "t", style: "Medium_Condensed" },
-      { character: "s", style: "Medium_Condensed" }
-    ]
+      { character: "s", style: "Medium_Condensed" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Rodrigo and Santo pass their therapy dog evaluation and pass the test.",
+    content:
+      "Rodrigo and Santo pass their therapy dog evaluation and pass the test.",
     parentPageName: "5",
     characterStyles: [
       { character: "R", style: "Character Style 1" },
@@ -1229,12 +1237,13 @@ const paragraphData = [teacher-talk
       { character: "e", style: "Character Style 1" },
       { character: "s", style: "Character Style 1" },
       { character: "t", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Rodrigo and Mrs. Brown have a rummage sale and receive enough money to keep a therapy dog program running for at least a year at the rehabilitation center.",
+    content:
+      "Rodrigo and Mrs. Brown have a rummage sale and receive enough money to keep a therapy dog program running for at least a year at the rehabilitation center.",
     parentPageName: "5",
     characterStyles: [
       { character: "R", style: "Character Style 1" },
@@ -1391,12 +1400,13 @@ const paragraphData = [teacher-talk
       { character: "t", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
       { character: "r", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Rodrigo and Santo visit the rehabilitation center to tell the group about the new program; everyone is thrilled to have a chance to spend time with the therapy dogs.",
+    content:
+      "Rodrigo and Santo visit the rehabilitation center to tell the group about the new program; everyone is thrilled to have a chance to spend time with the therapy dogs.",
     parentPageName: "5",
     characterStyles: [
       { character: "R", style: "Character Style 1" },
@@ -1563,12 +1573,13 @@ const paragraphData = [teacher-talk
       { character: "o", style: "Character Style 1" },
       { character: "g", style: "Character Style 1" },
       { character: "s", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Three months later, Abuelo, Rodrigo, and Santo still visit the rehabilitation center as part of the therapy program and learn that the board will continue funding it because it has greatly improved the lives of the people who live there.",
+    content:
+      "Three months later, Abuelo, Rodrigo, and Santo still visit the rehabilitation center as part of the therapy program and learn that the board will continue funding it because it has greatly improved the lives of the people who live there.",
     parentPageName: "5",
     characterStyles: [
       { character: "T", style: "Character Style 1" },
@@ -1807,12 +1818,13 @@ const paragraphData = [teacher-talk
       { character: "e", style: "Character Style 1" },
       { character: "r", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Rodrigo and Santo pass their evaluation and Rodrigo and Mrs. Brown have a successful rummage sale fundraiser. They are able to get enough money to fund the therapy program at the rehabilitation center for a full year. Rodrigo tells the group at the center and everyone, especially Abuelo, is thrilled to see Santo and the other dogs. Three months later, Rodrigo learns that the center will continue to fund the program because it has helped the patients at the center and improved their quality of life there.",
+    content:
+      "Rodrigo and Santo pass their evaluation and Rodrigo and Mrs. Brown have a successful rummage sale fundraiser. They are able to get enough money to fund the therapy program at the rehabilitation center for a full year. Rodrigo tells the group at the center and everyone, especially Abuelo, is thrilled to see Santo and the other dogs. Three months later, Rodrigo learns that the center will continue to fund the program because it has helped the patients at the center and improved their quality of life there.",
     parentPageName: "5",
     characterStyles: [
       { character: "R", style: "Character Style 1" },
@@ -2323,8 +2335,8 @@ const paragraphData = [teacher-talk
       { character: "e", style: "Character Style 1" },
       { character: "r", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
-  }
+      { character: ".", style: "Character Style 1" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

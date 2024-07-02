@@ -1,7 +1,8 @@
-const paragraphData = [teacher-talkteacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
-    content: "Read Part 1 (pp. 2–9) RL.6.1, RL.6.3, W.6.5, W.6.8, SL.6.1a, SL.6.1b, SL.6.1c, SL.6.1d\r",
+    content:
+      "Read Part 1 (pp. 2–9) RL.6.1, RL.6.3, W.6.5, W.6.8, SL.6.1a, SL.6.1b, SL.6.1c, SL.6.1d\r",
     parentPageName: "2",
     characterStyles: [
       { character: "R", style: "" },
@@ -89,8 +90,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "6", style: "Lesson_A-hd-standards" },
       { character: ".", style: "Lesson_A-hd-standards" },
       { character: "1", style: "Lesson_A-hd-standards" },
-      { character: "d", style: "Lesson_A-hd-standards" }
-    ]
+      { character: "d", style: "Lesson_A-hd-standards" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -124,12 +125,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "" },
       { character: "o", style: "" },
       { character: "n", style: "" },
-      { character: "s", style: "" }
-    ]
+      { character: "s", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Invite students to flip through the book and view the illustrations, or display the e-book and preview the pages together.\r",
+    content:
+      "Invite students to flip through the book and view the illustrations, or display the e-book and preview the pages together.\r",
     parentPageName: "2",
     characterStyles: [
       { character: "I", style: "" },
@@ -253,12 +255,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "" },
       { character: "e", style: "" },
       { character: "r", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Read aloud the features of an analytical argument on the inside front cover. Then have students turn to the Table of Contents and read the titles of each section. Invite students to read the book description on the back cover.\r",
+    content:
+      "Read aloud the features of an analytical argument on the inside front cover. Then have students turn to the Table of Contents and read the titles of each section. Invite students to read the book description on the back cover.\r",
     parentPageName: "2",
     characterStyles: [
       { character: "R", style: "" },
@@ -486,12 +489,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "v", style: "" },
       { character: "e", style: "" },
       { character: "r", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: Two of the stories in this book are historical fiction. Although the main characters are not real people, the events in these stories are based on true events. The third story is an example of realistic fiction. It is set in the present-day. The characters are made-up, but the situation is something that could happen. After the three stories, there are three argument essays about courage.\r",
+    content:
+      "Say: Two of the stories in this book are historical fiction. Although the main characters are not real people, the events in these stories are based on true events. The third story is an example of realistic fiction. It is set in the present-day. The characters are made-up, but the situation is something that could happen. After the three stories, there are three argument essays about courage.\r",
     parentPageName: "2",
     characterStyles: [
       { character: "S", style: "" },
@@ -889,12 +893,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "a", style: "" },
       { character: "g", style: "" },
       { character: "e", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "If your students need more support, use the Scaffolded Preview provided.\r",
+    content:
+      "If your students need more support, use the Scaffolded Preview provided.\r",
     parentPageName: "2",
     characterStyles: [
       { character: "I", style: "" },
@@ -968,8 +973,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "d", style: "" },
       { character: "e", style: "" },
       { character: "d", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -988,12 +993,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "p", style: "" },
       { character: "o", style: "" },
       { character: "s", style: "" },
-      { character: "e", style: "" }
-    ]
+      { character: "e", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: Because these stories deal with characters who make difficult decisions that affect themselves and others, let’s pay close attention to how their actions contribute to the sequence of events. As you read “Into the Fire,” use self-stick notes to identify the main characters and setting, and to flag main ideas.\r",
+    content:
+      "Say: Because these stories deal with characters who make difficult decisions that affect themselves and others, let’s pay close attention to how their actions contribute to the sequence of events. As you read “Into the Fire,” use self-stick notes to identify the main characters and setting, and to flag main ideas.\r",
     parentPageName: "2",
     characterStyles: [
       { character: "S", style: "" },
@@ -1310,12 +1316,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "" },
       { character: "a", style: "" },
       { character: "s", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Choose the reading option that best meets your students’ needs.\r",
+    content:
+      "Choose the reading option that best meets your students’ needs.\r",
     parentPageName: "2",
     characterStyles: [
       { character: "C", style: "" },
@@ -1380,8 +1387,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "" },
       { character: "d", style: "" },
       { character: "s", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -1448,12 +1455,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "t", style: "Lesson_B-hd-LightFace" },
       { character: "h", style: "Lesson_B-hd-LightFace" },
       { character: "e", style: "Lesson_B-hd-LightFace" },
-      { character: "r", style: "Lesson_B-hd-LightFace" }
-    ]
+      { character: "r", style: "Lesson_B-hd-LightFace" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Invite students to state the characters, settings, and main events in “Into the Fire.” As a group, create a Story Elements Chart. Then, as a group, construct a summary of “Into the Fire.” If students need more support to summarize the text, use the lesson on page 3 of this guide.\r",
+    content:
+      "Invite students to state the characters, settings, and main events in “Into the Fire.” As a group, create a Story Elements Chart. Then, as a group, construct a summary of “Into the Fire.” If students need more support to summarize the text, use the lesson on page 3 of this guide.\r",
     parentPageName: "2",
     characterStyles: [
       { character: "I", style: "" },
@@ -1736,8 +1744,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "d", style: "" },
       { character: "e", style: "" },
       { character: ".", style: "" },
-      { character: "", style: "" }
-    ]
+      { character: "", style: "" },
+    ],
   },
   {
     styleName: "table_footer",
@@ -1777,8 +1785,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "Medium_Condensed" },
       { character: "a", style: "Medium_Condensed" },
       { character: "r", style: "Medium_Condensed" },
-      { character: "t", style: "Medium_Condensed" }
-    ]
+      { character: "t", style: "Medium_Condensed" },
+    ],
   },
   {
     styleName: "table header",
@@ -1794,8 +1802,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "t", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
       { character: "r", style: "Character Style 1" },
-      { character: "s", style: "Character Style 1" }
-    ]
+      { character: "s", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "table header",
@@ -1808,8 +1816,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "t", style: "Character Style 1" },
       { character: "i", style: "Character Style 1" },
       { character: "n", style: "Character Style 1" },
-      { character: "g", style: "Character Style 1" }
-    ]
+      { character: "g", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1865,8 +1873,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "m", style: "Character Style 1" },
       { character: "i", style: "Character Style 1" },
       { character: "l", style: "Character Style 1" },
-      { character: "l", style: "Character Style 1" }
-    ]
+      { character: "l", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1911,8 +1919,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "Character Style 1" },
       { character: "t", style: "Character Style 1" },
       { character: "t", style: "Character Style 1" },
-      { character: "s", style: "Character Style 1" }
-    ]
+      { character: "s", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "table header",
@@ -1929,8 +1937,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "Character Style 1" },
       { character: "n", style: "Character Style 1" },
       { character: "t", style: "Character Style 1" },
-      { character: "s", style: "Character Style 1" }
-    ]
+      { character: "s", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1986,8 +1994,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "Character Style 1" },
       { character: "l", style: "Character Style 1" },
       { character: "l", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -2036,8 +2044,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "Character Style 1" },
       { character: "u", style: "Character Style 1" },
       { character: "m", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -2101,8 +2109,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "Character Style 1" },
       { character: "l", style: "Character Style 1" },
       { character: "f", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -2172,8 +2180,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
       { character: "r", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -2230,8 +2238,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "Character Style 1" },
       { character: "r", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
-  }
+      { character: ".", style: "Character Style 1" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

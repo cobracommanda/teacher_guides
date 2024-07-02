@@ -1,7 +1,8 @@
-const paragraphData = [teacher-talkteacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
-    content: "Close Reading Option 1: Identify and Analyze Theme \nRL.6.1, RL.6.2, RL.6.3, W.6.10, SL.6.1\r",
+    content:
+      "Close Reading Option 1: Identify and Analyze Theme \nRL.6.1, RL.6.2, RL.6.3, W.6.10, SL.6.1\r",
     parentPageName: "6",
     characterStyles: [
       { character: "C", style: "" },
@@ -93,8 +94,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: ".", style: "" },
       { character: "6", style: "" },
       { character: ".", style: "" },
-      { character: "1", style: "" }
-    ]
+      { character: "1", style: "" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -127,8 +128,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "" },
       { character: "n", style: "" },
       { character: "c", style: "" },
-      { character: "e", style: "" }
-    ]
+      { character: "e", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -185,12 +186,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "o", style: "" },
       { character: "n", style: "" },
       { character: ".", style: "" },
-      { character: "", style: "" }
-    ]
+      { character: "", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Remind students that the theme of a story is a central message. Explain that this question asks readers to identify a theme in the play and then locate text evidence that illustrates it.\r",
+    content:
+      "Remind students that the theme of a story is a central message. Explain that this question asks readers to identify a theme in the play and then locate text evidence that illustrates it.\r",
     parentPageName: "6",
     characterStyles: [
       { character: "R", style: "" },
@@ -378,12 +380,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: " ", style: "" },
       { character: "i", style: "" },
       { character: "t", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: Finding the theme of a story requires readers to make an inference based on text evidence. We need to look at the characters’ actions and how they affect the plot of \nthe story.\r",
+    content:
+      "Say: Finding the theme of a story requires readers to make an inference based on text evidence. We need to look at the characters’ actions and how they affect the plot of \nthe story.\r",
     parentPageName: "6",
     characterStyles: [
       { character: "S", style: "" },
@@ -567,8 +570,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "o", style: "" },
       { character: "r", style: "" },
       { character: "y", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -593,12 +596,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "EN_DASH", style: "" },
       { character: "1", style: "" },
       { character: "1", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: In the courtroom scene, I notice that Mr. Brownlow shows kindness towards Oliver. When the judge sentences Oliver to three months of hard labor, Mr. Brownlow says, “I’ve decided that I’m not pressing any charges. This boy is very ill.” Mr. Brownlow takes Oliver home and takes care of him. This act of kindness dramatically changes the course of Oliver’s life in a positive way. Instead of going to prison, he has a home where he is cared for. I think a central theme of the play is the importance of showing kindness to others.\r",
+    content:
+      "Say: In the courtroom scene, I notice that Mr. Brownlow shows kindness towards Oliver. When the judge sentences Oliver to three months of hard labor, Mr. Brownlow says, “I’ve decided that I’m not pressing any charges. This boy is very ill.” Mr. Brownlow takes Oliver home and takes care of him. This act of kindness dramatically changes the course of Oliver’s life in a positive way. Instead of going to prison, he has a home where he is cared for. I think a central theme of the play is the importance of showing kindness to others.\r",
     parentPageName: "6",
     characterStyles: [
       { character: "S", style: "" },
@@ -1133,12 +1137,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "" },
       { character: "r", style: "" },
       { character: "s", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Display a blank Text Evidence Chart and model how you record the text evidence you found.\r",
+    content:
+      "Display a blank Text Evidence Chart and model how you record the text evidence you found.\r",
     parentPageName: "6",
     characterStyles: [
       { character: "D", style: "" },
@@ -1229,8 +1234,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "u", style: "" },
       { character: "n", style: "" },
       { character: "d", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -1252,8 +1257,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "t", style: "" },
       { character: "i", style: "" },
       { character: "c", style: "" },
-      { character: "e", style: "" }
-    ]
+      { character: "e", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -1291,12 +1296,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: " ", style: "" },
       { character: "2", style: "" },
       { character: "7", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Collaborative conversation (turn and talk). Ask students to turn to a partner, reread pages 27–28, and find additional text evidence that supports the theme of the importance of showing kindness. Remind students to stay on topic, build on each other’s ideas, and ask questions to clarify each other’s thoughts.\r",
+    content:
+      "Collaborative conversation (turn and talk). Ask students to turn to a partner, reread pages 27–28, and find additional text evidence that supports the theme of the importance of showing kindness. Remind students to stay on topic, build on each other’s ideas, and ask questions to clarify each other’s thoughts.\r",
     parentPageName: "6",
     characterStyles: [
       { character: "C", style: "Med_cond" },
@@ -1608,12 +1614,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "" },
       { character: "t", style: "" },
       { character: "s", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Bring students together and ask several pairs to share the text evidence they found. Students should be able to explain that Nancy shows kindness by trying to help \nOliver and telling Rose the truth about him. Her actions will result in Oliver returning to Mr. Brownlow’s home rather than being handed over to the police. This shows how kindness can have an important and positive effect on someone’s life.\r",
+    content:
+      "Bring students together and ask several pairs to share the text evidence they found. Students should be able to explain that Nancy shows kindness by trying to help \nOliver and telling Rose the truth about him. Her actions will result in Oliver returning to Mr. Brownlow’s home rather than being handed over to the police. This shows how kindness can have an important and positive effect on someone’s life.\r",
     parentPageName: "6",
     characterStyles: [
       { character: "B", style: "" },
@@ -2021,8 +2028,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "" },
       { character: "f", style: "" },
       { character: "e", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -2060,12 +2067,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "" },
       { character: "t", style: "" },
       { character: "l", style: "" },
-      { character: "y", style: "" }
-    ]
+      { character: "y", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Ask students to reread pages 29–30 independently to identify more evidence that supports the theme. Students should conclude that Mr. Brownlow shows kindness to Oliver by demanding that Monks share the family inheritance and by giving Oliver a new life and a new home.\r",
+    content:
+      "Ask students to reread pages 29–30 independently to identify more evidence that supports the theme. Students should conclude that Mr. Brownlow shows kindness to Oliver by demanding that Monks share the family inheritance and by giving Oliver a new life and a new home.\r",
     parentPageName: "6",
     characterStyles: [
       { character: "A", style: "" },
@@ -2335,12 +2343,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "o", style: "" },
       { character: "m", style: "" },
       { character: "e", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Discuss how this close reading has helped students understand that the text evidence supports the theme that showing kindness can have a positive effect on someone’s life.",
+    content:
+      "Discuss how this close reading has helped students understand that the text evidence supports the theme that showing kindness can have a positive effect on someone’s life.",
     parentPageName: "6",
     characterStyles: [
       { character: "D", style: "" },
@@ -2513,12 +2522,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "" },
       { character: "f", style: "" },
       { character: "e", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "What is a central theme of this play and how is it conveyed through particular details?",
+    content:
+      "What is a central theme of this play and how is it conveyed through particular details?",
     parentPageName: "6",
     characterStyles: [
       { character: "W", style: "Character Style 1" },
@@ -2607,8 +2617,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "Character Style 1" },
       { character: "l", style: "Character Style 1" },
       { character: "s", style: "Character Style 1" },
-      { character: "?", style: "Character Style 1" }
-    ]
-  }
+      { character: "?", style: "Character Style 1" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

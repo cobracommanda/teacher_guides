@@ -1,7 +1,8 @@
-const paragraphData = [teacher-talkteacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
-    content: "Read Part 1 (pp. 2–7) RI.6.1, RI.6.2, RI.6.3, W.6.8, W.6.10, SL.6.1a, SL.6.1b, SL.6.1c, SL.6.1d, SL.6.2\r",
+    content:
+      "Read Part 1 (pp. 2–7) RI.6.1, RI.6.2, RI.6.3, W.6.8, W.6.10, SL.6.1a, SL.6.1b, SL.6.1c, SL.6.1d, SL.6.2\r",
     parentPageName: "2",
     characterStyles: [
       { character: "R", style: "[None]" },
@@ -106,8 +107,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: ".", style: "[None]" },
       { character: "6", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: "2", style: "[None]" }
-    ]
+      { character: "2", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -141,12 +142,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "[None]" },
       { character: "o", style: "[None]" },
       { character: "n", style: "[None]" },
-      { character: "s", style: "[None]" }
-    ]
+      { character: "s", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Invite students to flip through the book and view the photographs, or display the e-book and preview the pages together. Note that the book is made up of several parts.\r",
+    content:
+      "Invite students to flip through the book and view the photographs, or display the e-book and preview the pages together. Note that the book is made up of several parts.\r",
     parentPageName: "2",
     characterStyles: [
       { character: "I", style: "[None]" },
@@ -316,12 +318,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "r", style: "[None]" },
       { character: "t", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: This book has multiple text types. There are an informational introduction, introductions to two different literature excerpts, the literature excerpts, and three opinions about the literature.\r",
+    content:
+      "Say: This book has multiple text types. There are an informational introduction, introductions to two different literature excerpts, the literature excerpts, and three opinions about the literature.\r",
     parentPageName: "2",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -521,12 +524,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "u", style: "[None]" },
       { character: "r", style: "[None]" },
       { character: "e", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "If your students need more support, use the Scaffolded Preview provided.\r",
+    content:
+      "If your students need more support, use the Scaffolded Preview provided.\r",
     parentPageName: "2",
     characterStyles: [
       { character: "I", style: "[None]" },
@@ -600,8 +604,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "d", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "d", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -620,12 +624,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "p", style: "[None]" },
       { character: "o", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: "e", style: "[None]" }
-    ]
+      { character: "e", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: As you read Part 1, use self-stick notes to identify the key events in the excerpt from Bud, Not Buddy.\r",
+    content:
+      "Say: As you read Part 1, use self-stick notes to identify the key events in the excerpt from Bud, Not Buddy.\r",
     parentPageName: "2",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -735,12 +740,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "d", style: "Cond" },
       { character: "d", style: "Cond" },
       { character: "y", style: "Cond" },
-      { character: ".", style: "Cond" }
-    ]
+      { character: ".", style: "Cond" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Choose the reading option that best meets your students’ needs.\r",
+    content:
+      "Choose the reading option that best meets your students’ needs.\r",
     parentPageName: "2",
     characterStyles: [
       { character: "C", style: "[None]" },
@@ -805,12 +811,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: "d", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
-    content: "Summarize the Main Idea and Key Events: Think and Write Together\r",
+    content:
+      "Summarize the Main Idea and Key Events: Think and Write Together\r",
     parentPageName: "2",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -876,12 +883,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "t", style: "Cond" },
       { character: "h", style: "Cond" },
       { character: "e", style: "Cond" },
-      { character: "r", style: "Cond" }
-    ]
+      { character: "r", style: "Cond" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Invite students to identify the key events in the excerpt of Bud, Not Buddy. As a group, create a Key Events Chart. Then, as a group, construct a summary of the excerpt. If students need more support to summarize the text, use the lesson on page 3 of this guide.\r",
+    content:
+      "Invite students to identify the key events in the excerpt of Bud, Not Buddy. As a group, create a Key Events Chart. Then, as a group, construct a summary of the excerpt. If students need more support to summarize the text, use the lesson on page 3 of this guide.\r",
     parentPageName: "2",
     characterStyles: [
       { character: "I", style: "[None]" },
@@ -1145,16 +1153,14 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "[None]" },
       { character: "d", style: "[None]" },
       { character: "e", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
     content: "\r",
     parentPageName: "2",
-    characterStyles: [
-      { character: "", style: "[None]" }
-    ]
+    characterStyles: [{ character: "", style: "[None]" }],
   },
   {
     styleName: "table_footer",
@@ -1190,8 +1196,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "b" },
       { character: "a", style: "b" },
       { character: "r", style: "b" },
-      { character: "t", style: "b" }
-    ]
+      { character: "t", style: "b" },
+    ],
   },
   {
     styleName: "table header",
@@ -1207,12 +1213,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: "n", style: "[None]" },
       { character: "t", style: "[None]" },
-      { character: "s", style: "[None]" }
-    ]
+      { character: "s", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Bud goes to the library to look at a book of maps describing the distances between cities.",
+    content:
+      "Bud goes to the library to look at a book of maps describing the distances between cities.",
     parentPageName: "2",
     characterStyles: [
       { character: "B", style: "Character Style 1" },
@@ -1304,12 +1311,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
       { character: "s", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "He plans to travel 120 miles from Flint to Grand Rapids to find his father.",
+    content:
+      "He plans to travel 120 miles from Flint to Grand Rapids to find his father.",
     parentPageName: "2",
     characterStyles: [
       { character: "H", style: "Character Style 1" },
@@ -1386,12 +1394,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
       { character: "r", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "The librarian gives him a Civil War book, and he reads it all day.",
+    content:
+      "The librarian gives him a Civil War book, and he reads it all day.",
     parentPageName: "2",
     characterStyles: [
       { character: "T", style: "Character Style 1" },
@@ -1459,12 +1468,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "d", style: "Character Style 1" },
       { character: "a", style: "Character Style 1" },
       { character: "y", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "He begins his journey to Grand Rapids as soon as the library closed.",
+    content:
+      "He begins his journey to Grand Rapids as soon as the library closed.",
     parentPageName: "2",
     characterStyles: [
       { character: "H", style: "Character Style 1" },
@@ -1534,12 +1544,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "s", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
       { character: "d", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "When he arrives, Calloway denies being his father. They later learn he is Bud’s grandfather, and Bud has been reunited with his family after all.",
+    content:
+      "When he arrives, Calloway denies being his father. They later learn he is Bud’s grandfather, and Bud has been reunited with his family after all.",
     parentPageName: "2",
     characterStyles: [
       { character: "W", style: "Character Style 1" },
@@ -1686,8 +1697,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "a", style: "Character Style 1" },
       { character: "l", style: "Character Style 1" },
       { character: "l", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
-  }
+      { character: ".", style: "Character Style 1" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

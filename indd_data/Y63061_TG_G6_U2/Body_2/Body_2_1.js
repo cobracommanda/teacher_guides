@@ -1,0 +1,1 @@
+const paragraphData = [  {    styleName: "[Basic Paragraph]",    content: "",    parentPageName: "2",    characterStyles: [      { character: "", style: "[None]" }    ]  }]; module.exports = paragraphData;

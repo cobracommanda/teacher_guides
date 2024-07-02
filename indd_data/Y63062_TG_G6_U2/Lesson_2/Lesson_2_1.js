@@ -1,7 +1,8 @@
-const paragraphData = [teacher-talkteacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
-    content: "Read Part 1 (pp. 2–12) RL.6.1, RL.6.2, RL.6.3, W.6.10, SL.6.1a, SL.6.1b, SL.6.1c, SL.6.1d\r",
+    content:
+      "Read Part 1 (pp. 2–12) RL.6.1, RL.6.2, RL.6.3, W.6.10, SL.6.1a, SL.6.1b, SL.6.1c, SL.6.1d\r",
     parentPageName: "2",
     characterStyles: [
       { character: "R", style: "[None]" },
@@ -92,8 +93,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "6", style: "[None]" },
       { character: ".", style: "[None]" },
       { character: "1", style: "[None]" },
-      { character: "d", style: "[None]" }
-    ]
+      { character: "d", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -127,12 +128,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "[None]" },
       { character: "o", style: "[None]" },
       { character: "n", style: "[None]" },
-      { character: "s", style: "[None]" }
-    ]
+      { character: "s", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Invite students to flip through the book and view the illustrations. Or display the e-book and preview the pages together.\r",
+    content:
+      "Invite students to flip through the book and view the illustrations. Or display the e-book and preview the pages together.\r",
     parentPageName: "2",
     characterStyles: [
       { character: "I", style: "[None]" },
@@ -256,12 +258,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "r", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Read aloud the features of realistic fiction on the inside front cover. Then have students turn to the Table of Contents to see how the book is divided into chapters. Invite students to read the book description on the back cover.\r",
+    content:
+      "Read aloud the features of realistic fiction on the inside front cover. Then have students turn to the Table of Contents to see how the book is divided into chapters. Invite students to read the book description on the back cover.\r",
     parentPageName: "2",
     characterStyles: [
       { character: "R", style: "[None]" },
@@ -493,12 +496,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "v", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "r", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Ask: What characters and events are written about in realistic fiction?\r",
+    content:
+      "Ask: What characters and events are written about in realistic fiction?\r",
     parentPageName: "2",
     characterStyles: [
       { character: "A", style: "[None]" },
@@ -571,12 +575,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "[None]" },
       { character: "o", style: "[None]" },
       { character: "n", style: "[None]" },
-      { character: "?", style: "[None]" }
-    ]
+      { character: "?", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "If your students need more support, use the Scaffolded Preview provided.\r",
+    content:
+      "If your students need more support, use the Scaffolded Preview provided.\r",
     parentPageName: "2",
     characterStyles: [
       { character: "I", style: "[None]" },
@@ -650,8 +655,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "d", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "d", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -670,12 +675,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "p", style: "[None]" },
       { character: "o", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: "e", style: "[None]" }
-    ]
+      { character: "e", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: Let’s begin by reading Chapters 1–2 of the story, or Part 1. As you read through these pages, use self-stick notes to identify the main characters and setting, and to note the main events.\r",
+    content:
+      "Say: Let’s begin by reading Chapters 1–2 of the story, or Part 1. As you read through these pages, use self-stick notes to identify the main characters and setting, and to note the main events.\r",
     parentPageName: "2",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -870,12 +876,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "[None]" },
       { character: "t", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Choose the reading option that best meets your students’ needs.\r",
+    content:
+      "Choose the reading option that best meets your students’ needs.\r",
     parentPageName: "2",
     characterStyles: [
       { character: "C", style: "[None]" },
@@ -940,8 +947,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: "d", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -1001,12 +1008,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "t", style: "Lesson_B-hd-LightFace" },
       { character: "h", style: "Lesson_B-hd-LightFace" },
       { character: "e", style: "Lesson_B-hd-LightFace" },
-      { character: "r", style: "Lesson_B-hd-LightFace" }
-    ]
+      { character: "r", style: "Lesson_B-hd-LightFace" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Invite students to discuss the main characters, setting, and events in Part 1. As a group, create a Story Elements Chart. Then, as a group, construct a summary of the key ideas in Part 1. If students need more support to summarize the text, use the lesson on page 3 of this guide.\r",
+    content:
+      "Invite students to discuss the main characters, setting, and events in Part 1. As a group, create a Story Elements Chart. Then, as a group, construct a summary of the key ideas in Part 1. If students need more support to summarize the text, use the lesson on page 3 of this guide.\r",
     parentPageName: "2",
     characterStyles: [
       { character: "I", style: "[None]" },
@@ -1289,8 +1297,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "d", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: "", style: "[None]" }
-    ]
+      { character: "", style: "[None]" },
+    ],
   },
   {
     styleName: "table_footer",
@@ -1330,8 +1338,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "Medium_Condensed" },
       { character: "a", style: "Medium_Condensed" },
       { character: "r", style: "Medium_Condensed" },
-      { character: "t", style: "Medium_Condensed" }
-    ]
+      { character: "t", style: "Medium_Condensed" },
+    ],
   },
   {
     styleName: "table header",
@@ -1347,8 +1355,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "t", style: "Medium_Condensed" },
       { character: "e", style: "Medium_Condensed" },
       { character: "r", style: "Medium_Condensed" },
-      { character: "s", style: "Medium_Condensed" }
-    ]
+      { character: "s", style: "Medium_Condensed" },
+    ],
   },
   {
     styleName: "table header",
@@ -1361,12 +1369,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "t", style: "Medium_Condensed" },
       { character: "i", style: "Medium_Condensed" },
       { character: "n", style: "Medium_Condensed" },
-      { character: "g", style: "Medium_Condensed" }
-    ]
+      { character: "g", style: "Medium_Condensed" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Rodrigo, Rodrigo’s mom, Santo, Abuelo, Abuelo’s friends, Mrs. Brown",
+    content:
+      "Rodrigo, Rodrigo’s mom, Santo, Abuelo, Abuelo’s friends, Mrs. Brown",
     parentPageName: "2",
     characterStyles: [
       { character: "R", style: "Character Style 1" },
@@ -1435,8 +1444,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "r", style: "Character Style 1" },
       { character: "o", style: "Character Style 1" },
       { character: "w", style: "Character Style 1" },
-      { character: "n", style: "Character Style 1" }
-    ]
+      { character: "n", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1488,8 +1497,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "Character Style 1" },
       { character: "t", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
-      { character: "r", style: "Character Style 1" }
-    ]
+      { character: "r", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "table header",
@@ -1506,12 +1515,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "Medium_Condensed" },
       { character: "n", style: "Medium_Condensed" },
       { character: "t", style: "Medium_Condensed" },
-      { character: "s", style: "Medium_Condensed" }
-    ]
+      { character: "s", style: "Medium_Condensed" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Rodrigo visits Abuelo at the rehabilitation center and plays cards with Abuelo and the other men there; they talk about their dogs and wish they could have them with them.",
+    content:
+      "Rodrigo visits Abuelo at the rehabilitation center and plays cards with Abuelo and the other men there; they talk about their dogs and wish they could have them with them.",
     parentPageName: "2",
     characterStyles: [
       { character: "R", style: "Character Style 1" },
@@ -1684,12 +1694,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
       { character: "m", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Rodrigo tells his mother about his day with Abuelo and how the men were sad without their dogs; but he says that he has a plan to help them.",
+    content:
+      "Rodrigo tells his mother about his day with Abuelo and how the men were sad without their dogs; but he says that he has a plan to help them.",
     parentPageName: "2",
     characterStyles: [
       { character: "R", style: "Character Style 1" },
@@ -1831,12 +1842,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
       { character: "m", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Rodrigo and his mom visit the therapy dog-training center where Mrs. Brown begins to train Santo to be a therapy dog.",
+    content:
+      "Rodrigo and his mom visit the therapy dog-training center where Mrs. Brown begins to train Santo to be a therapy dog.",
     parentPageName: "2",
     characterStyles: [
       { character: "R", style: "Character Style 1" },
@@ -1955,8 +1967,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "d", style: "Character Style 1" },
       { character: "o", style: "Character Style 1" },
       { character: "g", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
-  }
+      { character: ".", style: "Character Style 1" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

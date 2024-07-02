@@ -1,4 +1,4 @@
-const paragraphData = [teacher-talkteacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
     content: "Lesson: Distinguish Interesting Details from Important Details\r",
@@ -65,12 +65,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "a", style: "[None]" },
       { character: "i", style: "[None]" },
       { character: "l", style: "[None]" },
-      { character: "s", style: "[None]" }
-    ]
+      { character: "s", style: "[None]" },
+    ],
   },
   {
     styleName: "Body-txt",
-    content: "Explain that when readers summarize, they include only the most important details from the text. Have students turn to page 9. Reread the first two paragraphs together.\r",
+    content:
+      "Explain that when readers summarize, they include only the most important details from the text. Have students turn to page 9. Reread the first two paragraphs together.\r",
     parentPageName: "3",
     characterStyles: [
       { character: "E", style: "[None]" },
@@ -240,12 +241,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "r", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: Let’s identify the most important details in this paragraph. It is important to understand that Varuna is a Plynchin and is starting her first job—counting sentient beings. These details explain the story problem. \r",
+    content:
+      "Say: Let’s identify the most important details in this paragraph. It is important to understand that Varuna is a Plynchin and is starting her first job—counting sentient beings. These details explain the story problem. \r",
     parentPageName: "3",
     characterStyles: [
       { character: "S", style: "b" },
@@ -466,8 +468,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "b" },
       { character: "m", style: "b" },
       { character: ".", style: "b" },
-      { character: " ", style: "b" }
-    ]
+      { character: " ", style: "b" },
+    ],
   },
   {
     styleName: "Body-txt",
@@ -518,12 +520,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: "m", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: " ", style: "[None]" }
-    ]
+      { character: " ", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: These details are interesting! They help us visualize how Varuna can go anywhere in the universe. But would the story still make sense without these details? Yes. The details are not important enough to include in a summary. \r",
+    content:
+      "Say: These details are interesting! They help us visualize how Varuna can go anywhere in the universe. But would the story still make sense without these details? Yes. The details are not important enough to include in a summary. \r",
     parentPageName: "3",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -755,12 +758,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "r", style: "b" },
       { character: "y", style: "b" },
       { character: ".", style: "b" },
-      { character: " ", style: "b" }
-    ]
+      { character: " ", style: "b" },
+    ],
   },
   {
     styleName: "Body-txt",
-    content: "Pair students and have them write a summary of the science fiction story.\r",
+    content:
+      "Pair students and have them write a summary of the science fiction story.\r",
     parentPageName: "3",
     characterStyles: [
       { character: "P", style: "[None]" },
@@ -835,8 +839,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "o", style: "[None]" },
       { character: "r", style: "[None]" },
       { character: "y", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -887,12 +891,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "[None]" },
       { character: "a", style: "[None]" },
       { character: "r", style: "[None]" },
-      { character: "e", style: "[None]" }
-    ]
+      { character: "e", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Bring students together and ask several pairs to read their summaries aloud. As a group, evaluate the summaries and identify any key details that were omitted or extraneous. Then write a group summary of Varuna Takes a Job with the Census. If time allows, invite students to discuss the “Analyze the Characters and Plot” questions on page 16. Finally, ask students to turn back to the “Features of Science Fiction” web on page 3 and, with a partner, discuss which features apply to this story and how.\r",
+    content:
+      "Bring students together and ask several pairs to read their summaries aloud. As a group, evaluate the summaries and identify any key details that were omitted or extraneous. Then write a group summary of Varuna Takes a Job with the Census. If time allows, invite students to discuss the “Analyze the Characters and Plot” questions on page 16. Finally, ask students to turn back to the “Features of Science Fiction” web on page 3 and, with a partner, discuss which features apply to this story and how.\r",
     parentPageName: "3",
     characterStyles: [
       { character: "B", style: "[None]" },
@@ -1395,16 +1400,14 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "[None]" },
       { character: "o", style: "[None]" },
       { character: "w", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
     content: "\r",
     parentPageName: "3",
-    characterStyles: [
-      { character: "", style: "[None]" }
-    ]
+    characterStyles: [{ character: "", style: "[None]" }],
   },
   {
     styleName: "table_label",
@@ -1430,12 +1433,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "m", style: "labels" },
       { character: "a", style: "labels" },
       { character: "r", style: "labels" },
-      { character: "y", style: "labels" }
-    ]
+      { character: "y", style: "labels" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "In the Seraphim Galaxy, Varuna, a Plynchin, starts a new job counting sentient beings for the census. She meets her boss, Gphimpy, and then gets started. Varuna discovers new races of sentient beings and interviews planet Earth, whose beings became extinct. Varuna leaves her toy Onglantichi behind while working, but her boss returns it to her and tells her that she did a great job on her first day. ",
+    content:
+      "In the Seraphim Galaxy, Varuna, a Plynchin, starts a new job counting sentient beings for the census. She meets her boss, Gphimpy, and then gets started. Varuna discovers new races of sentient beings and interviews planet Earth, whose beings became extinct. Varuna leaves her toy Onglantichi behind while working, but her boss returns it to her and tells her that she did a great job on her first day. ",
     parentPageName: "3",
     characterStyles: [
       { character: "I", style: "[None]" },
@@ -1839,8 +1843,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "a", style: "[None]" },
       { character: "y", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: " ", style: "[None]" }
-    ]
-  }
+      { character: " ", style: "[None]" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

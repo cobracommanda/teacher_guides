@@ -1,4 +1,4 @@
-const paragraphData = [teacher-talkteacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_B-hd",
     content: "Lesson: Visualize Key Events\r",
@@ -31,12 +31,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "Lesson_B-hd-LightFace" },
       { character: "n", style: "Lesson_B-hd-LightFace" },
       { character: "t", style: "Lesson_B-hd-LightFace" },
-      { character: "s", style: "Lesson_B-hd-LightFace" }
-    ]
+      { character: "s", style: "Lesson_B-hd-LightFace" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Remind students that visualizing events as they read can help them identify the important information and summarize what happened.\r",
+    content:
+      "Remind students that visualizing events as they read can help them identify the important information and summarize what happened.\r",
     parentPageName: "3",
     characterStyles: [
       { character: "R", style: "" },
@@ -168,12 +169,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "" },
       { character: "e", style: "" },
       { character: "d", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: Close your eyes and listen as I read a scene from “Into the Fire.” Picture in your mind what is happening.\r",
+    content:
+      "Say: Close your eyes and listen as I read a scene from “Into the Fire.” Picture in your mind what is happening.\r",
     parentPageName: "3",
     characterStyles: [
       { character: "S", style: "" },
@@ -286,8 +288,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "" },
       { character: "n", style: "" },
       { character: "g", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -318,12 +320,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "d", style: "" },
       { character: " ", style: "" },
       { character: "7", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: What did you see happening in the factory? What did the workers do when Sofia alerted them to the fire? What made Sofia’s actions different from the other girls?\r",
+    content:
+      "Say: What did you see happening in the factory? What did the workers do when Sofia alerted them to the fire? What made Sofia’s actions different from the other girls?\r",
     parentPageName: "3",
     characterStyles: [
       { character: "S", style: "" },
@@ -491,8 +494,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "r", style: "" },
       { character: "l", style: "" },
       { character: "s", style: "" },
-      { character: "?", style: "" }
-    ]
+      { character: "?", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -559,8 +562,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "d", style: "" },
       { character: " ", style: "" },
       { character: "7", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -625,12 +628,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "Lesson_B-hd-LightFace" },
       { character: "a", style: "Lesson_B-hd-LightFace" },
       { character: "r", style: "Lesson_B-hd-LightFace" },
-      { character: "e", style: "Lesson_B-hd-LightFace" }
-    ]
+      { character: "e", style: "Lesson_B-hd-LightFace" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Bring students together and ask several pairs of students to read their summaries aloud. As a whole group, evaluate the questions and summaries. Point out that students can use some of this information to help them write their summaries of “Into the Fire.” As a group, evaluate the summaries and identify any omitted key information. Then write a group summary of Part 1.\r",
+    content:
+      "Bring students together and ask several pairs of students to read their summaries aloud. As a whole group, evaluate the questions and summaries. Point out that students can use some of this information to help them write their summaries of “Into the Fire.” As a group, evaluate the summaries and identify any omitted key information. Then write a group summary of Part 1.\r",
     parentPageName: "3",
     characterStyles: [
       { character: "B", style: "" },
@@ -1004,8 +1008,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: " ", style: "" },
       { character: "1", style: "" },
       { character: ".", style: "" },
-      { character: "", style: "" }
-    ]
+      { character: "", style: "" },
+    ],
   },
   {
     styleName: "table_footer",
@@ -1032,12 +1036,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "m", style: "Medium_Condensed" },
       { character: "a", style: "Medium_Condensed" },
       { character: "r", style: "Medium_Condensed" },
-      { character: "y", style: "Medium_Condensed" }
-    ]
+      { character: "y", style: "Medium_Condensed" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Sofia and Madeline were friends. Both girls worked at a textile factory in Lowell. One day, a fire broke out at the factory. All the girls working in the factory rushed out, but Madeline was stuck in her sewing machine. Sofia heard Madeline’s cries for help and rushed back to help her friend. She was the only girl to do so. She had to think quickly to free Madeline, but the girls managed to escape.",
+    content:
+      "Sofia and Madeline were friends. Both girls worked at a textile factory in Lowell. One day, a fire broke out at the factory. All the girls working in the factory rushed out, but Madeline was stuck in her sewing machine. Sofia heard Madeline’s cries for help and rushed back to help her friend. She was the only girl to do so. She had to think quickly to free Madeline, but the girls managed to escape.",
     parentPageName: "3",
     characterStyles: [
       { character: "S", style: "Character Style 1" },
@@ -1440,8 +1445,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "a", style: "Character Style 1" },
       { character: "p", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
-  }
+      { character: ".", style: "Character Style 1" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

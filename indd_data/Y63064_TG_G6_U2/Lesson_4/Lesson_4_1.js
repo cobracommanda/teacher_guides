@@ -1,4 +1,4 @@
-const paragraphData = [teacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
     content: "Read Part 2 (pp. 15–26) RL.6.1, RL.6.2, RL.6.3, W.6.10, SL.6.1\r",
@@ -65,8 +65,8 @@ const paragraphData = [teacher-talk
       { character: ".", style: "" },
       { character: "6", style: "" },
       { character: ".", style: "" },
-      { character: "1", style: "" }
-    ]
+      { character: "1", style: "" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -85,12 +85,13 @@ const paragraphData = [teacher-talk
       { character: "p", style: "" },
       { character: "o", style: "" },
       { character: "s", style: "" },
-      { character: "e", style: "" }
-    ]
+      { character: "e", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: As you read Part 2 (pp. 15–26), use self-stick notes to flag important details about characters, setting, and main events as well as stage directions and illustrations that help you identify important information. Think about Fagin’s problem and his solution in this section.\r",
+    content:
+      "Say: As you read Part 2 (pp. 15–26), use self-stick notes to flag important details about characters, setting, and main events as well as stage directions and illustrations that help you identify important information. Think about Fagin’s problem and his solution in this section.\r",
     parentPageName: "4",
     characterStyles: [
       { character: "S", style: "" },
@@ -372,12 +373,13 @@ const paragraphData = [teacher-talk
       { character: "i", style: "" },
       { character: "o", style: "" },
       { character: "n", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Choose the reading option that best meets the needs of your students. If students need more support to access the text, use the Scaffolded Preview provided.\r",
+    content:
+      "Choose the reading option that best meets the needs of your students. If students need more support to access the text, use the Scaffolded Preview provided.\r",
     parentPageName: "4",
     characterStyles: [
       { character: "C", style: "" },
@@ -535,8 +537,8 @@ const paragraphData = [teacher-talk
       { character: "d", style: "" },
       { character: "e", style: "" },
       { character: "d", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -601,12 +603,13 @@ const paragraphData = [teacher-talk
       { character: "h", style: "Lesson_B-hd-LightFace" },
       { character: "a", style: "Lesson_B-hd-LightFace" },
       { character: "r", style: "Lesson_B-hd-LightFace" },
-      { character: "e", style: "Lesson_B-hd-LightFace" }
-    ]
+      { character: "e", style: "Lesson_B-hd-LightFace" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Invite students to share with a partner what they noted in the text. Have them collaborate to create a new Story Elements Chart for Part 2 that lists the characters, setting, and key events.\r",
+    content:
+      "Invite students to share with a partner what they noted in the text. Have them collaborate to create a new Story Elements Chart for Part 2 that lists the characters, setting, and key events.\r",
     parentPageName: "4",
     characterStyles: [
       { character: "I", style: "" },
@@ -799,8 +802,8 @@ const paragraphData = [teacher-talk
       { character: "t", style: "" },
       { character: "s", style: "" },
       { character: ".", style: "" },
-      { character: "", style: "" }
-    ]
+      { character: "", style: "" },
+    ],
   },
   {
     styleName: "table_footer",
@@ -840,12 +843,13 @@ const paragraphData = [teacher-talk
       { character: "h", style: "Med_cond" },
       { character: "a", style: "Med_cond" },
       { character: "r", style: "Med_cond" },
-      { character: "t", style: "Med_cond" }
-    ]
+      { character: "t", style: "Med_cond" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Then have pairs collaborate to write their own summary of the key ideas in Part 2. If students need more support in deciding what to include in a summary, refer back to the lesson strategy taught in Part 1.\r",
+    content:
+      "Then have pairs collaborate to write their own summary of the key ideas in Part 2. If students need more support in deciding what to include in a summary, refer back to the lesson strategy taught in Part 1.\r",
     parentPageName: "4",
     characterStyles: [
       { character: "T", style: "" },
@@ -1053,12 +1057,13 @@ const paragraphData = [teacher-talk
       { character: "t", style: "" },
       { character: " ", style: "" },
       { character: "1", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Bring students together and ask several pairs of students to read their summaries aloud. As a group, evaluate the summaries and identify any key information that was omitted. As a group, construct a written summary of the key ideas in Act Two.\r",
+    content:
+      "Bring students together and ask several pairs of students to read their summaries aloud. As a group, evaluate the summaries and identify any key information that was omitted. As a group, construct a written summary of the key ideas in Act Two.\r",
     parentPageName: "4",
     characterStyles: [
       { character: "B", style: "" },
@@ -1304,8 +1309,8 @@ const paragraphData = [teacher-talk
       { character: "w", style: "" },
       { character: "o", style: "" },
       { character: ".", style: "" },
-      { character: "", style: "" }
-    ]
+      { character: "", style: "" },
+    ],
   },
   {
     styleName: "table_footer",
@@ -1338,8 +1343,8 @@ const paragraphData = [teacher-talk
       { character: "m", style: "Med_cond" },
       { character: "a", style: "Med_cond" },
       { character: "r", style: "Med_cond" },
-      { character: "y", style: "Med_cond" }
-    ]
+      { character: "y", style: "Med_cond" },
+    ],
   },
   {
     styleName: "table header",
@@ -1355,8 +1360,8 @@ const paragraphData = [teacher-talk
       { character: "t", style: "" },
       { character: "e", style: "" },
       { character: "r", style: "" },
-      { character: "s", style: "" }
-    ]
+      { character: "s", style: "" },
+    ],
   },
   {
     styleName: "table header",
@@ -1369,8 +1374,8 @@ const paragraphData = [teacher-talk
       { character: "t", style: "" },
       { character: "i", style: "" },
       { character: "n", style: "" },
-      { character: "g", style: "" }
-    ]
+      { character: "g", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1424,8 +1429,8 @@ const paragraphData = [teacher-talk
       { character: "R", style: "Character Style 1" },
       { character: "o", style: "Character Style 1" },
       { character: "s", style: "Character Style 1" },
-      { character: "e", style: "Character Style 1" }
-    ]
+      { character: "e", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1478,8 +1483,8 @@ const paragraphData = [teacher-talk
       { character: "o", style: "Character Style 1" },
       { character: "u", style: "Character Style 1" },
       { character: "s", style: "Character Style 1" },
-      { character: "e", style: "Character Style 1" }
-    ]
+      { character: "e", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "table header",
@@ -1496,12 +1501,13 @@ const paragraphData = [teacher-talk
       { character: "e", style: "" },
       { character: "n", style: "" },
       { character: "t", style: "" },
-      { character: "s", style: "" }
-    ]
+      { character: "s", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Fagin and Sikes discuss their fear that Oliver will tell the police about them.",
+    content:
+      "Fagin and Sikes discuss their fear that Oliver will tell the police about them.",
     parentPageName: "4",
     characterStyles: [
       { character: "F", style: "Character Style 1" },
@@ -1582,12 +1588,13 @@ const paragraphData = [teacher-talk
       { character: "h", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
       { character: "m", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Nancy kidnaps Oliver outside the bookstall and takes him back to Fagin’s hideout.",
+    content:
+      "Nancy kidnaps Oliver outside the bookstall and takes him back to Fagin’s hideout.",
     parentPageName: "4",
     characterStyles: [
       { character: "N", style: "Character Style 1" },
@@ -1670,12 +1677,13 @@ const paragraphData = [teacher-talk
       { character: "o", style: "Character Style 1" },
       { character: "u", style: "Character Style 1" },
       { character: "t", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Monks tells Fagin to get Oliver arrested or kill him so Oliver cannot inherit any family money.",
+    content:
+      "Monks tells Fagin to get Oliver arrested or kill him so Oliver cannot inherit any family money.",
     parentPageName: "4",
     characterStyles: [
       { character: "M", style: "Character Style 1" },
@@ -1772,12 +1780,13 @@ const paragraphData = [teacher-talk
       { character: "n", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
       { character: "y", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Oliver is caught when Sikes forces him to break into Rose’s house.",
+    content:
+      "Oliver is caught when Sikes forces him to break into Rose’s house.",
     parentPageName: "4",
     characterStyles: [
       { character: "O", style: "Character Style 1" },
@@ -1845,12 +1854,13 @@ const paragraphData = [teacher-talk
       { character: "u", style: "Character Style 1" },
       { character: "s", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Fagin and Sikes discuss the possibility that Oliver will tell the police about them. Nancy kidnaps Oliver outside the bookstall and returns him to Fagin’s hideout. Monks wants Fagin to get Oliver arrested or kill him so he cannot inherit any family money. Oliver is caught breaking into Rose’s house with Sikes.",
+    content:
+      "Fagin and Sikes discuss the possibility that Oliver will tell the police about them. Nancy kidnaps Oliver outside the bookstall and returns him to Fagin’s hideout. Monks wants Fagin to get Oliver arrested or kill him so he cannot inherit any family money. Oliver is caught breaking into Rose’s house with Sikes.",
     parentPageName: "4",
     characterStyles: [
       { character: "F", style: "Character Style 1" },
@@ -2163,8 +2173,8 @@ const paragraphData = [teacher-talk
       { character: "k", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
       { character: "s", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
-  }
+      { character: ".", style: "Character Style 1" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

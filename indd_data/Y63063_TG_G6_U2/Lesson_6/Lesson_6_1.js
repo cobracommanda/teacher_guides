@@ -1,7 +1,8 @@
-const paragraphData = [teacher-talkteacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
-    content: "Close Reading Option 1: Draw Conclusions \nRI.6.1, RI.6.8, W.6.2b, W.6.2c, SL.6.1a, SL.6.1c, SL.6.1d\r",
+    content:
+      "Close Reading Option 1: Draw Conclusions \nRI.6.1, RI.6.8, W.6.2b, W.6.2c, SL.6.1a, SL.6.1c, SL.6.1d\r",
     parentPageName: "6",
     characterStyles: [
       { character: "C", style: "[None]" },
@@ -102,8 +103,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "6", style: "[None]" },
       { character: ".", style: "[None]" },
       { character: "1", style: "[None]" },
-      { character: "d", style: "[None]" }
-    ]
+      { character: "d", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -136,8 +137,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: "n", style: "[None]" },
       { character: "c", style: "[None]" },
-      { character: "e", style: "[None]" }
-    ]
+      { character: "e", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -194,12 +195,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "o", style: "[None]" },
       { character: "n", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: "", style: "[None]" }
-    ]
+      { character: "", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Explain that this question asks readers to refer back to the part in the excerpt in which Bud realizes he has spent all day reading in the library.\r",
+    content:
+      "Explain that this question asks readers to refer back to the part in the excerpt in which Bud realizes he has spent all day reading in the library.\r",
     parentPageName: "6",
     characterStyles: [
       { character: "E", style: "[None]" },
@@ -348,12 +350,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "a", style: "[None]" },
       { character: "r", style: "[None]" },
       { character: "y", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: The quotation the question is referring to is located under the picture of Bud reading intently in the library. The text says, “There’s another thing that’s strange about the library, it seems like time flies when you’re in one.” This indicates Bud likes libraries, but I will have to find text evidence that shows this.\r",
+    content:
+      "Say: The quotation the question is referring to is located under the picture of Bud reading intently in the library. The text says, “There’s another thing that’s strange about the library, it seems like time flies when you’re in one.” This indicates Bud likes libraries, but I will have to find text evidence that shows this.\r",
     parentPageName: "6",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -680,8 +683,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "[None]" },
       { character: "i", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -701,12 +704,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: " ", style: "[None]" },
       { character: "7", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: The librarian gives Bud a book about the Civil War, and he cracks it open to read about it. Read the details about what it is like for him to open the page, smell the book, and read about each battle. These are details that show how “time flies,” or moves quickly, when he is in a library.\r",
+    content:
+      "Say: The librarian gives Bud a book about the Civil War, and he cracks it open to read about it. Read the details about what it is like for him to open the page, smell the book, and read about each battle. These are details that show how “time flies,” or moves quickly, when he is in a library.\r",
     parentPageName: "6",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -1002,12 +1006,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "a", style: "[None]" },
       { character: "r", style: "[None]" },
       { character: "y", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Display a blank Text Evidence Chart and model how you record the text evidence you found.\r",
+    content:
+      "Display a blank Text Evidence Chart and model how you record the text evidence you found.\r",
     parentPageName: "6",
     characterStyles: [
       { character: "D", style: "[None]" },
@@ -1098,8 +1103,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "u", style: "[None]" },
       { character: "n", style: "[None]" },
       { character: "d", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -1121,8 +1126,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "t", style: "[None]" },
       { character: "i", style: "[None]" },
       { character: "c", style: "[None]" },
-      { character: "e", style: "[None]" }
-    ]
+      { character: "e", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -1159,12 +1164,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: " ", style: "[None]" },
       { character: "7", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Collaborative conversation (turn and talk). Ask students to turn to a partner, reread page 7, and discuss the details that show how Bud becomes so deeply involved in the experience of reading a book that he loses track of time. Remind students to stay on topic, build on each other’s ideas, and ask questions to clarify each other’s thoughts.\r",
+    content:
+      "Collaborative conversation (turn and talk). Ask students to turn to a partner, reread page 7, and discuss the details that show how Bud becomes so deeply involved in the experience of reading a book that he loses track of time. Remind students to stay on topic, build on each other’s ideas, and ask questions to clarify each other’s thoughts.\r",
     parentPageName: "6",
     characterStyles: [
       { character: "C", style: "b" },
@@ -1508,12 +1514,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "[None]" },
       { character: "t", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Bring students together and ask several pairs to share the text evidence they found and to explain how their evidence supports the conclusion. Explain that when people are doing something they really enjoy, time seems to go by quickly.\r",
+    content:
+      "Bring students together and ask several pairs to share the text evidence they found and to explain how their evidence supports the conclusion. Explain that when people are doing something they really enjoy, time seems to go by quickly.\r",
     parentPageName: "6",
     characterStyles: [
       { character: "B", style: "[None]" },
@@ -1750,8 +1757,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "k", style: "[None]" },
       { character: "l", style: "[None]" },
       { character: "y", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -1789,12 +1796,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "[None]" },
       { character: "t", style: "[None]" },
       { character: "l", style: "[None]" },
-      { character: "y", style: "[None]" }
-    ]
+      { character: "y", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Ask students to reread page 7 independently to identify what the text evidence says about Bud’s character. Explain that they will have to use text evidence to support an idea that the author does not state directly. Explain that this is what it means to draw a conclusion or make an inference.\r",
+    content:
+      "Ask students to reread page 7 independently to identify what the text evidence says about Bud’s character. Explain that they will have to use text evidence to support an idea that the author does not state directly. Explain that this is what it means to draw a conclusion or make an inference.\r",
     parentPageName: "6",
     characterStyles: [
       { character: "A", style: "[None]" },
@@ -2089,12 +2097,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "[None]" },
       { character: "c", style: "[None]" },
       { character: "e", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Discuss how this close reading has helped students understand that the text evidence supports the conclusion that Bud enjoys being in the library.",
+    content:
+      "Discuss how this close reading has helped students understand that the text evidence supports the conclusion that Bud enjoys being in the library.",
     parentPageName: "6",
     characterStyles: [
       { character: "D", style: "[None]" },
@@ -2242,12 +2251,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "a", style: "[None]" },
       { character: "r", style: "[None]" },
       { character: "y", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "When Bud is in the library, he says, “It seems like time flies when you’re in one.” What does Bud mean by this, and what does it tell you about him?",
+    content:
+      "When Bud is in the library, he says, “It seems like time flies when you’re in one.” What does Bud mean by this, and what does it tell you about him?",
     parentPageName: "6",
     characterStyles: [
       { character: "W", style: "Character Style 1" },
@@ -2397,8 +2407,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "Character Style 1" },
       { character: "i", style: "Character Style 1" },
       { character: "m", style: "Character Style 1" },
-      { character: "?", style: "Character Style 1" }
-    ]
-  }
+      { character: "?", style: "Character Style 1" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

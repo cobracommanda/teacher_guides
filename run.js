@@ -1,10 +1,18 @@
 const fs = require("fs-extra");
 const path = require("path");
 const unzipper = require("unzipper");
-
+const IMG_ROOT = path.resolve("./raw_table_data/");
+const { packages_data } = require("./packagesData.js");
 const { correctInvalidHTML, findFiles } = require("./correctInvalidHTML.js");
 const { replaceLastHtmlElement } = require("./replaceHtmlElement.js");
 const { createTableFrame } = require("./createTableFrame.js");
+
+const Y63055_TG_G6_U1_tables = require(path.join(
+  __dirname,
+  packages_data.Y63055.tableTags["unit 1"]
+));
+const panel_2_page_1_sidebar_a_search_str =
+  packages_data.Y63055.panel_2_page_1_sidebar_a;
 
 const gradeColors = {
   gradekColor: "#ef4b3d",
@@ -22,9 +30,6 @@ const gradeColors = {
   grade6Color: "#001648",
   grade6Tint: "rgba(0, 22, 72, 0.1)",
 };
-
-const IMG_ROOT = path.resolve("./raw_table_data/");
-const { packages_data } = require("./packagesData.js");
 
 const getImageName = (filePath) => {
   return path.basename(filePath);
@@ -67,36 +72,6 @@ const processImages = async (units = 10) => {
   }
 };
 
-const findTableInData = (data, searchString, frame = true) => {
-  const foundTable = data.tables.find((table) => table.includes(searchString));
-
-  if (!foundTable) {
-    return null;
-  }
-
-  if (frame) {
-    return foundTable;
-  } else {
-    // Extract inner text from the table
-    const innerText = foundTable.replace(/<[^>]+>/g, "").trim();
-    return `<table border="1"><td><p>${innerText}</p></td></table>`;
-  }
-};
-// Sample data structure for testing
-const sampleData = {
-  tables: [
-    "<table><thead><tr><th>What Makes This Text Complex?</th></tr></thead><tbody><tr><td><p>Purpose and Levels <br>of Meaning </p><p><span>➌</span></p></td><td><p>The purpose of the text is to explore the adaptations that allow living organisms to survive. (pp. 3–6, 9)*</p></td></tr><tr><td><p>Structure </p><p><span>➌</span></p></td><td><p>The book includes descriptive, cause and effect, explanatory, and procedural text, as well as many sidebars, charts, and rich graphics. (p. 7)*</p></td></tr><tr><td><p>Language Conventionality <br>and Clarity </p><p><span>➋</span></p></td><td><p>• Text contains simple and complex sentence structures. </p><p>• Domain-specific, otherwise unfamiliar terms are supported by direct definitions, context clues, and descriptions. (p. 8)*</p></td></tr><tr><td><p>Knowledge Demands </p><p><span>➌</span></p></td><td><p>The text assumes some prior knowledge of Life Science and Physical Science concepts.</p></td></tr></tbody></table>",
-    "<table><thead><tr><th>Aquatic environments differ from one another based on the amount of salinity, or salt in the water. Oceans, for example, have a great amount of salinity while rivers and lakes are freshwater bodies, so they have very little salinity.</th></tr></thead><tbody></tbody></table>",
-    // ... more tables
-  ],
-};
-
-function convertObjectToHtmlString(obj) {
-  // Convert object to HTML string as needed
-  // This example assumes obj has an 'html' property
-  return obj.html || "";
-}
-
 // Function to process HTML and CSS files
 const processData = async (key, value) => {
   const xCode = value.xcode;
@@ -107,12 +82,6 @@ const processData = async (key, value) => {
   const htmlFilePath = path.join(finalDestDir, "html/index.html");
   const cssFilePath = path.join(finalDestDir, "css/styles.css");
 
-  const findTable = findTableInData(
-    sampleData,
-    "Aquatic environments differ from one another based on the",
-    false
-  );
-
   const findReplacePairsCss = [
     [new RegExp("@@@@@@@@@@@@", "g"), gradeColors[`grade${value.grade}Color`]],
     [new RegExp("############", "g"), gradeColors[`grade${value.grade}Tint`]],
@@ -121,10 +90,13 @@ const processData = async (key, value) => {
   const findReplacePairsHtml = [
     [/<!-- xx img-src xx -->/g, getImageName(value.cover_img[0])],
     [/<!-- xx alt xx -->/g, `Image of ${value.title}'s book cover`],
-    [/<!-- xx panel1 aside content xx -->/g, value.tags.panel_1_aside || ""],
+    // [
+    //   /<!-- xx panel1 aside content xx -->/g,
+    //   panel_2_page_1_sidebar_a_search_str || "",
+    // ],
     [
       /<!-- xx panel1 section content xx -->/g,
-      value.tags.panel_1_section.taggedContent || "",
+      value.tags.panel_1_section || "",
     ],
     [/<!-- xx tg title xx -->/g, value.title],
     [/<!-- xx Lexile xx -->/g, value.lexile],
@@ -134,61 +106,56 @@ const processData = async (key, value) => {
     [/<!-- Knowledge Demands Rating -->/g, value.levels[3]],
 
     // [/<!-- xx panel2 page 1 aside content xx -->/g,],
+    // [/<!-- xx panel2 page 2 aside content xx -->/g, value.tags.panel_2_page_1],
+
     [
       /<!-- xx panel2 page 1 section content xx -->/g,
-      value.tags.panel_2_page_1.taggedContent,
+      value.tags.panel_2_page_1,
     ],
     // [/<!-- xx panel2 page 2 aside content xx -->/g, ],
     [
       /<!-- xx panel2 page 2 section content xx -->/g,
-      value.tags.panel_2_page_2.taggedContent,
+      value.tags.panel_2_page_2,
     ],
     // [/<!-- xx panel2 page 3 aside content xx -->/g, ],
     [
       /<!-- xx panel2 page 3 section content xx -->/g,
-      value.tags.panel_2_page_3.taggedContent,
+      value.tags.panel_2_page_3,
     ],
     // [/<!-- xx panel2 page 4 aside content xx -->/g, ],
     [
       /<!-- xx panel2 page 4 section content xx -->/g,
-      value.tags.panel_2_page_4.taggedContent,
+      value.tags.panel_2_page_4,
     ],
     // [/<!-- xx panel2 page 5 aside content xx -->/g, ],
     [
       /<!-- xx panel2 page 5 section content xx -->/g,
-      value.tags.panel_2_page_5.taggedContent,
+      value.tags.panel_2_page_5 || "",
     ],
 
     // [/<!-- xx panel3 page 1 aside content xx -->/g,],
     [
       /<!-- xx panel3 page 1 section content xx -->/g,
-      value.tags.panel_3_page_1.taggedContent,
+      value.tags.panel_3_page_1,
     ],
     // [/<!-- xx panel3 page 2 aside content xx -->/g, ],
     [
       /<!-- xx panel3 page 2 section content xx -->/g,
-      value.tags.panel_3_page_2.taggedContent,
+      value.tags.panel_3_page_2,
     ],
     // [/<!-- xx panel3 page 3 aside content xx -->/g, ],
     [
       /<!-- xx panel3 page 3 section content xx -->/g,
-      value.tags.panel_3_page_3.taggedContent,
+      value.tags.panel_3_page_3,
     ],
     // [/<!-- xx panel3 page 4 aside content xx -->/g, ],
     [
       /<!-- xx panel3 page 4 section content xx -->/g,
-      value.tags.panel_3_page_4.taggedContent,
+      value.tags.panel_3_page_4,
     ],
 
-    [
-      /<!-- xx panel4 section content xx -->/g,
-
-      value.tags.panel_4_page_1.taggedContent,
-    ],
-    [
-      /<!-- xx panel5 section content xx -->/g,
-      value.tags.panel_5_page_1.taggedContent,
-    ],
+    [/<!-- xx panel4 section content xx -->/g, value.tags.panel_4_page_1],
+    [/<!-- xx panel5 section content xx -->/g, value.tags.panel_5_page_1],
   ];
 
   const unzipFile = async (zipFilePath, destDir) => {

@@ -1,7 +1,8 @@
-const paragraphData = [teacher-talkteacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
-    content: "Close Reading Option 4: Analyze an Argument \nRL.6.1, RL.6.3, W.6.2b, W.6.8, SL.6.1a, SL.6.1b, SL.6.1c, SL.6.1d, SL.6.3\r",
+    content:
+      "Close Reading Option 4: Analyze an Argument \nRL.6.1, RL.6.3, W.6.2b, W.6.8, SL.6.1a, SL.6.1b, SL.6.1c, SL.6.1d, SL.6.3\r",
     parentPageName: "9",
     characterStyles: [
       { character: "C", style: "[None]" },
@@ -121,8 +122,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: ".", style: "Lesson_A-hd-standards" },
       { character: "6", style: "Lesson_A-hd-standards" },
       { character: ".", style: "Lesson_A-hd-standards" },
-      { character: "3", style: "Lesson_A-hd-standards" }
-    ]
+      { character: "3", style: "Lesson_A-hd-standards" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -155,12 +156,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: "n", style: "[None]" },
       { character: "c", style: "[None]" },
-      { character: "e", style: "[None]" }
-    ]
+      { character: "e", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Ask students to turn to Argument 2, Foolish Decision, on page 26. Explain that a \nwell-written argument states the argument clearly, supports the argument with reasons, uses transition words to connect ideas, and has a concluding statement which restates the argument.\r",
+    content:
+      "Ask students to turn to Argument 2, Foolish Decision, on page 26. Explain that a \nwell-written argument states the argument clearly, supports the argument with reasons, uses transition words to connect ideas, and has a concluding statement which restates the argument.\r",
     parentPageName: "9",
     characterStyles: [
       { character: "A", style: "[None]" },
@@ -430,12 +432,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: "n", style: "[None]" },
       { character: "t", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: The first paragraph clearly states the writer’s argument: “Though their actions seem courageous, they risk hurting themselves and others. In each case, the characters could have gotten the same positive results with less risk.” In order to analyze this claim, I will look for reasons and specific text evidence that the author uses to support this argument.\r",
+    content:
+      "Say: The first paragraph clearly states the writer’s argument: “Though their actions seem courageous, they risk hurting themselves and others. In each case, the characters could have gotten the same positive results with less risk.” In order to analyze this claim, I will look for reasons and specific text evidence that the author uses to support this argument.\r",
     parentPageName: "9",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -799,12 +802,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: "n", style: "[None]" },
       { character: "t", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Distribute the graphic organizer BLM on the back cover of this guide and ask students to write the argument at the top of the chart.\r",
+    content:
+      "Distribute the graphic organizer BLM on the back cover of this guide and ask students to write the argument at the top of the chart.\r",
     parentPageName: "9",
     characterStyles: [
       { character: "D", style: "[None]" },
@@ -938,12 +942,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "a", style: "[None]" },
       { character: "r", style: "[None]" },
       { character: "t", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: Now I need to find a piece of evidence to support this argument. I’ll begin by rereading the second paragraph to look for evidence. The reason why the writer thinks that although Sofia was brave, she risked not only her life but also Madeline’s, by rushing back to save her instead of finding a firefighter.\r",
+    content:
+      "Say: Now I need to find a piece of evidence to support this argument. I’ll begin by rereading the second paragraph to look for evidence. The reason why the writer thinks that although Sofia was brave, she risked not only her life but also Madeline’s, by rushing back to save her instead of finding a firefighter.\r",
     parentPageName: "9",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -1257,12 +1262,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "t", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "r", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Support students to find the text evidence provided to support this reason: the writer points out that Sofia loses valuable time trying to free Madeline’s foot from the treadle. Have students reread “Into the Fire” to find additional evidence to support the writer’s claim. Add the evidence to the chart.\r",
+    content:
+      "Support students to find the text evidence provided to support this reason: the writer points out that Sofia loses valuable time trying to free Madeline’s foot from the treadle. Have students reread “Into the Fire” to find additional evidence to support the writer’s claim. Add the evidence to the chart.\r",
     parentPageName: "9",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -1568,8 +1574,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "a", style: "[None]" },
       { character: "r", style: "[None]" },
       { character: "t", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -1591,12 +1597,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "t", style: "[None]" },
       { character: "i", style: "[None]" },
       { character: "c", style: "[None]" },
-      { character: "e", style: "[None]" }
-    ]
+      { character: "e", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Collaborative conversation (turn and talk). Ask students to turn to a partner, reread the third paragraph on page 26, and find the evidence the writer uses to support the claim that Patricia doesn’t care about her safety or her parents’ concerns. Remind students to stay on topic, build on each other’s ideas, and ask questions to clarify each other’s thoughts.\r",
+    content:
+      "Collaborative conversation (turn and talk). Ask students to turn to a partner, reread the third paragraph on page 26, and find the evidence the writer uses to support the claim that Patricia doesn’t care about her safety or her parents’ concerns. Remind students to stay on topic, build on each other’s ideas, and ask questions to clarify each other’s thoughts.\r",
     parentPageName: "9",
     characterStyles: [
       { character: "C", style: "Medium_Condensed" },
@@ -1959,12 +1966,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "[None]" },
       { character: "t", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Bring students together and ask several pairs to share their text evidence. Students should refer to the conversation between Patricia and her parents.\r",
+    content:
+      "Bring students together and ask several pairs to share their text evidence. Students should refer to the conversation between Patricia and her parents.\r",
     parentPageName: "9",
     characterStyles: [
       { character: "B", style: "[None]" },
@@ -2117,8 +2125,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "[None]" },
       { character: "t", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -2156,12 +2164,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "[None]" },
       { character: "t", style: "[None]" },
       { character: "l", style: "[None]" },
-      { character: "y", style: "[None]" }
-    ]
+      { character: "y", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Tell students to look for parts of the argument that could be made stronger by providing more text evidence. Ask them to reread all three stories to gather more text evidence and write quotes from the text, indicating where they would insert it in the argument if they were to revise the writing.\r",
+    content:
+      "Tell students to look for parts of the argument that could be made stronger by providing more text evidence. Ask them to reread all three stories to gather more text evidence and write quotes from the text, indicating where they would insert it in the argument if they were to revise the writing.\r",
     parentPageName: "9",
     characterStyles: [
       { character: "T", style: "[None]" },
@@ -2459,12 +2468,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "[None]" },
       { character: "n", style: "[None]" },
       { character: "g", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Discuss how this close reading has helped students analyze an opinion text.",
+    content:
+      "Discuss how this close reading has helped students analyze an opinion text.",
     parentPageName: "9",
     characterStyles: [
       { character: "D", style: "[None]" },
@@ -2541,8 +2551,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: "x", style: "[None]" },
       { character: "t", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
-  }
+      { character: ".", style: "[None]" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

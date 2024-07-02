@@ -1,7 +1,8 @@
-const paragraphData = [teacher-talkteacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
-    content: "Close Reading Option 4: Analyze Story Elements \nRL.6.1, RL.6.2, RL.6.3, W.6.10, SL.6.1a, SL.6.1b, SL.6.1c, SL.6.1d\r",
+    content:
+      "Close Reading Option 4: Analyze Story Elements \nRL.6.1, RL.6.2, RL.6.3, W.6.10, SL.6.1a, SL.6.1b, SL.6.1c, SL.6.1d\r",
     parentPageName: "9",
     characterStyles: [
       { character: "C", style: "[None]" },
@@ -117,8 +118,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "6", style: "[None]" },
       { character: ".", style: "[None]" },
       { character: "1", style: "[None]" },
-      { character: "d", style: "[None]" }
-    ]
+      { character: "d", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -151,12 +152,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: "n", style: "[None]" },
       { character: "c", style: "[None]" },
-      { character: "e", style: "[None]" }
-    ]
+      { character: "e", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Ask students to turn to the Comprehension chart on page 32. Explain that the chart serves to help students analyze Rodrigo in the story.\r",
+    content:
+      "Ask students to turn to the Comprehension chart on page 32. Explain that the chart serves to help students analyze Rodrigo in the story.\r",
     parentPageName: "9",
     characterStyles: [
       { character: "A", style: "[None]" },
@@ -294,12 +296,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "o", style: "[None]" },
       { character: "r", style: "[None]" },
       { character: "y", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: First, let’s list Rodrigo as the character at the top of the chart. Throughout the story, one characteristic that I noticed about Rodrigo was that he was thoughtful. I will write the adjective thoughtful in the first row under the heading “Adjective.”\r",
+    content:
+      "Say: First, let’s list Rodrigo as the character at the top of the chart. Throughout the story, one characteristic that I noticed about Rodrigo was that he was thoughtful. I will write the adjective thoughtful in the first row under the heading “Adjective.”\r",
     parentPageName: "9",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -557,12 +560,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "v", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: "DOUBLE_RIGHT_QUOTE", style: "[None]" }
-    ]
+      { character: "DOUBLE_RIGHT_QUOTE", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Distribute the graphic organizer BLM on the back cover of this guide. Then support students to turn to page 8.\r",
+    content:
+      "Distribute the graphic organizer BLM on the back cover of this guide. Then support students to turn to page 8.\r",
     parentPageName: "9",
     characterStyles: [
       { character: "D", style: "[None]" },
@@ -674,12 +678,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: " ", style: "[None]" },
       { character: "8", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: Now I need to find text evidence that shows Rodrigo is thoughtful. On page 8, Rodrigo tells his mother, “Well, I have an idea how we might be able to make the residents less lonely.” Rodrigo wants to do something to help the residents at the rehabilitation center, suggesting that he is both kind and thoughtful.\r",
+    content:
+      "Say: Now I need to find text evidence that shows Rodrigo is thoughtful. On page 8, Rodrigo tells his mother, “Well, I have an idea how we might be able to make the residents less lonely.” Rodrigo wants to do something to help the residents at the rehabilitation center, suggesting that he is both kind and thoughtful.\r",
     parentPageName: "9",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -998,12 +1003,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "f", style: "[None]" },
       { character: "u", style: "[None]" },
       { character: "l", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Write “wants to help the residents so that they feel less lonely” in the first row of the chart under the heading “Example.”\r",
+    content:
+      "Write “wants to help the residents so that they feel less lonely” in the first row of the chart under the heading “Example.”\r",
     parentPageName: "9",
     characterStyles: [
       { character: "W", style: "[None]" },
@@ -1129,8 +1135,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "l", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: "DOUBLE_RIGHT_QUOTE", style: "[None]" }
-    ]
+      { character: "DOUBLE_RIGHT_QUOTE", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -1152,12 +1158,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "t", style: "[None]" },
       { character: "i", style: "[None]" },
       { character: "c", style: "[None]" },
-      { character: "e", style: "[None]" }
-    ]
+      { character: "e", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Collaborative conversation (turn and talk). As a group, identify a second characteristic of Rodrigo, such as hard-working, and write it in the second row of the chart under Adjective. Then ask students to turn to a partner and find text evidence of Rodrigo’s willingness to work. Remind students to stay on topic, build on each other’s ideas, and ask questions to clarify each other’s thoughts.\r",
+    content:
+      "Collaborative conversation (turn and talk). As a group, identify a second characteristic of Rodrigo, such as hard-working, and write it in the second row of the chart under Adjective. Then ask students to turn to a partner and find text evidence of Rodrigo’s willingness to work. Remind students to stay on topic, build on each other’s ideas, and ask questions to clarify each other’s thoughts.\r",
     parentPageName: "9",
     characterStyles: [
       { character: "C", style: "Medium_Condensed" },
@@ -1553,12 +1560,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "[None]" },
       { character: "t", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Bring students together and ask several pairs to share the text evidence they found to show that Rodrigo is hardworking. Students should explain that Rodrigo works hard to train Santo to become a therapy dog, as shown through numerous details in the text. Students should also explain that these acts are evidence of Rodrigo’s willingness to work hard.\r",
+    content:
+      "Bring students together and ask several pairs to share the text evidence they found to show that Rodrigo is hardworking. Students should explain that Rodrigo works hard to train Santo to become a therapy dog, as shown through numerous details in the text. Students should also explain that these acts are evidence of Rodrigo’s willingness to work hard.\r",
     parentPageName: "9",
     characterStyles: [
       { character: "B", style: "[None]" },
@@ -1912,8 +1920,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "a", style: "[None]" },
       { character: "r", style: "[None]" },
       { character: "d", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -1951,12 +1959,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "[None]" },
       { character: "t", style: "[None]" },
       { character: "l", style: "[None]" },
-      { character: "y", style: "[None]" }
-    ]
+      { character: "y", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Direct students to complete the last row of the chart independently. Tell them they should list a third characteristic and then find text evidence that supports it. (Students may note that Rodrigo is generous because he spends a lot of time and effort to do something for others.)\r",
+    content:
+      "Direct students to complete the last row of the chart independently. Tell them they should list a third characteristic and then find text evidence that supports it. (Students may note that Rodrigo is generous because he spends a lot of time and effort to do something for others.)\r",
     parentPageName: "9",
     characterStyles: [
       { character: "D", style: "[None]" },
@@ -2238,12 +2247,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "r", style: "i" },
       { character: "s", style: "i" },
       { character: ".", style: "i" },
-      { character: ")", style: "i" }
-    ]
+      { character: ")", style: "i" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Discuss how this close reading has helped students analyze a main character by identifying his key characteristics and then using text evidence to illustrate those characteristics.",
+    content:
+      "Discuss how this close reading has helped students analyze a main character by identifying his key characteristics and then using text evidence to illustrate those characteristics.",
     parentPageName: "9",
     characterStyles: [
       { character: "D", style: "[None]" },
@@ -2425,8 +2435,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "[None]" },
       { character: "c", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
-  }
+      { character: ".", style: "[None]" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

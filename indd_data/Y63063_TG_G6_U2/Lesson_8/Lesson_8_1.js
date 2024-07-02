@@ -1,7 +1,8 @@
-const paragraphData = [teacher-talkteacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
-    content: "Close Reading Option 3: Draw Inferences \nRI.6.1, RI.6.8, W.6.2b, W.6.2c, SL.6.1a, SL.6.1c, SL.6.1d\r",
+    content:
+      "Close Reading Option 3: Draw Inferences \nRI.6.1, RI.6.8, W.6.2b, W.6.2c, SL.6.1a, SL.6.1c, SL.6.1d\r",
     parentPageName: "8",
     characterStyles: [
       { character: "C", style: "[None]" },
@@ -101,8 +102,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "6", style: "Lesson_A-hd-standards" },
       { character: ".", style: "Lesson_A-hd-standards" },
       { character: "1", style: "Lesson_A-hd-standards" },
-      { character: "d", style: "Lesson_A-hd-standards" }
-    ]
+      { character: "d", style: "Lesson_A-hd-standards" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -135,8 +136,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: "n", style: "[None]" },
       { character: "c", style: "[None]" },
-      { character: "e", style: "[None]" }
-    ]
+      { character: "e", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -193,12 +194,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "o", style: "[None]" },
       { character: "n", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: "", style: "[None]" }
-    ]
+      { character: "", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Explain that this question is asking them to compare the characters of Bud in the first excerpt and M.C. in the second excerpt to examine their points of view.\r",
+    content:
+      "Explain that this question is asking them to compare the characters of Bud in the first excerpt and M.C. in the second excerpt to examine their points of view.\r",
     parentPageName: "8",
     characterStyles: [
       { character: "E", style: "[None]" },
@@ -359,12 +361,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "w", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: I need to compare how each character’s point of view differs and how that helps me understand the events in the story.\r",
+    content:
+      "Say: I need to compare how each character’s point of view differs and how that helps me understand the events in the story.\r",
     parentPageName: "8",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -489,8 +492,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "o", style: "[None]" },
       { character: "r", style: "[None]" },
       { character: "y", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -524,12 +527,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "[None]" },
       { character: "t", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: Bud is so determined to find his dad that he does not see walking for twenty-four hours as something too difficult. Instead of being discouraged, he plans when to start and what cities he will pass through. This helps me understand that finding his father is very important to him.\r",
+    content:
+      "Say: Bud is so determined to find his dad that he does not see walking for twenty-four hours as something too difficult. Instead of being discouraged, he plans when to start and what cities he will pass through. This helps me understand that finding his father is very important to him.\r",
     parentPageName: "8",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -817,8 +821,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "[None]" },
       { character: "i", style: "[None]" },
       { character: "m", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -883,8 +887,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "a", style: "[None]" },
       { character: "r", style: "[None]" },
       { character: "t", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -906,8 +910,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "t", style: "[None]" },
       { character: "i", style: "[None]" },
       { character: "c", style: "[None]" },
-      { character: "e", style: "[None]" }
-    ]
+      { character: "e", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -945,12 +949,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: " ", style: "[None]" },
       { character: "1", style: "[None]" },
       { character: "2", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Collaborative conversation (turn and talk). Ask students to turn to a partner, reread page 12, and find text evidence that shows how the author demonstrates M.C.’s dreamy and relaxed point of view. Point out that he pretends to be old and imagines he has lived on the mountain his whole life.\r",
+    content:
+      "Collaborative conversation (turn and talk). Ask students to turn to a partner, reread page 12, and find text evidence that shows how the author demonstrates M.C.’s dreamy and relaxed point of view. Point out that he pretends to be old and imagines he has lived on the mountain his whole life.\r",
     parentPageName: "8",
     characterStyles: [
       { character: "C", style: "b" },
@@ -1244,12 +1249,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "[None]" },
       { character: "f", style: "[None]" },
       { character: "e", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Bring students together and ask several pairs to share the text evidence they found and to explain how their evidence explains M.C.’s point of view about his love for Sarah’s Mountain. Students should be able to explain that he imagines his future in a way that shows he never left the mountain and died there just like his ancestors did.\r",
+    content:
+      "Bring students together and ask several pairs to share the text evidence they found and to explain how their evidence explains M.C.’s point of view about his love for Sarah’s Mountain. Students should be able to explain that he imagines his future in a way that shows he never left the mountain and died there just like his ancestors did.\r",
     parentPageName: "8",
     characterStyles: [
       { character: "B", style: "[None]" },
@@ -1589,8 +1595,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "d", style: "[None]" },
       { character: "i", style: "[None]" },
       { character: "d", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -1628,12 +1634,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "[None]" },
       { character: "t", style: "[None]" },
       { character: "l", style: "[None]" },
-      { character: "y", style: "[None]" }
-    ]
+      { character: "y", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Ask students to reread page 13. Tell them to find text evidence that helps them show that M.C.’s dreamy and relaxed point of view demonstrates his attachment to the mountain and his desire to save it. Students should realize that he “wakes” from his daydreams to the sounds of machines working on the mountain and fears that the mountain will one day be destroyed.\r",
+    content:
+      "Ask students to reread page 13. Tell them to find text evidence that helps them show that M.C.’s dreamy and relaxed point of view demonstrates his attachment to the mountain and his desire to save it. Students should realize that he “wakes” from his daydreams to the sounds of machines working on the mountain and fears that the mountain will one day be destroyed.\r",
     parentPageName: "8",
     characterStyles: [
       { character: "A", style: "[None]" },
@@ -1999,12 +2006,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "y", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "d", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Discuss how this close reading has helped students use text evidence to make inferences.",
+    content:
+      "Discuss how this close reading has helped students use text evidence to make inferences.",
     parentPageName: "8",
     characterStyles: [
       { character: "D", style: "[None]" },
@@ -2094,12 +2102,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "c", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "How are the points of view different in the selections? Explain how this difference affects the reader’s understanding of events in each story.",
+    content:
+      "How are the points of view different in the selections? Explain how this difference affects the reader’s understanding of events in each story.",
     parentPageName: "8",
     characterStyles: [
       { character: "H", style: "Character Style 1" },
@@ -2244,8 +2253,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "o", style: "Character Style 1" },
       { character: "r", style: "Character Style 1" },
       { character: "y", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
-  }
+      { character: ".", style: "Character Style 1" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

@@ -1,4 +1,4 @@
-const paragraphData = [teacher-talkteacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_B-hd",
     content: "Lesson: Visualize Key Details\r",
@@ -32,12 +32,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "a", style: "Lesson_B-hd-LightFace" },
       { character: "i", style: "Lesson_B-hd-LightFace" },
       { character: "l", style: "Lesson_B-hd-LightFace" },
-      { character: "s", style: "Lesson_B-hd-LightFace" }
-    ]
+      { character: "s", style: "Lesson_B-hd-LightFace" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Explain that when readers summarize, they include only the most important information in the text. Explain that visualizing key details can help readers identify these important events.\r",
+    content:
+      "Explain that when readers summarize, they include only the most important information in the text. Explain that visualizing key details can help readers identify these important events.\r",
     parentPageName: "3",
     characterStyles: [
       { character: "E", style: "[None]" },
@@ -224,12 +225,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "[None]" },
       { character: "t", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: Close your eyes and listen as I read this part of the story. Picture in your mind what is happening.\r",
+    content:
+      "Say: Close your eyes and listen as I read this part of the story. Picture in your mind what is happening.\r",
     parentPageName: "3",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -336,8 +338,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "[None]" },
       { character: "n", style: "[None]" },
       { character: "g", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -361,12 +363,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: " ", style: "[None]" },
       { character: "6", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: What did you see when I described the conversation between the men? How did Rodrigo react to the conversation? Why is this important?\r",
+    content:
+      "Say: What did you see when I described the conversation between the men? How did Rodrigo react to the conversation? Why is this important?\r",
     parentPageName: "3",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -506,8 +509,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "a", style: "[None]" },
       { character: "n", style: "[None]" },
       { character: "t", style: "[None]" },
-      { character: "?", style: "[None]" }
-    ]
+      { character: "?", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -567,8 +570,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: " ", style: "[None]" },
       { character: "6", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -626,12 +629,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "Lesson_B-hd-LightFace" },
       { character: "a", style: "Lesson_B-hd-LightFace" },
       { character: "r", style: "Lesson_B-hd-LightFace" },
-      { character: "e", style: "Lesson_B-hd-LightFace" }
-    ]
+      { character: "e", style: "Lesson_B-hd-LightFace" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Bring students together and ask several pairs of students to read their summaries aloud. As a whole group, evaluate the summaries and identify which details were easy to visualize and which were not. Point out that the details that were difficult to visualize are not likely to be in a summary of these chapters. Then write a group summary of the key events in Part 1.\r",
+    content:
+      "Bring students together and ask several pairs of students to read their summaries aloud. As a whole group, evaluate the summaries and identify which details were easy to visualize and which were not. Point out that the details that were difficult to visualize are not likely to be in a summary of these chapters. Then write a group summary of the key events in Part 1.\r",
     parentPageName: "3",
     characterStyles: [
       { character: "B", style: "[None]" },
@@ -1002,8 +1006,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: " ", style: "[None]" },
       { character: "1", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: "", style: "[None]" }
-    ]
+      { character: "", style: "[None]" },
+    ],
   },
   {
     styleName: "table_footer",
@@ -1036,12 +1040,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "m", style: "Medium_Condensed" },
       { character: "a", style: "Medium_Condensed" },
       { character: "r", style: "Medium_Condensed" },
-      { character: "y", style: "Medium_Condensed" }
-    ]
+      { character: "y", style: "Medium_Condensed" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Rodrigo goes to visit Abuelo at the rehabilitation center and plays cards with the men there. Rodrigo listens as the men talk about the dogs they used to have and how they miss them. Rodrigo feels bad for the men and wants to help, so he and his mom go to the therapy dog training center. Mrs. Brown starts to train Santo to be a therapy dog.",
+    content:
+      "Rodrigo goes to visit Abuelo at the rehabilitation center and plays cards with the men there. Rodrigo listens as the men talk about the dogs they used to have and how they miss them. Rodrigo feels bad for the men and wants to help, so he and his mom go to the therapy dog training center. Mrs. Brown starts to train Santo to be a therapy dog.",
     parentPageName: "3",
     characterStyles: [
       { character: "R", style: "Character Style 1" },
@@ -1385,8 +1390,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "d", style: "Character Style 1" },
       { character: "o", style: "Character Style 1" },
       { character: "g", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
-  }
+      { character: ".", style: "Character Style 1" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

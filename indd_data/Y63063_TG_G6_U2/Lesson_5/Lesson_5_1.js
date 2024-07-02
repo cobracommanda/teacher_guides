@@ -1,7 +1,8 @@
-const paragraphData = [teacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
-    content: "Read Part 3 (pp. 18–29) RI.6.1, RI.6.2, RI.6.3, RI.6.8, W.6.8, W.6.10, SL.6.1a, SL.6.1b, SL.6.1c, SL.6.1d, SL.6.2\r",
+    content:
+      "Read Part 3 (pp. 18–29) RI.6.1, RI.6.2, RI.6.3, RI.6.8, W.6.8, W.6.10, SL.6.1a, SL.6.1b, SL.6.1c, SL.6.1d, SL.6.2\r",
     parentPageName: "5",
     characterStyles: [
       { character: "R", style: "[None]" },
@@ -116,8 +117,8 @@ const paragraphData = [teacher-talk
       { character: ".", style: "[None]" },
       { character: "6", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: "2", style: "[None]" }
-    ]
+      { character: "2", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -136,12 +137,13 @@ const paragraphData = [teacher-talk
       { character: "p", style: "[None]" },
       { character: "o", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: "e", style: "[None]" }
-    ]
+      { character: "e", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: Think about both of the excerpts, Bud, Not Buddy, and M.C. Higgins, the Great. How are the main characters in the stories influenced by their environment and circumstances?\r",
+    content:
+      "Say: Think about both of the excerpts, Bud, Not Buddy, and M.C. Higgins, the Great. How are the main characters in the stories influenced by their environment and circumstances?\r",
     parentPageName: "5",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -320,12 +322,13 @@ const paragraphData = [teacher-talk
       { character: "c", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: "?", style: "[None]" }
-    ]
+      { character: "?", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Now you will read three writers’ opinions on this topic question. As you read, use self-stick notes to flag the opinions and reasons that are given. In the first opinion, these details are already highlighted for you as an example.\r",
+    content:
+      "Now you will read three writers’ opinions on this topic question. As you read, use self-stick notes to flag the opinions and reasons that are given. In the first opinion, these details are already highlighted for you as an example.\r",
     parentPageName: "5",
     characterStyles: [
       { character: "N", style: "[None]" },
@@ -558,12 +561,13 @@ const paragraphData = [teacher-talk
       { character: "p", style: "[None]" },
       { character: "l", style: "[None]" },
       { character: "e", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Choose the reading option that best meets the needs of your students. If students need more support to access the text, use the Scaffolded Preview provided.\r",
+    content:
+      "Choose the reading option that best meets the needs of your students. If students need more support to access the text, use the Scaffolded Preview provided.\r",
     parentPageName: "5",
     characterStyles: [
       { character: "C", style: "[None]" },
@@ -721,8 +725,8 @@ const paragraphData = [teacher-talk
       { character: "d", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "d", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -787,12 +791,13 @@ const paragraphData = [teacher-talk
       { character: "n", style: "Cond" },
       { character: "t", style: "Cond" },
       { character: "l", style: "Cond" },
-      { character: "y", style: "Cond" }
-    ]
+      { character: "y", style: "Cond" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Ask students to review the details they flagged in each opinion piece. Have them independently create a chart that summarizes the opinion and reasons given in each opinion piece. \r",
+    content:
+      "Ask students to review the details they flagged in each opinion piece. Have them independently create a chart that summarizes the opinion and reasons given in each opinion piece. \r",
     parentPageName: "5",
     characterStyles: [
       { character: "A", style: "[None]" },
@@ -974,8 +979,8 @@ const paragraphData = [teacher-talk
       { character: "e", style: "[None]" },
       { character: ".", style: "[None]" },
       { character: " ", style: "[None]" },
-      { character: "", style: "[None]" }
-    ]
+      { character: "", style: "[None]" },
+    ],
   },
   {
     styleName: "table_footer",
@@ -1013,12 +1018,13 @@ const paragraphData = [teacher-talk
       { character: "h", style: "b" },
       { character: "a", style: "b" },
       { character: "r", style: "b" },
-      { character: "t", style: "b" }
-    ]
+      { character: "t", style: "b" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Have students fill out the Argument Writing Rubric on page 30. Explain that the numbers in the rubric stand for 4—exemplary; 3—accomplished; 2—developing; 1—beginning.",
+    content:
+      "Have students fill out the Argument Writing Rubric on page 30. Explain that the numbers in the rubric stand for 4—exemplary; 3—accomplished; 2—developing; 1—beginning.",
     parentPageName: "5",
     characterStyles: [
       { character: "H", style: "[None]" },
@@ -1187,8 +1193,8 @@ const paragraphData = [teacher-talk
       { character: "i", style: "[None]" },
       { character: "n", style: "[None]" },
       { character: "g", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "table header",
@@ -1221,8 +1227,8 @@ const paragraphData = [teacher-talk
       { character: "o", style: "Character Style 1" },
       { character: "p", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
-      { character: "DOUBLE_RIGHT_QUOTE", style: "Character Style 1" }
-    ]
+      { character: "DOUBLE_RIGHT_QUOTE", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "table header",
@@ -1257,8 +1263,8 @@ const paragraphData = [teacher-talk
       { character: "e", style: "Character Style 1" },
       { character: "r", style: "Character Style 1" },
       { character: "s", style: "Character Style 1" },
-      { character: "DOUBLE_RIGHT_QUOTE", style: "Character Style 1" }
-    ]
+      { character: "DOUBLE_RIGHT_QUOTE", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "table header",
@@ -1299,8 +1305,8 @@ const paragraphData = [teacher-talk
       { character: "e", style: "Character Style 1" },
       { character: "n", style: "Character Style 1" },
       { character: "t", style: "Character Style 1" },
-      { character: "DOUBLE_RIGHT_QUOTE", style: "Character Style 1" }
-    ]
+      { character: "DOUBLE_RIGHT_QUOTE", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1313,12 +1319,13 @@ const paragraphData = [teacher-talk
       { character: "n", style: "Character Style 1" },
       { character: "i", style: "Character Style 1" },
       { character: "o", style: "Character Style 1" },
-      { character: "n", style: "Character Style 1" }
-    ]
+      { character: "n", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Both main characters rely on their imaginations to escape harsh realities.",
+    content:
+      "Both main characters rely on their imaginations to escape harsh realities.",
     parentPageName: "5",
     characterStyles: [
       { character: "B", style: "Character Style 1" },
@@ -1394,12 +1401,13 @@ const paragraphData = [teacher-talk
       { character: "i", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
       { character: "s", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Both main characters are astute observers who examine and reflect on their own world.",
+    content:
+      "Both main characters are astute observers who examine and reflect on their own world.",
     parentPageName: "5",
     characterStyles: [
       { character: "B", style: "Character Style 1" },
@@ -1486,8 +1494,8 @@ const paragraphData = [teacher-talk
       { character: "r", style: "Character Style 1" },
       { character: "l", style: "Character Style 1" },
       { character: "d", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1550,8 +1558,8 @@ const paragraphData = [teacher-talk
       { character: "n", style: "Character Style 1" },
       { character: "t", style: "Character Style 1" },
       { character: "s", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1565,12 +1573,13 @@ const paragraphData = [teacher-talk
       { character: "o", style: "Character Style 1" },
       { character: "n", style: "Character Style 1" },
       { character: " ", style: "Character Style 1" },
-      { character: "1", style: "Character Style 1" }
-    ]
+      { character: "1", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Bud has a “pretend” family on the food line to make him cope with being alone.",
+    content:
+      "Bud has a “pretend” family on the food line to make him cope with being alone.",
     parentPageName: "5",
     characterStyles: [
       { character: "B", style: "Character Style 1" },
@@ -1650,12 +1659,13 @@ const paragraphData = [teacher-talk
       { character: "o", style: "Character Style 1" },
       { character: "n", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Observation is so important to M.C. that he has a steel pole devoted to observing.",
+    content:
+      "Observation is so important to M.C. that he has a steel pole devoted to observing.",
     parentPageName: "5",
     characterStyles: [
       { character: "O", style: "Character Style 1" },
@@ -1739,12 +1749,13 @@ const paragraphData = [teacher-talk
       { character: "i", style: "Character Style 1" },
       { character: "n", style: "Character Style 1" },
       { character: "g", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "M.C. spends time daydreaming because he lives in a time before technology.",
+    content:
+      "M.C. spends time daydreaming because he lives in a time before technology.",
     parentPageName: "5",
     characterStyles: [
       { character: "M", style: "Character Style 1" },
@@ -1820,8 +1831,8 @@ const paragraphData = [teacher-talk
       { character: "o", style: "Character Style 1" },
       { character: "g", style: "Character Style 1" },
       { character: "y", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1835,12 +1846,13 @@ const paragraphData = [teacher-talk
       { character: "o", style: "Character Style 1" },
       { character: "n", style: "Character Style 1" },
       { character: " ", style: "Character Style 1" },
-      { character: "2", style: "Character Style 1" }
-    ]
+      { character: "2", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "He escapes into his imagination at the library, not realizing he spent all day reading a book.",
+    content:
+      "He escapes into his imagination at the library, not realizing he spent all day reading a book.",
     parentPageName: "5",
     characterStyles: [
       { character: "H", style: "Character Style 1" },
@@ -1936,12 +1948,13 @@ const paragraphData = [teacher-talk
       { character: "o", style: "Character Style 1" },
       { character: "o", style: "Character Style 1" },
       { character: "k", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Bud carefully calculates how long it will take him to walk from Flint to Grand Rapids.",
+    content:
+      "Bud carefully calculates how long it will take him to walk from Flint to Grand Rapids.",
     parentPageName: "5",
     characterStyles: [
       { character: "B", style: "Character Style 1" },
@@ -2029,12 +2042,13 @@ const paragraphData = [teacher-talk
       { character: "i", style: "Character Style 1" },
       { character: "d", style: "Character Style 1" },
       { character: "s", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "He acts responsibly because he is the eldest and is expected to take care of his siblings.",
+    content:
+      "He acts responsibly because he is the eldest and is expected to take care of his siblings.",
     parentPageName: "5",
     characterStyles: [
       { character: "H", style: "Character Style 1" },
@@ -2126,8 +2140,8 @@ const paragraphData = [teacher-talk
       { character: "n", style: "Character Style 1" },
       { character: "g", style: "Character Style 1" },
       { character: "s", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -2141,12 +2155,13 @@ const paragraphData = [teacher-talk
       { character: "o", style: "Character Style 1" },
       { character: "n", style: "Character Style 1" },
       { character: " ", style: "Character Style 1" },
-      { character: "3", style: "Character Style 1" }
-    ]
+      { character: "3", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "M.C. uses his time on the steel pole to escape his current worries and imagines a world he never lived through—when his great-grandmother escaped slavery.",
+    content:
+      "M.C. uses his time on the steel pole to escape his current worries and imagines a world he never lived through—when his great-grandmother escaped slavery.",
     parentPageName: "5",
     characterStyles: [
       { character: "M", style: "Character Style 1" },
@@ -2302,12 +2317,13 @@ const paragraphData = [teacher-talk
       { character: "e", style: "Character Style 1" },
       { character: "r", style: "Character Style 1" },
       { character: "y", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Bud observes a Civil War book in such detail that he does not realize that a whole afternoon has passed.",
+    content:
+      "Bud observes a Civil War book in such detail that he does not realize that a whole afternoon has passed.",
     parentPageName: "5",
     characterStyles: [
       { character: "B", style: "Character Style 1" },
@@ -2413,12 +2429,13 @@ const paragraphData = [teacher-talk
       { character: "s", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
       { character: "d", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Growing up during the Great Depression makes Bud’s character resourceful, polite, and hardworking.",
+    content:
+      "Growing up during the Great Depression makes Bud’s character resourceful, polite, and hardworking.",
     parentPageName: "5",
     characterStyles: [
       { character: "G", style: "Character Style 1" },
@@ -2518,8 +2535,8 @@ const paragraphData = [teacher-talk
       { character: "i", style: "Character Style 1" },
       { character: "n", style: "Character Style 1" },
       { character: "g", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
-  }
+      { character: ".", style: "Character Style 1" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

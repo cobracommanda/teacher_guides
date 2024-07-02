@@ -1,7 +1,8 @@
-const paragraphData = [teacher-talkteacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
-    content: "Close Reading Option 3: Analyze Character \nRI.6.1, RI.6.3, W.6.8, SL.6.1a, SL.6.1b, SL.6.1c, SL.6.1d, SL.6.3\r",
+    content:
+      "Close Reading Option 3: Analyze Character \nRI.6.1, RI.6.3, W.6.8, SL.6.1a, SL.6.1b, SL.6.1c, SL.6.1d, SL.6.3\r",
     parentPageName: "8",
     characterStyles: [
       { character: "C", style: "" },
@@ -111,8 +112,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: ".", style: "Lesson_A-hd-standards" },
       { character: "6", style: "Lesson_A-hd-standards" },
       { character: ".", style: "Lesson_A-hd-standards" },
-      { character: "3", style: "Lesson_A-hd-standards" }
-    ]
+      { character: "3", style: "Lesson_A-hd-standards" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -145,8 +146,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "" },
       { character: "n", style: "" },
       { character: "c", style: "" },
-      { character: "e", style: "" }
-    ]
+      { character: "e", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -203,12 +204,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "o", style: "" },
       { character: "n", style: "" },
       { character: ".", style: "" },
-      { character: "", style: "" }
-    ]
+      { character: "", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Explain that this question is asking them to read a character analysis and then find evidence to support the analysis.\r",
+    content:
+      "Explain that this question is asking them to read a character analysis and then find evidence to support the analysis.\r",
     parentPageName: "8",
     characterStyles: [
       { character: "E", style: "" },
@@ -328,12 +330,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "s", style: "" },
       { character: "i", style: "" },
       { character: "s", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: I need to find evidence that supports the claim that Stephen’s actions were courageous in light of his circumstances. First, I need to think about Stephen’s circumstances.\r",
+    content:
+      "Say: I need to find evidence that supports the claim that Stephen’s actions were courageous in light of his circumstances. First, I need to think about Stephen’s circumstances.\r",
     parentPageName: "8",
     characterStyles: [
       { character: "S", style: "" },
@@ -511,8 +514,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "c", style: "" },
       { character: "e", style: "" },
       { character: "s", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -555,12 +558,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: " ", style: "" },
       { character: "2", style: "" },
       { character: "4", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: If Stephen turns in his teammates, he is likely to become very unpopular with them. In addition, he is hurting the team’s chance to win the playoffs. That has to be a difficult decision to make because he risks letting the whole team, including people who have not done anything wrong, down.\r",
+    content:
+      "Say: If Stephen turns in his teammates, he is likely to become very unpopular with them. In addition, he is hurting the team’s chance to win the playoffs. That has to be a difficult decision to make because he risks letting the whole team, including people who have not done anything wrong, down.\r",
     parentPageName: "8",
     characterStyles: [
       { character: "S", style: "" },
@@ -858,8 +862,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "o", style: "" },
       { character: "w", style: "" },
       { character: "n", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -924,8 +928,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "a", style: "" },
       { character: "r", style: "" },
       { character: "t", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -947,8 +951,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "t", style: "" },
       { character: "i", style: "" },
       { character: "c", style: "" },
-      { character: "e", style: "" }
-    ]
+      { character: "e", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -986,12 +990,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: " ", style: "" },
       { character: "2", style: "" },
       { character: "5", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Collaborative conversation (turn and talk). Ask students to turn to a partner, reread the last two paragraphs on page 25, and find additional evidence that supports the claim that Stephen’s actions were courageous. Remind students to stay on topic, build on each other’s ideas, and ask questions to clarify each other’s thoughts.\r",
+    content:
+      "Collaborative conversation (turn and talk). Ask students to turn to a partner, reread the last two paragraphs on page 25, and find additional evidence that supports the claim that Stephen’s actions were courageous. Remind students to stay on topic, build on each other’s ideas, and ask questions to clarify each other’s thoughts.\r",
     parentPageName: "8",
     characterStyles: [
       { character: "C", style: "Medium_Condensed" },
@@ -1322,12 +1327,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "" },
       { character: "t", style: "" },
       { character: "s", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Bring students together and ask several pairs to share the text evidence they found and to explain how their evidence supports their inference. Students should be able to explain that Stephen was thinking of his classmate Zachary more than of himself.\r",
+    content:
+      "Bring students together and ask several pairs to share the text evidence they found and to explain how their evidence supports their inference. Students should be able to explain that Stephen was thinking of his classmate Zachary more than of himself.\r",
     parentPageName: "8",
     characterStyles: [
       { character: "B", style: "" },
@@ -1580,8 +1586,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "" },
       { character: "l", style: "" },
       { character: "f", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -1619,12 +1625,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "" },
       { character: "t", style: "" },
       { character: "l", style: "" },
-      { character: "y", style: "" }
-    ]
+      { character: "y", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Ask students to reread the story “Breaking the Silence.” Tell them to find additional text evidence in the story that helps support the argument writer’s claim that Stephen was courageous. (Staying quiet would be easier for Stephen; Stephen took a lot of heat from his teammates.)\r",
+    content:
+      "Ask students to reread the story “Breaking the Silence.” Tell them to find additional text evidence in the story that helps support the argument writer’s claim that Stephen was courageous. (Staying quiet would be easier for Stephen; Stephen took a lot of heat from his teammates.)\r",
     parentPageName: "8",
     characterStyles: [
       { character: "A", style: "" },
@@ -1906,12 +1913,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "" },
       { character: "s", style: "" },
       { character: ".", style: "" },
-      { character: ")", style: "" }
-    ]
+      { character: ")", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Discuss how this close reading has helped students use text evidence to make an inference about the speech.",
+    content:
+      "Discuss how this close reading has helped students use text evidence to make an inference about the speech.",
     parentPageName: "8",
     characterStyles: [
       { character: "D", style: "" },
@@ -2020,12 +2028,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "" },
       { character: "c", style: "" },
       { character: "h", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Reread the last two paragraphs of Argument 1. Why does the writer claim that Stephen’s decision was courageous in light of his circumstances?",
+    content:
+      "Reread the last two paragraphs of Argument 1. Why does the writer claim that Stephen’s decision was courageous in light of his circumstances?",
     parentPageName: "8",
     characterStyles: [
       { character: "R", style: "Character Style 1" },
@@ -2168,8 +2177,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "c", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
       { character: "s", style: "Character Style 1" },
-      { character: "?", style: "Character Style 1" }
-    ]
-  }
+      { character: "?", style: "Character Style 1" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

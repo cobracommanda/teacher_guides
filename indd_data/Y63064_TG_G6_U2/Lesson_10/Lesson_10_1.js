@@ -1,7 +1,8 @@
-const paragraphData = [teacher-talkteacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
-    content: "Build Language, Vocabulary, and Comprehension \nRL.6.9, RI.6.9, L.6.1c, L.6.5a\r",
+    content:
+      "Build Language, Vocabulary, and Comprehension \nRL.6.9, RI.6.9, L.6.1c, L.6.5a\r",
     parentPageName: "10",
     characterStyles: [
       { character: "B", style: "" },
@@ -80,8 +81,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "6", style: "Lesson_A-hd-standards" },
       { character: ".", style: "Lesson_A-hd-standards" },
       { character: "5", style: "Lesson_A-hd-standards" },
-      { character: "a", style: "Lesson_A-hd-standards" }
-    ]
+      { character: "a", style: "Lesson_A-hd-standards" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -136,12 +137,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "s", style: "" },
       { character: "a", style: "" },
       { character: "g", style: "" },
-      { character: "e", style: "" }
-    ]
+      { character: "e", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Remind students that pronouns must agree in number and person with the nouns they refer back to.\r",
+    content:
+      "Remind students that pronouns must agree in number and person with the nouns they refer back to.\r",
     parentPageName: "10",
     characterStyles: [
       { character: "R", style: "" },
@@ -239,8 +241,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: " ", style: "" },
       { character: "t", style: "" },
       { character: "o", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -304,8 +306,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "u", style: "" },
       { character: "n", style: "" },
       { character: "s", style: "" },
-      { character: ":", style: "" }
-    ]
+      { character: ":", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -361,12 +363,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "i" },
       { character: "e", style: "i" },
       { character: "y", style: "i" },
-      { character: ".", style: "i" }
-    ]
+      { character: ".", style: "i" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Explain that in the second sentence, us is not correct because it does not agree with I in the first sentence and them is not correct because it does not agree with Nancy in the first sentence. Model how to correct these errors.\r",
+    content:
+      "Explain that in the second sentence, us is not correct because it does not agree with I in the first sentence and them is not correct because it does not agree with Nancy in the first sentence. Model how to correct these errors.\r",
     parentPageName: "10",
     characterStyles: [
       { character: "E", style: "" },
@@ -596,12 +599,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "o", style: "" },
       { character: "r", style: "" },
       { character: "s", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Continue this lesson by having students identify and correct the pronouns that are used inappropriately in these sentences:\r",
+    content:
+      "Continue this lesson by having students identify and correct the pronouns that are used inappropriately in these sentences:\r",
     parentPageName: "10",
     characterStyles: [
       { character: "C", style: "" },
@@ -726,12 +730,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "c", style: "" },
       { character: "e", style: "" },
       { character: "s", style: "" },
-      { character: ":", style: "" }
-    ]
+      { character: ":", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "The pickpockets stood behind Mr. Brownlow. I tried to take his watch without them noticing.\r",
+    content:
+      "The pickpockets stood behind Mr. Brownlow. I tried to take his watch without them noticing.\r",
     parentPageName: "10",
     characterStyles: [
       { character: "T", style: "i" },
@@ -824,8 +829,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "i" },
       { character: "n", style: "i" },
       { character: "g", style: "i" },
-      { character: ".", style: "i" }
-    ]
+      { character: ".", style: "i" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -881,12 +886,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "u", style: "" },
       { character: "a", style: "" },
       { character: "g", style: "" },
-      { character: "e", style: "" }
-    ]
+      { character: "e", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Have students turn to the vocabulary activity on the inside back cover.\r",
+    content:
+      "Have students turn to the vocabulary activity on the inside back cover.\r",
     parentPageName: "10",
     characterStyles: [
       { character: "H", style: "" },
@@ -959,12 +965,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "v", style: "" },
       { character: "e", style: "" },
       { character: "r", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: Sometimes authors use language in a way that is different from the common meaning. We can use context clues in the surrounding text to help us determine the meaning of figurative language.\r",
+    content:
+      "Say: Sometimes authors use language in a way that is different from the common meaning. We can use context clues in the surrounding text to help us determine the meaning of figurative language.\r",
     parentPageName: "10",
     characterStyles: [
       { character: "S", style: "" },
@@ -1159,8 +1166,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "a", style: "" },
       { character: "g", style: "" },
       { character: "e", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -1216,12 +1223,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: " ", style: "" },
       { character: "2", style: "" },
       { character: "1", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: Here Monks is referring to Oliver and saying “he can’t squeal without going to jail himself.” He says that Oliver could be “guilty of a crime” and go to jail. In this example, Monks seems to be worried about Oliver saying something that could get him in trouble. I think when Monks says Oliver can’t squeal he means that Oliver can’t tell the police about the criminal activity he has seen.\r",
+    content:
+      "Say: Here Monks is referring to Oliver and saying “he can’t squeal without going to jail himself.” He says that Oliver could be “guilty of a crime” and go to jail. In this example, Monks seems to be worried about Oliver saying something that could get him in trouble. I think when Monks says Oliver can’t squeal he means that Oliver can’t tell the police about the criminal activity he has seen.\r",
     parentPageName: "10",
     characterStyles: [
       { character: "S", style: "" },
@@ -1618,12 +1626,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "" },
       { character: "e", style: "" },
       { character: "n", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Ask students to complete the rest of the chart independently, and to provide their answers in writing.\r",
+    content:
+      "Ask students to complete the rest of the chart independently, and to provide their answers in writing.\r",
     parentPageName: "10",
     characterStyles: [
       { character: "A", style: "" },
@@ -1727,8 +1736,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "" },
       { character: "n", style: "" },
       { character: "g", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -1760,12 +1769,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "" },
       { character: "x", style: "" },
       { character: "t", style: "" },
-      { character: "s", style: "" }
-    ]
+      { character: "s", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "If students have read all four texts in the topic set, use the questions on the Cross-Text Analysis Card for additional close readings that require students to find and analyze evidence in more than one text.",
+    content:
+      "If students have read all four texts in the topic set, use the questions on the Cross-Text Analysis Card for additional close readings that require students to find and analyze evidence in more than one text.",
     parentPageName: "10",
     characterStyles: [
       { character: "I", style: "" },
@@ -1975,8 +1985,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "" },
       { character: "x", style: "" },
       { character: "t", style: "" },
-      { character: ".", style: "" }
-    ]
-  }
+      { character: ".", style: "" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

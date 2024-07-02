@@ -1,7 +1,8 @@
-const paragraphData = [teacher-talkteacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
-    content: "Close Reading Option 3: Draw Conclusions \nRL.6.1, RL.6.3, W.6.10, SL.6.1\r",
+    content:
+      "Close Reading Option 3: Draw Conclusions \nRL.6.1, RL.6.3, W.6.10, SL.6.1\r",
     parentPageName: "8",
     characterStyles: [
       { character: "C", style: "" },
@@ -75,8 +76,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: ".", style: "" },
       { character: "6", style: "" },
       { character: ".", style: "" },
-      { character: "1", style: "" }
-    ]
+      { character: "1", style: "" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -109,8 +110,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "" },
       { character: "n", style: "" },
       { character: "c", style: "" },
-      { character: "e", style: "" }
-    ]
+      { character: "e", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -167,12 +168,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "o", style: "" },
       { character: "n", style: "" },
       { character: ".", style: "" },
-      { character: "", style: "" }
-    ]
+      { character: "", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Explain that this question asks readers to find text evidence that helps them draw a conclusion about how Oliver is related to Monks.\r",
+    content:
+      "Explain that this question asks readers to find text evidence that helps them draw a conclusion about how Oliver is related to Monks.\r",
     parentPageName: "8",
     characterStyles: [
       { character: "E", style: "" },
@@ -307,12 +309,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "" },
       { character: "k", style: "" },
       { character: "s", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: I will need to look for text evidence that will help me draw a conclusion about how Oliver and Monks are connected as members of the same family.\r",
+    content:
+      "Say: I will need to look for text evidence that will help me draw a conclusion about how Oliver and Monks are connected as members of the same family.\r",
     parentPageName: "8",
     characterStyles: [
       { character: "S", style: "" },
@@ -464,8 +467,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "" },
       { character: "l", style: "" },
       { character: "y", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -486,12 +489,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: " ", style: "" },
       { character: "1", style: "" },
       { character: "1", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: On page 11, Mr. Brownlow looks at a picture and says, “What I find remarkable is how much the boy looks like the painting of my old friend Edwin Leeford, bequeathed to me before he died.” I know that Oliver is an orphan and does not know anything about his family. This text evidence does not tell me about Monks, but it seems like it could be a evidence about the boy’s background and family. I will look for other text evidence about Oliver’s family and this man named Edwin Leeford.\r",
+    content:
+      "Say: On page 11, Mr. Brownlow looks at a picture and says, “What I find remarkable is how much the boy looks like the painting of my old friend Edwin Leeford, bequeathed to me before he died.” I know that Oliver is an orphan and does not know anything about his family. This text evidence does not tell me about Monks, but it seems like it could be a evidence about the boy’s background and family. I will look for other text evidence about Oliver’s family and this man named Edwin Leeford.\r",
     parentPageName: "8",
     characterStyles: [
       { character: "S", style: "" },
@@ -983,8 +987,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "o", style: "" },
       { character: "r", style: "" },
       { character: "d", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -1041,8 +1045,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "a", style: "" },
       { character: "r", style: "" },
       { character: "t", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -1064,8 +1068,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "t", style: "" },
       { character: "i", style: "" },
       { character: "c", style: "" },
-      { character: "e", style: "" }
-    ]
+      { character: "e", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -1103,12 +1107,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: " ", style: "" },
       { character: "2", style: "" },
       { character: "1", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Collaborative conversation (turn and talk). Ask students to turn to a partner, reread page 21, and find text evidence that helps them draw a conclusion about the connection between Oliver and Monks. Remind students to stay on topic, build on each other’s ideas, and ask questions to clarify each other’s thoughts.\r",
+    content:
+      "Collaborative conversation (turn and talk). Ask students to turn to a partner, reread page 21, and find text evidence that helps them draw a conclusion about the connection between Oliver and Monks. Remind students to stay on topic, build on each other’s ideas, and ask questions to clarify each other’s thoughts.\r",
     parentPageName: "8",
     characterStyles: [
       { character: "C", style: "Med_cond" },
@@ -1423,12 +1428,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "" },
       { character: "t", style: "" },
       { character: "s", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Bring students together and ask several pairs to share the text evidence they found and to explain how their evidence supports their conclusion. Students should be able to explain that Monks wants Oliver arrested or killed so he cannot “claim any of the family money.” This evidence is important because it shows that Monks is aware that Oliver is related to him in some way. Students may conclude that Monks and Oliver share a parent because they are both due to inherit family money, and that happens when a parent dies.\r",
+    content:
+      "Bring students together and ask several pairs to share the text evidence they found and to explain how their evidence supports their conclusion. Students should be able to explain that Monks wants Oliver arrested or killed so he cannot “claim any of the family money.” This evidence is important because it shows that Monks is aware that Oliver is related to him in some way. Students may conclude that Monks and Oliver share a parent because they are both due to inherit family money, and that happens when a parent dies.\r",
     parentPageName: "8",
     characterStyles: [
       { character: "B", style: "" },
@@ -1952,8 +1958,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "" },
       { character: "e", style: "" },
       { character: "s", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -1991,12 +1997,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "" },
       { character: "t", style: "" },
       { character: "l", style: "" },
-      { character: "y", style: "" }
-    ]
+      { character: "y", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Ask students to reread pages 28–29 independently. Tell them to find text evidence that helps them draw a conclusion about Oliver’s relationship to Monks. Students should explain that Mr. Brownlow refers to Monks as the son of Edwin Leeford, the person in the painting whom Oliver resembles, and then identifies Oliver as Monks’ half-brother. This is important because it shows that Oliver and Monks have the same father, Edwin Leeford.\r",
+    content:
+      "Ask students to reread pages 28–29 independently. Tell them to find text evidence that helps them draw a conclusion about Oliver’s relationship to Monks. Students should explain that Mr. Brownlow refers to Monks as the son of Edwin Leeford, the person in the painting whom Oliver resembles, and then identifies Oliver as Monks’ half-brother. This is important because it shows that Oliver and Monks have the same father, Edwin Leeford.\r",
     parentPageName: "8",
     characterStyles: [
       { character: "A", style: "" },
@@ -2433,12 +2440,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "o", style: "" },
       { character: "r", style: "" },
       { character: "d", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Discuss how this close reading has helped students use text evidence to draw a conclusion about a key relationship between two characters in the play.",
+    content:
+      "Discuss how this close reading has helped students use text evidence to draw a conclusion about a key relationship between two characters in the play.",
     parentPageName: "8",
     characterStyles: [
       { character: "D", style: "" },
@@ -2590,8 +2598,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "l", style: "" },
       { character: "a", style: "" },
       { character: "y", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -2636,8 +2644,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "Character Style 1" },
       { character: "k", style: "Character Style 1" },
       { character: "s", style: "Character Style 1" },
-      { character: "?", style: "Character Style 1" }
-    ]
-  }
+      { character: "?", style: "Character Style 1" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

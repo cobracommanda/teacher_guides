@@ -1,7 +1,8 @@
-const paragraphData = [teacher-talkteacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
-    content: "Build Language, Vocabulary, and Comprehension \nRL.6.9, RI.6.9, RF.6.4c, L.6.2c\r",
+    content:
+      "Build Language, Vocabulary, and Comprehension \nRL.6.9, RI.6.9, RF.6.4c, L.6.2c\r",
     parentPageName: "10",
     characterStyles: [
       { character: "B", style: "[None]" },
@@ -81,8 +82,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "6", style: "[None]" },
       { character: ".", style: "[None]" },
       { character: "2", style: "[None]" },
-      { character: "c", style: "[None]" }
-    ]
+      { character: "c", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -115,12 +116,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "o", style: "[None]" },
       { character: "r", style: "[None]" },
       { character: "d", style: "[None]" },
-      { character: "s", style: "[None]" }
-    ]
+      { character: "s", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Remind students that commas are used to set off words and phrases from the rest of a sentence.\r",
+    content:
+      "Remind students that commas are used to set off words and phrases from the rest of a sentence.\r",
     parentPageName: "10",
     characterStyles: [
       { character: "R", style: "[None]" },
@@ -216,8 +218,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "[None]" },
       { character: "c", style: "[None]" },
       { character: "e", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -265,12 +267,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "a", style: "[None]" },
       { character: "r", style: "[None]" },
       { character: "d", style: "[None]" },
-      { character: ":", style: "[None]" }
-    ]
+      { character: ":", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "“From atop his steel pole, M.C. scrutinizes the hills, the river, and the mountains, noting the people and the events in his world.”\r",
+    content:
+      "“From atop his steel pole, M.C. scrutinizes the hills, the river, and the mountains, noting the people and the events in his world.”\r",
     parentPageName: "10",
     characterStyles: [
       { character: "DOUBLE_LEFT_QUOTE", style: "[None]" },
@@ -404,12 +407,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "l", style: "[None]" },
       { character: "d", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: "DOUBLE_RIGHT_QUOTE", style: "[None]" }
-    ]
+      { character: "DOUBLE_RIGHT_QUOTE", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Read the sentence aloud and pause at each comma. Then reread the sentence without the commas and ask students to discuss how each reading of the sentence differed from the other. Explain that commas in a sentence show the reader natural places to pause when reading.\r",
+    content:
+      "Read the sentence aloud and pause at each comma. Then reread the sentence without the commas and ask students to discuss how each reading of the sentence differed from the other. Explain that commas in a sentence show the reader natural places to pause when reading.\r",
     parentPageName: "10",
     characterStyles: [
       { character: "R", style: "[None]" },
@@ -677,12 +681,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "[None]" },
       { character: "n", style: "[None]" },
       { character: "g", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Continue this lesson by having students work in pairs to identify other instances in the book in which a comma is used to set off words from the rest of a sentence. Have them write these sentences and read them aloud to each other with or without the commas.\r",
+    content:
+      "Continue this lesson by having students work in pairs to identify other instances in the book in which a comma is used to set off words from the rest of a sentence. Have them write these sentences and read them aloud to each other with or without the commas.\r",
     parentPageName: "10",
     characterStyles: [
       { character: "C", style: "[None]" },
@@ -942,8 +947,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "m", style: "[None]" },
       { character: "a", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -986,12 +991,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "l", style: "[None]" },
       { character: "u", style: "[None]" },
       { character: "e", style: "[None]" },
-      { character: "s", style: "[None]" }
-    ]
+      { character: "s", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Have students turn to the vocabulary activity on the inside back cover.\r",
+    content:
+      "Have students turn to the vocabulary activity on the inside back cover.\r",
     parentPageName: "10",
     characterStyles: [
       { character: "H", style: "[None]" },
@@ -1064,12 +1070,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "v", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "r", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: Context clues are words and sentences that come before or after unfamiliar words or phrases that help you understand its meaning. These may include cause-and-effect relationships or comparisons.\r",
+    content:
+      "Say: Context clues are words and sentences that come before or after unfamiliar words or phrases that help you understand its meaning. These may include cause-and-effect relationships or comparisons.\r",
     parentPageName: "10",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -1270,8 +1277,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "o", style: "[None]" },
       { character: "n", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -1338,12 +1345,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: " ", style: "[None]" },
       { character: "2", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: The context clues are “One of those sketches became Bud Caldwell—the hero of Bud, Not Buddy” and “…Curtis draws on his own family members and history in his novels.” (p. 2)\r",
+    content:
+      "Say: The context clues are “One of those sketches became Bud Caldwell—the hero of Bud, Not Buddy” and “…Curtis draws on his own family members and history in his novels.” (p. 2)\r",
     parentPageName: "10",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -1522,12 +1530,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: ".", style: "[None]" },
       { character: " ", style: "[None]" },
       { character: "2", style: "[None]" },
-      { character: ")", style: "[None]" }
-    ]
+      { character: ")", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Ask students to write character sketches, the context clues, and the meaning of the phrase in their charts. They should then locate other familiar words in their book and complete the chart.\r",
+    content:
+      "Ask students to write character sketches, the context clues, and the meaning of the phrase in their charts. They should then locate other familiar words in their book and complete the chart.\r",
     parentPageName: "10",
     characterStyles: [
       { character: "A", style: "[None]" },
@@ -1719,8 +1728,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "a", style: "[None]" },
       { character: "r", style: "[None]" },
       { character: "t", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -1752,12 +1761,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: "x", style: "[None]" },
       { character: "t", style: "[None]" },
-      { character: "s", style: "[None]" }
-    ]
+      { character: "s", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "If students have read all four texts in the topic set, use the questions on the Cross-Text Analysis Card for additional close readings that require students to find and analyze evidence in more than one text.",
+    content:
+      "If students have read all four texts in the topic set, use the questions on the Cross-Text Analysis Card for additional close readings that require students to find and analyze evidence in more than one text.",
     parentPageName: "10",
     characterStyles: [
       { character: "I", style: "[None]" },
@@ -1967,8 +1977,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: "x", style: "[None]" },
       { character: "t", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
-  }
+      { character: ".", style: "[None]" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

@@ -1,4 +1,4 @@
-const paragraphData = [teacher-talkteacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
     content: "Close Reading Option 3: Determine a Theme\nRL.6.1, RL.6.2\r",
@@ -59,8 +59,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: ".", style: "[None]" },
       { character: "6", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: "2", style: "[None]" }
-    ]
+      { character: "2", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_A-hd",
@@ -93,12 +93,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: "n", style: "[None]" },
       { character: "c", style: "[None]" },
-      { character: "e", style: "[None]" }
-    ]
+      { character: "e", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Display and read aloud the close reading prompt: Identify details that convey a theme on page 19 of An Attack on the Starship Mayflower in the Year 2647.  \r",
+    content:
+      "Display and read aloud the close reading prompt: Identify details that convey a theme on page 19 of An Attack on the Starship Mayflower in the Year 2647.  \r",
     parentPageName: "8",
     characterStyles: [
       { character: "D", style: "[None]" },
@@ -255,12 +256,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "7", style: "[None]" },
       { character: ".", style: "[None]" },
       { character: " ", style: "[None]" },
-      { character: " ", style: "[None]" }
-    ]
+      { character: " ", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Explain that this question asks readers to find text evidence that suggests the central idea that readers can find in the story.\r",
+    content:
+      "Explain that this question asks readers to find text evidence that suggests the central idea that readers can find in the story.\r",
     parentPageName: "8",
     characterStyles: [
       { character: "E", style: "[None]" },
@@ -390,12 +392,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "o", style: "[None]" },
       { character: "r", style: "[None]" },
       { character: "y", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: First I want to find details about Ace’s character that I recall from the beginning of the story.\r",
+    content:
+      "Say: First I want to find details about Ace’s character that I recall from the beginning of the story.\r",
     parentPageName: "8",
     characterStyles: [
       { character: "S", style: "b" },
@@ -499,8 +502,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "o", style: "i" },
       { character: "r", style: "i" },
       { character: "y", style: "i" },
-      { character: ".", style: "i" }
-    ]
+      { character: ".", style: "i" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -544,12 +547,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: " ", style: "[None]" },
       { character: "1", style: "[None]" },
       { character: "9", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: This says that Ace feels that he can’t live up to his sister’s and father’s heroic achievements.  \r",
+    content:
+      "Say: This says that Ace feels that he can’t live up to his sister’s and father’s heroic achievements.  \r",
     parentPageName: "8",
     characterStyles: [
       { character: "S", style: "b" },
@@ -654,8 +658,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "s", style: "i" },
       { character: ".", style: "i" },
       { character: " ", style: "i" },
-      { character: " ", style: "i" }
-    ]
+      { character: " ", style: "i" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -710,8 +714,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "z", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "r", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_A-hd",
@@ -733,12 +737,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "t", style: "[None]" },
       { character: "i", style: "[None]" },
       { character: "c", style: "[None]" },
-      { character: "e", style: "[None]" }
-    ]
+      { character: "e", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Ask students to turn to a partner, reread page 21, and identify details that convey a theme of An Attack on the Starship Mayflower in the Year 2647. Remind students to stay on topic, build on each other’s ideas, and ask questions to clarify each other’s thoughts.\r",
+    content:
+      "Ask students to turn to a partner, reread page 21, and identify details that convey a theme of An Attack on the Starship Mayflower in the Year 2647. Remind students to stay on topic, build on each other’s ideas, and ask questions to clarify each other’s thoughts.\r",
     parentPageName: "8",
     characterStyles: [
       { character: "A", style: "[None]" },
@@ -1003,12 +1008,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "[None]" },
       { character: "t", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Bring students together to share their supporting text evidence and their ideas about the theme of the legend. Students should be able to explain that Captain Hank Trace also has complicated feelings about how he relates to his family. He works hard and knows his job is important, but he also wishes that he could spend more time with his children.\r",
+    content:
+      "Bring students together to share their supporting text evidence and their ideas about the theme of the legend. Students should be able to explain that Captain Hank Trace also has complicated feelings about how he relates to his family. He works hard and knows his job is important, but he also wishes that he could spend more time with his children.\r",
     parentPageName: "8",
     characterStyles: [
       { character: "B", style: "[None]" },
@@ -1359,8 +1365,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "r", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "n", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_A-hd",
@@ -1398,12 +1404,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "[None]" },
       { character: "t", style: "[None]" },
       { character: "l", style: "[None]" },
-      { character: "y", style: "[None]" }
-    ]
+      { character: "y", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Ask students to reread the dialogue between Captain Trace and Helvetica on pages 21 and 22 independently and identify text evidence that helps them confirm or revise their ideas about the theme of An Attack on the Starship Mayflower in the Year 2647. (They are arguing, but Captain Trace is not really angry with his daughter. He wants her to be safe, but he is also proud of her.)\r",
+    content:
+      "Ask students to reread the dialogue between Captain Trace and Helvetica on pages 21 and 22 independently and identify text evidence that helps them confirm or revise their ideas about the theme of An Attack on the Starship Mayflower in the Year 2647. (They are arguing, but Captain Trace is not really angry with his daughter. He wants her to be safe, but he is also proud of her.)\r",
     parentPageName: "8",
     characterStyles: [
       { character: "A", style: "[None]" },
@@ -1786,12 +1793,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: "r", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: ")", style: "[None]" }
-    ]
+      { character: ")", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Discuss how this close reading helps readers determine how a theme is conveyed through particular details\r",
+    content:
+      "Discuss how this close reading helps readers determine how a theme is conveyed through particular details\r",
     parentPageName: "8",
     characterStyles: [
       { character: "D", style: "[None]" },
@@ -1898,8 +1906,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "a", style: "[None]" },
       { character: "i", style: "[None]" },
       { character: "l", style: "[None]" },
-      { character: "s", style: "[None]" }
-    ]
-  }
+      { character: "s", style: "[None]" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

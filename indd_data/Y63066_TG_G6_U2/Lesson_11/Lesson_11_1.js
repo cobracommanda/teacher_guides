@@ -1,7 +1,8 @@
-const paragraphData = [teacher-talkteacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
-    content: "Reading, Writing, Speaking, and Listening \nRL.6.9, W.6.3, W.6.7, W.6.8, W.6.9a, W.6.10\r",
+    content:
+      "Reading, Writing, Speaking, and Listening \nRL.6.9, W.6.3, W.6.7, W.6.8, W.6.9a, W.6.10\r",
     parentPageName: "11",
     characterStyles: [
       { character: "R", style: "[None]" },
@@ -89,8 +90,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "6", style: "CC-code" },
       { character: ".", style: "CC-code" },
       { character: "1", style: "CC-code" },
-      { character: "0", style: "CC-code" }
-    ]
+      { character: "0", style: "CC-code" },
+    ],
   },
   {
     styleName: "Lesson_A-hd",
@@ -126,12 +127,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: "n", style: "[None]" },
       { character: "c", style: "[None]" },
-      { character: "e", style: "[None]" }
-    ]
+      { character: "e", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Have students reread the text to find evidence to answer the questions on the Text Evidence Question Card.\r",
+    content:
+      "Have students reread the text to find evidence to answer the questions on the Text Evidence Question Card.\r",
     parentPageName: "11",
     characterStyles: [
       { character: "H", style: "[None]" },
@@ -239,8 +241,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "a", style: "[None]" },
       { character: "r", style: "[None]" },
       { character: "d", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -278,12 +280,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "T", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "x", style: "[None]" },
-      { character: "t", style: "[None]" }
-    ]
+      { character: "t", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Tell students they will write their own science fiction using the stories they read this week as models. Assist students through the step-by-step process detailed on pages 30–31, encouraging them to refer back to the “Features of Science Fiction” web on page 3 as well. Confer with individual students as they write. For example, did the student include an element based on scientific fact? Base the story on a futuristic, fantastic, or realistic setting? Use a theme of aliens, parallel universes, space and time travel, or inventions that go out of control?\r",
+    content:
+      "Tell students they will write their own science fiction using the stories they read this week as models. Assist students through the step-by-step process detailed on pages 30–31, encouraging them to refer back to the “Features of Science Fiction” web on page 3 as well. Confer with individual students as they write. For example, did the student include an element based on scientific fact? Base the story on a futuristic, fantastic, or realistic setting? Use a theme of aliens, parallel universes, space and time travel, or inventions that go out of control?\r",
     parentPageName: "11",
     characterStyles: [
       { character: "T", style: "[None]" },
@@ -844,8 +847,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "r", style: "[None]" },
       { character: "o", style: "[None]" },
       { character: "l", style: "[None]" },
-      { character: "?", style: "[None]" }
-    ]
+      { character: "?", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_A-hd",
@@ -880,12 +883,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: "x", style: "[None]" },
       { character: "t", style: "[None]" },
-      { character: "s", style: "[None]" }
-    ]
+      { character: "s", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: Good readers think about how literary works are related. We know, for example, that both of these science fiction stories share certain features. They both have futuristic settings. They both have elements that are based on scientific fact. What else do they have in common? Today we will think about the elements in both stories and what we can learn from them. \r",
+    content:
+      "Say: Good readers think about how literary works are related. We know, for example, that both of these science fiction stories share certain features. They both have futuristic settings. They both have elements that are based on scientific fact. What else do they have in common? Today we will think about the elements in both stories and what we can learn from them. \r",
     parentPageName: "11",
     characterStyles: [
       { character: "S", style: "b" },
@@ -1255,12 +1259,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "b" },
       { character: "m", style: "b" },
       { character: ".", style: "b" },
-      { character: " ", style: "b" }
-    ]
+      { character: " ", style: "b" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Ask students to copy the “Make Connections Across Texts” chart on the inside back cover of their books on a sheet of paper to complete individually, with a partner, or in a small group. Then bring students together to share and synthesize their ideas.\r",
+    content:
+      "Ask students to copy the “Make Connections Across Texts” chart on the inside back cover of their books on a sheet of paper to complete individually, with a partner, or in a small group. Then bring students together to share and synthesize their ideas.\r",
     parentPageName: "11",
     characterStyles: [
       { character: "A", style: "b" },
@@ -1513,8 +1518,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "b" },
       { character: "a", style: "b" },
       { character: "s", style: "b" },
-      { character: ".", style: "b" }
-    ]
+      { character: ".", style: "b" },
+    ],
   },
   {
     styleName: "Lesson_A-hd",
@@ -1542,12 +1547,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "a", style: "[None]" },
       { character: "r", style: "[None]" },
       { character: "c", style: "[None]" },
-      { character: "h", style: "[None]" }
-    ]
+      { character: "h", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Divide the class into three groups. Have each group conduct collaborative research on one of the early authors of science fiction highlighted on page 3—Jonathan Swift, H. G. Wells, or Jules Verne. Students should use print and digital resources to research how science and technology were used and then write and publish their reports. If time allows, invite each group to present its report to the class. ",
+    content:
+      "Divide the class into three groups. Have each group conduct collaborative research on one of the early authors of science fiction highlighted on page 3—Jonathan Swift, H. G. Wells, or Jules Verne. Students should use print and digital resources to research how science and technology were used and then write and publish their reports. If time allows, invite each group to present its report to the class. ",
     parentPageName: "11",
     characterStyles: [
       { character: "D", style: "[None]" },
@@ -1955,8 +1961,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "s", style: "[None]" },
       { character: "s", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: " ", style: "[None]" }
-    ]
-  }
+      { character: " ", style: "[None]" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

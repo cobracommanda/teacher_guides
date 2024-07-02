@@ -1,4 +1,4 @@
-const paragraphData = [teacher-talkteacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_B-hd",
     content: "Lesson: Determine Text Importance to Summarize\r",
@@ -49,12 +49,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "r", style: "Cond" },
       { character: "i", style: "Cond" },
       { character: "z", style: "Cond" },
-      { character: "e", style: "Cond" }
-    ]
+      { character: "e", style: "Cond" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Explain that when readers summarize, they include the most important events in a text. Have students turn to pages 4–9. Reread the pages together.\r",
+    content:
+      "Explain that when readers summarize, they include the most important events in a text. Have students turn to pages 4–9. Reread the pages together.\r",
     parentPageName: "3",
     characterStyles: [
       { character: "E", style: "[None]" },
@@ -202,12 +203,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "r", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: Let’s identify the most important events on page 5, where the excerpt begins. Bud goes to the library to look for the book of maps. This will help him plan his journey.\r",
+    content:
+      "Say: Let’s identify the most important events on page 5, where the excerpt begins. Bud goes to the library to look for the book of maps. This will help him plan his journey.\r",
     parentPageName: "3",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -382,8 +384,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "y", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -403,12 +405,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: " ", style: "[None]" },
       { character: "6", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Ask: What cities does Bud look up in the book, and how far apart are they?\r",
+    content:
+      "Ask: What cities does Bud look up in the book, and how far apart are they?\r",
     parentPageName: "3",
     characterStyles: [
       { character: "A", style: "[None]" },
@@ -484,8 +487,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "y", style: "[None]" },
-      { character: "?", style: "[None]" }
-    ]
+      { character: "?", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -548,8 +551,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "4", style: "[None]" },
       { character: "EN_DASH", style: "[None]" },
       { character: "9", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -617,12 +620,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "Cond" },
       { character: "a", style: "Cond" },
       { character: "r", style: "Cond" },
-      { character: "e", style: "Cond" }
-    ]
+      { character: "e", style: "Cond" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Bring students together and ask several pairs of students to read their summaries aloud. As a whole group, evaluate the summaries and identify any key events that were omitted. Then write a group summary of the key events in the excerpt of Bud, Not Buddy.\r",
+    content:
+      "Bring students together and ask several pairs of students to read their summaries aloud. As a whole group, evaluate the summaries and identify any key events that were omitted. Then write a group summary of the key events in the excerpt of Bud, Not Buddy.\r",
     parentPageName: "3",
     characterStyles: [
       { character: "B", style: "[None]" },
@@ -880,8 +884,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "d", style: "i" },
       { character: "y", style: "i" },
       { character: ".", style: "[None]" },
-      { character: "", style: "[None]" }
-    ]
+      { character: "", style: "[None]" },
+    ],
   },
   {
     styleName: "table_footer",
@@ -914,12 +918,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "m", style: "b" },
       { character: "a", style: "b" },
       { character: "r", style: "b" },
-      { character: "y", style: "b" }
-    ]
+      { character: "y", style: "b" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Bud goes to the library to look at a book that gives information about the distances between different cities. This will help him plan his journey to Grand Rapids where he will search for his father. He will start the 120-mile journey that day. After reading all day, he begins his journey. When he arrives in Grand Rapids, Calloway denies being his father, but the band takes Bud in. He finally realizes Calloway is his grandfather, and he has found his family after all.",
+    content:
+      "Bud goes to the library to look at a book that gives information about the distances between different cities. This will help him plan his journey to Grand Rapids where he will search for his father. He will start the 120-mile journey that day. After reading all day, he begins his journey. When he arrives in Grand Rapids, Calloway denies being his father, but the band takes Bud in. He finally realizes Calloway is his grandfather, and he has found his family after all.",
     parentPageName: "3",
     characterStyles: [
       { character: "B", style: "Character Style 1" },
@@ -1393,8 +1398,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "a", style: "Character Style 1" },
       { character: "l", style: "Character Style 1" },
       { character: "l", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
-  }
+      { character: ".", style: "Character Style 1" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

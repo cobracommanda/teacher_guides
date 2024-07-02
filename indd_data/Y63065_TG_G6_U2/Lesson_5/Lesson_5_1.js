@@ -1,7 +1,8 @@
-const paragraphData = [teacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
-    content: "Read Part 3 (pp. 21–30) RL.6.1, RL.6.3, RI.6.1, RI.6.2, RI.6.8, W.6.2b, W.6.5, W.6.8, SL.6.1a, SL.6.1b, SL.6.1c, SL.6.1d\r",
+    content:
+      "Read Part 3 (pp. 21–30) RL.6.1, RL.6.3, RI.6.1, RI.6.2, RI.6.8, W.6.2b, W.6.5, W.6.8, SL.6.1a, SL.6.1b, SL.6.1c, SL.6.1d\r",
     parentPageName: "5",
     characterStyles: [
       { character: "R", style: "" },
@@ -123,8 +124,8 @@ const paragraphData = [teacher-talk
       { character: "6", style: "Lesson_A-hd-standards" },
       { character: ".", style: "Lesson_A-hd-standards" },
       { character: "1", style: "Lesson_A-hd-standards" },
-      { character: "d", style: "Lesson_A-hd-standards" }
-    ]
+      { character: "d", style: "Lesson_A-hd-standards" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -143,12 +144,13 @@ const paragraphData = [teacher-talk
       { character: "p", style: "" },
       { character: "o", style: "" },
       { character: "s", style: "" },
-      { character: "e", style: "" }
-    ]
+      { character: "e", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: Think about the three stories you read. While their situations were very different, each character had to make a difficult decision in a tough situation.\r",
+    content:
+      "Say: Think about the three stories you read. While their situations were very different, each character had to make a difficult decision in a tough situation.\r",
     parentPageName: "5",
     characterStyles: [
       { character: "S", style: "" },
@@ -308,12 +310,13 @@ const paragraphData = [teacher-talk
       { character: "i", style: "" },
       { character: "o", style: "" },
       { character: "n", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Now you will read three writers’ arguments on this topic. As you read, use self-stick notes to flag the arguments and the reasons given. In the first argument, details are highlighted for an example.\r",
+    content:
+      "Now you will read three writers’ arguments on this topic. As you read, use self-stick notes to flag the arguments and the reasons given. In the first argument, details are highlighted for an example.\r",
     parentPageName: "5",
     characterStyles: [
       { character: "N", style: "" },
@@ -514,12 +517,13 @@ const paragraphData = [teacher-talk
       { character: "p", style: "" },
       { character: "l", style: "" },
       { character: "e", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Choose the reading option that best meets the needs of your students. If students need more support to access the text, use the Scaffolded Preview provided.\r",
+    content:
+      "Choose the reading option that best meets the needs of your students. If students need more support to access the text, use the Scaffolded Preview provided.\r",
     parentPageName: "5",
     characterStyles: [
       { character: "C", style: "" },
@@ -677,12 +681,13 @@ const paragraphData = [teacher-talk
       { character: "d", style: "" },
       { character: "e", style: "" },
       { character: "d", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
-    content: "Summarize Main Idea and Key Details: Think and Write Independently\r",
+    content:
+      "Summarize Main Idea and Key Details: Think and Write Independently\r",
     parentPageName: "5",
     characterStyles: [
       { character: "S", style: "" },
@@ -750,12 +755,13 @@ const paragraphData = [teacher-talk
       { character: "n", style: "Lesson_B-hd-LightFace" },
       { character: "t", style: "Lesson_B-hd-LightFace" },
       { character: "l", style: "Lesson_B-hd-LightFace" },
-      { character: "y", style: "Lesson_B-hd-LightFace" }
-    ]
+      { character: "y", style: "Lesson_B-hd-LightFace" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Ask students to review the details and reasons they flagged in each argument. Have them independently create a chart that summarizes the opinions and reasons given in each opinion piece.\r",
+    content:
+      "Ask students to review the details and reasons they flagged in each argument. Have them independently create a chart that summarizes the opinions and reasons given in each opinion piece.\r",
     parentPageName: "5",
     characterStyles: [
       { character: "A", style: "" },
@@ -944,8 +950,8 @@ const paragraphData = [teacher-talk
       { character: "c", style: "" },
       { character: "e", style: "" },
       { character: ".", style: "" },
-      { character: "", style: "" }
-    ]
+      { character: "", style: "" },
+    ],
   },
   {
     styleName: "table_footer",
@@ -1013,12 +1019,13 @@ const paragraphData = [teacher-talk
       { character: "h", style: "Medium_Condensed" },
       { character: "a", style: "Medium_Condensed" },
       { character: "r", style: "Medium_Condensed" },
-      { character: "t", style: "Medium_Condensed" }
-    ]
+      { character: "t", style: "Medium_Condensed" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Have students fill out the argument-writing rubric on page 30. Explain that the numbers in the rubric stand for 4–exemplary; 3–accomplished; 2–developing; 1–beginning.\r",
+    content:
+      "Have students fill out the argument-writing rubric on page 30. Explain that the numbers in the rubric stand for 4–exemplary; 3–accomplished; 2–developing; 1–beginning.\r",
     parentPageName: "5",
     characterStyles: [
       { character: "H", style: "" },
@@ -1187,12 +1194,13 @@ const paragraphData = [teacher-talk
       { character: "i", style: "" },
       { character: "n", style: "" },
       { character: "g", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Then ask them to answer the question: Did the writers include the important elements?",
+    content:
+      "Then ask them to answer the question: Did the writers include the important elements?",
     parentPageName: "5",
     characterStyles: [
       { character: "T", style: "" },
@@ -1279,8 +1287,8 @@ const paragraphData = [teacher-talk
       { character: "n", style: "" },
       { character: "t", style: "" },
       { character: "s", style: "" },
-      { character: "?", style: "" }
-    ]
+      { character: "?", style: "" },
+    ],
   },
   {
     styleName: "table header",
@@ -1309,8 +1317,8 @@ const paragraphData = [teacher-talk
       { character: "r", style: "Character Style 1" },
       { character: "a", style: "Character Style 1" },
       { character: "g", style: "Character Style 1" },
-      { character: "e", style: "Character Style 1" }
-    ]
+      { character: "e", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "table header",
@@ -1333,8 +1341,8 @@ const paragraphData = [teacher-talk
       { character: "i", style: "Character Style 1" },
       { character: "o", style: "Character Style 1" },
       { character: "n", style: "Character Style 1" },
-      { character: "s", style: "Character Style 1" }
-    ]
+      { character: "s", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "table header",
@@ -1354,8 +1362,8 @@ const paragraphData = [teacher-talk
       { character: "R", style: "Character Style 1" },
       { character: "i", style: "Character Style 1" },
       { character: "s", style: "Character Style 1" },
-      { character: "k", style: "Character Style 1" }
-    ]
+      { character: "k", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1369,8 +1377,8 @@ const paragraphData = [teacher-talk
       { character: "m", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
       { character: "n", style: "Character Style 1" },
-      { character: "t", style: "Character Style 1" }
-    ]
+      { character: "t", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1421,8 +1429,8 @@ const paragraphData = [teacher-talk
       { character: "a", style: "Character Style 1" },
       { character: "g", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1491,12 +1499,13 @@ const paragraphData = [teacher-talk
       { character: "u", style: "Character Style 1" },
       { character: "r", style: "Character Style 1" },
       { character: "t", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Each main character puts him or herself in a dangerous situation, but the risk is worth it.",
+    content:
+      "Each main character puts him or herself in a dangerous situation, but the risk is worth it.",
     parentPageName: "5",
     characterStyles: [
       { character: "E", style: "Character Style 1" },
@@ -1589,8 +1598,8 @@ const paragraphData = [teacher-talk
       { character: " ", style: "Character Style 1" },
       { character: "i", style: "Character Style 1" },
       { character: "t", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1604,8 +1613,8 @@ const paragraphData = [teacher-talk
       { character: "o", style: "Character Style 1" },
       { character: "n", style: "Character Style 1" },
       { character: " ", style: "Character Style 1" },
-      { character: "1", style: "Character Style 1" }
-    ]
+      { character: "1", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1654,12 +1663,13 @@ const paragraphData = [teacher-talk
       { character: "i", style: "Character Style 1" },
       { character: "n", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Sofia could have been killed going back to save Madeline. She should have considered the consequences.",
+    content:
+      "Sofia could have been killed going back to save Madeline. She should have considered the consequences.",
     parentPageName: "5",
     characterStyles: [
       { character: "S", style: "Character Style 1" },
@@ -1763,12 +1773,13 @@ const paragraphData = [teacher-talk
       { character: "c", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
       { character: "s", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Although Sofia’s decision to go back was not smart, it was possible no one else could have saved Madeline.",
+    content:
+      "Although Sofia’s decision to go back was not smart, it was possible no one else could have saved Madeline.",
     parentPageName: "5",
     characterStyles: [
       { character: "A", style: "Character Style 1" },
@@ -1876,8 +1887,8 @@ const paragraphData = [teacher-talk
       { character: "i", style: "Character Style 1" },
       { character: "n", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1891,12 +1902,13 @@ const paragraphData = [teacher-talk
       { character: "o", style: "Character Style 1" },
       { character: "n", style: "Character Style 1" },
       { character: " ", style: "Character Style 1" },
-      { character: "2", style: "Character Style 1" }
-    ]
+      { character: "2", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Patricia faced physical harm to stand up for what she believed in.",
+    content:
+      "Patricia faced physical harm to stand up for what she believed in.",
     parentPageName: "5",
     characterStyles: [
       { character: "P", style: "Character Style 1" },
@@ -1964,12 +1976,13 @@ const paragraphData = [teacher-talk
       { character: " ", style: "Character Style 1" },
       { character: "i", style: "Character Style 1" },
       { character: "n", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Patricia puts herself in harm instead of considering less dangerous ways of fighting for integration.",
+    content:
+      "Patricia puts herself in harm instead of considering less dangerous ways of fighting for integration.",
     parentPageName: "5",
     characterStyles: [
       { character: "P", style: "Character Style 1" },
@@ -2072,8 +2085,8 @@ const paragraphData = [teacher-talk
       { character: "i", style: "Character Style 1" },
       { character: "o", style: "Character Style 1" },
       { character: "n", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -2138,8 +2151,8 @@ const paragraphData = [teacher-talk
       { character: "a", style: "Character Style 1" },
       { character: "k", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -2153,12 +2166,13 @@ const paragraphData = [teacher-talk
       { character: "o", style: "Character Style 1" },
       { character: "n", style: "Character Style 1" },
       { character: " ", style: "Character Style 1" },
-      { character: "3", style: "Character Style 1" }
-    ]
+      { character: "3", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Stephen risks hurting his team and becoming unpopular to stand up for a bullied classmate.",
+    content:
+      "Stephen risks hurting his team and becoming unpopular to stand up for a bullied classmate.",
     parentPageName: "5",
     characterStyles: [
       { character: "S", style: "Character Style 1" },
@@ -2250,12 +2264,13 @@ const paragraphData = [teacher-talk
       { character: "a", style: "Character Style 1" },
       { character: "t", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Stephen didn’t consider the impact of his decision on teammates. He should have waited one more day.",
+    content:
+      "Stephen didn’t consider the impact of his decision on teammates. He should have waited one more day.",
     parentPageName: "5",
     characterStyles: [
       { character: "S", style: "Character Style 1" },
@@ -2357,12 +2372,13 @@ const paragraphData = [teacher-talk
       { character: "d", style: "Character Style 1" },
       { character: "a", style: "Character Style 1" },
       { character: "y", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Although Stephen’s decision impacts the rest of his team, he knows keeping silent would send the wrong message.",
+    content:
+      "Although Stephen’s decision impacts the rest of his team, he knows keeping silent would send the wrong message.",
     parentPageName: "5",
     characterStyles: [
       { character: "A", style: "Character Style 1" },
@@ -2475,8 +2491,8 @@ const paragraphData = [teacher-talk
       { character: "a", style: "Character Style 1" },
       { character: "g", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
-  }
+      { character: ".", style: "Character Style 1" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

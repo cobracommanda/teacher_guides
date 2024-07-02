@@ -1,7 +1,8 @@
-const paragraphData = [teacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
-    content: "Read Part 2 (pp. 8–16) RI.6.1, RI.6.2, RI.6.3, W.6.8, W.6.10, SL.6.1a, SL.6.1b, SL.6.1c, SL.6.1d, SL.6.2\r",
+    content:
+      "Read Part 2 (pp. 8–16) RI.6.1, RI.6.2, RI.6.3, W.6.8, W.6.10, SL.6.1a, SL.6.1b, SL.6.1c, SL.6.1d, SL.6.2\r",
     parentPageName: "4",
     characterStyles: [
       { character: "R", style: "[None]" },
@@ -107,8 +108,8 @@ const paragraphData = [teacher-talk
       { character: ".", style: "[None]" },
       { character: "6", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: "2", style: "[None]" }
-    ]
+      { character: "2", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -127,12 +128,13 @@ const paragraphData = [teacher-talk
       { character: "p", style: "[None]" },
       { character: "o", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: "e", style: "[None]" }
-    ]
+      { character: "e", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: As you read Part 2 (pp. 10–16), use self-stick notes to flag important events described in the excerpt. Think about how these events support the overall theme of growing up in hard times.\r",
+    content:
+      "Say: As you read Part 2 (pp. 10–16), use self-stick notes to flag important events described in the excerpt. Think about how these events support the overall theme of growing up in hard times.\r",
     parentPageName: "4",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -326,12 +328,13 @@ const paragraphData = [teacher-talk
       { character: "m", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Choose the reading option that best meets the needs of your students. If students need more support to access the text, use the Scaffolded Preview provided.\r",
+    content:
+      "Choose the reading option that best meets the needs of your students. If students need more support to access the text, use the Scaffolded Preview provided.\r",
     parentPageName: "4",
     characterStyles: [
       { character: "C", style: "[None]" },
@@ -489,8 +492,8 @@ const paragraphData = [teacher-talk
       { character: "d", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "d", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -540,12 +543,13 @@ const paragraphData = [teacher-talk
       { character: "h", style: "Cond" },
       { character: "a", style: "Cond" },
       { character: "r", style: "Cond" },
-      { character: "e", style: "Cond" }
-    ]
+      { character: "e", style: "Cond" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Invite students to share with a partner what they noted in the text. Have them collaborate to create a new Key Events Chart for the excerpt of M.C. Higgins, the Great.\r",
+    content:
+      "Invite students to share with a partner what they noted in the text. Have them collaborate to create a new Key Events Chart for the excerpt of M.C. Higgins, the Great.\r",
     parentPageName: "4",
     characterStyles: [
       { character: "I", style: "[None]" },
@@ -714,16 +718,14 @@ const paragraphData = [teacher-talk
       { character: "e", style: "i" },
       { character: "a", style: "i" },
       { character: "t", style: "i" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
     content: "\r",
     parentPageName: "4",
-    characterStyles: [
-      { character: "", style: "[None]" }
-    ]
+    characterStyles: [{ character: "", style: "[None]" }],
   },
   {
     styleName: "table_footer",
@@ -759,12 +761,13 @@ const paragraphData = [teacher-talk
       { character: "h", style: "b" },
       { character: "a", style: "b" },
       { character: "r", style: "b" },
-      { character: "t", style: "b" }
-    ]
+      { character: "t", style: "b" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Then have pairs collaborate to write their own summary of key events in the excerpt. If students need more support in deciding what to include in a summary, refer back to the lesson strategy taught in Part 1.\r",
+    content:
+      "Then have pairs collaborate to write their own summary of key events in the excerpt. If students need more support in deciding what to include in a summary, refer back to the lesson strategy taught in Part 1.\r",
     parentPageName: "4",
     characterStyles: [
       { character: "T", style: "[None]" },
@@ -974,12 +977,13 @@ const paragraphData = [teacher-talk
       { character: "t", style: "[None]" },
       { character: " ", style: "[None]" },
       { character: "1", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Bring students together and ask several pairs of students to read their summaries aloud. As a whole group, evaluate the summaries and identify any key information that was omitted. \r",
+    content:
+      "Bring students together and ask several pairs of students to read their summaries aloud. As a whole group, evaluate the summaries and identify any key information that was omitted. \r",
     parentPageName: "4",
     characterStyles: [
       { character: "B", style: "[None]" },
@@ -1162,12 +1166,13 @@ const paragraphData = [teacher-talk
       { character: "e", style: "[None]" },
       { character: "d", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: " ", style: "[None]" }
-    ]
+      { character: " ", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "As a group, construct a written summary of the key events in Part 2.\r",
+    content:
+      "As a group, construct a written summary of the key events in Part 2.\r",
     parentPageName: "4",
     characterStyles: [
       { character: "A", style: "[None]" },
@@ -1237,16 +1242,14 @@ const paragraphData = [teacher-talk
       { character: "t", style: "[None]" },
       { character: " ", style: "[None]" },
       { character: "2", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
     content: "\r",
     parentPageName: "4",
-    characterStyles: [
-      { character: "", style: "[None]" }
-    ]
+    characterStyles: [{ character: "", style: "[None]" }],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -1279,8 +1282,8 @@ const paragraphData = [teacher-talk
       { character: "m", style: "b" },
       { character: "a", style: "b" },
       { character: "r", style: "b" },
-      { character: "y", style: "b" }
-    ]
+      { character: "y", style: "b" },
+    ],
   },
   {
     styleName: "table header",
@@ -1296,12 +1299,13 @@ const paragraphData = [teacher-talk
       { character: "e", style: "[None]" },
       { character: "n", style: "[None]" },
       { character: "t", style: "[None]" },
-      { character: "s", style: "[None]" }
-    ]
+      { character: "s", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "M.C. is sitting on his steel pole, examining the valley below and Sarah’s Mountain.",
+    content:
+      "M.C. is sitting on his steel pole, examining the valley below and Sarah’s Mountain.",
     parentPageName: "4",
     characterStyles: [
       { character: "M", style: "Character Style 1" },
@@ -1386,12 +1390,13 @@ const paragraphData = [teacher-talk
       { character: "a", style: "Character Style 1" },
       { character: "i", style: "Character Style 1" },
       { character: "n", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "He “sees” visions of his family long ago, how they lived in this region, and died here.",
+    content:
+      "He “sees” visions of his family long ago, how they lived in this region, and died here.",
     parentPageName: "4",
     characterStyles: [
       { character: "H", style: "Character Style 1" },
@@ -1480,12 +1485,13 @@ const paragraphData = [teacher-talk
       { character: "e", style: "Character Style 1" },
       { character: "r", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "His great-grandmother’s escape from slavery in the area helps him realize how important the mountain and the region are to his family.",
+    content:
+      "His great-grandmother’s escape from slavery in the area helps him realize how important the mountain and the region are to his family.",
     parentPageName: "4",
     characterStyles: [
       { character: "H", style: "Character Style 1" },
@@ -1621,12 +1627,13 @@ const paragraphData = [teacher-talk
       { character: "i", style: "Character Style 1" },
       { character: "l", style: "Character Style 1" },
       { character: "y", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Now he realizes that the same area brings different hardships to his family because of the strip miners damaging the landscape.",
+    content:
+      "Now he realizes that the same area brings different hardships to his family because of the strip miners damaging the landscape.",
     parentPageName: "4",
     characterStyles: [
       { character: "N", style: "Character Style 1" },
@@ -1755,12 +1762,13 @@ const paragraphData = [teacher-talk
       { character: "a", style: "Character Style 1" },
       { character: "p", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "He sees his brothers and sisters enjoying the area, and he keeps an eye on them as he was meant to, from on top of his steel pole.",
+    content:
+      "He sees his brothers and sisters enjoying the area, and he keeps an eye on them as he was meant to, from on top of his steel pole.",
     parentPageName: "4",
     characterStyles: [
       { character: "H", style: "Character Style 1" },
@@ -1892,12 +1900,13 @@ const paragraphData = [teacher-talk
       { character: "o", style: "Character Style 1" },
       { character: "l", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "M.C. sits on top of a tall steel pole and overlooks Sarah’s Mountain, a place his family has lived for generations. As he is up there looking at the beautiful scenery, he thinks about the history of the land and how many family members lived and died there. He thinks of his great-grandmother, who escaped slavery with a tiny baby and faced hard times during her lifetime. He worries the strip miners who have set themselves up on the mountain will destroy the future of this mountain for him and his brothers and sisters, whom he watches below.",
+    content:
+      "M.C. sits on top of a tall steel pole and overlooks Sarah’s Mountain, a place his family has lived for generations. As he is up there looking at the beautiful scenery, he thinks about the history of the land and how many family members lived and died there. He thinks of his great-grandmother, who escaped slavery with a tiny baby and faced hard times during her lifetime. He worries the strip miners who have set themselves up on the mountain will destroy the future of this mountain for him and his brothers and sisters, whom he watches below.",
     parentPageName: "4",
     characterStyles: [
       { character: "M", style: "[None]" },
@@ -2444,8 +2453,8 @@ const paragraphData = [teacher-talk
       { character: "l", style: "[None]" },
       { character: "o", style: "[None]" },
       { character: "w", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
-  }
+      { character: ".", style: "[None]" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

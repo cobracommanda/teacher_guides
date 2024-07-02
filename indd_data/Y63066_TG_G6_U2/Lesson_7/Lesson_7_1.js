@@ -1,4 +1,4 @@
-const paragraphData = [teacher-talkteacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
     content: "Close Reading Option 2: Analyze Scenes \nRL.6.1, RL.6.5\r",
@@ -57,8 +57,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: ".", style: "[None]" },
       { character: "6", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: "5", style: "[None]" }
-    ]
+      { character: "5", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -91,12 +91,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: "n", style: "[None]" },
       { character: "c", style: "[None]" },
-      { character: "e", style: "[None]" }
-    ]
+      { character: "e", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Display and read aloud the close reading prompt: Analyze how Ace’s thoughts or actions set events in motion in An Attack on the Starship Mayflower in the Year 2647.\r",
+    content:
+      "Display and read aloud the close reading prompt: Analyze how Ace’s thoughts or actions set events in motion in An Attack on the Starship Mayflower in the Year 2647.\r",
     parentPageName: "7",
     characterStyles: [
       { character: "D", style: "[None]" },
@@ -262,12 +263,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "6", style: "[None]" },
       { character: "4", style: "[None]" },
       { character: "7", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Explain that this question asks readers to find evidence that shows how Ace’s words or actions affect the plot of An Attack on the Starship Mayflower in the Year 2647.\r",
+    content:
+      "Explain that this question asks readers to find evidence that shows how Ace’s words or actions affect the plot of An Attack on the Starship Mayflower in the Year 2647.\r",
     parentPageName: "7",
     characterStyles: [
       { character: "E", style: "[None]" },
@@ -436,12 +438,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "6", style: "i" },
       { character: "4", style: "i" },
       { character: "7", style: "i" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: First I need to look for evidence toward the beginning of the story.\r",
+    content:
+      "Say: First I need to look for evidence toward the beginning of the story.\r",
     parentPageName: "7",
     characterStyles: [
       { character: "S", style: "b" },
@@ -516,8 +519,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "o", style: "i" },
       { character: "r", style: "i" },
       { character: "y", style: "i" },
-      { character: ".", style: "i" }
-    ]
+      { character: ".", style: "i" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -544,12 +547,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "d", style: "[None]" },
       { character: " ", style: "[None]" },
       { character: "9", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: Here I read that Ace is sick of hearing about his sister’s heroic adventures. He feels that he can’t live up to her achievements, or their father’s. He isn’t an athlete, and he prefers designing adventure-simulation games.  \r",
+    content:
+      "Say: Here I read that Ace is sick of hearing about his sister’s heroic adventures. He feels that he can’t live up to her achievements, or their father’s. He isn’t an athlete, and he prefers designing adventure-simulation games.  \r",
     parentPageName: "7",
     characterStyles: [
       { character: "S", style: "b" },
@@ -780,12 +784,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "s", style: "[None]" },
       { character: ".", style: "[None]" },
       { character: " ", style: "[None]" },
-      { character: " ", style: "[None]" }
-    ]
+      { character: " ", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Display a blank graphic organizer and model how you record the text evidence.\r",
+    content:
+      "Display a blank graphic organizer and model how you record the text evidence.\r",
     parentPageName: "7",
     characterStyles: [
       { character: "D", style: "[None]" },
@@ -864,8 +869,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "[None]" },
       { character: "c", style: "[None]" },
       { character: "e", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -887,12 +892,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "t", style: "[None]" },
       { character: "i", style: "[None]" },
       { character: "c", style: "[None]" },
-      { character: "e", style: "[None]" }
-    ]
+      { character: "e", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Display another reading prompt for students to read aloud: Analyze how Ace’s words or actions set events in motion on page 19. Ask students to turn to a partner, read pages 24–25, and analyze text evidence that shows how Atlas’s words or actions set events in motion. Remind students to stay on topic, build on each other’s ideas, and ask questions to clarify each other’s thoughts.\r",
+    content:
+      "Display another reading prompt for students to read aloud: Analyze how Ace’s words or actions set events in motion on page 19. Ask students to turn to a partner, read pages 24–25, and analyze text evidence that shows how Atlas’s words or actions set events in motion. Remind students to stay on topic, build on each other’s ideas, and ask questions to clarify each other’s thoughts.\r",
     parentPageName: "7",
     characterStyles: [
       { character: "D", style: "[None]" },
@@ -1276,12 +1282,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "[None]" },
       { character: "t", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Bring students together and ask several pairs to share their text evidence and analysis. Students should be able to explain that Ace’s knowledge of computers helped him understand the situation and come up with a plan to save the starship. \r",
+    content:
+      "Bring students together and ask several pairs to share their text evidence and analysis. Students should be able to explain that Ace’s knowledge of computers helped him understand the situation and come up with a plan to save the starship. \r",
     parentPageName: "7",
     characterStyles: [
       { character: "B", style: "[None]" },
@@ -1523,8 +1530,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "[None]" },
       { character: "p", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: " ", style: "[None]" }
-    ]
+      { character: " ", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -1562,12 +1569,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "[None]" },
       { character: "t", style: "[None]" },
       { character: "l", style: "[None]" },
-      { character: "y", style: "[None]" }
-    ]
+      { character: "y", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Ask students to reread pages 26 and 27 independently and locate text evidence in this story that shows how Ace’s thoughts or actions set events in motion. \r",
+    content:
+      "Ask students to reread pages 26 and 27 independently and locate text evidence in this story that shows how Ace’s thoughts or actions set events in motion. \r",
     parentPageName: "7",
     characterStyles: [
       { character: "A", style: "[None]" },
@@ -1724,12 +1732,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "o", style: "[None]" },
       { character: "n", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: " ", style: "[None]" }
-    ]
+      { character: " ", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Discuss how this close reading helps readers analyze the connection between characters and plot.",
+    content:
+      "Discuss how this close reading helps readers analyze the connection between characters and plot.",
     parentPageName: "7",
     characterStyles: [
       { character: "D", style: "[None]" },
@@ -1827,8 +1836,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "l", style: "[None]" },
       { character: "o", style: "[None]" },
       { character: "t", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
-  }
+      { character: ".", style: "[None]" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

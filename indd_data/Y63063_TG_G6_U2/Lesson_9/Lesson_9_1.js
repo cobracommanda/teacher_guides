@@ -1,7 +1,8 @@
-const paragraphData = [teacher-talkteacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
-    content: "Close Reading Option 4: Analyze an Opinion Text \nRI.6.1, RI.6.8, W.6.1c, W.6.2b, W.6.2c, SL.6.1a, SL.6.1c, Sl.6.1d, SL.6.3\r",
+    content:
+      "Close Reading Option 4: Analyze an Opinion Text \nRI.6.1, RI.6.8, W.6.1c, W.6.2b, W.6.2c, SL.6.1a, SL.6.1c, Sl.6.1d, SL.6.3\r",
     parentPageName: "9",
     characterStyles: [
       { character: "C", style: "[None]" },
@@ -125,8 +126,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: ".", style: "Lesson_A-hd-standards" },
       { character: "6", style: "Lesson_A-hd-standards" },
       { character: ".", style: "Lesson_A-hd-standards" },
-      { character: "3", style: "Lesson_A-hd-standards" }
-    ]
+      { character: "3", style: "Lesson_A-hd-standards" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -159,12 +160,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: "n", style: "[None]" },
       { character: "c", style: "[None]" },
-      { character: "e", style: "[None]" }
-    ]
+      { character: "e", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Ask students to turn to Opinion 2, “Characters Become Observers” on page 22. Explain that a well-written opinion states the opinion clearly, supports the opinion with reasons, uses transition words to connect ideas, and has a concluding statement that restates the opinion.\r",
+    content:
+      "Ask students to turn to Opinion 2, “Characters Become Observers” on page 22. Explain that a well-written opinion states the opinion clearly, supports the opinion with reasons, uses transition words to connect ideas, and has a concluding statement that restates the opinion.\r",
     parentPageName: "9",
     characterStyles: [
       { character: "A", style: "[None]" },
@@ -439,12 +441,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "[None]" },
       { character: "o", style: "[None]" },
       { character: "n", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: The writer’s opinion is clearly stated with this sentence: “In both M.C. Higgins, the Great by Virginia Hamilton and Bud, Not Buddy by Christopher Paul Curtis, the main character is an astute observer who examines and reflects on his world.” In order to analyze this opinion, I will look for specific text evidence the writer uses to support this opinion.\r",
+    content:
+      "Say: The writer’s opinion is clearly stated with this sentence: “In both M.C. Higgins, the Great by Virginia Hamilton and Bud, Not Buddy by Christopher Paul Curtis, the main character is an astute observer who examines and reflects on his world.” In order to analyze this opinion, I will look for specific text evidence the writer uses to support this opinion.\r",
     parentPageName: "9",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -806,12 +809,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "[None]" },
       { character: "o", style: "[None]" },
       { character: "n", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Distribute the graphic organizer BLM on the back cover of this guide.\r",
+    content:
+      "Distribute the graphic organizer BLM on the back cover of this guide.\r",
     parentPageName: "9",
     characterStyles: [
       { character: "D", style: "[None]" },
@@ -882,12 +886,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "[None]" },
       { character: "d", style: "[None]" },
       { character: "e", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: The writer gives reasons why each character is an astute observer.\r",
+    content:
+      "Say: The writer gives reasons why each character is an astute observer.\r",
     parentPageName: "9",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -960,12 +965,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "v", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "r", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Support students to find text evidence to fill in the chart: M.C. has a special 40-foot pole that he sits on when observing the mountain. From this vantage point, he can see everything around him and acts like a spy.\r",
+    content:
+      "Support students to find text evidence to fill in the chart: M.C. has a special 40-foot pole that he sits on when observing the mountain. From this vantage point, he can see everything around him and acts like a spy.\r",
     parentPageName: "9",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -1183,8 +1189,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "s", style: "[None]" },
       { character: "p", style: "[None]" },
       { character: "y", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -1206,12 +1212,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "t", style: "[None]" },
       { character: "i", style: "[None]" },
       { character: "c", style: "[None]" },
-      { character: "e", style: "[None]" }
-    ]
+      { character: "e", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Collaborative conversation (turn and talk). Ask students to turn to a partner, reread pages 6–7, and find the text evidence to show that Bud is a strong character who can think for himself, as well as concentrate and focus on a task. Remind students to stay on topic, build on each other’s ideas, and ask questions to clarify each other’s thoughts.\r",
+    content:
+      "Collaborative conversation (turn and talk). Ask students to turn to a partner, reread pages 6–7, and find the text evidence to show that Bud is a strong character who can think for himself, as well as concentrate and focus on a task. Remind students to stay on topic, build on each other’s ideas, and ask questions to clarify each other’s thoughts.\r",
     parentPageName: "9",
     characterStyles: [
       { character: "C", style: "b" },
@@ -1561,12 +1568,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "[None]" },
       { character: "t", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Bring students together and ask several pairs to share their text evidence. Students should point out that Bud’s calculations about his travels and his deep focus on the Civil War book show he is a strong character. In addition, his observations about the librarian show that he is a keen observer. Tell students that this text evidence supports the writer’s main idea.\r",
+    content:
+      "Bring students together and ask several pairs to share their text evidence. Students should point out that Bud’s calculations about his travels and his deep focus on the Civil War book show he is a strong character. In addition, his observations about the librarian show that he is a keen observer. Tell students that this text evidence supports the writer’s main idea.\r",
     parentPageName: "9",
     characterStyles: [
       { character: "B", style: "[None]" },
@@ -1937,8 +1945,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "d", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "a", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -1976,12 +1984,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "[None]" },
       { character: "t", style: "[None]" },
       { character: "l", style: "[None]" },
-      { character: "y", style: "[None]" }
-    ]
+      { character: "y", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Tell students to look for parts of the opinion piece that could be made stronger by providing more text evidence. Ask them to gather text evidence and write quotes from the text, indicating where they would insert it in the opinion piece if they were to revise the writing. Have them focus on text evidence to indicate that both characters are strong\r",
+    content:
+      "Tell students to look for parts of the opinion piece that could be made stronger by providing more text evidence. Ask them to gather text evidence and write quotes from the text, indicating where they would insert it in the opinion piece if they were to revise the writing. Have them focus on text evidence to indicate that both characters are strong\r",
     parentPageName: "9",
     characterStyles: [
       { character: "T", style: "[None]" },
@@ -2333,12 +2342,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "r", style: "[None]" },
       { character: "o", style: "[None]" },
       { character: "n", style: "[None]" },
-      { character: "g", style: "[None]" }
-    ]
+      { character: "g", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Discuss how this close reading has helped students analyze an opinion text.",
+    content:
+      "Discuss how this close reading has helped students analyze an opinion text.",
     parentPageName: "9",
     characterStyles: [
       { character: "D", style: "[None]" },
@@ -2415,8 +2425,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: "x", style: "[None]" },
       { character: "t", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
-  }
+      { character: ".", style: "[None]" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

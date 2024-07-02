@@ -1,4 +1,4 @@
-const paragraphData = [teacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
     content: "Read Varuna Takes a Job with the Census \nRL.6.2 \r",
@@ -51,8 +51,8 @@ const paragraphData = [teacher-talk
       { character: "6", style: "[None]" },
       { character: ".", style: "[None]" },
       { character: "2", style: "[None]" },
-      { character: " ", style: "[None]" }
-    ]
+      { character: " ", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_A-hd",
@@ -70,12 +70,13 @@ const paragraphData = [teacher-talk
       { character: "B", style: "[None]" },
       { character: "o", style: "[None]" },
       { character: "o", style: "[None]" },
-      { character: "k", style: "[None]" }
-    ]
+      { character: "k", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Invite students to read the story titles and study the illustrations on the cover. Invite a volunteer to read aloud the book description on the back cover. Review that stories of the same genre share certain characteristics, or features. Ask students to turn to pages 2–3, and invite volunteers to read the questions and answers about science fiction. Then read and discuss the “Features of Science Fiction” web. Ask students to turn to pages 5–7. Explain that two different scientific stories are in this book. Together, read about the kinds of science fiction stories. \r",
+    content:
+      "Invite students to read the story titles and study the illustrations on the cover. Invite a volunteer to read aloud the book description on the back cover. Review that stories of the same genre share certain characteristics, or features. Ask students to turn to pages 2–3, and invite volunteers to read the questions and answers about science fiction. Then read and discuss the “Features of Science Fiction” web. Ask students to turn to pages 5–7. Explain that two different scientific stories are in this book. Together, read about the kinds of science fiction stories. \r",
     parentPageName: "2",
     characterStyles: [
       { character: "I", style: "[None]" },
@@ -648,12 +649,13 @@ const paragraphData = [teacher-talk
       { character: "e", style: "[None]" },
       { character: "s", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: " ", style: "[None]" }
-    ]
+      { character: " ", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "If your students need more support, use the Scaffolded Preview provided. \r",
+    content:
+      "If your students need more support, use the Scaffolded Preview provided. \r",
     parentPageName: "2",
     characterStyles: [
       { character: "I", style: "[None]" },
@@ -728,8 +730,8 @@ const paragraphData = [teacher-talk
       { character: "e", style: "[None]" },
       { character: "d", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: " ", style: "[None]" }
-    ]
+      { character: " ", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_A-hd",
@@ -748,12 +750,13 @@ const paragraphData = [teacher-talk
       { character: "p", style: "[None]" },
       { character: "o", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: "e", style: "[None]" }
-    ]
+      { character: "e", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: We know that science fiction includes key story elements, such as characters and a problem to solve. As you read Varuna Takes a Job with the Census, use self-stick notes to identify the characters and setting and to flag the main events.\r",
+    content:
+      "Say: We know that science fiction includes key story elements, such as characters and a problem to solve. As you read Varuna Takes a Job with the Census, use self-stick notes to identify the characters and setting and to flag the main events.\r",
     parentPageName: "2",
     characterStyles: [
       { character: "S", style: "b" },
@@ -997,12 +1000,13 @@ const paragraphData = [teacher-talk
       { character: "n", style: "b" },
       { character: "t", style: "b" },
       { character: "s", style: "b" },
-      { character: ".", style: "b" }
-    ]
+      { character: ".", style: "b" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Choose the reading option that best meets your students’ needs.\r",
+    content:
+      "Choose the reading option that best meets your students’ needs.\r",
     parentPageName: "2",
     characterStyles: [
       { character: "C", style: "[None]" },
@@ -1067,8 +1071,8 @@ const paragraphData = [teacher-talk
       { character: "e", style: "[None]" },
       { character: "d", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -1128,12 +1132,13 @@ const paragraphData = [teacher-talk
       { character: "t", style: "[None]" },
       { character: "h", style: "[None]" },
       { character: "e", style: "[None]" },
-      { character: "r", style: "[None]" }
-    ]
+      { character: "r", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Invite students to state the story elements in Varuna Takes a Job with the Census. As a group, create a Key Story Elements chart. Then, as a group, construct a summary of the story. If students need more support, use the lesson. \r",
+    content:
+      "Invite students to state the story elements in Varuna Takes a Job with the Census. As a group, create a Key Story Elements chart. Then, as a group, construct a summary of the story. If students need more support, use the lesson. \r",
     parentPageName: "2",
     characterStyles: [
       { character: "I", style: "[None]" },
@@ -1365,8 +1370,8 @@ const paragraphData = [teacher-talk
       { character: "n", style: "[None]" },
       { character: ".", style: "[None]" },
       { character: " ", style: "[None]" },
-      { character: "", style: "[None]" }
-    ]
+      { character: "", style: "[None]" },
+    ],
   },
   {
     styleName: "table_label",
@@ -1404,8 +1409,8 @@ const paragraphData = [teacher-talk
       { character: "a", style: "labels" },
       { character: "r", style: "labels" },
       { character: "t", style: "labels" },
-      { character: " ", style: "labels" }
-    ]
+      { character: " ", style: "labels" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1421,8 +1426,8 @@ const paragraphData = [teacher-talk
       { character: "t", style: "b" },
       { character: "e", style: "b" },
       { character: "r", style: "b" },
-      { character: "s", style: "b" }
-    ]
+      { character: "s", style: "b" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1435,8 +1440,8 @@ const paragraphData = [teacher-talk
       { character: "t", style: "b" },
       { character: "i", style: "b" },
       { character: "n", style: "b" },
-      { character: "g", style: "b" }
-    ]
+      { character: "g", style: "b" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1471,8 +1476,8 @@ const paragraphData = [teacher-talk
       { character: "a", style: "Character Style 1" },
       { character: "r", style: "Character Style 1" },
       { character: "t", style: "Character Style 1" },
-      { character: "h", style: "Character Style 1" }
-    ]
+      { character: "h", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1511,8 +1516,8 @@ const paragraphData = [teacher-talk
       { character: "t", style: "Character Style 1" },
       { character: "r", style: "Character Style 1" },
       { character: "a", style: "Character Style 1" },
-      { character: "l", style: "Character Style 1" }
-    ]
+      { character: "l", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
@@ -1529,12 +1534,13 @@ const paragraphData = [teacher-talk
       { character: "e", style: "b" },
       { character: "n", style: "b" },
       { character: "t", style: "b" },
-      { character: "s", style: "b" }
-    ]
+      { character: "s", style: "b" },
+    ],
   },
   {
     styleName: "Chart-body-txt-bullets",
-    content: "Varuna starts a job with Universe Central, working for the census. \r",
+    content:
+      "Varuna starts a job with Universe Central, working for the census. \r",
     parentPageName: "2",
     characterStyles: [
       { character: "V", style: "Character Style 1" },
@@ -1603,12 +1609,13 @@ const paragraphData = [teacher-talk
       { character: "u", style: "Character Style 1" },
       { character: "s", style: "Character Style 1" },
       { character: ".", style: "Character Style 1" },
-      { character: " ", style: "Character Style 1" }
-    ]
+      { character: " ", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Chart-body-txt-bullets",
-    content: "Varuna meets her boss Gphimpy, who tells her that she must count every sentient being.\r",
+    content:
+      "Varuna meets her boss Gphimpy, who tells her that she must count every sentient being.\r",
     parentPageName: "2",
     characterStyles: [
       { character: "V", style: "Character Style 1" },
@@ -1696,8 +1703,8 @@ const paragraphData = [teacher-talk
       { character: "i", style: "Character Style 1" },
       { character: "n", style: "Character Style 1" },
       { character: "g", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Chart-body-txt-bullets",
@@ -1749,8 +1756,8 @@ const paragraphData = [teacher-talk
       { character: "n", style: "Character Style 1" },
       { character: "g", style: "Character Style 1" },
       { character: "s", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Chart-body-txt-bullets",
@@ -1816,12 +1823,13 @@ const paragraphData = [teacher-talk
       { character: "n", style: "Character Style 1" },
       { character: "c", style: "Character Style 1" },
       { character: "t", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Chart-body-txt-bullets",
-    content: "Varuna leaves her toy Onglantichi behind while working, but her boss returns it to her and tells her that she did a great job on her first day. ",
+    content:
+      "Varuna leaves her toy Onglantichi behind while working, but her boss returns it to her and tells her that she did a great job on her first day. ",
     parentPageName: "2",
     characterStyles: [
       { character: "V", style: "Character Style 1" },
@@ -1967,8 +1975,8 @@ const paragraphData = [teacher-talk
       { character: "a", style: "Character Style 1" },
       { character: "y", style: "Character Style 1" },
       { character: ".", style: "Character Style 1" },
-      { character: " ", style: "Character Style 1" }
-    ]
-  }
+      { character: " ", style: "Character Style 1" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

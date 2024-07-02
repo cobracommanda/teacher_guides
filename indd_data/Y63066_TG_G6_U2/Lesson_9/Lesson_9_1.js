@@ -1,4 +1,4 @@
-const paragraphData = [teacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
     content: "Close Reading Option 4: Draw Inferences \nRL.6.1 \r",
@@ -51,8 +51,8 @@ const paragraphData = [teacher-talk
       { character: "6", style: "[None]" },
       { character: ".", style: "[None]" },
       { character: "1", style: "[None]" },
-      { character: " ", style: "[None]" }
-    ]
+      { character: " ", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_A-hd",
@@ -85,12 +85,13 @@ const paragraphData = [teacher-talk
       { character: "e", style: "[None]" },
       { character: "n", style: "[None]" },
       { character: "c", style: "[None]" },
-      { character: "e", style: "[None]" }
-    ]
+      { character: "e", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Distribute the graphic organizer BLM on the back cover of this guide. Explain that literary texts, including science fiction, have evidence in which the reader must make inferences—guessing what is happening through details the author provides. Tell students that today they will use the chart to identify text evidence that helps point out inferences in each science fiction story they read this week. Then support students to turn to the first story.\r",
+    content:
+      "Distribute the graphic organizer BLM on the back cover of this guide. Explain that literary texts, including science fiction, have evidence in which the reader must make inferences—guessing what is happening through details the author provides. Tell students that today they will use the chart to identify text evidence that helps point out inferences in each science fiction story they read this week. Then support students to turn to the first story.\r",
     parentPageName: "9",
     characterStyles: [
       { character: "D", style: "[None]" },
@@ -544,12 +545,13 @@ const paragraphData = [teacher-talk
       { character: "o", style: "[None]" },
       { character: "r", style: "[None]" },
       { character: "y", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: On page 10 we learn that Gphimpy delivers all of Varuna’s training by mind merge. From this detail, we can infer that mind merge is a process in which one being transfers knowledge to another without spoken or written communication. The author doesn’t say this directly; instead, he supplies the details we need to figure it out on our own. On page 12, Varuna nourishes herself by drawing some energy from a nearby star. We can infer that Plynchins don’t eat food. On page 13, one planet Varuna interviews had huge creatures that ate tons of vegetation or other huge animals. These creatures went extinct. We can infer the creatures were dinosaurs, and the planet was Earth.\r",
+    content:
+      "Say: On page 10 we learn that Gphimpy delivers all of Varuna’s training by mind merge. From this detail, we can infer that mind merge is a process in which one being transfers knowledge to another without spoken or written communication. The author doesn’t say this directly; instead, he supplies the details we need to figure it out on our own. On page 12, Varuna nourishes herself by drawing some energy from a nearby star. We can infer that Plynchins don’t eat food. On page 13, one planet Varuna interviews had huge creatures that ate tons of vegetation or other huge animals. These creatures went extinct. We can infer the creatures were dinosaurs, and the planet was Earth.\r",
     parentPageName: "9",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -1230,8 +1232,8 @@ const paragraphData = [teacher-talk
       { character: "r", style: "[None]" },
       { character: "t", style: "[None]" },
       { character: "h", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -1297,8 +1299,8 @@ const paragraphData = [teacher-talk
       { character: "r", style: "[None]" },
       { character: "t", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: " ", style: "[None]" }
-    ]
+      { character: " ", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_A-hd",
@@ -1320,12 +1322,13 @@ const paragraphData = [teacher-talk
       { character: "t", style: "[None]" },
       { character: "i", style: "[None]" },
       { character: "c", style: "[None]" },
-      { character: "e", style: "[None]" }
-    ]
+      { character: "e", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Ask students to work with a partner to locate two more inferences on page 19 in An Attack on the Starship Mayflower in the Year 2647. Remind them to stay on topic, build on each other’s ideas, and ask questions to clarify each other’s thoughts. \r",
+    content:
+      "Ask students to work with a partner to locate two more inferences on page 19 in An Attack on the Starship Mayflower in the Year 2647. Remind them to stay on topic, build on each other’s ideas, and ask questions to clarify each other’s thoughts. \r",
     parentPageName: "9",
     characterStyles: [
       { character: "A", style: "[None]" },
@@ -1572,12 +1575,13 @@ const paragraphData = [teacher-talk
       { character: "t", style: "[None]" },
       { character: "s", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: " ", style: "[None]" }
-    ]
+      { character: " ", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Bring students together and ask several pairs to share their text evidence and inference. Students should include story details such as: Crawling through four miles of the ship’s ductwork sounds like a computer simulation game Ace might design. (p. 19) We can infer that Ace is intelligent and creative with excellent computer skills. At the bottom of the page it says, “walking used up oxygen and nutrients, and those had to be budgeted.” We can infer that the starship inhabitants have not been able to exactly duplicate Earth’s system for supporting life. Record the information on the right column of the BLM chart.\r",
+    content:
+      "Bring students together and ask several pairs to share their text evidence and inference. Students should include story details such as: Crawling through four miles of the ship’s ductwork sounds like a computer simulation game Ace might design. (p. 19) We can infer that Ace is intelligent and creative with excellent computer skills. At the bottom of the page it says, “walking used up oxygen and nutrients, and those had to be budgeted.” We can infer that the starship inhabitants have not been able to exactly duplicate Earth’s system for supporting life. Record the information on the right column of the BLM chart.\r",
     parentPageName: "9",
     characterStyles: [
       { character: "B", style: "[None]" },
@@ -2198,8 +2202,8 @@ const paragraphData = [teacher-talk
       { character: "a", style: "[None]" },
       { character: "r", style: "[None]" },
       { character: "t", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_A-hd",
@@ -2237,12 +2241,13 @@ const paragraphData = [teacher-talk
       { character: "n", style: "[None]" },
       { character: "t", style: "[None]" },
       { character: "l", style: "[None]" },
-      { character: "y", style: "[None]" }
-    ]
+      { character: "y", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Ask students to reread An Attack on the Starship Mayflower in the Year 2647 independently to locate text evidence of another inference. (Possible inference: On page 26 Captain Trace takes Ace on the trip to explore Urn-ka-chee. We can infer that Ace will have more privileges now that he has helped stop the attack.) Record the text evidence on the right side of the BLM chart.\r",
+    content:
+      "Ask students to reread An Attack on the Starship Mayflower in the Year 2647 independently to locate text evidence of another inference. (Possible inference: On page 26 Captain Trace takes Ace on the trip to explore Urn-ka-chee. We can infer that Ace will have more privileges now that he has helped stop the attack.) Record the text evidence on the right side of the BLM chart.\r",
     parentPageName: "9",
     characterStyles: [
       { character: "A", style: "[None]" },
@@ -2621,8 +2626,8 @@ const paragraphData = [teacher-talk
       { character: "a", style: "[None]" },
       { character: "r", style: "[None]" },
       { character: "t", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
-  }
+      { character: ".", style: "[None]" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

@@ -1,7 +1,8 @@
-const paragraphData = [teacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
-    content: "Read Part 2 (pp. 13–19) RL.6.1, RL.6.2, RL.6.3, W.6.10, SL.6.1a, SL.6.1b, SL.6.1c, SL.6.1d\r",
+    content:
+      "Read Part 2 (pp. 13–19) RL.6.1, RL.6.2, RL.6.3, W.6.10, SL.6.1a, SL.6.1b, SL.6.1c, SL.6.1d\r",
     parentPageName: "4",
     characterStyles: [
       { character: "R", style: "[None]" },
@@ -93,8 +94,8 @@ const paragraphData = [teacher-talk
       { character: "6", style: "[None]" },
       { character: ".", style: "[None]" },
       { character: "1", style: "[None]" },
-      { character: "d", style: "[None]" }
-    ]
+      { character: "d", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -113,12 +114,13 @@ const paragraphData = [teacher-talk
       { character: "p", style: "[None]" },
       { character: "o", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: "e", style: "[None]" }
-    ]
+      { character: "e", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: As you read Chapters 3–4, or Part 2, continue to use self-stick notes to flag important details about the text and illustrations that will help you summarize the story. Think about how Rodrigo works to solve the problem at the rehabilitation center.\r",
+    content:
+      "Say: As you read Chapters 3–4, or Part 2, continue to use self-stick notes to flag important details about the text and illustrations that will help you summarize the story. Think about how Rodrigo works to solve the problem at the rehabilitation center.\r",
     parentPageName: "4",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -374,12 +376,13 @@ const paragraphData = [teacher-talk
       { character: "t", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "r", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Choose the reading option that best meets the needs of your students. If students need more support to access the text, use the Scaffolded Preview provided.\r",
+    content:
+      "Choose the reading option that best meets the needs of your students. If students need more support to access the text, use the Scaffolded Preview provided.\r",
     parentPageName: "4",
     characterStyles: [
       { character: "C", style: "[None]" },
@@ -537,8 +540,8 @@ const paragraphData = [teacher-talk
       { character: "d", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "d", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -596,12 +599,13 @@ const paragraphData = [teacher-talk
       { character: "h", style: "Lesson_B-hd-LightFace" },
       { character: "a", style: "Lesson_B-hd-LightFace" },
       { character: "r", style: "Lesson_B-hd-LightFace" },
-      { character: "e", style: "Lesson_B-hd-LightFace" }
-    ]
+      { character: "e", style: "Lesson_B-hd-LightFace" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Invite students to share with a partner what they noted in the text. Have them collaborate to create a new Story Elements Chart for Part 2 that lists the characters, settings, and main events.\r",
+    content:
+      "Invite students to share with a partner what they noted in the text. Have them collaborate to create a new Story Elements Chart for Part 2 that lists the characters, settings, and main events.\r",
     parentPageName: "4",
     characterStyles: [
       { character: "I", style: "[None]" },
@@ -796,8 +800,8 @@ const paragraphData = [teacher-talk
       { character: "t", style: "[None]" },
       { character: "s", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: "", style: "[None]" }
-    ]
+      { character: "", style: "[None]" },
+    ],
   },
   {
     styleName: "table_footer",
@@ -837,12 +841,13 @@ const paragraphData = [teacher-talk
       { character: "h", style: "Medium_Condensed" },
       { character: "a", style: "Medium_Condensed" },
       { character: "r", style: "Medium_Condensed" },
-      { character: "t", style: "Medium_Condensed" }
-    ]
+      { character: "t", style: "Medium_Condensed" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Then have pairs collaborate to write their own summary of the key ideas in Part 2. If students need more support in deciding what to include in a summary, refer back to the lesson strategy taught in Part 1.\r",
+    content:
+      "Then have pairs collaborate to write their own summary of the key ideas in Part 2. If students need more support in deciding what to include in a summary, refer back to the lesson strategy taught in Part 1.\r",
     parentPageName: "4",
     characterStyles: [
       { character: "T", style: "[None]" },
@@ -1050,12 +1055,13 @@ const paragraphData = [teacher-talk
       { character: "t", style: "[None]" },
       { character: " ", style: "[None]" },
       { character: "1", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Bring students together and ask several pairs of students to read their summaries aloud. As a whole group, evaluate the summaries and identify any key information that was omitted. \r",
+    content:
+      "Bring students together and ask several pairs of students to read their summaries aloud. As a whole group, evaluate the summaries and identify any key information that was omitted. \r",
     parentPageName: "4",
     characterStyles: [
       { character: "B", style: "[None]" },
@@ -1238,12 +1244,13 @@ const paragraphData = [teacher-talk
       { character: "e", style: "[None]" },
       { character: "d", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: " ", style: "[None]" }
-    ]
+      { character: " ", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "As a group, construct a written summary of the key ideas in Chapters 3–4.\r",
+    content:
+      "As a group, construct a written summary of the key ideas in Chapters 3–4.\r",
     parentPageName: "4",
     characterStyles: [
       { character: "A", style: "[None]" },
@@ -1319,8 +1326,8 @@ const paragraphData = [teacher-talk
       { character: "EN_DASH", style: "[None]" },
       { character: "4", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: "", style: "[None]" }
-    ]
+      { character: "", style: "[None]" },
+    ],
   },
   {
     styleName: "table_footer",
@@ -1353,8 +1360,8 @@ const paragraphData = [teacher-talk
       { character: "m", style: "Medium_Condensed" },
       { character: "a", style: "Medium_Condensed" },
       { character: "r", style: "Medium_Condensed" },
-      { character: "y", style: "Medium_Condensed" }
-    ]
+      { character: "y", style: "Medium_Condensed" },
+    ],
   },
   {
     styleName: "table header",
@@ -1370,8 +1377,8 @@ const paragraphData = [teacher-talk
       { character: "t", style: "Medium_Condensed" },
       { character: "e", style: "Medium_Condensed" },
       { character: "r", style: "Medium_Condensed" },
-      { character: "s", style: "Medium_Condensed" }
-    ]
+      { character: "s", style: "Medium_Condensed" },
+    ],
   },
   {
     styleName: "table header",
@@ -1385,12 +1392,13 @@ const paragraphData = [teacher-talk
       { character: "i", style: "Medium_Condensed" },
       { character: "n", style: "Medium_Condensed" },
       { character: "g", style: "Medium_Condensed" },
-      { character: "s", style: "Medium_Condensed" }
-    ]
+      { character: "s", style: "Medium_Condensed" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Rodrigo, Mr. Thompson, Santo, Mrs. Brown, members of the therapy dog group",
+    content:
+      "Rodrigo, Mr. Thompson, Santo, Mrs. Brown, members of the therapy dog group",
     parentPageName: "4",
     characterStyles: [
       { character: "R", style: "Character Style 1" },
@@ -1466,12 +1474,13 @@ const paragraphData = [teacher-talk
       { character: "r", style: "Character Style 1" },
       { character: "o", style: "Character Style 1" },
       { character: "u", style: "Character Style 1" },
-      { character: "p", style: "Character Style 1" }
-    ]
+      { character: "p", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "the rehabilitation center; Rodrigo’s home; the therapy dog center",
+    content:
+      "the rehabilitation center; Rodrigo’s home; the therapy dog center",
     parentPageName: "4",
     characterStyles: [
       { character: "t", style: "Character Style 1" },
@@ -1538,8 +1547,8 @@ const paragraphData = [teacher-talk
       { character: "n", style: "Character Style 1" },
       { character: "t", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
-      { character: "r", style: "Character Style 1" }
-    ]
+      { character: "r", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "table header",
@@ -1556,12 +1565,13 @@ const paragraphData = [teacher-talk
       { character: "e", style: "Medium_Condensed" },
       { character: "n", style: "Medium_Condensed" },
       { character: "t", style: "Medium_Condensed" },
-      { character: "s", style: "Medium_Condensed" }
-    ]
+      { character: "s", style: "Medium_Condensed" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Rodrigo talks to Mr. Thompson about starting a therapy dog program for all of the residents at the rehabilitation center, but Mr. Thompson doesn’t have the money to pay for it.",
+    content:
+      "Rodrigo talks to Mr. Thompson about starting a therapy dog program for all of the residents at the rehabilitation center, but Mr. Thompson doesn’t have the money to pay for it.",
     parentPageName: "4",
     characterStyles: [
       { character: "R", style: "Character Style 1" },
@@ -1739,12 +1749,13 @@ const paragraphData = [teacher-talk
       { character: " ", style: "Character Style 1" },
       { character: "i", style: "Character Style 1" },
       { character: "t", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Rodrigo talks to Mrs. Brown about the program, but she is unable to do it without having the money to support it.",
+    content:
+      "Rodrigo talks to Mrs. Brown about the program, but she is unable to do it without having the money to support it.",
     parentPageName: "4",
     characterStyles: [
       { character: "R", style: "Character Style 1" },
@@ -1859,12 +1870,13 @@ const paragraphData = [teacher-talk
       { character: " ", style: "Character Style 1" },
       { character: "i", style: "Character Style 1" },
       { character: "t", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Rodrigo continues to practice training Santo, who is improving, and Mrs. Brown gets the group to help with Rodrigo’s fund-raiser.",
+    content:
+      "Rodrigo continues to practice training Santo, who is improving, and Mrs. Brown gets the group to help with Rodrigo’s fund-raiser.",
     parentPageName: "4",
     characterStyles: [
       { character: "R", style: "Character Style 1" },
@@ -1995,12 +2007,13 @@ const paragraphData = [teacher-talk
       { character: "s", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
       { character: "r", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
+      { character: ".", style: "Character Style 1" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "Rodrigo asks Mr. Thompson if he would be interested in a therapy dog program, but Mr. Thompson does not have the funds to pay for it. So, Rodrigo and Mrs. Brown work together to have a rummage sale as part of a fundraiser to get the money for the program. Meanwhile, Rodrigo continues to train Santo, who is improving as a therapy dog every day.",
+    content:
+      "Rodrigo asks Mr. Thompson if he would be interested in a therapy dog program, but Mr. Thompson does not have the funds to pay for it. So, Rodrigo and Mrs. Brown work together to have a rummage sale as part of a fundraiser to get the money for the program. Meanwhile, Rodrigo continues to train Santo, who is improving as a therapy dog every day.",
     parentPageName: "4",
     characterStyles: [
       { character: "R", style: "Character Style 1" },
@@ -2347,8 +2360,8 @@ const paragraphData = [teacher-talk
       { character: "d", style: "Character Style 1" },
       { character: "a", style: "Character Style 1" },
       { character: "y", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
-  }
+      { character: ".", style: "Character Style 1" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

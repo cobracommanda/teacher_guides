@@ -1,7 +1,8 @@
-const paragraphData = [teacher-talkteacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
-    content: "Close Reading Option 1: Draw Inferences \nRI.6.1, RI.6.3, W.6.8, SL.6.1a, SL.6.1b, SL.6.1c, SL.6.1d, SL.6.3\r",
+    content:
+      "Close Reading Option 1: Draw Inferences \nRI.6.1, RI.6.3, W.6.8, SL.6.1a, SL.6.1b, SL.6.1c, SL.6.1d, SL.6.3\r",
     parentPageName: "6",
     characterStyles: [
       { character: "C", style: "" },
@@ -109,8 +110,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: ".", style: "Lesson_A-hd-standards" },
       { character: "6", style: "Lesson_A-hd-standards" },
       { character: ".", style: "Lesson_A-hd-standards" },
-      { character: "3", style: "Lesson_A-hd-standards" }
-    ]
+      { character: "3", style: "Lesson_A-hd-standards" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -143,8 +144,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "" },
       { character: "n", style: "" },
       { character: "c", style: "" },
-      { character: "e", style: "" }
-    ]
+      { character: "e", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -201,12 +202,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "o", style: "" },
       { character: "n", style: "" },
       { character: ".", style: "" },
-      { character: "", style: "" }
-    ]
+      { character: "", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Explain that this question asks readers to refer back to the beginning of “Into the Fire” and is asking them to use the text to make an inference about the relationship between two characters.\r",
+    content:
+      "Explain that this question asks readers to refer back to the beginning of “Into the Fire” and is asking them to use the text to make an inference about the relationship between two characters.\r",
     parentPageName: "6",
     characterStyles: [
       { character: "E", style: "" },
@@ -400,12 +402,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "" },
       { character: "r", style: "" },
       { character: "s", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: I need to find evidence in the text that I can use to make an inference about the relationship between Sofia and Madeline before the fire.\r",
+    content:
+      "Say: I need to find evidence in the text that I can use to make an inference about the relationship between Sofia and Madeline before the fire.\r",
     parentPageName: "6",
     characterStyles: [
       { character: "S", style: "" },
@@ -550,8 +553,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "i", style: "" },
       { character: "r", style: "" },
       { character: "e", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -594,12 +597,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "" },
       { character: " ", style: "" },
       { character: "5", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: Madeline is a new worker at the textile mill. That means the two girls have not known each other long.\r",
+    content:
+      "Say: Madeline is a new worker at the textile mill. That means the two girls have not known each other long.\r",
     parentPageName: "6",
     characterStyles: [
       { character: "S", style: "" },
@@ -708,12 +712,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "o", style: "" },
       { character: "n", style: "" },
       { character: "g", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Display a blank Text Evidence Chart and model how you record the text evidence you found.\r",
+    content:
+      "Display a blank Text Evidence Chart and model how you record the text evidence you found.\r",
     parentPageName: "6",
     characterStyles: [
       { character: "D", style: "" },
@@ -804,8 +809,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "u", style: "" },
       { character: "n", style: "" },
       { character: "d", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -827,8 +832,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "t", style: "" },
       { character: "i", style: "" },
       { character: "c", style: "" },
-      { character: "e", style: "" }
-    ]
+      { character: "e", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -865,12 +870,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "" },
       { character: " ", style: "" },
       { character: "5", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Collaborative conversation (turn and talk). Ask students to turn to a partner, reread the next three paragraphs on page 5, and find additional text evidence that helps them make an inference about the girls’ relationship. Remind students to stay on topic, build on each other’s ideas, and ask questions to clarify each other’s thoughts.\r",
+    content:
+      "Collaborative conversation (turn and talk). Ask students to turn to a partner, reread the next three paragraphs on page 5, and find additional text evidence that helps them make an inference about the girls’ relationship. Remind students to stay on topic, build on each other’s ideas, and ask questions to clarify each other’s thoughts.\r",
     parentPageName: "6",
     characterStyles: [
       { character: "C", style: "Medium_Condensed" },
@@ -1208,12 +1214,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "" },
       { character: "t", style: "" },
       { character: "s", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Bring students together and ask several pairs to share their inferences about the girls’ relationship and the supporting text evidence. Students should be able to explain that Sofia was nice to Madeline, but the girls did not know each other very well. Add this evidence to your Text Evidence Chart.\r",
+    content:
+      "Bring students together and ask several pairs to share their inferences about the girls’ relationship and the supporting text evidence. Students should be able to explain that Sofia was nice to Madeline, but the girls did not know each other very well. Add this evidence to your Text Evidence Chart.\r",
     parentPageName: "6",
     characterStyles: [
       { character: "B", style: "" },
@@ -1514,8 +1521,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "a", style: "" },
       { character: "r", style: "" },
       { character: "t", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -1553,12 +1560,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "" },
       { character: "t", style: "" },
       { character: "l", style: "" },
-      { character: "y", style: "" }
-    ]
+      { character: "y", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Ask students to finish reading page 5 and the first paragraph on page 6. Tell them to use evidence from the text to make an inference about Sofia and Madeline’s relationship. (Sofia is kind and is friendly to the younger Madeline, who is excited to be friends with Sofia. They are becoming friends.) Add this evidence to the chart.\r",
+    content:
+      "Ask students to finish reading page 5 and the first paragraph on page 6. Tell them to use evidence from the text to make an inference about Sofia and Madeline’s relationship. (Sofia is kind and is friendly to the younger Madeline, who is excited to be friends with Sofia. They are becoming friends.) Add this evidence to the chart.\r",
     parentPageName: "6",
     characterStyles: [
       { character: "A", style: "" },
@@ -1891,12 +1899,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "a", style: "" },
       { character: "r", style: "" },
       { character: "t", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Discuss how this close reading has helped students analyze a character’s actions to make inferences. Collaborate with the students to complete the chart by stating the inferences the evidence support.",
+    content:
+      "Discuss how this close reading has helped students analyze a character’s actions to make inferences. Collaborate with the students to complete the chart by stating the inferences the evidence support.",
     parentPageName: "6",
     characterStyles: [
       { character: "D", style: "" },
@@ -2098,12 +2107,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "o", style: "" },
       { character: "r", style: "" },
       { character: "t", style: "" },
-      { character: ".", style: "" }
-    ]
+      { character: ".", style: "" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "What can you infer about Sofia and Madeline’s relationship before the fire? Cite specific details from the text to support your response.",
+    content:
+      "What can you infer about Sofia and Madeline’s relationship before the fire? Cite specific details from the text to support your response.",
     parentPageName: "6",
     characterStyles: [
       { character: "W", style: "Character Style 1" },
@@ -2242,8 +2252,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "Character Style 1" },
       { character: "s", style: "Character Style 1" },
       { character: "e", style: "Character Style 1" },
-      { character: ".", style: "Character Style 1" }
-    ]
-  }
+      { character: ".", style: "Character Style 1" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

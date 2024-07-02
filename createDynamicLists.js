@@ -264,4 +264,3 @@ module.exports = {
   Y63058_page_1_aside,
   Y63060_page_1_aside,
 };
-console.log(typeof module.exports.Y63058_page_1_aside);

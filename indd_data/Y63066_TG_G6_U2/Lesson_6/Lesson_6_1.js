@@ -1,7 +1,8 @@
-const paragraphData = [teacher-talkteacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
-    content: "Close Reading Option 1: Explain How an Author Develops Point of View \nRL.6.3, RL.6.6\r",
+    content:
+      "Close Reading Option 1: Explain How an Author Develops Point of View \nRL.6.3, RL.6.6\r",
     parentPageName: "6",
     characterStyles: [
       { character: "C", style: "[None]" },
@@ -87,8 +88,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: ".", style: "[None]" },
       { character: "6", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: "6", style: "[None]" }
-    ]
+      { character: "6", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_A-hd",
@@ -121,12 +122,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: "n", style: "[None]" },
       { character: "c", style: "[None]" },
-      { character: "e", style: "[None]" }
-    ]
+      { character: "e", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Display and read aloud the close reading question: How does the author use dialogue to develop Gphimpy’s character throughout the story?  \r",
+    content:
+      "Display and read aloud the close reading question: How does the author use dialogue to develop Gphimpy’s character throughout the story?  \r",
     parentPageName: "6",
     characterStyles: [
       { character: "D", style: "[None]" },
@@ -266,12 +268,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "y", style: "i" },
       { character: "?", style: "i" },
       { character: " ", style: "[None]" },
-      { character: " ", style: "[None]" }
-    ]
+      { character: " ", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Explain that the question asks readers to find evidence that will tell about Gphimpy’s character traits and how they change. First, you need to find the place in the text where Gphimpy is introduced and see what his character is like in the beginning of the story. \r",
+    content:
+      "Explain that the question asks readers to find evidence that will tell about Gphimpy’s character traits and how they change. First, you need to find the place in the text where Gphimpy is introduced and see what his character is like in the beginning of the story. \r",
     parentPageName: "6",
     characterStyles: [
       { character: "E", style: "[None]" },
@@ -538,8 +541,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "r", style: "[None]" },
       { character: "y", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: " ", style: "[None]" }
-    ]
+      { character: " ", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
@@ -593,8 +596,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "1", style: "[None]" },
       { character: "0", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: " ", style: "[None]" }
-    ]
+      { character: " ", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -616,12 +619,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "1", style: "[None]" },
       { character: "0", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: " ", style: "[None]" }
-    ]
+      { character: " ", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: Gphimpy says “You’d better get cracking,” and he also tells Varuna that she has just wasted 1.7 seconds. This tells me that he is a demanding boss and not in a very good mood. The author’s use of the word “barks” also tells me that he says this in a harsh tone, so I can tell that he is grumpy.\r",
+    content:
+      "Say: Gphimpy says “You’d better get cracking,” and he also tells Varuna that she has just wasted 1.7 seconds. This tells me that he is a demanding boss and not in a very good mood. The author’s use of the word “barks” also tells me that he says this in a harsh tone, so I can tell that he is grumpy.\r",
     parentPageName: "6",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -922,12 +926,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "m", style: "[None]" },
       { character: "p", style: "[None]" },
       { character: "y", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Display a blank Text Evidence chart and model how you record the text evidence.\r",
+    content:
+      "Display a blank Text Evidence chart and model how you record the text evidence.\r",
     parentPageName: "6",
     characterStyles: [
       { character: "D", style: "[None]" },
@@ -1008,8 +1013,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "[None]" },
       { character: "c", style: "[None]" },
       { character: "e", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_A-hd",
@@ -1031,12 +1036,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "t", style: "[None]" },
       { character: "i", style: "[None]" },
       { character: "c", style: "[None]" },
-      { character: "e", style: "[None]" }
-    ]
+      { character: "e", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Ask students to turn to a partner, read the first paragraph on page 15, and read Gphimpy’s dialogue. Tell students to think about how Gphimpy sounds in this part of the story, and compare it to how he talks in the beginning of the story. Remind students to stay on topic, build on each other’s ideas, and ask questions to clarify each other’s thoughts.\r",
+    content:
+      "Ask students to turn to a partner, read the first paragraph on page 15, and read Gphimpy’s dialogue. Tell students to think about how Gphimpy sounds in this part of the story, and compare it to how he talks in the beginning of the story. Remind students to stay on topic, build on each other’s ideas, and ask questions to clarify each other’s thoughts.\r",
     parentPageName: "6",
     characterStyles: [
       { character: "A", style: "[None]" },
@@ -1390,12 +1396,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "[None]" },
       { character: "t", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Bring students together and ask several pairs to share the text evidence they found and describe how it helps them understand Gphimpy’s character. Students should be able to explain that the author uses dialogue to show that Gphimpy has become more pleasant and is happy with Varuna’s work. \r",
+    content:
+      "Bring students together and ask several pairs to share the text evidence they found and describe how it helps them understand Gphimpy’s character. Students should be able to explain that the author uses dialogue to show that Gphimpy has become more pleasant and is happy with Varuna’s work. \r",
     parentPageName: "6",
     characterStyles: [
       { character: "B", style: "[None]" },
@@ -1688,8 +1695,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "r", style: "[None]" },
       { character: "k", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: " ", style: "[None]" }
-    ]
+      { character: " ", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_A-hd",
@@ -1727,12 +1734,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "[None]" },
       { character: "t", style: "[None]" },
       { character: "l", style: "[None]" },
-      { character: "y", style: "[None]" }
-    ]
+      { character: "y", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Ask students to reread page 19 and page 27 independently and locate evidence to show how the author uses dialogue to show that Ace has changed over the course of the story. (First Ace sounds unsure of himself and doesn’t have a lot of confidence. At the end of the story Ace is showing off to the other kids about his own heroic adventure.) \r",
+    content:
+      "Ask students to reread page 19 and page 27 independently and locate evidence to show how the author uses dialogue to show that Ace has changed over the course of the story. (First Ace sounds unsure of himself and doesn’t have a lot of confidence. At the end of the story Ace is showing off to the other kids about his own heroic adventure.) \r",
     parentPageName: "6",
     characterStyles: [
       { character: "A", style: "[None]" },
@@ -2075,12 +2083,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: ".", style: "[None]" },
       { character: ")", style: "[None]" },
-      { character: " ", style: "[None]" }
-    ]
+      { character: " ", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Discuss how this close reading has helped students better understand how to draw a conclusion based on evidence in a story.\r",
+    content:
+      "Discuss how this close reading has helped students better understand how to draw a conclusion based on evidence in a story.\r",
     parentPageName: "6",
     characterStyles: [
       { character: "D", style: "[None]" },
@@ -2205,8 +2214,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "o", style: "[None]" },
       { character: "r", style: "[None]" },
       { character: "y", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
-  }
+      { character: ".", style: "[None]" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;

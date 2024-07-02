@@ -1,7 +1,8 @@
-const paragraphData = [teacher-talkteacher-talk
+const paragraphData = [
   {
     styleName: "Lesson_A-hd",
-    content: "Close Reading Option 2: Analyze Theme \nRL.6.1, RL.6.3, RL.6.5, W.6.8, SL.6.1a, SL.6.1b, SL.6.1c, SL.6.1d, SL.6.3\r",
+    content:
+      "Close Reading Option 2: Analyze Theme \nRL.6.1, RL.6.3, RL.6.5, W.6.8, SL.6.1a, SL.6.1b, SL.6.1c, SL.6.1d, SL.6.3\r",
     parentPageName: "7",
     characterStyles: [
       { character: "C", style: "[None]" },
@@ -115,8 +116,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: ".", style: "Lesson_A-hd-standards" },
       { character: "6", style: "Lesson_A-hd-standards" },
       { character: ".", style: "Lesson_A-hd-standards" },
-      { character: "3", style: "Lesson_A-hd-standards" }
-    ]
+      { character: "3", style: "Lesson_A-hd-standards" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -135,8 +136,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "m", style: "[None]" },
-      { character: "e", style: "[None]" }
-    ]
+      { character: "e", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -193,12 +194,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "o", style: "[None]" },
       { character: "n", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: "", style: "[None]" }
-    ]
+      { character: "", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Explain that this question is asking students to identify the theme of the story.\r",
+    content:
+      "Explain that this question is asking students to identify the theme of the story.\r",
     parentPageName: "7",
     characterStyles: [
       { character: "E", style: "[None]" },
@@ -281,12 +283,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "o", style: "[None]" },
       { character: "r", style: "[None]" },
       { character: "y", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: I will need to identify the theme of the story. To find the theme, I will have to make an inference based on text evidence. This question also asks about the significance of a specific event on the theme.\r",
+    content:
+      "Say: I will need to identify the theme of the story. To find the theme, I will have to make an inference based on text evidence. This question also asks about the significance of a specific event on the theme.\r",
     parentPageName: "7",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -497,8 +500,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: "m", style: "[None]" },
       { character: "e", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -531,12 +534,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: " ", style: "[None]" },
       { character: "1", style: "[None]" },
       { character: "5", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Tchr-tlk",
-    content: "Say: In this paragraph, Patricia explains the note she received and what impact it had on her. She says that change can happen if everyone believes it can. This is evidence that the theme of the story is that things can change if you believe and work to change them.\r",
+    content:
+      "Say: In this paragraph, Patricia explains the note she received and what impact it had on her. She says that change can happen if everyone believes it can. This is evidence that the theme of the story is that things can change if you believe and work to change them.\r",
     parentPageName: "7",
     characterStyles: [
       { character: "S", style: "[None]" },
@@ -804,8 +808,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "m", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -862,8 +866,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "a", style: "[None]" },
       { character: "r", style: "[None]" },
       { character: "t", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -885,8 +889,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "t", style: "[None]" },
       { character: "i", style: "[None]" },
       { character: "c", style: "[None]" },
-      { character: "e", style: "[None]" }
-    ]
+      { character: "e", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
@@ -932,12 +936,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: " ", style: "[None]" },
       { character: "1", style: "[None]" },
       { character: "2", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Collaborative conversation (turn and talk). Ask students to turn to a partner. Ask them to reread pages 11 and 12 to find evidence to support the theme of the story. Remind students to stay on topic, build on each other’s ideas, and ask questions to clarify each other’s thoughts.\r",
+    content:
+      "Collaborative conversation (turn and talk). Ask students to turn to a partner. Ask them to reread pages 11 and 12 to find evidence to support the theme of the story. Remind students to stay on topic, build on each other’s ideas, and ask questions to clarify each other’s thoughts.\r",
     parentPageName: "7",
     characterStyles: [
       { character: "C", style: "Medium_Condensed" },
@@ -1219,12 +1224,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "h", style: "[None]" },
       { character: "t", style: "[None]" },
       { character: "s", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Bring students together and invite pairs to share the key details they used to support the main claim. Students should be able to point to Patricia wanting things to change, is willing to work for change, and is brave enough to put herself in danger to make change happen.\r",
+    content:
+      "Bring students together and invite pairs to share the key details they used to support the main claim. Students should be able to point to Patricia wanting things to change, is willing to work for change, and is brave enough to put herself in danger to make change happen.\r",
     parentPageName: "7",
     characterStyles: [
       { character: "B", style: "[None]" },
@@ -1498,8 +1504,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "p", style: "[None]" },
       { character: "e", style: "[None]" },
       { character: "n", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_B-hd",
@@ -1537,12 +1543,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "n", style: "[None]" },
       { character: "t", style: "[None]" },
       { character: "l", style: "[None]" },
-      { character: "y", style: "[None]" }
-    ]
+      { character: "y", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Ask students to turn to pages 13 and 14. Tell them to find more evidence to support the theme that change can only happen when people are brave enough to work for it. (She is willing to take risks to have things change. Patricia reminds her friend not to show fear, the girls walked without flinching and were determined to enter the school.)\r",
+    content:
+      "Ask students to turn to pages 13 and 14. Tell them to find more evidence to support the theme that change can only happen when people are brave enough to work for it. (She is willing to take risks to have things change. Patricia reminds her friend not to show fear, the girls walked without flinching and were determined to enter the school.)\r",
     parentPageName: "7",
     characterStyles: [
       { character: "A", style: "[None]" },
@@ -1886,12 +1893,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "o", style: "[None]" },
       { character: "l", style: "[None]" },
       { character: ".", style: "[None]" },
-      { character: ")", style: "[None]" }
-    ]
+      { character: ")", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Body-txt",
-    content: "Discuss how this close reading has helped students analyze the theme.",
+    content:
+      "Discuss how this close reading has helped students analyze the theme.",
     parentPageName: "7",
     characterStyles: [
       { character: "D", style: "[None]" },
@@ -1962,12 +1970,13 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "e", style: "[None]" },
       { character: "m", style: "[None]" },
       { character: "e", style: "[None]" },
-      { character: ".", style: "[None]" }
-    ]
+      { character: ".", style: "[None]" },
+    ],
   },
   {
     styleName: "Lesson_Table-body-txt",
-    content: "What is the significance of the note a girl gives to Patricia during her first week at the integrated school? How does this relate to the overall theme of the story?",
+    content:
+      "What is the significance of the note a girl gives to Patricia during her first week at the integrated school? How does this relate to the overall theme of the story?",
     parentPageName: "7",
     characterStyles: [
       { character: "W", style: "Character Style 1" },
@@ -2134,8 +2143,8 @@ const paragraphData = [teacher-talkteacher-talk
       { character: "o", style: "Character Style 1" },
       { character: "r", style: "Character Style 1" },
       { character: "y", style: "Character Style 1" },
-      { character: "?", style: "Character Style 1" }
-    ]
-  }
+      { character: "?", style: "Character Style 1" },
+    ],
+  },
 ];
- module.exports = paragraphData;
+module.exports = paragraphData;
