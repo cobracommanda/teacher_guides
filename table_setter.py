@@ -174,12 +174,15 @@ def process_html_files(file_paths, thead_rows=1, output_dir="formatted_data"):
             output.write("</body>\n</html>")
 
 # List of HTML file paths to process
-file_paths = ['./raw_table_data/Y63061_TG_G6_U2.html', './raw_table_data/Y63065_TG_G6_U2.html',
- './raw_table_data/Y63059_TG_G6_U1.html', './raw_table_data/Y63060_TG_G6_U1.html',
- './raw_table_data/Y63062_TG_G6_U2.html', './raw_table_data/Y63066_TG_G6_U2.html',
- './raw_table_data/Y63057_TG_G6_U1.html', './raw_table_data/Y63056_TG_G6_U1.html',
- './raw_table_data/Y63055_TG_G6_U1.html', './raw_table_data/Y63063_TG_G6_U2.html',
- './raw_table_data/Y63064_TG_G6_U2.html', './raw_table_data/Y63058_TG_G6_U1.html']
+file_paths = [
+'./raw_table_data/Y63069_TG_G6_U3.html',
+# './raw_table_data/Y63061_TG_G6_U2.html', './raw_table_data/Y63065_TG_G6_U2.html',
+# './raw_table_data/Y63059_TG_G6_U1.html', './raw_table_data/Y63060_TG_G6_U1.html',
+# './raw_table_data/Y63062_TG_G6_U2.html', './raw_table_data/Y63066_TG_G6_U2.html',
+# './raw_table_data/Y63057_TG_G6_U1.html', './raw_table_data/Y63056_TG_G6_U1.html',
+# './raw_table_data/Y63055_TG_G6_U1.html', './raw_table_data/Y63063_TG_G6_U2.html',
+# './raw_table_data/Y63064_TG_G6_U2.html', './raw_table_data/Y63058_TG_G6_U1.html'
+ ]
 
 # Process the files and save the output with composite names
 process_html_files(file_paths)

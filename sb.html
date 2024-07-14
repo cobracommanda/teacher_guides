@@ -1,239 +1,393 @@
-const Y63055_panel_2_page_1_section_data = require("./indd_data/Y63055_TG_G6_U1/Lesson_2/Lesson_2_1.js");
-const Y63055_panel_2_page_2_section_data = require("./indd_data/Y63055_TG_G6_U1/Lesson_3/Lesson_3_1.js");
-const Y63055_panel_2_page_3_section_data = require("./indd_data/Y63055_TG_G6_U1/Lesson_4/Lesson_4_1.js");
-const Y63055_panel_2_page_4_section_data = require("./indd_data/Y63055_TG_G6_U1/Lesson_5/Lesson_5_1.js");
-const Y63055_panel_2_page_5_section_data = require("./indd_data/Y63055_TG_G6_U1/Lesson_6/Lesson_6_1.js");
-const Y63055_panel_3_page_1_section_data = require("./indd_data/Y63055_TG_G6_U1/Lesson_7/Lesson_7_1.js");
-const Y63055_panel_3_page_2_section_data = require("./indd_data/Y63055_TG_G6_U1/Lesson_8/Lesson_8_1.js");
-const Y63055_panel_3_page_3_section_data = require("./indd_data/Y63055_TG_G6_U1/Lesson_9/Lesson_9_1.js");
-const Y63055_panel_3_page_4_section_data = require("./indd_data/Y63055_TG_G6_U1/Lesson_10/Lesson_10_1.js");
-const Y63055_panel_4_page_1_section_data = require("./indd_data/Y63055_TG_G6_U1/Lesson_11/Lesson_11_1.js");
-const Y63055_panel_5_page_1_section_data = require("./indd_data/Y63055_TG_G6_U1/Lesson_12/Lesson_12_1.js");
+<h4><span class="[None]">Text-Dependent Comprehension</span></h4>
+<ul>
+  <li>
+    <span class="italic"
+      >The Adventure of the Blue Carbuncle: A Sherlock Holmes Mystery</span
+    ><span class="[None]"> Text Evidence Question&nbsp;Card</span>
+  </li>
+  <li>
+    <span class="italic">Perplexing Puzzles</span
+    ><span class="[None]"> <br />Cross-Text Analysis Card</span>
+  </li>
+</ul>
+<h4><span class="[None]">Other Titles in This Topic Set</span></h4>
+<ul>
+  <li>
+    <span class="italic">Mysteries Set in Stone </span
+    ><span class="[None]">(Informational)</span>
+  </li>
+  <li>
+    <span class="italic"
+      >Behind the Microscope: Solving Scientific Mysteries </span
+    ><span class="[None]">(Narrative Nonfiction)</span>
+  </li>
+  <li>
+    <span class="italic">Analytical Arguments About Poetry <br /></span
+    ><span class="[None]">(Opinion/Argument)</span>
+  </li>
+</ul>
+<h4><span class="[None]">￼Online Resources</span></h4>
+<ul>
+  <li><span class="[None]">E-Book</span></li>
+  <li><span class="[None]">Teacher’s Guide</span></li>
+</ul>
 
-const Y63056_panel_2_page_1_section_data = require("./indd_data/Y63056_TG_G6_U1/Lesson_2/Lesson_2_1.js");
-const Y63056_panel_2_page_2_section_data = require("./indd_data/Y63056_TG_G6_U1/Lesson_3/Lesson_3_1.js");
-const Y63056_panel_2_page_3_section_data = require("./indd_data/Y63056_TG_G6_U1/Lesson_4/Lesson_4_1.js");
-const Y63056_panel_2_page_4_section_data = require("./indd_data/Y63056_TG_G6_U1/Lesson_5/Lesson_5_1.js");
-const Y63056_panel_2_page_5_section_data = require("./indd_data/Y63056_TG_G6_U1/Lesson_6/Lesson_6_1.js");
-const Y63056_panel_3_page_1_section_data = require("./indd_data/Y63056_TG_G6_U1/Lesson_7/Lesson_7_1.js");
-const Y63056_panel_3_page_2_section_data = require("./indd_data/Y63056_TG_G6_U1/Lesson_8/Lesson_8_1.js");
-const Y63056_panel_3_page_3_section_data = require("./indd_data/Y63056_TG_G6_U1/Lesson_9/Lesson_9_1.js");
-const Y63056_panel_3_page_4_section_data = require("./indd_data/Y63056_TG_G6_U1/Lesson_10/Lesson_10_1.js");
-const Y63056_panel_4_page_1_section_data = require("./indd_data/Y63056_TG_G6_U1/Lesson_11/Lesson_11_1.js");
-const Y63056_panel_5_page_1_section_data = require("./indd_data/Y63056_TG_G6_U1/Lesson_12/Lesson_12_1.js");
-
-function parseParagraphData(paragraphData) {
-  const styleToTagMapping = {
-    "Lesson_A-hd": ["h2"],
-    "A-hd": ["h2"],
-    "B-hd": ["h2"],
-    "Lesson_B-hd": ["h3", "blue"],
-    "Lesson_C-hd": ["span", "teacher-talk"],
-    table_label: ["h4"],
-    "Body-txt": ["p"],
-    "Lesson_Body-txt": ["p"],
-    "Lesson_Tchr-tlk": ["span", "teacher-talk"],
-    "Generic_sidebar_Body-txt": ["p"],
-    "Generic_sidebar_C-hd": ["p"],
-    "Lesson_Table-body-txt": ["p"],
-    "ELA_Strategies_Table-body-txt": ["p"],
-    "Sample-body-txt": ["table"],
-  };
-
-  const replacements = {
-    SINGLE_RIGHT_QUOTE: "’",
-    SINGLE_LEFT_QUOTE: "‘",
-    DOUBLE_LEFT_QUOTE: "“",
-    DOUBLE_RIGHT_QUOTE: "”",
-    EN_DASH: "–",
-    EM_DASH: "—",
-    FORCED_LINE_BREAK: "<br>",
-    NONBREAKING_SPACE: "&nbsp;",
-    ELLIPSIS: "…",
-  };
-
-  function applyCharacterStyles(content, characterStyles) {
-    if (!characterStyles || characterStyles.length === 0) {
-      return content;
-    }
-
-    let styledContent = "";
-    let currentStyle = characterStyles[0].style;
-    let currentClassName =
-      currentStyle === "i"
-        ? "italic"
-        : currentStyle === "b"
-        ? "bold"
-        : currentStyle;
-    let currentSpan = currentClassName
-      ? `<span class="${currentClassName}">`
-      : "";
-
-    for (let i = 0; i < characterStyles.length; i++) {
-      let { character, style } = characterStyles[i];
-      let className = style === "i" ? "italic" : style === "b" ? "bold" : "";
-
-      character = replacements[character] || character;
-
-      if (style !== currentStyle) {
-        if (currentClassName) {
-          currentSpan += `</span>`;
-        }
-        styledContent += currentSpan;
-        currentStyle = style;
-        currentClassName = className;
-        currentSpan = currentClassName
-          ? `<span class="${currentClassName}">${character}`
-          : character;
-      } else {
-        currentSpan += character;
-      }
-    }
-    if (currentClassName) {
-      currentSpan += `</span>`;
-    }
-    styledContent += currentSpan;
-
-    return styledContent;
-  }
-
-  const filteredData = paragraphData
-    .map((paragraph) => {
-      const [tagName, optionalClass] =
-        styleToTagMapping[paragraph.styleName] || [];
-      let content = paragraph.content.replace(/\r/g, ""); // Remove all \r characters
-      content = content.replace(/[\x00-\x1F\x7F]/g, ""); // Remove non-printable control characters
-
-      if (tagName) {
-        if (paragraph.characterStyles && paragraph.characterStyles.length > 0) {
-          content = applyCharacterStyles(content, paragraph.characterStyles);
-        }
-        // Special handling for Lesson_A-hd to wrap standards in a span
-        if (paragraph.styleName === "Lesson_A-hd") {
-          const standardsRegex = /(?:[A-Z]+\.\d+\.\d+[a-z]*,?\s*)+/g;
-          content = content.replace(
-            standardsRegex,
-            '<span class="standards">$&</span>'
-          );
-        }
-        // Special handling for Sample-body-txt to wrap content in a table
-        if (paragraph.styleName === "Sample-body-txt") {
-          content = `<table border="1"><td><p>${content}</p></td></table>`;
-        }
-        const className = optionalClass ? optionalClass : paragraph.styleName;
-        return `<${tagName} class="${className}">${content}</${tagName}>`;
-      } else {
-        return content;
-      }
-    })
-    .filter(
-      (content) => content.trim() !== "" && !/[\x00-\x1F\x7F]/.test(content)
-    ); // Filter out empty or control character-only contents
-
-  return filteredData;
-}
-
-const Y63055_panel_2_page_1_section_content = parseParagraphData(
-  Y63055_panel_2_page_1_section_data
-);
-const Y63055_panel_2_page_2_section_content = parseParagraphData(
-  Y63055_panel_2_page_2_section_data
-);
-const Y63055_panel_2_page_3_section_content = parseParagraphData(
-  Y63055_panel_2_page_3_section_data
-);
-const Y63055_panel_2_page_4_section_content = parseParagraphData(
-  Y63055_panel_2_page_4_section_data
-);
-const Y63055_panel_2_page_5_section_content = parseParagraphData(
-  Y63055_panel_2_page_5_section_data
-);
-
-const Y63055_panel_3_page_1_section_content = parseParagraphData(
-  Y63055_panel_3_page_1_section_data
-);
-const Y63055_panel_3_page_2_section_content = parseParagraphData(
-  Y63055_panel_3_page_2_section_data
-);
-const Y63055_panel_3_page_3_section_content = parseParagraphData(
-  Y63055_panel_3_page_3_section_data
-);
-const Y63055_panel_3_page_4_section_content = parseParagraphData(
-  Y63055_panel_3_page_4_section_data
-);
-
-const Y63055_panel_4_page_1_section_content = parseParagraphData(
-  Y63055_panel_4_page_1_section_data
-);
-const Y63055_panel_5_page_1_section_content = parseParagraphData(
-  Y63055_panel_5_page_1_section_data
-);
-
-const Y63056_panel_2_page_1_section_content = parseParagraphData(
-  Y63056_panel_2_page_1_section_data
-);
-const Y63056_panel_2_page_2_section_content = parseParagraphData(
-  Y63056_panel_2_page_2_section_data
-);
-const Y63056_panel_2_page_3_section_content = parseParagraphData(
-  Y63056_panel_2_page_3_section_data
-);
-const Y63056_panel_2_page_4_section_content = parseParagraphData(
-  Y63056_panel_2_page_4_section_data
-);
-const Y63056_panel_2_page_5_section_content = parseParagraphData(
-  Y63056_panel_2_page_5_section_data
-);
-
-const Y63056_panel_3_page_1_section_content = parseParagraphData(
-  Y63056_panel_3_page_1_section_data
-);
-const Y63056_panel_3_page_2_section_content = parseParagraphData(
-  Y63056_panel_3_page_2_section_data
-);
-const Y63056_panel_3_page_3_section_content = parseParagraphData(
-  Y63056_panel_3_page_3_section_data
-);
-const Y63056_panel_3_page_4_section_content = parseParagraphData(
-  Y63056_panel_3_page_4_section_data
-);
-
-const Y63056_panel_4_page_1_section_content = parseParagraphData(
-  Y63056_panel_4_page_1_section_data
-);
-const Y63056_panel_5_page_1_section_content = parseParagraphData(
-  Y63056_panel_5_page_1_section_data
-);
-
-console.log(Y63056_panel_2_page_1_section_content);
-console.log(Y63056_panel_2_page_2_section_content);
-console.log(Y63056_panel_2_page_3_section_content);
-console.log(Y63056_panel_2_page_4_section_content);
-console.log(Y63056_panel_2_page_5_section_content);
-console.log(Y63056_panel_3_page_1_section_content);
-console.log(Y63056_panel_3_page_2_section_content);
-console.log(Y63056_panel_3_page_3_section_content);
-console.log(Y63056_panel_3_page_4_section_content);
-console.log(Y63056_panel_4_page_1_section_content);
-console.log(Y63056_panel_5_page_1_section_content);
-
-// module.exports = {
-//   Y63055_panel_2_page_1_section_content,
-//   Y63055_panel_2_page_2_section_content,
-//   Y63055_panel_2_page_3_section_content,
-//   Y63055_panel_2_page_4_section_content,
-//   Y63055_panel_2_page_5_section_content,
-//   Y63055_panel_3_page_1_section_content,
-//   Y63055_panel_3_page_2_section_content,
-//   Y63055_panel_3_page_3_section_content,
-//   Y63055_panel_3_page_4_section_content,
-//   Y63055_panel_4_page_1_section_content,
-//   Y63055_panel_5_page_1_section_content,
-// };
-
-// const Y63055_panel_3_page_1_section_data = require("./indd_data/Y63055_TG_G6_U1/Lesson_7/Lesson_7_1.js");
-// const Y63055_panel_3_page_2_section_data = require("./indd_data/Y63055_TG_G6_U1/Lesson_8/Lesson_8_1.js");
-// const Y63055_panel_3_page_3_section_data = require("./indd_data/Y63055_TG_G6_U1/Lesson_9/Lesson_9_1.js");
-// const Y63055_panel_3_page_4_section_data = require("./indd_data/Y63055_TG_G6_U1/Lesson_10/Lesson_10_1.js");
-// const Y63055_panel_4_page_1_section_data = require("./indd_data/Y63055_TG_G6_U1/Lesson_11/Lesson_11_1.js");
-// const Y63055_panel_5_page_1_section_data = require("./indd_data/Y63055_TG_G6_U1/Lesson_12/Lesson_12_1.js");
+<h4><span class="[None]">Text-Dependent Comprehension</span></h4>
+<ul>
+  <li>
+    <span class="italic">Rodrigo and the Dogs </span
+    ><span class="[None]">Text Evidence Question Card</span>
+  </li>
+  <li>
+    <span class="italic">Agents of Change </span
+    ><span class="[None]">Cross-Text Analysis Card</span>
+  </li>
+</ul>
+<h4><span class="[None]">Other Titles in This Topic Set</span></h4>
+<ul>
+  <li>
+    <span class="italic">The True Story of Paul Revere’s Ride </span
+    ><span class="[None]">(Informational)</span>
+  </li>
+  <li>
+    <span class="italic">Lives of Service: Stories from the Peace Corps </span
+    ><span class="[None]">(Narrative&nbsp;Nonfiction)</span>
+  </li>
+  <li>
+    <span class="italic">Analytical Arguments About Influential Speeches </span
+    ><span class="[None]">(Opinion/Argument)</span>
+  </li>
+</ul>
+<h4><span class="[None]">Online Resources</span></h4>
+<ul>
+  <li><span class="[None]">Teacher’s Guide</span></li>
+  <li><span class="[None]">E-Reader</span></li>
+  <li><span class="[None]">E-Presenter</span></li>
+  <li><span class="[None]">Comprehension Project Organizers</span></li>
+</ul>
+<h4><span class="[None]">Text-Dependent Comprehension Strategies</span></h4>
+<ul>
+  <li><span class="[None]">Summarize key story elements.</span></li>
+  <li><span class="[None]">Visualize key details.</span></li>
+  <li><span class="[None]">Analyze character.</span></li>
+  <li><span class="[None]">Analyze theme.</span></li>
+  <li><span class="[None]">Draw inferences.</span></li>
+  <li><span class="[None]">Analyze story elements.</span></li>
+</ul>
+<h4><span class="[None]">Extend Language Knowledge</span></h4>
+<ul>
+  <li><span class="[None]">Recognize and correct vague pronouns.</span></li>
+</ul>
+<h4><span class="[None]">Vocabulary Strategies</span></h4>
+<ul>
+  <li><span class="[None]">Interpret personification.</span></li>
+  <li><span class="[None]">Practice academic vocabulary.</span></li>
+</ul>
+<h4><span class="[None]">Vocabulary List</span></h4>
+<ul>
+  <li><span class="[None]">acclimating*</span></li>
+  <li><span class="[None]">decimating*</span></li>
+  <li><span class="[None]">entail*</span></li>
+  <li><span class="[None]">maneuvers*</span></li>
+  <li><span class="[None]">melancholy*</span></li>
+  <li><span class="[None]">mortified*</span></li>
+  <li><span class="[None]">pandemonium*</span></li>
+  <li><span class="[None]">reminisced*</span></li>
+  <li><span class="[None]">simulate*</span></li>
+  <li><span class="[None]">sprawled*</span></li>
+  <li><span class="[None]">temperament*</span></li>
+</ul>
+<h4><span class="[None]">Writing</span></h4>
+<ul>
+  <li><span class="[None]">Analytic writing to sources: Narrative</span></li>
+  <li><span class="[None]">Research and writing</span></li>
+</ul>
+<h4><span class="[None]">Text-Dependent Comprehension</span></h4>
+<ul>
+  <li>
+    <span class="italic"
+      >Opinions About Difficult Times Portrayed in Literature </span
+    ><span class="[None]">Text Evidence Question Card</span>
+  </li>
+  <li>
+    <span class="italic">Growing Up in Tough Times </span
+    ><span class="[None]">Cross-Text Analysis Card</span>
+  </li>
+</ul>
+<h4><span class="[None]">Other Titles in This Topic Set</span></h4>
+<ul>
+  <li>
+    <span class="italic">Rising Above: Profiles in Greatness </span
+    ><span class="[None]">(Informational)</span>
+  </li>
+  <li>
+    <span class="italic">War Diaries </span
+    ><span class="[None]">(Narrative Nonfiction)</span>
+  </li>
+  <li>
+    <span class="italic">The Wall </span
+    ><span class="[None]">(Narrative Fiction)</span>
+  </li>
+</ul>
+<h4><span class="[None]">Online Resources</span></h4>
+<ul>
+  <li><span class="[None]">Teacher’s Guide</span></li>
+  <li><span class="[None]">E-Reader</span></li>
+  <li><span class="[None]">E-Presenter</span></li>
+  <li><span class="[None]">Comprehension Project Organizers</span></li>
+</ul>
+<h4><span class="[None]">Text-Dependent Comprehension Strategies</span></h4>
+<ul>
+  <li><span class="[None]">Summarize the main idea and key details.</span></li>
+  <li><span class="[None]">Ask questions to summarize.</span></li>
+  <li><span class="[None]">Draw conclusions.</span></li>
+  <li><span class="[None]">Draw inferences.</span></li>
+  <li><span class="[None]">Analyze main ideas and details.</span></li>
+  <li><span class="[None]">Analyze opinions.</span></li>
+  <li><span class="[None]">Compare and contrast opinions.</span></li>
+</ul>
+<h4><span class="[None]">Extend Language Knowledge</span></h4>
+<ul>
+  <li>
+    <span class="[None]">Use commas to set off words and information.</span>
+  </li>
+</ul>
+<h4><span class="[None]">Vocabulary Strategies</span></h4>
+<ul>
+  <li>
+    <span class="[None]"
+      >Use context clues to confirm or self-correct understanding of
+      words.</span
+    >
+  </li>
+  <li><span class="[None]">Practice domain-specific vocabulary.</span></li>
+</ul>
+<h4><span class="[None]">Vocabulary List</span></h4>
+<ul>
+  <li><span class="[None]">amphitheater**</span></li>
+  <li><span class="[None]">cirque**</span></li>
+  <li><span class="[None]">concealed*</span></li>
+  <li><span class="[None]">devoured*</span></li>
+  <li><span class="[None]">gingerly*</span></li>
+  <li><span class="[None]">gory*</span></li>
+  <li><span class="[None]">grottoes**</span></li>
+  <li><span class="[None]">inkling*</span></li>
+  <li><span class="[None]">premonition*</span></li>
+  <li><span class="[None]">sensation*</span></li>
+  <li><span class="[None]">shuddered*</span></li>
+</ul>
+<h4><span class="[None]">Writing</span></h4>
+<ul>
+  <li>
+    <span class="[None]"
+      >Analytic writing to sources: <br />Narrative Writing</span
+    >
+  </li>
+  <li><span class="[None]">Research and writing</span></li>
+  <li><span class="[None]"></span></li>
+</ul>
+<h4><span class="[None]">Text-Dependent Comprehension</span></h4>
+<ul>
+  <li>
+    <span class="italic">Oliver Twist: A Dramatization </span
+    ><span class="[None]">Text Evidence Question Card</span>
+  </li>
+  <li>
+    <span class="italic">Courage in Hard Times </span
+    ><span class="[None]">Cross-Text Analysis Card</span>
+  </li>
+</ul>
+<h4><span class="[None]">Other Titles in This Topic Set</span></h4>
+<ul>
+  <li>
+    <span class="italic">The Dust Bowl </span
+    ><span class="[None]">(Informational)</span>
+  </li>
+  <li>
+    <span class="italic"
+      >Narrative of the Life of Frederick Douglass: An American Slave </span
+    ><span class="[None]">(Narrative Nonfiction)</span>
+  </li>
+  <li>
+    <span class="italic">Analytical Arguments About Courage </span
+    ><span class="[None]">(Opinion/Argument)</span>
+  </li>
+</ul>
+<h4><span class="[None]">Online Resources</span></h4>
+<ul>
+  <li><span class="[None]">Teacher’s Guide</span></li>
+  <li><span class="[None]">E-Reader</span></li>
+  <li><span class="[None]">E-Presenter</span></li>
+  <li><span class="[None]">Comprehension Project Organizers</span></li>
+</ul>
+<h4><span class="[None]">Text-Dependent Comprehension Strategies</span></h4>
+<ul>
+  <li><span class="[None]">Summarize key story elements.</span></li>
+  <li><span class="[None]">Visualize story events.</span></li>
+  <li><span class="[None]">Identify and analyze theme.</span></li>
+  <li><span class="[None]">Draw inferences.</span></li>
+  <li><span class="[None]">Draw conclusions.</span></li>
+  <li><span class="[None]">Analyze character.</span></li>
+</ul>
+<h4><span class="[None]">Extend Language Knowledge</span></h4>
+<ul>
+  <li>
+    <span class="[None]">Form and use verbs in the imperative mood.</span>
+  </li>
+</ul>
+<h4><span class="[None]">Vocabulary Strategies</span></h4>
+<ul>
+  <li><span class="[None]">Understand figurative language.</span></li>
+  <li><span class="[None]">Practice academic vocabulary.</span></li>
+</ul>
+<h4><span class="[None]">Vocabulary List</span></h4>
+<ul>
+  <li><span class="[None]">accomplices*</span></li>
+  <li><span class="[None]">bequeathed*</span></li>
+  <li><span class="[None]">hooligans*</span></li>
+  <li><span class="[None]">ostensibly*</span></li>
+  <li><span class="[None]">provocation*</span></li>
+  <li><span class="[None]">recuperate*</span></li>
+  <li><span class="[None]">retainer*</span></li>
+  <li><span class="[None]">scamp*</span></li>
+  <li><span class="[None]">temerity*</span></li>
+  <li><span class="[None]">upscale*</span></li>
+  <li><span class="[None]">well-appointed*</span></li>
+  <li><span class="[None]">Analytic writing to sources: Narrative</span></li>
+  <li><span class="[None]">Research and writing</span></li>
+</ul>
+<h4><span class="[None]">Text-Dependent Comprehension</span></h4>
+<ul>
+  <li>
+    <span class="italic">Analytical Arguments About Courage </span
+    ><span class="[None]">Text Evidence Question Card</span>
+  </li>
+  <li>
+    <span class="italic">Courage in Hard Times </span
+    ><span class="[None]">Cross-Text Analysis Card</span>
+  </li>
+</ul>
+<h4><span class="[None]">Other Titles in This Topic Set</span></h4>
+<ul>
+  <li>
+    <span class="italic">The Dust Bowl </span
+    ><span class="[None]">(Informational)</span>
+  </li>
+  <li>
+    <span class="italic"
+      >Narrative of the Life of Frederick Douglass: An American Slave </span
+    ><span class="[None]">(Narrative Nonfiction)</span>
+  </li>
+  <li>
+    <span class="italic">Oliver Twist: A Dramatization </span
+    ><span class="[None]">(Narrative Fiction)</span>
+  </li>
+</ul>
+<h4><span class="[None]">Online Resources</span></h4>
+<ul>
+  <li><span class="[None]">Teacher’s Guide</span></li>
+  <li><span class="[None]">E-Reader</span></li>
+  <li><span class="[None]">E-Presenter</span></li>
+  <li><span class="[None]">Comprehension Project Organizers</span></li>
+</ul>
+<h4><span class="[None]">Text-Dependent Comprehension Strategies</span></h4>
+<ul>
+  <li><span class="[None]">Summarize story elements.</span></li>
+  <li><span class="[None]">Visualize events.</span></li>
+  <li><span class="[None]">Determine key details.</span></li>
+  <li><span class="[None]">Analyze character.</span></li>
+  <li><span class="[None]">Analyze arguments.</span></li>
+  <li><span class="[None]">Draw inferences.</span></li>
+  <li><span class="[None]">Determine and analyze theme.</span></li>
+</ul>
+<h4><span class="[None]">Extend Language Knowledge</span></h4>
+<ul>
+  <li><span class="[None]">Choose correct punctuation.</span></li>
+</ul>
+<h4><span class="[None]">Vocabulary Strategies</span></h4>
+<ul>
+  <li><span class="[None]">Interpret figurative language.</span></li>
+  <li><span class="[None]">Practice academic vocabulary.</span></li>
+</ul>
+<h4><span class="[None]">Vocabulary List</span></h4>
+<ul>
+  <li><span class="[None]">braying*</span></li>
+  <li><span class="[None]">composure*</span></li>
+  <li><span class="[None]">devouring*</span></li>
+  <li><span class="[None]">formidable*</span></li>
+  <li><span class="[None]">hypothetical**</span></li>
+  <li><span class="[None]">indebted*</span></li>
+  <li><span class="[None]">intelligible*</span></li>
+  <li><span class="[None]">pandemonium*</span></li>
+  <li><span class="[None]">perpetrators*</span></li>
+  <li><span class="[None]">procession*</span></li>
+  <li><span class="[None]">quirky*</span></li>
+  <li><span class="[None]">shackle*</span></li>
+  <li><span class="[None]">squelched*</span></li>
+  <li><span class="[None]">taunts*</span></li>
+  <li><span class="[None]">testament*</span></li>
+  <li><span class="[None]">threshold*</span></li>
+</ul>
+<h4><span class="[None]">Writing</span></h4>
+<ul>
+  <li>
+    <span class="[None]"
+      >Analytic writing to sources: <br />Analytical Arguments</span
+    >
+  </li>
+  <li><span class="[None]">Research and Writing</span></li>
+  <li><span class="[None]"></span></li>
+</ul>
+<h4><span class="[None]">Text-Dependent Comprehension</span></h4>
+<ul>
+  <li>
+    <span class="italic"
+      >Varuna Takes a Job with the Census; An Attack on the Starship Mayflower
+      in the Year 2647 Text Evidence Question Card<br /></span
+    ><span class="[None]"><br />Online Resources<br /></span>
+  </li>
+  <li><span class="[None]">E-Book</span></li>
+  <li><span class="[None]">Teacher’s Guide</span></li>
+</ul>
+<h4><span class="[None]">Text-Dependent Comprehension Strategies</span></h4>
+<ul>
+  <li><span class="[None]">Summarize key details.</span></li>
+  <li>
+    <span class="[None]">Explain how an author develops point of view.</span>
+  </li>
+  <li><span class="[None]">Analyze scenes.</span></li>
+  <li><span class="[None]">Determine a theme.</span></li>
+  <li><span class="[None]">Draw inferences.</span></li>
+</ul>
+<h4><span class="[None]">Extend Language Knowledge</span></h4>
+<ul>
+  <li><span class="[None]">Use reflexive pronouns.</span></li>
+</ul>
+<h4><span class="[None]">Vocabulary Strategies</span></h4>
+<ul>
+  <li><span class="[None]">Identify onomatopoeia.</span></li>
+  <li><span class="[None]">Practice academic vocabulary.COLUMN_BREAK</span></li>
+</ul>
+<h4><span class="[None]">Vocabulary List</span></h4>
+<ul>
+  <li><span class="[None]">ascent*</span></li>
+  <li><span class="[None]">assent*</span></li>
+  <li><span class="[None]">berth*</span></li>
+  <li><span class="[None]">birth*</span></li>
+  <li><span class="[None]">bouillon*</span></li>
+  <li><span class="[None]">bullion*</span></li>
+  <li><span class="[None]">hews*</span></li>
+  <li><span class="[None]">hues*</span></li>
+  <li><span class="[None]">serf*</span></li>
+  <li><span class="[None]">surf*</span></li>
+  <li>
+    <span class="[None]"
+      >* General academic word<br />** Domain-specific word</span
+    >
+  </li>
+  <li><span class="[None]">Writing</span></li>
+  <li>
+    <span class="[None]">Analytic Writing to sources: Narrative text</span>
+  </li>
+  <li><span class="[None]">Research and writing </span></li>
+</ul>

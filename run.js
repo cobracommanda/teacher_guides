@@ -90,13 +90,13 @@ const processData = async (key, value) => {
   const findReplacePairsHtml = [
     [/<!-- xx img-src xx -->/g, getImageName(value.cover_img[0])],
     [/<!-- xx alt xx -->/g, `Image of ${value.title}'s book cover`],
-    // [
-    //   /<!-- xx panel1 aside content xx -->/g,
-    //   panel_2_page_1_sidebar_a_search_str || "",
-    // ],
+    [
+      /<!-- xx panel1 aside content xx -->/g,
+      value.tags.panel_1_aside || "@@@@@@@",
+    ],
     [
       /<!-- xx panel1 section content xx -->/g,
-      value.tags.panel_1_section || "",
+      value.tags.panel_1_section || "@@@@@@@@",
     ],
     [/<!-- xx tg title xx -->/g, value.title],
     [/<!-- xx Lexile xx -->/g, value.lexile],

@@ -1,0 +1,1088 @@
+:root {
+  --grade-color: #001648;
+  --grade-color-tint: rgba(0, 22, 72, 0.1);
+}
+
+/* --grade-k-color: #ef4b3d;
+--grade-k-tint: rgba(240, 76, 61, 0.1);
+
+--grade-1-color: #9d3393;
+--grade-1-tint: rgba(157, 51, 147, 0.1);
+
+--grade-2-color: #f8971d;
+--grade-2-tint: rgba(248, 151, 29, 0.1);
+
+--grade-3-color: #00acd4;
+--grade-3-tint: rgba(0, 172, 212, 0.1);
+
+--grade-4-color: #f15a22;
+--grade-4-tint: rgba(241, 90, 34, 0.1);
+
+--grade-5-color: #00a14e;
+--grade-5-tint: rgba(0, 161, 78, 0.1);
+
+--grade-6-color: #001648;
+--grade-6-tint: rgba(0, 22, 72, 0.1); */
+
+@font-face {
+  font-family: "Montserrat Black";
+  font-weight: bold;
+  font-style: normal;
+  src: url("../fonts/Montserrat-Black.ttf");
+}
+@font-face {
+  font-family: "Montserrat Black Italic";
+  font-weight: bold;
+  font-style: italic;
+  src: url("../fonts/Montserrat-BlackItalic.ttf");
+}
+@font-face {
+  font-family: "Montserrat Bold";
+  font-weight: bold;
+  font-style: normal;
+  src: url("../fonts/Montserrat-Bold.ttf");
+}
+@font-face {
+  font-family: "Montserrat Bold Italic";
+  font-weight: bold;
+  font-style: italic;
+  src: url("../fonts/Montserrat-BoldItalic.ttf");
+}
+@font-face {
+  font-family: "Montserrat Extra Bold";
+  font-weight: bolder;
+  font-style: normal;
+  src: url("../fonts/Montserrat-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Montserrat Extra Bold Italic";
+  font-weight: bolder;
+  font-style: italic;
+  src: url("../fonts/Montserrat-ExtraBoldItalic.ttf");
+}
+@font-face {
+  font-family: "Montserrat Extra Light";
+  font-weight: lighter;
+  font-style: normal;
+  src: url("../fonts/Montserrat-ExtraLight.ttf");
+}
+@font-face {
+  font-family: "Montserrat Extra Light Italic";
+  font-weight: lighter;
+  font-style: italic;
+  src: url("../fonts/Montserrat-ExtraLightItalic.ttf");
+}
+@font-face {
+  font-family: "Montserrat Italic";
+  font-weight: normal;
+  font-style: italic;
+  src: url("../fonts/Montserrat-Italic.ttf");
+}
+@font-face {
+  font-family: "Montserrat Light";
+  font-weight: light;
+  font-style: normal;
+  src: url("../fonts/Montserrat-Light.ttf");
+}
+@font-face {
+  font-family: "Montserrat Light Italic";
+  font-weight: light;
+  font-style: italic;
+  src: url("../fonts/Montserrat-LightItalic.ttf");
+}
+@font-face {
+  font-family: "Montserrat Medium";
+  font-weight: medium;
+  font-style: normal;
+  src: url("../fonts/Montserrat-Medium.ttf");
+}
+@font-face {
+  font-family: "Montserrat Medium Italic";
+  font-weight: medium;
+  font-style: italic;
+  src: url("../fonts/Montserrat-MediumItalic.ttf");
+}
+@font-face {
+  font-family: "Montserrat Regular";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: "Montserrat Semi Bold";
+  font-weight: bold;
+  font-style: normal;
+  src: url("../fonts/Montserrat-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Montserrat Semi Bold";
+  font-weight: bold;
+  font-style: italic;
+  src: url("../fonts/Montserrat-SemiBoldItalic.ttf");
+}
+@font-face {
+  font-family: "Montserrat Thin";
+  font-weight: thin;
+  font-style: normal;
+  src: url("../fonts/Montserrat-Thin.ttf");
+}
+@font-face {
+  font-family: "Montserrat Thin Italic";
+  font-weight: thin;
+  font-style: italic;
+  src: url("../fonts/Montserrat-ThinItalic.ttf");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/OpenSans-Bold.ttf");
+}
+@font-face {
+  font-family: "Open Sans Condensed Bold";
+  font-weight: bold;
+  font-style: normal;
+  src: url("../fonts/OpenSans-CondBold.ttf");
+}
+@font-face {
+  font-family: "Open Sans Condensed Light";
+  font-weight: thin;
+  font-style: normal;
+  src: url("../fonts/OpenSans-CondLight.ttf");
+}
+@font-face {
+  font-family: "Open Sans Condensed Light Italic";
+  font-weight: thin;
+  font-style: italic;
+  src: url("../fonts/OpenSans-CondLightItalic.ttf");
+}
+@font-face {
+  font-family: "Open Sans Extra Bold";
+  font-weight: bolder;
+  font-style: normal;
+  src: url("../fonts/OpenSans-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Open Sans Extra Bold";
+  font-weight: bolder;
+  font-style: normal;
+  src: url("../fonts/OpenSans-ExtraBoldItalic.ttf");
+}
+@font-face {
+  font-family: "Open Sans Italic";
+  font-weight: normal;
+  font-style: italic;
+  src: url("../fonts/OpenSans-Italic.ttf");
+}
+@font-face {
+  font-family: "Open Sans Light";
+  font-weight: thin;
+  font-style: normal;
+  src: url("../fonts/OpenSans-Light.ttf");
+}
+@font-face {
+  font-family: "Open Sans Light Italic";
+  font-weight: thin;
+  font-style: italic;
+  src: url("../fonts/OpenSans-LightItalic.ttf");
+}
+@font-face {
+  font-family: "Open Sans Regular";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/OpenSans-LightItalic.ttf");
+}
+@font-face {
+  font-family: "Open Sans Semi Bold";
+  font-weight: bold;
+  font-style: normal;
+  src: url("../fonts/OpenSans-Semibold.ttf");
+}
+@font-face {
+  font-family: "Open Sans Semi Bold Italic";
+  font-weight: bold;
+  font-style: italic;
+  src: url("../fonts/OpenSans-SemiboldItalic.ttf");
+}
+.margin-top-0 {
+  margin-top: 0 !important;
+}
+
+.margin-top-5 {
+  margin-top: 5px !important;
+}
+
+.margin-top-10 {
+  margin-top: 10px !important;
+}
+
+.margin-top-15 {
+  margin-top: 15px !important;
+}
+
+.margin-top-20 {
+  margin-top: 20px !important;
+}
+
+.margin-top-25 {
+  margin-top: 25px !important;
+}
+
+.margin-top-30 {
+  margin-top: 30px !important;
+}
+
+.margin-top-40 {
+  margin-top: 40px !important;
+}
+
+.margin-top-50 {
+  margin-top: 50px !important;
+}
+
+.margin-right-0 {
+  margin-right: 0 !important;
+}
+
+.margin-right-5 {
+  margin-right: 5px !important;
+}
+
+.margin-right-10 {
+  margin-right: 10px !important;
+}
+
+.margin-right-15 {
+  margin-right: 15px !important;
+}
+
+.margin-right-20 {
+  margin-right: 20px !important;
+}
+
+.margin-right-25 {
+  margin-right: 25px !important;
+}
+
+.margin-right-30 {
+  margin-right: 30px !important;
+}
+
+.margin-right-40 {
+  margin-right: 40px !important;
+}
+
+.margin-right-50 {
+  margin-right: 50px !important;
+}
+
+.margin-bottom-0 {
+  margin-bottom: 0 !important;
+}
+
+.margin-bottom-5 {
+  margin-bottom: 5px !important;
+}
+
+.margin-bottom-10 {
+  margin-bottom: 10px !important;
+}
+
+.margin-bottom-15 {
+  margin-bottom: 15px !important;
+}
+
+.margin-bottom-20 {
+  margin-bottom: 20px !important;
+}
+
+.margin-bottom-25 {
+  margin-bottom: 25px !important;
+}
+
+.margin-bottom-30 {
+  margin-bottom: 30px !important;
+}
+
+.margin-bottom-40 {
+  margin-bottom: 40px !important;
+}
+
+.margin-bottom-50 {
+  margin-bottom: 50px !important;
+}
+
+.margin-bottom-50 {
+  margin-bottom: 50px !important;
+}
+.margin-bottom-500 {
+  margin-bottom: 500px !important;
+}
+.margin-bottom-1000 {
+  margin-bottom: 1000px !important;
+}
+.margin-bottom-150 {
+  margin-bottom: 150px !important;
+}
+.margin-bottom-200 {
+  margin-bottom: 200px !important;
+}
+
+.margin-left-0 {
+  margin-left: 0;
+}
+
+.margin-left-5 {
+  margin-left: 5px;
+}
+
+.margin-left-10 {
+  margin-left: 10px;
+}
+
+.margin-left-15 {
+  margin-left: 15px;
+}
+
+.margin-left-20 {
+  margin-left: 20px;
+}
+
+.margin-left-25 {
+  margin-left: 25px;
+}
+
+.margin-left-30 {
+  margin-left: 30px;
+}
+
+.margin-left-40 {
+  margin-left: 40px;
+}
+
+.margin-left-50 {
+  margin-left: 50px;
+}
+
+.padding-top-5 {
+  padding-top: 5px;
+}
+
+.padding-top-10 {
+  padding-top: 10px;
+}
+
+.padding-top-15 {
+  padding-top: 15px;
+}
+
+.padding-top-20 {
+  padding-top: 20px;
+}
+
+.padding-top-25 {
+  padding-top: 25px;
+}
+
+.padding-top-30 {
+  padding-top: 30px;
+}
+
+.padding-top-40 {
+  padding-top: 40px;
+}
+
+.padding-top-50 {
+  padding-top: 50px;
+}
+
+.padding-right-5 {
+  padding-right: 5px;
+}
+
+.padding-right-10 {
+  padding-right: 10px;
+}
+
+.padding-right-15 {
+  padding-right: 15px;
+}
+
+.padding-right-20 {
+  padding-right: 20px;
+}
+
+.padding-right-25 {
+  padding-right: 25px;
+}
+
+.padding-right-30 {
+  padding-right: 30px;
+}
+
+.padding-right-40 {
+  padding-right: 40px;
+}
+
+.padding-right-50 {
+  padding-right: 50px;
+}
+
+.padding-bottom-5 {
+  padding-bottom: 5px;
+}
+
+.padding-bottom-10 {
+  padding-bottom: 10px;
+}
+
+.padding-bottom-15 {
+  padding-bottom: 15px;
+}
+
+.padding-bottom-20 {
+  padding-bottom: 20px;
+}
+
+.padding-bottom-25 {
+  padding-bottom: 25px;
+}
+
+.padding-bottom-30 {
+  padding-bottom: 30px;
+}
+
+.padding-bottom-40 {
+  padding-bottom: 40px;
+}
+
+.padding-bottom-50 {
+  padding-bottom: 50px;
+}
+
+.padding-left-5 {
+  padding-left: 5px;
+}
+
+.padding-left-10 {
+  padding-left: 10px;
+}
+
+.padding-left-15 {
+  padding-left: 15px;
+}
+
+.padding-left-20 {
+  padding-left: 20px;
+}
+
+.padding-left-25 {
+  padding-left: 25px;
+}
+
+.padding-left-30 {
+  padding-left: 30px;
+}
+
+.padding-left-40 {
+  padding-left: 40px;
+}
+
+.padding-left-50 {
+  padding-left: 50px;
+}
+
+body {
+  background: url(../images/icons/bg.png) repeat;
+  color: #222222;
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.5;
+  cursor: auto;
+  position: relative;
+  font-size: 1.25em;
+}
+h2 span.standards {
+  font-size: 60%;
+  font-weight: 600;
+  font-style: normal;
+  color: #00388d;
+}
+.italic {
+  font-style: italic;
+}
+.bold {
+  font-weight: bold;
+}
+
+.navbar {
+  min-height: 7em;
+  background: var(--grade-color);
+}
+
+.navbar-brand > img {
+  width: 100%;
+  max-width: 200px;
+}
+
+.navbar-toggle {
+  margin-top: 30px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+  font-size: 1.25em;
+  top: 40px;
+}
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+  color: #f6ec3c;
+}
+
+ul.nav li a {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.nav > li:hover {
+  border-left: none !important;
+}
+
+span.glyphicon {
+  font-family: "Montserrat", sans-serif;
+}
+
+.glyphicon:before {
+  font-family: "Glyphicons Halflings";
+  margin-right: 7px;
+  position: relative;
+  top: 1px;
+}
+
+.navbar-toggle {
+  overflow: hidden;
+}
+.navbar-toggle .icon-bar {
+  transition: opacity, transform;
+  transition-duration: 200ms;
+  transition-timing-function: cubic-bezier(0.7, 0, 0, 0.7);
+}
+.navbar-toggle:not(.collapsed) .icon-bar:nth-child(1) {
+  transform: translateY(6px) rotate(45deg);
+}
+.navbar-toggle:not(.collapsed) .icon-bar:nth-child(2) {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+.navbar-toggle:not(.collapsed) .icon-bar:nth-child(3) {
+  transform: translateY(-6px) rotate(-45deg);
+}
+
+.navbar-default .navbar-toggle {
+  border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background: #f6ec3c;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background: none;
+}
+
+.navbar-default .navbar-collapse {
+  border: none;
+  box-shadow: none;
+}
+
+#back-top {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+}
+
+#back-top a {
+  text-decoration: none;
+}
+
+#back-top span {
+  font-style: normal;
+  width: 40px;
+  height: 40px;
+  background: var(--grade-color-tint);
+  display: block;
+  text-align: center;
+  line-height: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;
+  /* rounded corners */
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  -moz-box-shadow: 0 0 3px #cccccc;
+  -webkit-box-shadow: 0 0 3px #cccccc;
+  box-shadow: 0 0 3px #cccccc;
+  /* background color transition */
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  transition: 1s;
+}
+
+#back-top a:hover span {
+  background-color: var(--grade-color);
+  color: #ffffff;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid var(--grade-color);
+  margin-top: 20px;
+}
+
+.nav-tabs > li {
+  /* will set the width of the tabs */
+  margin-right: 0.25em;
+}
+
+.nav-tabs > li > a {
+  background: var(--grade-color);
+  padding: 16px 23px;
+  font-size: 1.15em !important;
+  color: #ffffff;
+  border-radius: 10px 10px 0 0;
+  text-decoration: none;
+  transition: background 0.4s, color 0.4s, border 0.4s; /* Add transition */ /* Add transition */
+}
+
+.nav-tabs > li.active > a {
+  /* background: rgba(33, 64, 154, .2); */
+  border-top: 1px solid var(--grade-color) !important;
+  border-left: 1px solid var(--grade-color) !important;
+  border-right: 1px solid var(--grade-color) !important;
+  box-shadow: 1px 0 0 0 #cccccc;
+  color: var(--grade-color);
+  font-weight: bold;
+  transition: background 0.4s, color 0.4s, border 0.4s; /* Add transition */ /* Add transition */
+}
+.nav-tabs > li.active > a:hover {
+  color: var(--grade-color);
+  border-top: 1px solid var(--grade-color);
+  border-left: 1px solid var(--grade-color);
+  border-right: 1px solid var(--grade-color);
+  /* box-shadow: inset 2px 0 0 0 #cccccc; */
+  transition: background 0.4s, color 0.4s, border 0.4s; /* Add transition */ /* Add transition */
+}
+
+.nav-tabs > li > a:focus,
+.nav-tabs > li > a:hover {
+  background: var(--grade-color-tint);
+  color: var(--grade-color) !important;
+  border-top: 1px solid var(--grade-color);
+  border-left: 1px solid var(--grade-color);
+  border-right: 1px solid var(--grade-color);
+  /* box-shadow: inset 2px 0 0 0 $shadow-color; */
+  transition: background 0.4s, color 0.4s, border 0.4s; /* Add transition */ /* Add transition */
+}
+
+hgroup h1 {
+  color: var(--grade-color);
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  color: var(--grade-color);
+  font-weight: bold;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+h2 small {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bold;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+h3 small {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: bold !important;
+  font-size: 85%;
+}
+
+h4 {
+  font-size: 1.5em;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+h4.online-resources:before {
+  position: relative;
+  content: url("../images/icons/online-resources-icon.png");
+  margin-right: 10px;
+}
+
+ul li {
+  list-style: square;
+}
+
+a.bu-link {
+  color: #1b449c;
+  text-decoration: none;
+}
+a.book-link {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #000000;
+  cursor: url(../images/icons/bok-icon-cursor.png), auto;
+}
+a.teqc-link {
+  cursor: url(../images/icons/teqc-cursor.png), auto;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #1b449c;
+}
+
+a:focus {
+  color: var(--grade-color);
+}
+
+.italics {
+  font-style: italic;
+}
+
+/* .standards {
+  color: #1b449c;
+} */
+
+.Lesson_Tchr-tlk {
+  color: #1b449c;
+}
+
+.teacher-talk {
+  color: #1b449c;
+}
+
+.blue {
+  color: #1b449c;
+}
+
+.black {
+  color: #000000;
+}
+
+.thin {
+  font-family: "Open Sans Condensed Light", sans-serif;
+  font-weight: lighter;
+}
+
+.thumb-caption {
+  text-align: center !important;
+  width: inherit;
+  margin-left: 20%;
+  margin-top: 10px;
+  font-size: 90% !important;
+}
+
+.col-md-8 h2:first-child {
+  margin-top: 0 !important;
+}
+
+.col-md-8 h3:first-child {
+  margin-top: 0 !important;
+}
+
+.black-border {
+  border: 1px solid #000000 !important;
+  text-align: justify;
+  margin-top: 20px;
+}
+.black-border td {
+  padding: 10px 20px !important;
+}
+
+main.container {
+  padding: 30px 60px;
+  background: #ffffff;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 2px 2px 2px #cccccc;
+}
+
+div.tab-content {
+  margin-top: 15px;
+}
+div.tab-content p,
+div.tab-content li {
+  font-size: 1.25em;
+}
+div.tab-content ul {
+  margin-left: -10px !important;
+}
+
+.white-box {
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-shadow: 1px 1px 1px #000000;
+  padding: 10px;
+}
+
+p.interactive-resources {
+  background: url("../images/icons/online-resources-icon.png") no-repeat;
+  padding-left: 35px !important;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 95% !important;
+}
+
+div.clear-floats {
+  clear: both !important;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 100%;
+}
+
+.color-panel {
+  background: var(--grade-color-tint);
+  padding: 15px 25px;
+  border: 1px solid var(--grade-color);
+  box-shadow: 1px 1px 0 #cccccc;
+}
+.color-panel h3 {
+  color: var(--grade-color);
+}
+.color-panel h4 {
+  margin-bottom: 0;
+}
+
+figure.SB_Figure figcaption {
+  margin: 0 auto;
+  text-align: center;
+  margin-right: 15%;
+}
+
+figure img {
+  box-shadow: 1px 1px 0 #cccccc;
+}
+
+.SB_Figure img {
+  border: 2px solid #ffffff;
+  max-width: 200px;
+  margin: 0 auto !important;
+}
+
+figure.SB_Figure figcaption ul li {
+  display: block;
+}
+
+ul.lexi-level li {
+  display: block !important;
+  list-style: none !important;
+}
+
+table {
+  width: 100%;
+  border: 1px solid var(--grade-color);
+  margin-top: 20px;
+  margin-bottom: 20px !important;
+  background: #ffffff;
+}
+table thead {
+  background: var(--grade-color);
+  border-top: 3px double #ffffff;
+  color: #ffffff;
+}
+table thead th {
+  height: 3em;
+  font-size: 1.5em;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 600;
+  text-align: left;
+  padding-left: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  line-height: 1.2;
+}
+table thead .left-white-border {
+  border-left: 1px solid #ffffff !important;
+  padding-top: 1px;
+}
+table tr {
+  border-top: 1px solid var(--grade-color);
+  font-size: 1em;
+}
+table tr td {
+  padding: 1em !important;
+  vertical-align: top;
+  border-left: 1px solid var(--grade-color);
+}
+table tr td.boldy {
+  font-weight: bold;
+}
+table tr td.boldy span.table-number {
+  background: var(--grade-color);
+  padding: 0.75em 1em;
+  border-radius: 75%;
+  font-size: 1em;
+  text-align: center;
+  vertical-align: central;
+  color: #fff;
+  font-style: normal;
+  position: relative;
+}
+table tr ul li {
+  margin-left: -10px;
+}
+
+.table-number {
+  background: var(--grade-color);
+  padding: 0.75em 1em;
+  border-radius: 75%;
+  font-size: 1em;
+  text-align: center;
+  vertical-align: central;
+  color: #fff;
+  font-style: normal;
+  position: relative;
+}
+
+table tbody h3 {
+  color: #000000 !important;
+}
+
+.table-label {
+  margin-top: -15px !important;
+}
+
+#panel5 figure.SB_Figure {
+  margin-top: 20px !important;
+}
+
+div.interactive-box {
+  width: 90%;
+  margin: 0 auto;
+}
+div.interactive-box h3:before {
+  position: relative;
+  content: url("../images/icons/red-online-resources-icon.png");
+  margin-right: 10px;
+}
+
+div.answer-cont {
+  margin-bottom: 40px !important;
+}
+
+iframe {
+  width: 100%;
+  height: 100vh;
+}
+
+footer.main-footer {
+  margin-top: 40px;
+  text-align: center !important;
+}
+footer.main-footer p {
+  font-size: 1.25em !important;
+}
+footer.main-footer a {
+  color: #1b449c;
+}
+
+footer.table-footer ul {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+footer.table-footer ul li {
+  display: inline;
+}
+
+.cite-number {
+  background: var(--grade-color);
+  padding: 0.75em 1em;
+  border-radius: 75%;
+  font-size: 0.5em;
+  text-align: center;
+  vertical-align: central;
+  color: #fff;
+  font-style: normal;
+  position: relative;
+}
+
+@media (max-width: 1200px) {
+  .navbar-header {
+    float: none;
+  }
+
+  .navbar-left,
+  .navbar-right {
+    float: none !important;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+
+  .navbar-nav {
+    float: none !important;
+    margin-top: 7.5px;
+  }
+
+  .navbar-nav > li {
+    float: none;
+  }
+
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .collapse.in {
+    display: block !important;
+    height: 210px !important;
+  }
+
+  .nav-tabs > li {
+    display: block;
+    width: 100%;
+  }
+
+  .nav-tabs > li > a {
+    border-radius: 0 !important;
+  }
+}
+@media (max-width: 981px) {
+  section.padding-left-40 {
+    padding-left: 0 !important;
+  }
+
+  aside.color-panel {
+    margin-bottom: 30px;
+  }
+}
+
+aside.color-panel {
+  margin-bottom: 30px;
+}
